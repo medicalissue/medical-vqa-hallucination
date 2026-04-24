@@ -1,0 +1,22 @@
+# data
+data/
+*.parquet
+*.csv
+!experiments/*.csv
+*.zip
+*.tar.gz
+*.pt
+*.safetensors
+hf_cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+# results keep small jsons/plots, exclude huge dumps
+results/*/raw/
+results/*/*.npz
+# secrets
+**/wandb_api_key*
+**/*.pem
