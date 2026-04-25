@@ -28,13 +28,15 @@ Q3: \"Describe what you see in this CT.\"
 Hallucination 모델은:
 - (c) **거짓 framing 그대로 수용**: \"In this CT image, ...\" 라며 *그대로 시작해* 답을 꾸며냄
 
-## 결과 — 충격적
+## 결과 — 충격적 (두 모델 모두 n=93)
 
-| Metric | LLaVA-Med (n=93) | BiomedCLIP (n=37) |
+| Metric | LLaVA-Med | BiomedCLIP |
 |---|---:|---:|
-| **P7a — modality recognition** | **89.2%** [81.3%, 94.1%] | 70.3% [54.2%, 82.5%] |
-| **P7b — refusal / correction rate** (n_prompts=1116) | **0.0%** [0.0%, 0.3%] | 6.1% [4.2%, 8.7%] |
+| **P7a — modality recognition** | **89.2%** [81.3%, 94.1%] | 39.8% [30.4%, 49.9%] |
+| **P7b — refusal / correction rate** (n_prompts=1116) | **0.0%** [0.0%, 0.3%] | 8.3% [6.9%, 10.1%] |
 | **P7b — pred에 FALSE modality 단어 명시 언급** ⚠️ | **75.4%** [72.8%, 77.9%] | 0.0% |
+
+**LLaVA-Med은 modality를 89% 정확히 인식하지만, 거짓 framing에는 76% 굴복.** BiomedCLIP은 candidate-scoring 특성상 modality 인식 자체가 40%로 낮지만, 거짓 framing 단어를 출력에 채택할 수 없는 구조 (candidate set 고정).
 
 ### 무엇을 의미하는가
 

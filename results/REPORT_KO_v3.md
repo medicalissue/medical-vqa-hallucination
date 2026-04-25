@@ -549,13 +549,13 @@ VQA-Med 2019은 4개 카테고리로 sample이 분리되어 있다 (C1 modality,
 
 **P7b — modality misattribution**: 같은 이미지(예: MRI)에 *틀린 modality* 단어를 prompt에 주입 (\"What abnormality is seen on this CT image?\"). 올바른 모델이라면 거절 또는 이미지 기반 답을 해야 하지만, hallucination 모델은 거짓 framing에 그대로 동조함.
 
-### 11.6.2 결과 (n=37 samples, 444 false-modality prompts)
+### 11.6.2 결과 (두 모델 모두 n=93 samples, 1116 false-modality prompts)
 
 | Metric | LLaVA-Med | BiomedCLIP |
 |---|---:|---:|
-| P7a — modality recognition acc | **83.8%** [68.9, 92.3] | 70.3% [54.2, 82.5] |
-| P7b — refusal/correction rate | **0.0%** [0.0, 0.9] | 6.1% [4.2, 8.7] |
-| P7b — pred에 FALSE modality 명시 언급 ⚠️ | **77.7%** [73.6, 81.3] | 0.0% |
+| P7a — modality recognition acc | **89.2%** [81.3, 94.1] | 39.8% [30.4, 49.9] |
+| P7b — refusal/correction rate | **0.0%** [0.0, 0.3] | 8.3% [6.9, 10.1] |
+| P7b — pred에 FALSE modality 명시 언급 ⚠️ | **75.4%** [72.8, 77.9] | 0.0% |
 
 ### 11.6.3 핵심 사례
 

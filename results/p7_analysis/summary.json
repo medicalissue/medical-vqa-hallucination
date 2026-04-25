@@ -2,33 +2,35 @@
   "biomed_clip": {
     "model": "biomed_clip",
     "P7a_recognition_acc": [
-      26,
-      37
+      37,
+      93
     ],
-    "P7b_total_misattr": 444,
+    "P7b_total_misattr": 1116,
     "P7b_refusal_rate": [
-      27,
-      444
+      93,
+      1116
     ],
     "P7b_mentions_false_modality_rate": [
       0,
-      444
+      1116
     ],
     "confusion": {
       "mri": {
-        "mri": 8
+        "mri": 11,
+        "none": 12,
+        "x-ray": 1
       },
       "ct": {
         "ct": 6,
-        "none": 2
+        "none": 18
       },
       "x-ray": {
-        "x-ray": 7,
-        "none": 1
+        "x-ray": 13,
+        "none": 11
       },
       "ultrasound": {
-        "ultrasound": 5,
-        "none": 3
+        "ultrasound": 7,
+        "none": 9
       },
       "angiography": {
         "none": 5
@@ -37,67 +39,67 @@
     "per_pair": {
       "mri->ct": [
         0,
-        24
+        72
       ],
       "mri->x-ray": [
         0,
-        24
+        72
       ],
       "mri->ultrasound": [
         0,
-        24
+        72
       ],
       "mri->angiography": [
         0,
-        24
+        72
       ],
       "ct->mri": [
         0,
-        24
+        72
       ],
       "ct->x-ray": [
         0,
-        24
+        72
       ],
       "ct->ultrasound": [
         0,
-        24
+        72
       ],
       "ct->angiography": [
         0,
-        24
+        72
       ],
       "x-ray->ct": [
         0,
-        24
+        72
       ],
       "x-ray->mri": [
         0,
-        24
+        72
       ],
       "x-ray->ultrasound": [
         0,
-        24
+        72
       ],
       "x-ray->angiography": [
         0,
-        24
+        72
       ],
       "ultrasound->ct": [
         0,
-        24
+        48
       ],
       "ultrasound->mri": [
         0,
-        24
+        48
       ],
       "ultrasound->x-ray": [
         0,
-        24
+        48
       ],
       "ultrasound->angiography": [
         0,
-        24
+        48
       ],
       "angiography->ct": [
         0,
