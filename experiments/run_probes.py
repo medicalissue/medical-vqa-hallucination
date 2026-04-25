@@ -24,21 +24,7 @@ from metrics import (
 )
 
 
-def load_vqa_rad(n: int, seed: int = 0):
-    from datasets import load_from_disk
-    ds = load_from_disk("/home/ubuntu/mmbert_work/data/vqa_rad/hf")["test"]
-    idx = list(range(len(ds))); random.Random(seed).shuffle(idx)
-    sel = []
-    closed = [i for i in idx if str(ds[i]["answer"]).lower() in ("yes", "no")]
-    opened = [i for i in idx if i not in closed]
-    # balanced mix
-    for i in closed[: n // 2]:
-        sel.append({"sample_id": f"r{i}", "image": ds[i]["image"],
-                    "question": ds[i]["question"], "answer": ds[i]["answer"], "type": "closed"})
-    for i in opened[: n - len(sel)]:
-        sel.append({"sample_id": f"r{i}", "image": ds[i]["image"],
-                    "question": ds[i]["question"], "answer": ds[i]["answer"], "type": "open"})
-    return sel
+from datasets_loader import load as load_dataset_named
 
 
 def build_model(kind: str):
@@ -53,8 +39,8 @@ def build_model(kind: str):
 
 def run(args):
     out_dir = Path(args.out); out_dir.mkdir(parents=True, exist_ok=True)
-    samples = load_vqa_rad(args.n_samples, args.seed)
-    print(f"loaded {len(samples)} samples", flush=True)
+    samples = load_dataset_named(args.dataset, args.n_samples, args.seed)
+    print(f"loaded {len(samples)} samples from {args.dataset}", flush=True)
     model = build_model(args.model)
     print(f"loaded model {args.model}", flush=True)
 
@@ -72,7 +58,8 @@ def run(args):
             else:
                 pred = model.answer(v.image, v.question)
             rec = {
-                "sample_id": s["sample_id"], "type": s["type"], "gt": s["answer"],
+                "sample_id": s["sample_id"], "type": s["type"],
+                "dataset": s.get("dataset"), "gt": s["answer"],
                 "probe": probe, "variant": v.variant_id, "question": v.question,
                 "pred": pred.get("answer"), "raw": pred.get("raw"),
                 "confidence": pred.get("confidence"), "meta": v.meta,
@@ -160,6 +147,8 @@ def summarize(jsonl_path: Path, out_json: Path):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, choices=["llava_med", "biomed_clip"])
+    ap.add_argument("--dataset", default="vqa_rad",
+                    choices=["vqa_rad", "vqa_med_2019", "vqa_med_2021"])
     ap.add_argument("--n_samples", type=int, default=20)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--out", required=True)

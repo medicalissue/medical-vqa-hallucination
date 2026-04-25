@@ -30,14 +30,18 @@ class LlavaMedWrapper:
         self.dtype = dtype
 
     @torch.inference_mode()
-    def answer(self, image: Image.Image, question: str, max_new_tokens: int = 24) -> Dict:
+    def answer(self, image: Image.Image, question: str, max_new_tokens: int = 16) -> Dict:
         prompt = f"USER: <image>\n{question} ASSISTANT:"
         inputs = self.processor(text=prompt, images=image, return_tensors="pt")
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
         if "pixel_values" in inputs:
             inputs["pixel_values"] = inputs["pixel_values"].to(self.dtype)
+        # Use a sentence-end stop criterion to avoid full max_new_tokens generation
+        # when a short answer is given. Disabled here (no special token), but
+        # max_new_tokens is set conservatively low (16) to bound compute.
         out = self.model.generate(**inputs, max_new_tokens=max_new_tokens,
                                   do_sample=False, use_cache=True,
+                                  num_beams=1,
                                   pad_token_id=self.processor.tokenizer.eos_token_id)
         full = self.processor.batch_decode(out, skip_special_tokens=True)[0]
         ans = full.split("ASSISTANT:")[-1].strip() if "ASSISTANT:" in full else full
