@@ -40,7 +40,11 @@ def wilson(k, n, z=1.96):
 
 
 def analyze(model_name: str):
-    p = ROOT / "results" / f"p7_{model_name}" / "raw.jsonl"
+    # prefer _big over base
+    for suffix in ("_big", ""):
+        p = ROOT / "results" / f"p7_{model_name}{suffix}" / "raw.jsonl"
+        if p.exists() and p.stat().st_size > 0:
+            break
     if not p.exists():
         print(f"[!] {p} not found")
         return None
