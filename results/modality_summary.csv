@@ -1,0 +1,16 @@
+model_run,dataset,total,angiography,ct,mammography,mri,ultrasound,unknown,x-ray
+biomed_clip_big,vqa_rad,4350,0,124,0,226,0,3738,262
+biomed_clip_big,vqa_med_2019,4350,29,716,0,961,202,2082,360
+biomed_clip_big,vqa_med_2021,4350,48,744,0,533,192,2295,538
+biomed_clip_full,vqa_rad,870,0,24,0,56,0,732,58
+biomed_clip_full,vqa_med_2019,870,0,149,0,225,24,396,76
+biomed_clip_full,vqa_med_2021,870,24,120,0,102,72,426,126
+llava_med_combined,vqa_rad,3074,0,128,0,130,0,2682,134
+llava_med_combined,vqa_med_2019,2262,0,413,24,393,106,1053,273
+llava_med_combined,vqa_med_2021,2262,48,336,0,318,120,1170,270
+llava_med_big,vqa_rad,2320,0,104,0,78,0,2058,80
+llava_med_big,vqa_med_2019,1740,0,312,24,228,82,885,209
+llava_med_big,vqa_med_2021,1740,24,264,0,252,96,876,228
+llava_med_full,vqa_rad,870,0,24,0,56,0,732,58
+llava_med_full,vqa_med_2019,580,0,101,0,167,24,222,66
+llava_med_full,vqa_med_2021,580,24,72,0,68,48,324,44
