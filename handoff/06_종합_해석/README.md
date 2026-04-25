@@ -1,6 +1,6 @@
-# 06 — 종합 해석 / 한계 / 시사점 (PPT 2–3 슬라이드)
+# 06 — 종합 해석 / 한계 / 시사점
 
-## 슬라이드 1: 종합 메시지 — 5가지 발견
+## 종합 메시지 — 5가지 발견
 
 1. **\"보지만 듣지는 않는다\"** — Generative 모델 LLaVA-Med은 검정/흰색/노이즈 이미지에서도 baseline과 비슷한 정확도. 픽셀이 답에 거의 영향 안 줌.
 
@@ -12,7 +12,7 @@
 
 5. **Metric 선택의 중요성** — naive bit-exact는 generative 모델을 unfairly 손해 보게 함. 4가지 metric 동시 보고 필수.
 
-## 슬라이드 2: 임상 deployment에서 무엇을 의미하는가?
+## 임상 deployment에서 무엇을 의미하는가?
 
 ### 안전성 위험
 
@@ -30,7 +30,7 @@
 | Image-text consistency check (out-of-scope detection) | 의료 AI 도입 측 |
 | 다중 metric 평가 의무화 | 모델 평가 측 |
 
-## 슬라이드 3: 한계 + 향후 작업
+## 한계 + 향후 작업
 
 ### 한계
 

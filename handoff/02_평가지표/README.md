@@ -1,6 +1,6 @@
-# 02 — 평가지표: \"어떻게 측정했는가?\" (PPT 2–3 슬라이드)
+# 02 — 평가지표: \"어떻게 측정했는가?\"
 
-## 슬라이드 1: 왜 단일 metric으로 충분치 않은가?
+## 왜 단일 metric으로 충분치 않은가?
 
 LLaVA-Med 같은 generative 모델은 같은 sample에 대해 **표현이 매번 조금씩 다른 문장**을 출력합니다:
 
@@ -15,7 +15,7 @@ LLaVA-Med 같은 generative 모델은 같은 sample에 대해 **표현이 매번
 
 → 차트: [`images/P3_metrics_compare.png`](images/P3_metrics_compare.png) — 동일 P3 flip rate가 metric별로 30% → 18%로 변하는 것을 한 화면에서 확인
 
-## 슬라이드 2: 4가지 비교 metric 정의
+## 4가지 비교 metric 정의
 
 ### Flip rate (\"답이 바뀌었는가?\") 측정
 
@@ -41,13 +41,13 @@ LLaVA-Med 같은 generative 모델은 같은 sample에 대해 **표현이 매번
 
 키워드 기반: \"cannot\", \"unable\", \"unclear\", \"insufficient\", \"need more\", \"i don\", \"not sure\" 등 12개 키워드.
 
-## 슬라이드 3: 신뢰구간
+## 신뢰구간
 
 비율 추정에 **Wilson 95% interval**을 사용. n이 작거나 p가 0/1에 가까운 경우 정규근사가 무효해서.
 
 표에 모두 [low, high] 형태로 같이 표시됩니다.
 
-## 핵심 메시지 (PPT에 강조)
+## 핵심 메시지
 
 > **\"naive metric으로만 비교하면 LLaVA-Med을 unfairly 손해 보게 됩니다.\"**  
 > P3 flip rate (irrelevant prefix) 예시:

@@ -1,6 +1,6 @@
-# 04 — 모델 비교: LLaVA-Med vs BiomedCLIP (PPT 3–4 슬라이드)
+# 04 — 모델 비교: LLaVA-Med vs BiomedCLIP
 
-## 슬라이드 1: 두 모델은 어떻게 \"다르게\" 할루시네이트 하는가?
+## 두 모델은 어떻게 \"다르게\" 할루시네이트 하는가?
 
 Generative LLM (LLaVA-Med)와 contrastive 모델 (BiomedCLIP)은 **완전히 다른 방식으로 답을 생성하는데도, 동일한 종류의 할루시네이션 패턴을 보입니다.** 단, 그 형태는 다릅니다:
 
@@ -12,7 +12,7 @@ Generative LLM (LLaVA-Med)와 contrastive 모델 (BiomedCLIP)은 **완전히 다
 | Closed-form 정확도 | 46-50% (yes/no) | 25-59% (yes/no) |
 | Open-form 정확도 (lenient) | 0-9% | 33-83% |
 
-## 슬라이드 2: 메트릭별 직접 비교
+## 메트릭별 직접 비교
 
 P3 (irrelevant prefix) flip rate를 4가지 metric으로 보면:
 
@@ -29,7 +29,7 @@ P3 (irrelevant prefix) flip rate를 4가지 metric으로 보면:
 - VQA-RAD (closed yes/no 위주)에선 LLaVA-Med이 약간 더 안정적
 - VQA-Med 2019/2021 (open abnormality 위주)에선 BiomedCLIP이 더 안정적 — candidate set이 답을 \"고정\"시키기 때문
 
-## 슬라이드 3: 누가 더 안전한가? — 답: 둘 다 안전하지 않음
+## 누가 더 안전한가? — 답: 둘 다 안전하지 않음
 
 | 안전성 차원 | LLaVA-Med | BiomedCLIP | 더 위험한 쪽 |
 |---|---|---|---|
@@ -38,7 +38,7 @@ P3 (irrelevant prefix) flip rate를 4가지 metric으로 보면:
 | **Demographic bias (P4 35%)** | 1개 dataset에서 35% (VQA-Med 2021) | 일관되게 ~10% | LLaVA-Med 더 fragile |
 | **표현의 \"의학적 설득력\"** | 매우 높음 (\"the lesion appears...\") | 낮음 (단순 후보) | LLaVA-Med이 임상 환경에서 더 위험 (그럴듯해서) |
 
-→ **PPT 메시지: \"두 모델 다 deployment 위험. 거절 행동 fine-tuning + visual grounding 강화가 필수.\"**
+> **두 모델 다 deployment 위험. 거절 행동 fine-tuning + visual grounding 강화가 필수.**
 
 ## 차트
 

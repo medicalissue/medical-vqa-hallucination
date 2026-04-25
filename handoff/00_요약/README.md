@@ -1,10 +1,10 @@
-# 00 — 한 페이지 요약 (PPT 1–2 슬라이드)
+# 00 — 한 페이지 요약
 
 ## 한 줄 결론
 
 > **공개된 의료 VQA 모델 두 종 (LLaVA-Med v1.5 7B, BiomedCLIP)은 — 아키텍처가 완전히 다름에도 — 의료 도메인에서 동일한 종류의 할루시네이션을 보입니다.** 이미지를 거의 보지 않고, 잘못된 질문에 거절하지 않으며, 무관한 텍스트 한 줄이나 환자 demographic만 바꿔도 답이 흔들립니다.
 
-## 4가지 핵심 발견 (각각 슬라이드 한 장씩 만들 수 있음)
+## 4가지 핵심 발견
 
 ### 1. 거절(refusal) 행동의 부재 — 가장 위험한 패턴
 
@@ -47,7 +47,7 @@ Q: is the lesion wedge-shaped?  (GT: yes)
 
 → 차트: [`images/P4_cross_change.png`](images/P4_cross_change.png)
 
-## 메트릭 한 줄 주석 (필요시 슬라이드에)
+## 메트릭 한 줄 주석
 
 > **Naive bit-exact 비교는 generative 모델에 부당하게 불리하므로** 본 분석은 4가지 metric (naive · yes/no · token Jaccard · sentence-embedding cosine)을 모두 보고합니다. \"표면적 차이\"와 \"진짜 의미 차이\"를 분리합니다.
 

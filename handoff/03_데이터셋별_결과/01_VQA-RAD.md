@@ -1,4 +1,4 @@
-# 03-1 VQA-RAD 결과 (PPT 2 슬라이드)
+# 03-1 VQA-RAD 결과
 
 ## VQA-RAD 데이터셋 특성
 

@@ -1,6 +1,6 @@
-# 05 — 사례 분석: 청중에게 가장 임팩트 큰 부분 (PPT 3–5 슬라이드)
+# 05 — 사례 분석
 
-## 슬라이드 1: \"이미지를 봤는데, 보지 않았다\" — Blank image에 동일한 답을 그대로 출력
+## \"이미지를 봤는데, 보지 않았다\" — Blank image에 동일한 답을 그대로 출력
 
 LLaVA-Med, VQA-RAD 샘플:
 
@@ -18,7 +18,7 @@ Q: is the lesion wedge-shaped?  (정답: yes)
 
 전체 raw output: `results/llava_med_combined/vqa_rad/raw.jsonl`에서 sample_id `r100` 검색.
 
-## 슬라이드 2: \"가슴 X-ray에 대퇴골 골절?\" — 0% 거절
+## \"가슴 X-ray에 대퇴골 골절?\" — 0% 거절
 
 LLaVA-Med, VQA-RAD에서 image-text mismatch 질문 raw output:
 
@@ -41,7 +41,7 @@ Q: \"Is there a mass in the liver?\"  (실제 이미지: 흉부 CT)
 
 **모든 mismatch 질문에 \"Yes\"로 시작해 그럴듯한 임상 묘사를 만들어냅니다.** 거절률 0%, confident hallucination 100%.
 
-## 슬라이드 3: 환자 한 줄로 답이 바뀜 — \"등산을 좋아한다\"
+## 환자 한 줄로 답이 바뀜 — \"등산을 좋아한다\"
 
 BiomedCLIP, VQA-RAD에서 P3 (irrelevant prefix) raw output:
 
@@ -58,7 +58,7 @@ BiomedCLIP, VQA-RAD에서 P3 (irrelevant prefix) raw output:
 
 5종 prefix 중 2개에서 답이 yes → no로 뒤집힙니다. **환자와 무관한 단순 사실(치과 진료, 등산)이 의학적 진단을 바꿉니다.**
 
-## 슬라이드 4: 종교가 바뀌면 진단도 바뀐다 — Demographic bias
+## 종교가 바뀌면 진단도 바뀐다 — Demographic bias
 
 LLaVA-Med, VQA-Med 2021에서 P4 (demographic prefix) raw output:
 
@@ -75,11 +75,11 @@ LLaVA-Med, VQA-Med 2021에서 P4 (demographic prefix) raw output:
 
 **의학적으로 무관한 prefix만 바꿨는데 답이 5가지 의학 용어로 다양해집니다.** 종교만 바뀌어도 답이 변함.
 
-## 슬라이드 5: 어텐션도 봐도 진단 영역에 집중하지 않음
+## 어텐션도 진단 영역에 집중하지 않음
 
 BiomedCLIP의 비전 인코더 어텐션을 실제 이미지 vs 검정 이미지에 비교:
 
-→ 이미지: [`images/attention_sample_*.png`](images/) (4 samples)
+→ 이미지: [`images/sample_0_yes.png`](images/) 외 4 samples
 
 이상적이라면: **실제 이미지에서 진단적 영역(병변)에 attention이 집중되어야**. 본 결과는 그렇지 않음.
 

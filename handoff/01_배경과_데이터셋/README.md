@@ -1,6 +1,6 @@
-# 01 — 배경과 데이터셋 (PPT 2–3 슬라이드)
+# 01 — 배경과 데이터셋
 
-## 슬라이드 1: \"왜 MMBERT가 아니고 다른 모델로 했는가?\"
+## 왜 MMBERT가 아니고 다른 모델로 했는가?
 
 당초 계획은 **MMBERT (Khare et al., ISBI 2021)** 재현이었습니다. ROCO 의료 데이터로 pretraining한 multimodal BERT 방법.
 
@@ -13,7 +13,7 @@
 
 → **공개 가중치가 있는 두 모델로 전환:**
 
-## 슬라이드 2: 사용한 두 모델
+## 사용한 두 모델
 
 의료 VQA의 두 주요 패러다임을 대표하는 모델을 각각 한 종씩 선택했습니다.
 
@@ -25,7 +25,7 @@
 LLaVA-Med은 CLIP ViT-L/14 + Mistral 7B, instruction-tuned on PMC-15M.  
 BiomedCLIP은 ViT-B/16 + PubMedBERT-256, contrastive on PMC-15M. zero-shot 사용.
 
-## 슬라이드 3: 사용한 세 데이터셋
+## 사용한 세 데이터셋
 
 | 데이터셋 | 출처 | 본 분석 사용 분량 | 라이선스 |
 |---|---|---|---|
