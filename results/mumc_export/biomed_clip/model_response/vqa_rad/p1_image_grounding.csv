@@ -78,11 +78,11 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 76,where is the location of the mass?,unknown,anterior mediastinum,anterior mediastinum,anterior mediastinum,0,anterior mediastinum,0,no,1,abnormal,1
 77,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,no,no,0,no,0,yes,1,cannot determine,1
 78,what bright white structures form an x?,unknown,lateral ventricles,lateral ventricles,cannot determine,1,cannot determine,1,normal,1,lateral ventricles,0
-79,what modality was used?,X-ray,plain film,plain film,no,1,no,1,plain film,0,plain film,0
+79,what modality was used?,unknown,plain film,plain film,no,1,no,1,plain film,0,plain film,0
 80,in what plane was this image taken?,unknown,axial,abnormal,cannot determine,1,axial,1,yes,1,cannot determine,1
 81,how large is the mass in the right upper quadrant?,unknown,3.4 cm,no,3.4 cm,1,3.4 cm,1,yes,1,abnormal,1
 82,the mass is found in which part of the pancreas?,unknown,the pancreatic head,normal,no,1,no,1,no,1,normal,0
-83,how was this image taken,MRI,t2-mri,t2-mri,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
+83,how was this image taken,unknown,t2-mri,t2-mri,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
 84,what side of the brain is a lesion on?,unknown,left,normal,cannot determine,1,abnormal,1,no,1,cannot determine,1
 85,describe the pathology,unknown,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,cannot determine,1,cardiomegaly with pulmonary edema,0,cannot determine,1,cardiomegaly with pulmonary edema,0
 86,where is the ascending colon?,unknown,posterior to the appendix,posterior to the appendix,no,1,posterior to the appendix,0,cannot determine,1,cannot determine,1
@@ -111,7 +111,7 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 109,what skeletal joint is seen in this image?,unknown,sacroiliac joint,sacroiliac joint,no,1,no,1,yes,1,normal,1
 110,what is the condition?,unknown,diverticulitis,diverticulitis,no,1,no,1,no,1,abnormal,1
 111,what is the mass most likely?,unknown,kidney cyst,kidney cyst,cannot determine,1,cannot determine,1,normal,1,kidney cyst,0
-112,what modality was used for this image?,MRI,mri,normal,mri,1,no,1,normal,0,no,1
+112,what modality was used for this image?,unknown,mri,normal,mri,1,no,1,normal,0,no,1
 113,where is the subcutaneous air collection?,unknown,on the right shoulder.,on the right shoulder.,abnormal,1,no,1,no,1,normal,1
 114,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,no,cannot determine,1,abnormal,1,yes,1,yes,1
 115,where are the kidney?,unknown,not seen here,not seen here,no,1,no,1,cannot determine,1,cannot determine,1
@@ -125,7 +125,7 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 123,which major artery of the brain is affected by this lesion?,unknown,basilar artery,normal,abnormal,1,basilar artery,1,normal,0,normal,0
 124,what part of the body is being imaged here?,unknown,abdomen,abdomen,no,1,no,1,abdomen,0,abnormal,1
 125,what is under the right hemidiaphragm?,unknown,free air,free air,no,1,no,1,yes,1,yes,1
-126,what imaging modality was used to take this image?,X-ray,xray,xray,no,1,no,1,xray,0,abnormal,1
+126,what imaging modality was used to take this image?,unknown,xray,xray,no,1,no,1,xray,0,abnormal,1
 127,this image is taken in what plane?,unknown,axial,abnormal,no,1,cannot determine,1,yes,1,cannot determine,1
 128,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,right hemisphere,cannot determine,1,normal,1,no,1,normal,1
 129,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,no,abnormal,1,basilar artery,1,yes,1,normal,1
@@ -140,12 +140,12 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 138,what plane is the above image acquired in?,unknown,axial,abnormal,abnormal,0,abnormal,0,yes,1,abnormal,0
 139,what are the bright specks in the gallbladder,unknown,gallstones,gallstones,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
 140,where is the mass located?,unknown,head of the pancreas,head of the pancreas,head of the pancreas,0,head of the pancreas,0,no,1,abnormal,1
-141,what kind of image is this?,X-ray,x-ray,x-ray,x-ray,0,abnormal,1,normal,1,cannot determine,1
-142,what type of image is this?,CT,ct with contrast,ct with contrast,ct with contrast,0,no,1,normal,1,cannot determine,1
+141,what kind of image is this?,unknown,x-ray,x-ray,x-ray,0,abnormal,1,normal,1,cannot determine,1
+142,what type of image is this?,unknown,ct with contrast,ct with contrast,ct with contrast,0,no,1,normal,1,cannot determine,1
 143,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,no,1,abnormal,1,no,1,yes,1
 144,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,t2 weighted mri,abnormal,1,no,1,normal,1,abnormal,1
 145,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,above the clavicles bilaterally,above the clavicles bilaterally,0,above the clavicles bilaterally,0,yes,1,above the clavicles bilaterally,0
 146,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,normal,cannot determine,1,the liver,1,yes,1,the liver,1
 147,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,normal,middle mogul,1,middle mogul,1,no,1,no,1
-148,what modality is used to take this image?,X-ray,xr,xr,no,1,xr,0,xr,0,xr,0
+148,what modality is used to take this image?,unknown,xr,xr,no,1,xr,0,xr,0,xr,0
 149,what is this lucency amid densities in the right lung?,unknown,the right bronchus,abnormal,no,1,no,1,normal,1,yes,1

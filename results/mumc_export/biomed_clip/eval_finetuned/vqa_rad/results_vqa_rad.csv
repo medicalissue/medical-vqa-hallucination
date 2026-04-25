@@ -78,11 +78,11 @@ qid,question,answer,modality,pred_label,correct
 76,where is the location of the mass?,anterior mediastinum,unknown,anterior mediastinum,1
 77,is the gastric bubble shown on the left or right side of the patient?,right side,unknown,no,0
 78,what bright white structures form an x?,lateral ventricles,unknown,lateral ventricles,1
-79,what modality was used?,plain film,X-ray,plain film,1
+79,what modality was used?,plain film,unknown,plain film,1
 80,in what plane was this image taken?,axial,unknown,abnormal,0
 81,how large is the mass in the right upper quadrant?,3.4 cm,unknown,no,0
 82,the mass is found in which part of the pancreas?,the pancreatic head,unknown,normal,0
-83,how was this image taken,t2-mri,MRI,t2-mri,1
+83,how was this image taken,t2-mri,unknown,t2-mri,1
 84,what side of the brain is a lesion on?,left,unknown,normal,0
 85,describe the pathology,cardiomegaly with pulmonary edema,unknown,cardiomegaly with pulmonary edema,1
 86,where is the ascending colon?,posterior to the appendix,unknown,posterior to the appendix,1
@@ -111,7 +111,7 @@ qid,question,answer,modality,pred_label,correct
 109,what skeletal joint is seen in this image?,sacroiliac joint,unknown,sacroiliac joint,1
 110,what is the condition?,diverticulitis,unknown,diverticulitis,1
 111,what is the mass most likely?,kidney cyst,unknown,kidney cyst,1
-112,what modality was used for this image?,mri,MRI,normal,0
+112,what modality was used for this image?,mri,unknown,normal,0
 113,where is the subcutaneous air collection?,on the right shoulder.,unknown,on the right shoulder.,1
 114,the small bubbles of air seen in the lumen are normal or abnormal?,abnormal,unknown,no,0
 115,where are the kidney?,not seen here,unknown,not seen here,1
@@ -125,7 +125,7 @@ qid,question,answer,modality,pred_label,correct
 123,which major artery of the brain is affected by this lesion?,basilar artery,unknown,normal,0
 124,what part of the body is being imaged here?,abdomen,unknown,abdomen,1
 125,what is under the right hemidiaphragm?,free air,unknown,free air,1
-126,what imaging modality was used to take this image?,xray,X-ray,xray,1
+126,what imaging modality was used to take this image?,xray,unknown,xray,1
 127,this image is taken in what plane?,axial,unknown,abnormal,0
 128,which hemisphere of the brain are the lesions located in?,right hemisphere,unknown,right hemisphere,1
 129,what major artery of the brain may be affected by the lesion seen in the above image?,basilar artery,unknown,no,0
@@ -140,12 +140,12 @@ qid,question,answer,modality,pred_label,correct
 138,what plane is the above image acquired in?,axial,unknown,abnormal,0
 139,what are the bright specks in the gallbladder,gallstones,unknown,gallstones,1
 140,where is the mass located?,head of the pancreas,unknown,head of the pancreas,1
-141,what kind of image is this?,x-ray,X-ray,x-ray,1
-142,what type of image is this?,ct with contrast,CT,ct with contrast,1
+141,what kind of image is this?,x-ray,unknown,x-ray,1
+142,what type of image is this?,ct with contrast,unknown,ct with contrast,1
 143,what ventricular abnormalities are seen?,lateral and third ventricular hydrocephalus,unknown,lateral and third ventricular hydrocephalus,1
 144,what type of mri sequence is displayed in this image?,t2 weighted mri,MRI,t2 weighted mri,1
 145,where is free air trapped subcutaneously in this image?,above the clavicles bilaterally,unknown,above the clavicles bilaterally,1
 146,what is located immediately inferior to the right hemidiaphragm?,the liver,unknown,normal,0
 147,which sign do you see in the aortopulmonary window in this image?,middle mogul,unknown,normal,0
-148,what modality is used to take this image?,xr,X-ray,xr,1
+148,what modality is used to take this image?,xr,unknown,xr,1
 149,what is this lucency amid densities in the right lung?,the right bronchus,unknown,abnormal,0

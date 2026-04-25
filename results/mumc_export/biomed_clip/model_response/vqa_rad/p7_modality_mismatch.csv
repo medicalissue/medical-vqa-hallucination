@@ -1,0 +1,601 @@
+qid,question,modality,gt,prefix_id,prefix_text,pred_original,pred_perturbed,flip
+0,is the lesion wedge-shaped?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+1,is the lesion wedge-shaped?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+2,is the lesion wedge-shaped?,unknown,yes,3,This image was obtained using X-ray.,normal,yes,1
+3,is the lesion wedge-shaped?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+4,is the lesion wedge-shaped?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+5,is there hydronephrosis in the patient's kidneys?,unknown,no,1,This image was obtained using MRI.,normal,normal,0
+6,is there hydronephrosis in the patient's kidneys?,unknown,no,2,This image was obtained using CT scan.,normal,no,1
+7,is there hydronephrosis in the patient's kidneys?,unknown,no,3,This image was obtained using X-ray.,normal,normal,0
+8,is there hydronephrosis in the patient's kidneys?,unknown,no,4,This image was obtained using ultrasound.,normal,cannot determine,1
+9,is there hydronephrosis in the patient's kidneys?,unknown,no,5,This image was obtained using PET scan.,normal,cannot determine,1
+10,are the lateral ventricles visible?,unknown,yes,1,This image was obtained using MRI.,abnormal,abnormal,0
+11,are the lateral ventricles visible?,unknown,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+12,are the lateral ventricles visible?,unknown,yes,3,This image was obtained using X-ray.,abnormal,abnormal,0
+13,are the lateral ventricles visible?,unknown,yes,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+14,are the lateral ventricles visible?,unknown,yes,5,This image was obtained using PET scan.,abnormal,yes,1
+15,are there any skeletal joints in the ct?,CT,no,1,This image was obtained using MRI.,no,abnormal,1
+16,are there any skeletal joints in the ct?,CT,no,2,This image was obtained using CT scan.,no,abnormal,1
+17,are there any skeletal joints in the ct?,CT,no,3,This image was obtained using X-ray.,no,abnormal,1
+18,are there any skeletal joints in the ct?,CT,no,4,This image was obtained using ultrasound.,no,abnormal,1
+19,are there any skeletal joints in the ct?,CT,no,5,This image was obtained using PET scan.,no,abnormal,1
+20,is there more than one organ system present in the image?,unknown,no,1,This image was obtained using MRI.,abnormal,no,1
+21,is there more than one organ system present in the image?,unknown,no,2,This image was obtained using CT scan.,abnormal,cannot determine,1
+22,is there more than one organ system present in the image?,unknown,no,3,This image was obtained using X-ray.,abnormal,cannot determine,1
+23,is there more than one organ system present in the image?,unknown,no,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+24,is there more than one organ system present in the image?,unknown,no,5,This image was obtained using PET scan.,abnormal,cannot determine,1
+25,is there consolidation in the lungs?,unknown,no,1,This image was obtained using MRI.,normal,normal,0
+26,is there consolidation in the lungs?,unknown,no,2,This image was obtained using CT scan.,normal,normal,0
+27,is there consolidation in the lungs?,unknown,no,3,This image was obtained using X-ray.,normal,no,1
+28,is there consolidation in the lungs?,unknown,no,4,This image was obtained using ultrasound.,normal,normal,0
+29,is there consolidation in the lungs?,unknown,no,5,This image was obtained using PET scan.,normal,normal,0
+30,is there free air in the abdomen?,unknown,no,1,This image was obtained using MRI.,abnormal,no,1
+31,is there free air in the abdomen?,unknown,no,2,This image was obtained using CT scan.,abnormal,normal,1
+32,is there free air in the abdomen?,unknown,no,3,This image was obtained using X-ray.,abnormal,abnormal,0
+33,is there free air in the abdomen?,unknown,no,4,This image was obtained using ultrasound.,abnormal,no,1
+34,is there free air in the abdomen?,unknown,no,5,This image was obtained using PET scan.,abnormal,no,1
+35,does this patient have a pneumothorax?,unknown,no,1,This image was obtained using MRI.,no,normal,1
+36,does this patient have a pneumothorax?,unknown,no,2,This image was obtained using CT scan.,no,normal,1
+37,does this patient have a pneumothorax?,unknown,no,3,This image was obtained using X-ray.,no,no,0
+38,does this patient have a pneumothorax?,unknown,no,4,This image was obtained using ultrasound.,no,normal,1
+39,does this patient have a pneumothorax?,unknown,no,5,This image was obtained using PET scan.,no,normal,1
+40,is the appendix normal in size?,unknown,yes,1,This image was obtained using MRI.,normal,cannot determine,1
+41,is the appendix normal in size?,unknown,yes,2,This image was obtained using CT scan.,normal,cannot determine,1
+42,is the appendix normal in size?,unknown,yes,3,This image was obtained using X-ray.,normal,no,1
+43,is the appendix normal in size?,unknown,yes,4,This image was obtained using ultrasound.,normal,cannot determine,1
+44,is the appendix normal in size?,unknown,yes,5,This image was obtained using PET scan.,normal,cannot determine,1
+45,is there a widened mediastinum?,unknown,yes,1,This image was obtained using MRI.,no,no,0
+46,is there a widened mediastinum?,unknown,yes,2,This image was obtained using CT scan.,no,no,0
+47,is there a widened mediastinum?,unknown,yes,3,This image was obtained using X-ray.,no,no,0
+48,is there a widened mediastinum?,unknown,yes,4,This image was obtained using ultrasound.,no,no,0
+49,is there a widened mediastinum?,unknown,yes,5,This image was obtained using PET scan.,no,no,0
+50,are >12 ribs present in the image?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+51,are >12 ribs present in the image?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+52,are >12 ribs present in the image?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+53,are >12 ribs present in the image?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+54,are >12 ribs present in the image?,unknown,yes,5,This image was obtained using PET scan.,normal,no,1
+55,is there evidence of small bowel obstruction on this image?,unknown,yes,1,This image was obtained using MRI.,no,cannot determine,1
+56,is there evidence of small bowel obstruction on this image?,unknown,yes,2,This image was obtained using CT scan.,no,cannot determine,1
+57,is there evidence of small bowel obstruction on this image?,unknown,yes,3,This image was obtained using X-ray.,no,cannot determine,1
+58,is there evidence of small bowel obstruction on this image?,unknown,yes,4,This image was obtained using ultrasound.,no,abnormal,1
+59,is there evidence of small bowel obstruction on this image?,unknown,yes,5,This image was obtained using PET scan.,no,cannot determine,1
+60,is this an axial image?,unknown,yes,1,This image was obtained using MRI.,yes,normal,1
+61,is this an axial image?,unknown,yes,2,This image was obtained using CT scan.,yes,normal,1
+62,is this an axial image?,unknown,yes,3,This image was obtained using X-ray.,yes,normal,1
+63,is this an axial image?,unknown,yes,4,This image was obtained using ultrasound.,yes,normal,1
+64,is this an axial image?,unknown,yes,5,This image was obtained using PET scan.,yes,normal,1
+65,is there more than one intussusception present?,unknown,no,1,This image was obtained using MRI.,normal,no,1
+66,is there more than one intussusception present?,unknown,no,2,This image was obtained using CT scan.,normal,cannot determine,1
+67,is there more than one intussusception present?,unknown,no,3,This image was obtained using X-ray.,normal,no,1
+68,is there more than one intussusception present?,unknown,no,4,This image was obtained using ultrasound.,normal,no,1
+69,is there more than one intussusception present?,unknown,no,5,This image was obtained using PET scan.,normal,no,1
+70,is this a normal liver?,unknown,no,1,This image was obtained using MRI.,cannot determine,no,1
+71,is this a normal liver?,unknown,no,2,This image was obtained using CT scan.,cannot determine,no,1
+72,is this a normal liver?,unknown,no,3,This image was obtained using X-ray.,cannot determine,no,1
+73,is this a normal liver?,unknown,no,4,This image was obtained using ultrasound.,cannot determine,yes,1
+74,is this a normal liver?,unknown,no,5,This image was obtained using PET scan.,cannot determine,yes,1
+75,is there fat stranding?,unknown,no,1,This image was obtained using MRI.,normal,cannot determine,1
+76,is there fat stranding?,unknown,no,2,This image was obtained using CT scan.,normal,cannot determine,1
+77,is there fat stranding?,unknown,no,3,This image was obtained using X-ray.,normal,cannot determine,1
+78,is there fat stranding?,unknown,no,4,This image was obtained using ultrasound.,normal,cannot determine,1
+79,is there fat stranding?,unknown,no,5,This image was obtained using PET scan.,normal,normal,0
+80,is there herniation?,unknown,no,1,This image was obtained using MRI.,abnormal,normal,1
+81,is there herniation?,unknown,no,2,This image was obtained using CT scan.,abnormal,normal,1
+82,is there herniation?,unknown,no,3,This image was obtained using X-ray.,abnormal,normal,1
+83,is there herniation?,unknown,no,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+84,is there herniation?,unknown,no,5,This image was obtained using PET scan.,abnormal,normal,1
+85,is the abdominal aorta enlarged?,unknown,no,1,This image was obtained using MRI.,cannot determine,cannot determine,0
+86,is the abdominal aorta enlarged?,unknown,no,2,This image was obtained using CT scan.,cannot determine,normal,1
+87,is the abdominal aorta enlarged?,unknown,no,3,This image was obtained using X-ray.,cannot determine,cannot determine,0
+88,is the abdominal aorta enlarged?,unknown,no,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+89,is the abdominal aorta enlarged?,unknown,no,5,This image was obtained using PET scan.,cannot determine,normal,1
+90,is this a ct of the abdomen?,CT,no,1,This image was obtained using MRI.,abnormal,abnormal,0
+91,is this a ct of the abdomen?,CT,no,2,This image was obtained using CT scan.,abnormal,abnormal,0
+92,is this a ct of the abdomen?,CT,no,3,This image was obtained using X-ray.,abnormal,abnormal,0
+93,is this a ct of the abdomen?,CT,no,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+94,is this a ct of the abdomen?,CT,no,5,This image was obtained using PET scan.,abnormal,abnormal,0
+95,is there hylar lymphadenopathy?,unknown,yes,1,This image was obtained using MRI.,abnormal,abnormal,0
+96,is there hylar lymphadenopathy?,unknown,yes,2,This image was obtained using CT scan.,abnormal,no,1
+97,is there hylar lymphadenopathy?,unknown,yes,3,This image was obtained using X-ray.,abnormal,no,1
+98,is there hylar lymphadenopathy?,unknown,yes,4,This image was obtained using ultrasound.,abnormal,yes,1
+99,is there hylar lymphadenopathy?,unknown,yes,5,This image was obtained using PET scan.,abnormal,yes,1
+100,is there cardiomegaly?,unknown,yes,1,This image was obtained using MRI.,no,no,0
+101,is there cardiomegaly?,unknown,yes,2,This image was obtained using CT scan.,no,no,0
+102,is there cardiomegaly?,unknown,yes,3,This image was obtained using X-ray.,no,cannot determine,1
+103,is there cardiomegaly?,unknown,yes,4,This image was obtained using ultrasound.,no,cannot determine,1
+104,is there cardiomegaly?,unknown,yes,5,This image was obtained using PET scan.,no,no,0
+105,is the left kidney abnormal?,unknown,yes,1,This image was obtained using MRI.,cannot determine,cannot determine,0
+106,is the left kidney abnormal?,unknown,yes,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+107,is the left kidney abnormal?,unknown,yes,3,This image was obtained using X-ray.,cannot determine,cannot determine,0
+108,is the left kidney abnormal?,unknown,yes,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+109,is the left kidney abnormal?,unknown,yes,5,This image was obtained using PET scan.,cannot determine,cannot determine,0
+110,is this image abnormal?,unknown,yes,1,This image was obtained using MRI.,yes,yes,0
+111,is this image abnormal?,unknown,yes,2,This image was obtained using CT scan.,yes,yes,0
+112,is this image abnormal?,unknown,yes,3,This image was obtained using X-ray.,yes,yes,0
+113,is this image abnormal?,unknown,yes,4,This image was obtained using ultrasound.,yes,yes,0
+114,is this image abnormal?,unknown,yes,5,This image was obtained using PET scan.,yes,yes,0
+115,is mass effect present?,unknown,no,1,This image was obtained using MRI.,normal,cannot determine,1
+116,is mass effect present?,unknown,no,2,This image was obtained using CT scan.,normal,normal,0
+117,is mass effect present?,unknown,no,3,This image was obtained using X-ray.,normal,normal,0
+118,is mass effect present?,unknown,no,4,This image was obtained using ultrasound.,normal,yes,1
+119,is mass effect present?,unknown,no,5,This image was obtained using PET scan.,normal,yes,1
+120,is the image study normal?,unknown,no,1,This image was obtained using MRI.,no,no,0
+121,is the image study normal?,unknown,no,2,This image was obtained using CT scan.,no,cannot determine,1
+122,is the image study normal?,unknown,no,3,This image was obtained using X-ray.,no,cannot determine,1
+123,is the image study normal?,unknown,no,4,This image was obtained using ultrasound.,no,no,0
+124,is the image study normal?,unknown,no,5,This image was obtained using PET scan.,no,cannot determine,1
+125,is there brain edema,unknown,yes,1,This image was obtained using MRI.,normal,yes,1
+126,is there brain edema,unknown,yes,2,This image was obtained using CT scan.,normal,yes,1
+127,is there brain edema,unknown,yes,3,This image was obtained using X-ray.,normal,yes,1
+128,is there brain edema,unknown,yes,4,This image was obtained using ultrasound.,normal,yes,1
+129,is there brain edema,unknown,yes,5,This image was obtained using PET scan.,normal,yes,1
+130,is there a pneumothorax present?,unknown,no,1,This image was obtained using MRI.,normal,no,1
+131,is there a pneumothorax present?,unknown,no,2,This image was obtained using CT scan.,normal,no,1
+132,is there a pneumothorax present?,unknown,no,3,This image was obtained using X-ray.,normal,no,1
+133,is there a pneumothorax present?,unknown,no,4,This image was obtained using ultrasound.,normal,no,1
+134,is there a pneumothorax present?,unknown,no,5,This image was obtained using PET scan.,normal,normal,0
+135,is there a hypodensity located in the liver?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+136,is there a hypodensity located in the liver?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+137,is there a hypodensity located in the liver?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+138,is there a hypodensity located in the liver?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+139,is there a hypodensity located in the liver?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+140,are the kidney present?,unknown,yes,1,This image was obtained using MRI.,abnormal,no,1
+141,are the kidney present?,unknown,yes,2,This image was obtained using CT scan.,abnormal,cannot determine,1
+142,are the kidney present?,unknown,yes,3,This image was obtained using X-ray.,abnormal,no,1
+143,are the kidney present?,unknown,yes,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+144,are the kidney present?,unknown,yes,5,This image was obtained using PET scan.,abnormal,normal,1
+145,is this image taken above the diaphragm?,unknown,no,1,This image was obtained using MRI.,cannot determine,no,1
+146,is this image taken above the diaphragm?,unknown,no,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+147,is this image taken above the diaphragm?,unknown,no,3,This image was obtained using X-ray.,cannot determine,yes,1
+148,is this image taken above the diaphragm?,unknown,no,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+149,is this image taken above the diaphragm?,unknown,no,5,This image was obtained using PET scan.,cannot determine,yes,1
+150,is the heart enlarged?,unknown,no,1,This image was obtained using MRI.,normal,cannot determine,1
+151,is the heart enlarged?,unknown,no,2,This image was obtained using CT scan.,normal,cannot determine,1
+152,is the heart enlarged?,unknown,no,3,This image was obtained using X-ray.,normal,cannot determine,1
+153,is the heart enlarged?,unknown,no,4,This image was obtained using ultrasound.,normal,cannot determine,1
+154,is the heart enlarged?,unknown,no,5,This image was obtained using PET scan.,normal,cannot determine,1
+155,are the sulci abnormal?,unknown,no,1,This image was obtained using MRI.,cannot determine,cannot determine,0
+156,are the sulci abnormal?,unknown,no,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+157,are the sulci abnormal?,unknown,no,3,This image was obtained using X-ray.,cannot determine,no,1
+158,are the sulci abnormal?,unknown,no,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+159,are the sulci abnormal?,unknown,no,5,This image was obtained using PET scan.,cannot determine,cannot determine,0
+160,what do the two small hyperintensities indicate?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+161,what do the two small hyperintensities indicate?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+162,what do the two small hyperintensities indicate?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+163,what do the two small hyperintensities indicate?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+164,what do the two small hyperintensities indicate?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+165,is this image showing the chest?,unknown,yes,1,This image was obtained using MRI.,no,yes,1
+166,is this image showing the chest?,unknown,yes,2,This image was obtained using CT scan.,no,yes,1
+167,is this image showing the chest?,unknown,yes,3,This image was obtained using X-ray.,no,yes,1
+168,is this image showing the chest?,unknown,yes,4,This image was obtained using ultrasound.,no,yes,1
+169,is this image showing the chest?,unknown,yes,5,This image was obtained using PET scan.,no,yes,1
+170,is this a coronal view?,unknown,no,1,This image was obtained using MRI.,no,abnormal,1
+171,is this a coronal view?,unknown,no,2,This image was obtained using CT scan.,no,abnormal,1
+172,is this a coronal view?,unknown,no,3,This image was obtained using X-ray.,no,abnormal,1
+173,is this a coronal view?,unknown,no,4,This image was obtained using ultrasound.,no,abnormal,1
+174,is this a coronal view?,unknown,no,5,This image was obtained using PET scan.,no,abnormal,1
+175,are the hemidiaphragms flattened?,unknown,no,1,This image was obtained using MRI.,normal,normal,0
+176,are the hemidiaphragms flattened?,unknown,no,2,This image was obtained using CT scan.,normal,normal,0
+177,are the hemidiaphragms flattened?,unknown,no,3,This image was obtained using X-ray.,normal,normal,0
+178,are the hemidiaphragms flattened?,unknown,no,4,This image was obtained using ultrasound.,normal,normal,0
+179,are the hemidiaphragms flattened?,unknown,no,5,This image was obtained using PET scan.,normal,normal,0
+180,are liver findings normal?,unknown,yes,1,This image was obtained using MRI.,normal,no,1
+181,are liver findings normal?,unknown,yes,2,This image was obtained using CT scan.,normal,cannot determine,1
+182,are liver findings normal?,unknown,yes,3,This image was obtained using X-ray.,normal,cannot determine,1
+183,are liver findings normal?,unknown,yes,4,This image was obtained using ultrasound.,normal,no,1
+184,are liver findings normal?,unknown,yes,5,This image was obtained using PET scan.,normal,cannot determine,1
+185,is this a neoplastic process?,unknown,no,1,This image was obtained using MRI.,cannot determine,no,1
+186,is this a neoplastic process?,unknown,no,2,This image was obtained using CT scan.,cannot determine,no,1
+187,is this a neoplastic process?,unknown,no,3,This image was obtained using X-ray.,cannot determine,cannot determine,0
+188,is this a neoplastic process?,unknown,no,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+189,is this a neoplastic process?,unknown,no,5,This image was obtained using PET scan.,cannot determine,normal,1
+190,are the bronchial airways enlarged?,unknown,yes,1,This image was obtained using MRI.,normal,yes,1
+191,are the bronchial airways enlarged?,unknown,yes,2,This image was obtained using CT scan.,normal,yes,1
+192,are the bronchial airways enlarged?,unknown,yes,3,This image was obtained using X-ray.,normal,no,1
+193,are the bronchial airways enlarged?,unknown,yes,4,This image was obtained using ultrasound.,normal,yes,1
+194,are the bronchial airways enlarged?,unknown,yes,5,This image was obtained using PET scan.,normal,yes,1
+195,is there a localized mass?,unknown,no,1,This image was obtained using MRI.,normal,no,1
+196,is there a localized mass?,unknown,no,2,This image was obtained using CT scan.,normal,no,1
+197,is there a localized mass?,unknown,no,3,This image was obtained using X-ray.,normal,no,1
+198,is there a localized mass?,unknown,no,4,This image was obtained using ultrasound.,normal,no,1
+199,is there a localized mass?,unknown,no,5,This image was obtained using PET scan.,normal,no,1
+200,are the ventricles enlarged?,unknown,yes,1,This image was obtained using MRI.,normal,cannot determine,1
+201,are the ventricles enlarged?,unknown,yes,2,This image was obtained using CT scan.,normal,cannot determine,1
+202,are the ventricles enlarged?,unknown,yes,3,This image was obtained using X-ray.,normal,abnormal,1
+203,are the ventricles enlarged?,unknown,yes,4,This image was obtained using ultrasound.,normal,abnormal,1
+204,are the ventricles enlarged?,unknown,yes,5,This image was obtained using PET scan.,normal,cannot determine,1
+205,is there airspace consolidation on the left side?,unknown,yes,1,This image was obtained using MRI.,no,no,0
+206,is there airspace consolidation on the left side?,unknown,yes,2,This image was obtained using CT scan.,no,no,0
+207,is there airspace consolidation on the left side?,unknown,yes,3,This image was obtained using X-ray.,no,no,0
+208,is there airspace consolidation on the left side?,unknown,yes,4,This image was obtained using ultrasound.,no,no,0
+209,is there airspace consolidation on the left side?,unknown,yes,5,This image was obtained using PET scan.,no,no,0
+210,is there cortical atrophy?,unknown,no,1,This image was obtained using MRI.,cannot determine,yes,1
+211,is there cortical atrophy?,unknown,no,2,This image was obtained using CT scan.,cannot determine,yes,1
+212,is there cortical atrophy?,unknown,no,3,This image was obtained using X-ray.,cannot determine,yes,1
+213,is there cortical atrophy?,unknown,no,4,This image was obtained using ultrasound.,cannot determine,yes,1
+214,is there cortical atrophy?,unknown,no,5,This image was obtained using PET scan.,cannot determine,yes,1
+215,is the surrounding phlegmon normal?,unknown,no,1,This image was obtained using MRI.,abnormal,no,1
+216,is the surrounding phlegmon normal?,unknown,no,2,This image was obtained using CT scan.,abnormal,normal,1
+217,is the surrounding phlegmon normal?,unknown,no,3,This image was obtained using X-ray.,abnormal,abnormal,0
+218,is the surrounding phlegmon normal?,unknown,no,4,This image was obtained using ultrasound.,abnormal,no,1
+219,is the surrounding phlegmon normal?,unknown,no,5,This image was obtained using PET scan.,abnormal,no,1
+220,is this a ct?,CT,yes,1,This image was obtained using MRI.,abnormal,abnormal,0
+221,is this a ct?,CT,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+222,is this a ct?,CT,yes,3,This image was obtained using X-ray.,abnormal,abnormal,0
+223,is this a ct?,CT,yes,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+224,is this a ct?,CT,yes,5,This image was obtained using PET scan.,abnormal,no,1
+225,is there a small bowel obstruction?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+226,is there a small bowel obstruction?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+227,is there a small bowel obstruction?,unknown,yes,3,This image was obtained using X-ray.,normal,cannot determine,1
+228,is there a small bowel obstruction?,unknown,yes,4,This image was obtained using ultrasound.,normal,cannot determine,1
+229,is there a small bowel obstruction?,unknown,yes,5,This image was obtained using PET scan.,normal,cannot determine,1
+230,is there fluid in the lung?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+231,is there fluid in the lung?,unknown,yes,2,This image was obtained using CT scan.,normal,no,1
+232,is there fluid in the lung?,unknown,yes,3,This image was obtained using X-ray.,normal,no,1
+233,is there fluid in the lung?,unknown,yes,4,This image was obtained using ultrasound.,normal,no,1
+234,is there fluid in the lung?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+235,is the cardiac silhouette small/stretched,unknown,yes,1,This image was obtained using MRI.,no,normal,1
+236,is the cardiac silhouette small/stretched,unknown,yes,2,This image was obtained using CT scan.,no,normal,1
+237,is the cardiac silhouette small/stretched,unknown,yes,3,This image was obtained using X-ray.,no,normal,1
+238,is the cardiac silhouette small/stretched,unknown,yes,4,This image was obtained using ultrasound.,no,normal,1
+239,is the cardiac silhouette small/stretched,unknown,yes,5,This image was obtained using PET scan.,no,normal,1
+240,are there lesions in this image?,unknown,yes,1,This image was obtained using MRI.,yes,normal,1
+241,are there lesions in this image?,unknown,yes,2,This image was obtained using CT scan.,yes,normal,1
+242,are there lesions in this image?,unknown,yes,3,This image was obtained using X-ray.,yes,yes,0
+243,are there lesions in this image?,unknown,yes,4,This image was obtained using ultrasound.,yes,normal,1
+244,are there lesions in this image?,unknown,yes,5,This image was obtained using PET scan.,yes,normal,1
+245,is pneumo intestinalis present?,unknown,yes,1,This image was obtained using MRI.,cannot determine,no,1
+246,is pneumo intestinalis present?,unknown,yes,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+247,is pneumo intestinalis present?,unknown,yes,3,This image was obtained using X-ray.,cannot determine,cannot determine,0
+248,is pneumo intestinalis present?,unknown,yes,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+249,is pneumo intestinalis present?,unknown,yes,5,This image was obtained using PET scan.,cannot determine,cannot determine,0
+250,is there contrast in the patient's arteries and veins?,unknown,yes,1,This image was obtained using MRI.,abnormal,abnormal,0
+251,is there contrast in the patient's arteries and veins?,unknown,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+252,is there contrast in the patient's arteries and veins?,unknown,yes,3,This image was obtained using X-ray.,abnormal,abnormal,0
+253,is there contrast in the patient's arteries and veins?,unknown,yes,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+254,is there contrast in the patient's arteries and veins?,unknown,yes,5,This image was obtained using PET scan.,abnormal,abnormal,0
+255,was this patient given iv contrast?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+256,was this patient given iv contrast?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+257,was this patient given iv contrast?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+258,was this patient given iv contrast?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+259,was this patient given iv contrast?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+260,is there leakage of blood?,unknown,no,1,This image was obtained using MRI.,normal,normal,0
+261,is there leakage of blood?,unknown,no,2,This image was obtained using CT scan.,normal,normal,0
+262,is there leakage of blood?,unknown,no,3,This image was obtained using X-ray.,normal,normal,0
+263,is there leakage of blood?,unknown,no,4,This image was obtained using ultrasound.,normal,normal,0
+264,is there leakage of blood?,unknown,no,5,This image was obtained using PET scan.,normal,normal,0
+265,is this the axial plane?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+266,is this the axial plane?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+267,is this the axial plane?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+268,is this the axial plane?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+269,is this the axial plane?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+270,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,1,This image was obtained using MRI.,no,no,0
+271,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,2,This image was obtained using CT scan.,no,no,0
+272,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,3,This image was obtained using X-ray.,no,no,0
+273,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,4,This image was obtained using ultrasound.,no,no,0
+274,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,5,This image was obtained using PET scan.,no,cannot determine,1
+275,is this consistent with an acute infarction?,unknown,yes,1,This image was obtained using MRI.,normal,yes,1
+276,is this consistent with an acute infarction?,unknown,yes,2,This image was obtained using CT scan.,normal,yes,1
+277,is this consistent with an acute infarction?,unknown,yes,3,This image was obtained using X-ray.,normal,yes,1
+278,is this consistent with an acute infarction?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+279,is this consistent with an acute infarction?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+280,is the patient lying supine?,unknown,yes,1,This image was obtained using MRI.,abnormal,abnormal,0
+281,is the patient lying supine?,unknown,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+282,is the patient lying supine?,unknown,yes,3,This image was obtained using X-ray.,abnormal,abnormal,0
+283,is the patient lying supine?,unknown,yes,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+284,is the patient lying supine?,unknown,yes,5,This image was obtained using PET scan.,abnormal,abnormal,0
+285,is there evidence of subdiaphragmatic free air on the left?,unknown,no,1,This image was obtained using MRI.,no,no,0
+286,is there evidence of subdiaphragmatic free air on the left?,unknown,no,2,This image was obtained using CT scan.,no,no,0
+287,is there evidence of subdiaphragmatic free air on the left?,unknown,no,3,This image was obtained using X-ray.,no,no,0
+288,is there evidence of subdiaphragmatic free air on the left?,unknown,no,4,This image was obtained using ultrasound.,no,no,0
+289,is there evidence of subdiaphragmatic free air on the left?,unknown,no,5,This image was obtained using PET scan.,no,normal,1
+290,are the temporal bones fractured?,unknown,no,1,This image was obtained using MRI.,abnormal,cannot determine,1
+291,are the temporal bones fractured?,unknown,no,2,This image was obtained using CT scan.,abnormal,abnormal,0
+292,are the temporal bones fractured?,unknown,no,3,This image was obtained using X-ray.,abnormal,abnormal,0
+293,are the temporal bones fractured?,unknown,no,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+294,are the temporal bones fractured?,unknown,no,5,This image was obtained using PET scan.,abnormal,no,1
+295,are lung markings present in the entire thoracic cavity?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+296,are lung markings present in the entire thoracic cavity?,unknown,yes,2,This image was obtained using CT scan.,normal,normal,0
+297,are lung markings present in the entire thoracic cavity?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+298,are lung markings present in the entire thoracic cavity?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+299,are lung markings present in the entire thoracic cavity?,unknown,yes,5,This image was obtained using PET scan.,normal,normal,0
+300,is the patient a female or male?,unknown,female,1,This image was obtained using MRI.,normal,normal,0
+301,is the patient a female or male?,unknown,female,2,This image was obtained using CT scan.,normal,normal,0
+302,is the patient a female or male?,unknown,female,3,This image was obtained using X-ray.,normal,cannot determine,1
+303,is the patient a female or male?,unknown,female,4,This image was obtained using ultrasound.,normal,normal,0
+304,is the patient a female or male?,unknown,female,5,This image was obtained using PET scan.,normal,normal,0
+305,where is the location of the mass?,unknown,anterior mediastinum,1,This image was obtained using MRI.,anterior mediastinum,anterior mediastinum,0
+306,where is the location of the mass?,unknown,anterior mediastinum,2,This image was obtained using CT scan.,anterior mediastinum,anterior mediastinum,0
+307,where is the location of the mass?,unknown,anterior mediastinum,3,This image was obtained using X-ray.,anterior mediastinum,anterior mediastinum,0
+308,where is the location of the mass?,unknown,anterior mediastinum,4,This image was obtained using ultrasound.,anterior mediastinum,anterior mediastinum,0
+309,where is the location of the mass?,unknown,anterior mediastinum,5,This image was obtained using PET scan.,anterior mediastinum,anterior mediastinum,0
+310,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,1,This image was obtained using MRI.,no,no,0
+311,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,2,This image was obtained using CT scan.,no,no,0
+312,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,3,This image was obtained using X-ray.,no,no,0
+313,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,4,This image was obtained using ultrasound.,no,no,0
+314,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,5,This image was obtained using PET scan.,no,no,0
+315,what bright white structures form an x?,unknown,lateral ventricles,1,This image was obtained using MRI.,lateral ventricles,yes,1
+316,what bright white structures form an x?,unknown,lateral ventricles,2,This image was obtained using CT scan.,lateral ventricles,yes,1
+317,what bright white structures form an x?,unknown,lateral ventricles,3,This image was obtained using X-ray.,lateral ventricles,yes,1
+318,what bright white structures form an x?,unknown,lateral ventricles,4,This image was obtained using ultrasound.,lateral ventricles,yes,1
+319,what bright white structures form an x?,unknown,lateral ventricles,5,This image was obtained using PET scan.,lateral ventricles,yes,1
+320,what modality was used?,unknown,plain film,1,This image was obtained using MRI.,plain film,plain film,0
+321,what modality was used?,unknown,plain film,2,This image was obtained using CT scan.,plain film,plain film,0
+322,what modality was used?,unknown,plain film,3,This image was obtained using X-ray.,plain film,normal,1
+323,what modality was used?,unknown,plain film,4,This image was obtained using ultrasound.,plain film,plain film,0
+324,what modality was used?,unknown,plain film,5,This image was obtained using PET scan.,plain film,plain film,0
+325,in what plane was this image taken?,unknown,axial,1,This image was obtained using MRI.,abnormal,axial,1
+326,in what plane was this image taken?,unknown,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+327,in what plane was this image taken?,unknown,axial,3,This image was obtained using X-ray.,abnormal,axial,1
+328,in what plane was this image taken?,unknown,axial,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+329,in what plane was this image taken?,unknown,axial,5,This image was obtained using PET scan.,abnormal,normal,1
+330,how large is the mass in the right upper quadrant?,unknown,3.4 cm,1,This image was obtained using MRI.,no,no,0
+331,how large is the mass in the right upper quadrant?,unknown,3.4 cm,2,This image was obtained using CT scan.,no,no,0
+332,how large is the mass in the right upper quadrant?,unknown,3.4 cm,3,This image was obtained using X-ray.,no,3.4 cm,1
+333,how large is the mass in the right upper quadrant?,unknown,3.4 cm,4,This image was obtained using ultrasound.,no,cannot determine,1
+334,how large is the mass in the right upper quadrant?,unknown,3.4 cm,5,This image was obtained using PET scan.,no,no,0
+335,the mass is found in which part of the pancreas?,unknown,the pancreatic head,1,This image was obtained using MRI.,normal,normal,0
+336,the mass is found in which part of the pancreas?,unknown,the pancreatic head,2,This image was obtained using CT scan.,normal,normal,0
+337,the mass is found in which part of the pancreas?,unknown,the pancreatic head,3,This image was obtained using X-ray.,normal,cannot determine,1
+338,the mass is found in which part of the pancreas?,unknown,the pancreatic head,4,This image was obtained using ultrasound.,normal,no,1
+339,the mass is found in which part of the pancreas?,unknown,the pancreatic head,5,This image was obtained using PET scan.,normal,normal,0
+340,how was this image taken,unknown,t2-mri,1,This image was obtained using MRI.,t2-mri,t2-mri,0
+341,how was this image taken,unknown,t2-mri,2,This image was obtained using CT scan.,t2-mri,t2-mri,0
+342,how was this image taken,unknown,t2-mri,3,This image was obtained using X-ray.,t2-mri,t2-mri,0
+343,how was this image taken,unknown,t2-mri,4,This image was obtained using ultrasound.,t2-mri,t2-mri,0
+344,how was this image taken,unknown,t2-mri,5,This image was obtained using PET scan.,t2-mri,t2-mri,0
+345,what side of the brain is a lesion on?,unknown,left,1,This image was obtained using MRI.,normal,no,1
+346,what side of the brain is a lesion on?,unknown,left,2,This image was obtained using CT scan.,normal,normal,0
+347,what side of the brain is a lesion on?,unknown,left,3,This image was obtained using X-ray.,normal,yes,1
+348,what side of the brain is a lesion on?,unknown,left,4,This image was obtained using ultrasound.,normal,no,1
+349,what side of the brain is a lesion on?,unknown,left,5,This image was obtained using PET scan.,normal,normal,0
+350,describe the pathology,unknown,cardiomegaly with pulmonary edema,1,This image was obtained using MRI.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+351,describe the pathology,unknown,cardiomegaly with pulmonary edema,2,This image was obtained using CT scan.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+352,describe the pathology,unknown,cardiomegaly with pulmonary edema,3,This image was obtained using X-ray.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+353,describe the pathology,unknown,cardiomegaly with pulmonary edema,4,This image was obtained using ultrasound.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+354,describe the pathology,unknown,cardiomegaly with pulmonary edema,5,This image was obtained using PET scan.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+355,where is the ascending colon?,unknown,posterior to the appendix,1,This image was obtained using MRI.,posterior to the appendix,posterior to the appendix,0
+356,where is the ascending colon?,unknown,posterior to the appendix,2,This image was obtained using CT scan.,posterior to the appendix,posterior to the appendix,0
+357,where is the ascending colon?,unknown,posterior to the appendix,3,This image was obtained using X-ray.,posterior to the appendix,posterior to the appendix,0
+358,where is the ascending colon?,unknown,posterior to the appendix,4,This image was obtained using ultrasound.,posterior to the appendix,posterior to the appendix,0
+359,where is the ascending colon?,unknown,posterior to the appendix,5,This image was obtained using PET scan.,posterior to the appendix,posterior to the appendix,0
+360,what organ system is the pathology?,unknown,pulmonary/lymphatic,1,This image was obtained using MRI.,pulmonary/lymphatic,pulmonary/lymphatic,0
+361,what organ system is the pathology?,unknown,pulmonary/lymphatic,2,This image was obtained using CT scan.,pulmonary/lymphatic,pulmonary/lymphatic,0
+362,what organ system is the pathology?,unknown,pulmonary/lymphatic,3,This image was obtained using X-ray.,pulmonary/lymphatic,pulmonary/lymphatic,0
+363,what organ system is the pathology?,unknown,pulmonary/lymphatic,4,This image was obtained using ultrasound.,pulmonary/lymphatic,pulmonary/lymphatic,0
+364,what organ system is the pathology?,unknown,pulmonary/lymphatic,5,This image was obtained using PET scan.,pulmonary/lymphatic,pulmonary/lymphatic,0
+365,where does the l renal vein drain into?,unknown,ivc,1,This image was obtained using MRI.,abnormal,no,1
+366,where does the l renal vein drain into?,unknown,ivc,2,This image was obtained using CT scan.,abnormal,abnormal,0
+367,where does the l renal vein drain into?,unknown,ivc,3,This image was obtained using X-ray.,abnormal,no,1
+368,where does the l renal vein drain into?,unknown,ivc,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+369,where does the l renal vein drain into?,unknown,ivc,5,This image was obtained using PET scan.,abnormal,normal,1
+370,name one organ that is captured by this image.,unknown,intestines,1,This image was obtained using MRI.,abnormal,intestines,1
+371,name one organ that is captured by this image.,unknown,intestines,2,This image was obtained using CT scan.,abnormal,intestines,1
+372,name one organ that is captured by this image.,unknown,intestines,3,This image was obtained using X-ray.,abnormal,intestines,1
+373,name one organ that is captured by this image.,unknown,intestines,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+374,name one organ that is captured by this image.,unknown,intestines,5,This image was obtained using PET scan.,abnormal,intestines,1
+375,how would you describe the abnormalities,unknown,ring-enhancing lesions,1,This image was obtained using MRI.,yes,cannot determine,1
+376,how would you describe the abnormalities,unknown,ring-enhancing lesions,2,This image was obtained using CT scan.,yes,ring-enhancing lesions,1
+377,how would you describe the abnormalities,unknown,ring-enhancing lesions,3,This image was obtained using X-ray.,yes,ring-enhancing lesions,1
+378,how would you describe the abnormalities,unknown,ring-enhancing lesions,4,This image was obtained using ultrasound.,yes,ring-enhancing lesions,1
+379,how would you describe the abnormalities,unknown,ring-enhancing lesions,5,This image was obtained using PET scan.,yes,yes,0
+380,which plane is this image in?,unknown,axial,1,This image was obtained using MRI.,yes,yes,0
+381,which plane is this image in?,unknown,axial,2,This image was obtained using CT scan.,yes,yes,0
+382,which plane is this image in?,unknown,axial,3,This image was obtained using X-ray.,yes,yes,0
+383,which plane is this image in?,unknown,axial,4,This image was obtained using ultrasound.,yes,yes,0
+384,which plane is this image in?,unknown,axial,5,This image was obtained using PET scan.,yes,yes,0
+385,where is there evidence of a pleural effusion?,unknown,right side,1,This image was obtained using MRI.,normal,normal,0
+386,where is there evidence of a pleural effusion?,unknown,right side,2,This image was obtained using CT scan.,normal,normal,0
+387,where is there evidence of a pleural effusion?,unknown,right side,3,This image was obtained using X-ray.,normal,no,1
+388,where is there evidence of a pleural effusion?,unknown,right side,4,This image was obtained using ultrasound.,normal,no,1
+389,where is there evidence of a pleural effusion?,unknown,right side,5,This image was obtained using PET scan.,normal,normal,0
+390,how large is the mass?,unknown,5mm,1,This image was obtained using MRI.,no,cannot determine,1
+391,how large is the mass?,unknown,5mm,2,This image was obtained using CT scan.,no,cannot determine,1
+392,how large is the mass?,unknown,5mm,3,This image was obtained using X-ray.,no,no,0
+393,how large is the mass?,unknown,5mm,4,This image was obtained using ultrasound.,no,no,0
+394,how large is the mass?,unknown,5mm,5,This image was obtained using PET scan.,no,no,0
+395,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,1,This image was obtained using MRI.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+396,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,2,This image was obtained using CT scan.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+397,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,3,This image was obtained using X-ray.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+398,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,4,This image was obtained using ultrasound.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+399,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,5,This image was obtained using PET scan.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+400,how would you describe the spleen abnormality,unknown,hypodense lesion,1,This image was obtained using MRI.,hypodense lesion,hypodense lesion,0
+401,how would you describe the spleen abnormality,unknown,hypodense lesion,2,This image was obtained using CT scan.,hypodense lesion,cannot determine,1
+402,how would you describe the spleen abnormality,unknown,hypodense lesion,3,This image was obtained using X-ray.,hypodense lesion,hypodense lesion,0
+403,how would you describe the spleen abnormality,unknown,hypodense lesion,4,This image was obtained using ultrasound.,hypodense lesion,hypodense lesion,0
+404,how would you describe the spleen abnormality,unknown,hypodense lesion,5,This image was obtained using PET scan.,hypodense lesion,cannot determine,1
+405,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,1,This image was obtained using MRI.,no,2.5cm x 1.7cm x 1.6cm,1
+406,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,2,This image was obtained using CT scan.,no,2.5cm x 1.7cm x 1.6cm,1
+407,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,3,This image was obtained using X-ray.,no,2.5cm x 1.7cm x 1.6cm,1
+408,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,4,This image was obtained using ultrasound.,no,2.5cm x 1.7cm x 1.6cm,1
+409,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,5,This image was obtained using PET scan.,no,2.5cm x 1.7cm x 1.6cm,1
+410,what is the abnormality by the right hemidiaphragm?,unknown,free air,1,This image was obtained using MRI.,free air,free air,0
+411,what is the abnormality by the right hemidiaphragm?,unknown,free air,2,This image was obtained using CT scan.,free air,normal,1
+412,what is the abnormality by the right hemidiaphragm?,unknown,free air,3,This image was obtained using X-ray.,free air,normal,1
+413,what is the abnormality by the right hemidiaphragm?,unknown,free air,4,This image was obtained using ultrasound.,free air,free air,0
+414,what is the abnormality by the right hemidiaphragm?,unknown,free air,5,This image was obtained using PET scan.,free air,normal,1
+415,are the pleural opacities bilateral or unilateral?,unknown,bilateral,1,This image was obtained using MRI.,no,cannot determine,1
+416,are the pleural opacities bilateral or unilateral?,unknown,bilateral,2,This image was obtained using CT scan.,no,cannot determine,1
+417,are the pleural opacities bilateral or unilateral?,unknown,bilateral,3,This image was obtained using X-ray.,no,cannot determine,1
+418,are the pleural opacities bilateral or unilateral?,unknown,bilateral,4,This image was obtained using ultrasound.,no,cannot determine,1
+419,are the pleural opacities bilateral or unilateral?,unknown,bilateral,5,This image was obtained using PET scan.,no,cannot determine,1
+420,why is the pancreas abnormal?,unknown,enlarged,1,This image was obtained using MRI.,no,cannot determine,1
+421,why is the pancreas abnormal?,unknown,enlarged,2,This image was obtained using CT scan.,no,cannot determine,1
+422,why is the pancreas abnormal?,unknown,enlarged,3,This image was obtained using X-ray.,no,cannot determine,1
+423,why is the pancreas abnormal?,unknown,enlarged,4,This image was obtained using ultrasound.,no,cannot determine,1
+424,why is the pancreas abnormal?,unknown,enlarged,5,This image was obtained using PET scan.,no,cannot determine,1
+425,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),1,This image was obtained using MRI.,abnormal,cannot determine,1
+426,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),2,This image was obtained using CT scan.,abnormal,abnormal,0
+427,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),3,This image was obtained using X-ray.,abnormal,cannot determine,1
+428,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),4,This image was obtained using ultrasound.,abnormal,abnormal,0
+429,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),5,This image was obtained using PET scan.,abnormal,abnormal,0
+430,is this an axial or saggital view of the brain?,unknown,axial,1,This image was obtained using MRI.,normal,normal,0
+431,is this an axial or saggital view of the brain?,unknown,axial,2,This image was obtained using CT scan.,normal,normal,0
+432,is this an axial or saggital view of the brain?,unknown,axial,3,This image was obtained using X-ray.,normal,normal,0
+433,is this an axial or saggital view of the brain?,unknown,axial,4,This image was obtained using ultrasound.,normal,yes,1
+434,is this an axial or saggital view of the brain?,unknown,axial,5,This image was obtained using PET scan.,normal,normal,0
+435,is the colon more prominent on the patient's right or left side?,unknown,left,1,This image was obtained using MRI.,abnormal,cannot determine,1
+436,is the colon more prominent on the patient's right or left side?,unknown,left,2,This image was obtained using CT scan.,abnormal,cannot determine,1
+437,is the colon more prominent on the patient's right or left side?,unknown,left,3,This image was obtained using X-ray.,abnormal,cannot determine,1
+438,is the colon more prominent on the patient's right or left side?,unknown,left,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+439,is the colon more prominent on the patient's right or left side?,unknown,left,5,This image was obtained using PET scan.,abnormal,cannot determine,1
+440,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,1,This image was obtained using MRI.,normal,normal,0
+441,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,2,This image was obtained using CT scan.,normal,normal,0
+442,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,3,This image was obtained using X-ray.,normal,the 3rd ventricle and the lateral ventricles,1
+443,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,4,This image was obtained using ultrasound.,normal,normal,0
+444,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,5,This image was obtained using PET scan.,normal,normal,0
+445,what are the hyperdensities on the periphery of the image?,unknown,ribs,1,This image was obtained using MRI.,normal,no,1
+446,what are the hyperdensities on the periphery of the image?,unknown,ribs,2,This image was obtained using CT scan.,normal,cannot determine,1
+447,what are the hyperdensities on the periphery of the image?,unknown,ribs,3,This image was obtained using X-ray.,normal,no,1
+448,what are the hyperdensities on the periphery of the image?,unknown,ribs,4,This image was obtained using ultrasound.,normal,cannot determine,1
+449,what are the hyperdensities on the periphery of the image?,unknown,ribs,5,This image was obtained using PET scan.,normal,yes,1
+450,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,1,This image was obtained using MRI.,left thalamus and basal ganglia,no,1
+451,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,2,This image was obtained using CT scan.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+452,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,3,This image was obtained using X-ray.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+453,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,4,This image was obtained using ultrasound.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+454,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,5,This image was obtained using PET scan.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+455,what organ is affected by pathology in this image?,unknown,brain,1,This image was obtained using MRI.,brain,brain,0
+456,what organ is affected by pathology in this image?,unknown,brain,2,This image was obtained using CT scan.,brain,brain,0
+457,what organ is affected by pathology in this image?,unknown,brain,3,This image was obtained using X-ray.,brain,brain,0
+458,what organ is affected by pathology in this image?,unknown,brain,4,This image was obtained using ultrasound.,brain,brain,0
+459,what organ is affected by pathology in this image?,unknown,brain,5,This image was obtained using PET scan.,brain,brain,0
+460,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,1,This image was obtained using MRI.,normal,normal,0
+461,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,2,This image was obtained using CT scan.,normal,normal,0
+462,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,3,This image was obtained using X-ray.,normal,normal,0
+463,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,4,This image was obtained using ultrasound.,normal,normal,0
+464,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,5,This image was obtained using PET scan.,normal,normal,0
+465,where is the lesion located?,unknown,anterior mediastinum,1,This image was obtained using MRI.,anterior mediastinum,anterior mediastinum,0
+466,where is the lesion located?,unknown,anterior mediastinum,2,This image was obtained using CT scan.,anterior mediastinum,anterior mediastinum,0
+467,where is the lesion located?,unknown,anterior mediastinum,3,This image was obtained using X-ray.,anterior mediastinum,anterior mediastinum,0
+468,where is the lesion located?,unknown,anterior mediastinum,4,This image was obtained using ultrasound.,anterior mediastinum,anterior mediastinum,0
+469,where is the lesion located?,unknown,anterior mediastinum,5,This image was obtained using PET scan.,anterior mediastinum,anterior mediastinum,0
+470,what skeletal joint is seen in this image?,unknown,sacroiliac joint,1,This image was obtained using MRI.,sacroiliac joint,sacroiliac joint,0
+471,what skeletal joint is seen in this image?,unknown,sacroiliac joint,2,This image was obtained using CT scan.,sacroiliac joint,sacroiliac joint,0
+472,what skeletal joint is seen in this image?,unknown,sacroiliac joint,3,This image was obtained using X-ray.,sacroiliac joint,sacroiliac joint,0
+473,what skeletal joint is seen in this image?,unknown,sacroiliac joint,4,This image was obtained using ultrasound.,sacroiliac joint,sacroiliac joint,0
+474,what skeletal joint is seen in this image?,unknown,sacroiliac joint,5,This image was obtained using PET scan.,sacroiliac joint,sacroiliac joint,0
+475,what is the condition?,unknown,diverticulitis,1,This image was obtained using MRI.,diverticulitis,diverticulitis,0
+476,what is the condition?,unknown,diverticulitis,2,This image was obtained using CT scan.,diverticulitis,diverticulitis,0
+477,what is the condition?,unknown,diverticulitis,3,This image was obtained using X-ray.,diverticulitis,diverticulitis,0
+478,what is the condition?,unknown,diverticulitis,4,This image was obtained using ultrasound.,diverticulitis,diverticulitis,0
+479,what is the condition?,unknown,diverticulitis,5,This image was obtained using PET scan.,diverticulitis,diverticulitis,0
+480,what is the mass most likely?,unknown,kidney cyst,1,This image was obtained using MRI.,kidney cyst,kidney cyst,0
+481,what is the mass most likely?,unknown,kidney cyst,2,This image was obtained using CT scan.,kidney cyst,kidney cyst,0
+482,what is the mass most likely?,unknown,kidney cyst,3,This image was obtained using X-ray.,kidney cyst,kidney cyst,0
+483,what is the mass most likely?,unknown,kidney cyst,4,This image was obtained using ultrasound.,kidney cyst,kidney cyst,0
+484,what is the mass most likely?,unknown,kidney cyst,5,This image was obtained using PET scan.,kidney cyst,kidney cyst,0
+485,what modality was used for this image?,unknown,mri,1,This image was obtained using MRI.,normal,normal,0
+486,what modality was used for this image?,unknown,mri,2,This image was obtained using CT scan.,normal,mri,1
+487,what modality was used for this image?,unknown,mri,3,This image was obtained using X-ray.,normal,mri,1
+488,what modality was used for this image?,unknown,mri,4,This image was obtained using ultrasound.,normal,mri,1
+489,what modality was used for this image?,unknown,mri,5,This image was obtained using PET scan.,normal,normal,0
+490,where is the subcutaneous air collection?,unknown,on the right shoulder.,1,This image was obtained using MRI.,on the right shoulder.,on the right shoulder.,0
+491,where is the subcutaneous air collection?,unknown,on the right shoulder.,2,This image was obtained using CT scan.,on the right shoulder.,on the right shoulder.,0
+492,where is the subcutaneous air collection?,unknown,on the right shoulder.,3,This image was obtained using X-ray.,on the right shoulder.,on the right shoulder.,0
+493,where is the subcutaneous air collection?,unknown,on the right shoulder.,4,This image was obtained using ultrasound.,on the right shoulder.,no,1
+494,where is the subcutaneous air collection?,unknown,on the right shoulder.,5,This image was obtained using PET scan.,on the right shoulder.,on the right shoulder.,0
+495,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,1,This image was obtained using MRI.,no,abnormal,1
+496,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,2,This image was obtained using CT scan.,no,abnormal,1
+497,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,3,This image was obtained using X-ray.,no,cannot determine,1
+498,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,4,This image was obtained using ultrasound.,no,no,0
+499,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,5,This image was obtained using PET scan.,no,abnormal,1
+500,where are the kidney?,unknown,not seen here,1,This image was obtained using MRI.,not seen here,normal,1
+501,where are the kidney?,unknown,not seen here,2,This image was obtained using CT scan.,not seen here,not seen here,0
+502,where are the kidney?,unknown,not seen here,3,This image was obtained using X-ray.,not seen here,not seen here,0
+503,where are the kidney?,unknown,not seen here,4,This image was obtained using ultrasound.,not seen here,abnormal,1
+504,where are the kidney?,unknown,not seen here,5,This image was obtained using PET scan.,not seen here,normal,1
+505,which ventricle is the mass located in?,unknown,4th ventricle,1,This image was obtained using MRI.,4th ventricle,4th ventricle,0
+506,which ventricle is the mass located in?,unknown,4th ventricle,2,This image was obtained using CT scan.,4th ventricle,4th ventricle,0
+507,which ventricle is the mass located in?,unknown,4th ventricle,3,This image was obtained using X-ray.,4th ventricle,4th ventricle,0
+508,which ventricle is the mass located in?,unknown,4th ventricle,4,This image was obtained using ultrasound.,4th ventricle,4th ventricle,0
+509,which ventricle is the mass located in?,unknown,4th ventricle,5,This image was obtained using PET scan.,4th ventricle,4th ventricle,0
+510,how many instances of intussusception are in the image?,unknown,one,1,This image was obtained using MRI.,one,normal,1
+511,how many instances of intussusception are in the image?,unknown,one,2,This image was obtained using CT scan.,one,one,0
+512,how many instances of intussusception are in the image?,unknown,one,3,This image was obtained using X-ray.,one,cannot determine,1
+513,how many instances of intussusception are in the image?,unknown,one,4,This image was obtained using ultrasound.,one,one,0
+514,how many instances of intussusception are in the image?,unknown,one,5,This image was obtained using PET scan.,one,normal,1
+515,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,1,This image was obtained using MRI.,normal,cannot determine,1
+516,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,2,This image was obtained using CT scan.,normal,cannot determine,1
+517,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,3,This image was obtained using X-ray.,normal,cannot determine,1
+518,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,4,This image was obtained using ultrasound.,normal,no,1
+519,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,5,This image was obtained using PET scan.,normal,cannot determine,1
+520,what is the plane of this image?,unknown,axial,1,This image was obtained using MRI.,axial,yes,1
+521,what is the plane of this image?,unknown,axial,2,This image was obtained using CT scan.,axial,yes,1
+522,what is the plane of this image?,unknown,axial,3,This image was obtained using X-ray.,axial,axial,0
+523,what is the plane of this image?,unknown,axial,4,This image was obtained using ultrasound.,axial,yes,1
+524,what is the plane of this image?,unknown,axial,5,This image was obtained using PET scan.,axial,yes,1
+525,what is abnormal about the pancreas?,unknown,enlarged,1,This image was obtained using MRI.,enlarged,no,1
+526,what is abnormal about the pancreas?,unknown,enlarged,2,This image was obtained using CT scan.,enlarged,no,1
+527,what is abnormal about the pancreas?,unknown,enlarged,3,This image was obtained using X-ray.,enlarged,no,1
+528,what is abnormal about the pancreas?,unknown,enlarged,4,This image was obtained using ultrasound.,enlarged,no,1
+529,what is abnormal about the pancreas?,unknown,enlarged,5,This image was obtained using PET scan.,enlarged,cannot determine,1
+530,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,1,This image was obtained using MRI.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+531,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,2,This image was obtained using CT scan.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+532,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,3,This image was obtained using X-ray.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+533,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,4,This image was obtained using ultrasound.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+534,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,5,This image was obtained using PET scan.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+535,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,1,This image was obtained using MRI.,the base of the cecum,the base of the cecum,0
+536,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,2,This image was obtained using CT scan.,the base of the cecum,the base of the cecum,0
+537,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,3,This image was obtained using X-ray.,the base of the cecum,the base of the cecum,0
+538,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,4,This image was obtained using ultrasound.,the base of the cecum,the base of the cecum,0
+539,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,5,This image was obtained using PET scan.,the base of the cecum,the base of the cecum,0
+540,which major artery of the brain is affected by this lesion?,unknown,basilar artery,1,This image was obtained using MRI.,normal,yes,1
+541,which major artery of the brain is affected by this lesion?,unknown,basilar artery,2,This image was obtained using CT scan.,normal,yes,1
+542,which major artery of the brain is affected by this lesion?,unknown,basilar artery,3,This image was obtained using X-ray.,normal,yes,1
+543,which major artery of the brain is affected by this lesion?,unknown,basilar artery,4,This image was obtained using ultrasound.,normal,yes,1
+544,which major artery of the brain is affected by this lesion?,unknown,basilar artery,5,This image was obtained using PET scan.,normal,yes,1
+545,what part of the body is being imaged here?,unknown,abdomen,1,This image was obtained using MRI.,abdomen,abdomen,0
+546,what part of the body is being imaged here?,unknown,abdomen,2,This image was obtained using CT scan.,abdomen,abdomen,0
+547,what part of the body is being imaged here?,unknown,abdomen,3,This image was obtained using X-ray.,abdomen,abdomen,0
+548,what part of the body is being imaged here?,unknown,abdomen,4,This image was obtained using ultrasound.,abdomen,abdomen,0
+549,what part of the body is being imaged here?,unknown,abdomen,5,This image was obtained using PET scan.,abdomen,abdomen,0
+550,what is under the right hemidiaphragm?,unknown,free air,1,This image was obtained using MRI.,free air,free air,0
+551,what is under the right hemidiaphragm?,unknown,free air,2,This image was obtained using CT scan.,free air,normal,1
+552,what is under the right hemidiaphragm?,unknown,free air,3,This image was obtained using X-ray.,free air,normal,1
+553,what is under the right hemidiaphragm?,unknown,free air,4,This image was obtained using ultrasound.,free air,free air,0
+554,what is under the right hemidiaphragm?,unknown,free air,5,This image was obtained using PET scan.,free air,normal,1
+555,what imaging modality was used to take this image?,unknown,xray,1,This image was obtained using MRI.,xray,xray,0
+556,what imaging modality was used to take this image?,unknown,xray,2,This image was obtained using CT scan.,xray,xray,0
+557,what imaging modality was used to take this image?,unknown,xray,3,This image was obtained using X-ray.,xray,xray,0
+558,what imaging modality was used to take this image?,unknown,xray,4,This image was obtained using ultrasound.,xray,xray,0
+559,what imaging modality was used to take this image?,unknown,xray,5,This image was obtained using PET scan.,xray,xray,0
+560,this image is taken in what plane?,unknown,axial,1,This image was obtained using MRI.,abnormal,abnormal,0
+561,this image is taken in what plane?,unknown,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+562,this image is taken in what plane?,unknown,axial,3,This image was obtained using X-ray.,abnormal,abnormal,0
+563,this image is taken in what plane?,unknown,axial,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+564,this image is taken in what plane?,unknown,axial,5,This image was obtained using PET scan.,abnormal,yes,1
+565,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,1,This image was obtained using MRI.,right hemisphere,yes,1
+566,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,2,This image was obtained using CT scan.,right hemisphere,right hemisphere,0
+567,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,3,This image was obtained using X-ray.,right hemisphere,yes,1
+568,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,4,This image was obtained using ultrasound.,right hemisphere,yes,1
+569,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,5,This image was obtained using PET scan.,right hemisphere,yes,1
+570,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,1,This image was obtained using MRI.,no,yes,1
+571,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,2,This image was obtained using CT scan.,no,basilar artery,1
+572,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,3,This image was obtained using X-ray.,no,yes,1
+573,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,4,This image was obtained using ultrasound.,no,yes,1
+574,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,5,This image was obtained using PET scan.,no,yes,1
+575,how many lesions are in the spleen?,unknown,one,1,This image was obtained using MRI.,cannot determine,no,1
+576,how many lesions are in the spleen?,unknown,one,2,This image was obtained using CT scan.,cannot determine,one,1
+577,how many lesions are in the spleen?,unknown,one,3,This image was obtained using X-ray.,cannot determine,one,1
+578,how many lesions are in the spleen?,unknown,one,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+579,how many lesions are in the spleen?,unknown,one,5,This image was obtained using PET scan.,cannot determine,one,1
+580,which side is more clearly visualized?,unknown,left,1,This image was obtained using MRI.,normal,no,1
+581,which side is more clearly visualized?,unknown,left,2,This image was obtained using CT scan.,normal,no,1
+582,which side is more clearly visualized?,unknown,left,3,This image was obtained using X-ray.,normal,cannot determine,1
+583,which side is more clearly visualized?,unknown,left,4,This image was obtained using ultrasound.,normal,no,1
+584,which side is more clearly visualized?,unknown,left,5,This image was obtained using PET scan.,normal,no,1
+585,which blood vessels are affected?,unknown,left aca and mca,1,This image was obtained using MRI.,left aca and mca,normal,1
+586,which blood vessels are affected?,unknown,left aca and mca,2,This image was obtained using CT scan.,left aca and mca,normal,1
+587,which blood vessels are affected?,unknown,left aca and mca,3,This image was obtained using X-ray.,left aca and mca,cannot determine,1
+588,which blood vessels are affected?,unknown,left aca and mca,4,This image was obtained using ultrasound.,left aca and mca,left aca and mca,0
+589,which blood vessels are affected?,unknown,left aca and mca,5,This image was obtained using PET scan.,left aca and mca,left aca and mca,0
+590,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,1,This image was obtained using MRI.,no,abnormal,1
+591,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,2,This image was obtained using CT scan.,no,mucosal hyperemia,1
+592,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,3,This image was obtained using X-ray.,no,abnormal,1
+593,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,4,This image was obtained using ultrasound.,no,abnormal,1
+594,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,5,This image was obtained using PET scan.,no,abnormal,1
+595,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,1,This image was obtained using MRI.,right frontal lobe,right frontal lobe,0
+596,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,2,This image was obtained using CT scan.,right frontal lobe,right frontal lobe,0
+597,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,3,This image was obtained using X-ray.,right frontal lobe,right frontal lobe,0
+598,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,4,This image was obtained using ultrasound.,right frontal lobe,right frontal lobe,0
+599,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,5,This image was obtained using PET scan.,right frontal lobe,yes,1

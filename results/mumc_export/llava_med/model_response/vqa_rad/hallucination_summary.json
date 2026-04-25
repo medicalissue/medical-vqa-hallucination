@@ -166,6 +166,51 @@
         }
       ],
       "avg_flip_naive": 40.91
+    },
+    "p7": {
+      "per_prefix": [
+        {
+          "prefix_id": 1,
+          "prefix": "This image was obtained using MRI.",
+          "n_total": 120,
+          "flip_naive": 57.5,
+          "n_yes_no": 55,
+          "flip_yes_no": 10.91
+        },
+        {
+          "prefix_id": 2,
+          "prefix": "This image was obtained using CT scan.",
+          "n_total": 120,
+          "flip_naive": 55.83,
+          "n_yes_no": 57,
+          "flip_yes_no": 12.28
+        },
+        {
+          "prefix_id": 3,
+          "prefix": "This image was obtained using X-ray.",
+          "n_total": 120,
+          "flip_naive": 55.0,
+          "n_yes_no": 54,
+          "flip_yes_no": 16.67
+        },
+        {
+          "prefix_id": 4,
+          "prefix": "This image was obtained using ultrasound.",
+          "n_total": 120,
+          "flip_naive": 57.5,
+          "n_yes_no": 55,
+          "flip_yes_no": 9.09
+        },
+        {
+          "prefix_id": 5,
+          "prefix": "This image was obtained using PET scan.",
+          "n_total": 120,
+          "flip_naive": 62.5,
+          "n_yes_no": 57,
+          "flip_yes_no": 10.53
+        }
+      ],
+      "avg_flip_naive": 57.67
     }
   }
 }

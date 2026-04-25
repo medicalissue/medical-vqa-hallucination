@@ -171,36 +171,46 @@
       "per_prefix": [
         {
           "prefix_id": 1,
-          "prefix": "This image was obtained using angiography.",
-          "n_total": 192,
-          "flip_naive": 100.0
+          "prefix": "This image was obtained using MRI.",
+          "n_total": 120,
+          "flip_naive": 60.83,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
         },
         {
           "prefix_id": 2,
-          "prefix": "This image was obtained using ct.",
-          "n_total": 144,
-          "flip_naive": 100.0
+          "prefix": "This image was obtained using CT scan.",
+          "n_total": 120,
+          "flip_naive": 60.83,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
         },
         {
           "prefix_id": 3,
-          "prefix": "This image was obtained using mri.",
-          "n_total": 153,
-          "flip_naive": 100.0
+          "prefix": "This image was obtained using X-ray.",
+          "n_total": 120,
+          "flip_naive": 58.33,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
         },
         {
           "prefix_id": 4,
           "prefix": "This image was obtained using ultrasound.",
-          "n_total": 165,
-          "flip_naive": 100.0
+          "n_total": 120,
+          "flip_naive": 70.0,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
         },
         {
           "prefix_id": 5,
-          "prefix": "This image was obtained using x-ray.",
-          "n_total": 138,
-          "flip_naive": 100.0
+          "prefix": "This image was obtained using PET scan.",
+          "n_total": 120,
+          "flip_naive": 67.5,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
         }
       ],
-      "avg_flip_naive": 100.0
+      "avg_flip_naive": 63.5
     }
   }
 }

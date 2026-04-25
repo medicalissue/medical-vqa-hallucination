@@ -1,325 +1,601 @@
 qid,question,modality,gt,prefix_id,prefix_text,pred_original,pred_perturbed,flip
-0,What abnormality is seen on this ct image?,MRI,mr - t1w w/gadolinium,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-1,What is the primary finding in this ct scan?,MRI,mr - t1w w/gadolinium,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-2,Describe what you see in this ct.,MRI,mr - t1w w/gadolinium,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-3,What abnormality is seen on this x-ray image?,MRI,mr - t1w w/gadolinium,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-4,What is the primary finding in this x-ray scan?,MRI,mr - t1w w/gadolinium,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-5,Describe what you see in this x-ray.,MRI,mr - t1w w/gadolinium,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-6,What abnormality is seen on this ultrasound image?,MRI,mr - t1w w/gadolinium,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-7,What is the primary finding in this ultrasound scan?,MRI,mr - t1w w/gadolinium,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-8,Describe what you see in this ultrasound.,MRI,mr - t1w w/gadolinium,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-9,What abnormality is seen on this angiography image?,MRI,mr - t1w w/gadolinium,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-10,What is the primary finding in this angiography scan?,MRI,mr - t1w w/gadolinium,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-11,Describe what you see in this angiography.,MRI,mr - t1w w/gadolinium,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
-12,What abnormality is seen on this ct image?,MRI,noncontrast (mri),misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,noncontrast (mri),noncontrast (mri),0
-13,What is the primary finding in this ct scan?,MRI,noncontrast (mri),misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,noncontrast (mri),noncontrast (mri),0
-14,Describe what you see in this ct.,MRI,noncontrast (mri),misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,noncontrast (mri),this is not an mri,1
-15,What abnormality is seen on this x-ray image?,MRI,noncontrast (mri),misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,noncontrast (mri),noncontrast (mri),0
-16,What is the primary finding in this x-ray scan?,MRI,noncontrast (mri),misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,noncontrast (mri),noncontrast (mri),0
-17,Describe what you see in this x-ray.,MRI,noncontrast (mri),misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,noncontrast (mri),this is not an mri,1
-18,What abnormality is seen on this ultrasound image?,MRI,noncontrast (mri),misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,noncontrast (mri),noncontrast (mri),0
-19,What is the primary finding in this ultrasound scan?,MRI,noncontrast (mri),misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,noncontrast (mri),noncontrast (mri),0
-20,Describe what you see in this ultrasound.,MRI,noncontrast (mri),misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,noncontrast (mri),this is not an mri,1
-21,What abnormality is seen on this angiography image?,MRI,noncontrast (mri),misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,noncontrast (mri),noncontrast (mri),0
-22,What is the primary finding in this angiography scan?,MRI,noncontrast (mri),misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,noncontrast (mri),noncontrast (mri),0
-23,Describe what you see in this angiography.,MRI,noncontrast (mri),misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,noncontrast (mri),this is not an mri,1
-24,What abnormality is seen on this ct image?,MRI,t1,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,t1,mri,1
-25,What is the primary finding in this ct scan?,MRI,t1,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,t1,mri,1
-26,Describe what you see in this ct.,MRI,t1,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,t1,this is not an mri,1
-27,What abnormality is seen on this x-ray image?,MRI,t1,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,t1,mri,1
-28,What is the primary finding in this x-ray scan?,MRI,t1,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,t1,mri,1
-29,Describe what you see in this x-ray.,MRI,t1,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,t1,mri,1
-30,What abnormality is seen on this ultrasound image?,MRI,t1,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,t1,mri,1
-31,What is the primary finding in this ultrasound scan?,MRI,t1,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,t1,t1,0
-32,Describe what you see in this ultrasound.,MRI,t1,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,t1,this is not an mri,1
-33,What abnormality is seen on this angiography image?,MRI,t1,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,t1,mri,1
-34,What is the primary finding in this angiography scan?,MRI,t1,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,t1,t1,0
-35,Describe what you see in this angiography.,MRI,t1,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,t1,this is not an mri,1
-36,What abnormality is seen on this ct image?,MRI,mr - flair,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,mr - flair,mr - flair,0
-37,What is the primary finding in this ct scan?,MRI,mr - flair,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,mr - flair,mr - flair,0
-38,Describe what you see in this ct.,MRI,mr - flair,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,mr - flair,this is not an mri,1
-39,What abnormality is seen on this x-ray image?,MRI,mr - flair,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,mr - flair,mr - flair,0
-40,What is the primary finding in this x-ray scan?,MRI,mr - flair,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,mr - flair,mr - flair,0
-41,Describe what you see in this x-ray.,MRI,mr - flair,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,mr - flair,mr - flair,0
-42,What abnormality is seen on this ultrasound image?,MRI,mr - flair,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,mr - flair,mr - flair,0
-43,What is the primary finding in this ultrasound scan?,MRI,mr - flair,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,mr - flair,mr - flair,0
-44,Describe what you see in this ultrasound.,MRI,mr - flair,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,mr - flair,this is not an mri,1
-45,What abnormality is seen on this angiography image?,MRI,mr - flair,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,mr - flair,mr - flair,0
-46,What is the primary finding in this angiography scan?,MRI,mr - flair,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,mr - flair,mr - flair,0
-47,Describe what you see in this angiography.,MRI,mr - flair,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,mr - flair,this is not an mri,1
-48,What abnormality is seen on this ct image?,MRI,flair,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,flair,flair,0
-49,What is the primary finding in this ct scan?,MRI,flair,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,flair,flair,0
-50,Describe what you see in this ct.,MRI,flair,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,flair,flair,0
-51,What abnormality is seen on this x-ray image?,MRI,flair,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,flair,flair,0
-52,What is the primary finding in this x-ray scan?,MRI,flair,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,flair,flair,0
-53,Describe what you see in this x-ray.,MRI,flair,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,flair,flair,0
-54,What abnormality is seen on this ultrasound image?,MRI,flair,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,flair,flair,0
-55,What is the primary finding in this ultrasound scan?,MRI,flair,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,flair,flair,0
-56,Describe what you see in this ultrasound.,MRI,flair,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,flair,flair,0
-57,What abnormality is seen on this angiography image?,MRI,flair,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,flair,flair,0
-58,What is the primary finding in this angiography scan?,MRI,flair,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,flair,flair,0
-59,Describe what you see in this angiography.,MRI,flair,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,flair,flair,0
-60,What abnormality is seen on this ct image?,MRI,mr - flair,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,mr - flair,mr - flair,0
-61,What is the primary finding in this ct scan?,MRI,mr - flair,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,mr - flair,mr - flair,0
-62,Describe what you see in this ct.,MRI,mr - flair,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,mr - flair,mr - flair,0
-63,What abnormality is seen on this x-ray image?,MRI,mr - flair,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,mr - flair,mr - flair,0
-64,What is the primary finding in this x-ray scan?,MRI,mr - flair,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,mr - flair,mr - flair,0
-65,Describe what you see in this x-ray.,MRI,mr - flair,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,mr - flair,mr - flair,0
-66,What abnormality is seen on this ultrasound image?,MRI,mr - flair,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,mr - flair,mr - flair,0
-67,What is the primary finding in this ultrasound scan?,MRI,mr - flair,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,mr - flair,mr - flair,0
-68,Describe what you see in this ultrasound.,MRI,mr - flair,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,mr - flair,mr - flair,0
-69,What abnormality is seen on this angiography image?,MRI,mr - flair,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,mr - flair,mr - flair,0
-70,What is the primary finding in this angiography scan?,MRI,mr - flair,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,mr - flair,mr - flair,0
-71,Describe what you see in this angiography.,MRI,mr - flair,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,mr - flair,mr - flair,0
-72,What abnormality is seen on this ct image?,MRI,mr - flair,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,mr - flair,mr - flair,0
-73,What is the primary finding in this ct scan?,MRI,mr - flair,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,mr - flair,mr - flair,0
-74,Describe what you see in this ct.,MRI,mr - flair,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,mr - flair,mr - flair,0
-75,What abnormality is seen on this x-ray image?,MRI,mr - flair,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,mr - flair,mr - flair,0
-76,What is the primary finding in this x-ray scan?,MRI,mr - flair,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,mr - flair,mr - flair,0
-77,Describe what you see in this x-ray.,MRI,mr - flair,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,mr - flair,mr - flair,0
-78,What abnormality is seen on this ultrasound image?,MRI,mr - flair,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,mr - flair,mr - flair,0
-79,What is the primary finding in this ultrasound scan?,MRI,mr - flair,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,mr - flair,mr - flair,0
-80,Describe what you see in this ultrasound.,MRI,mr - flair,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,mr - flair,mr - flair,0
-81,What abnormality is seen on this angiography image?,MRI,mr - flair,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,mr - flair,mr - flair,0
-82,What is the primary finding in this angiography scan?,MRI,mr - flair,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,mr - flair,mr - flair,0
-83,Describe what you see in this angiography.,MRI,mr - flair,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,mr - flair,mr - flair,0
-84,What abnormality is seen on this ct image?,MRI,t2,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,mri,mri,0
-85,What is the primary finding in this ct scan?,MRI,t2,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,mri,this is not an mri,1
-86,Describe what you see in this ct.,MRI,t2,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,mri,this is not an mri,1
-87,What abnormality is seen on this x-ray image?,MRI,t2,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,mri,mri,0
-88,What is the primary finding in this x-ray scan?,MRI,t2,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,mri,this is not an mri,1
-89,Describe what you see in this x-ray.,MRI,t2,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,mri,this is not an mri,1
-90,What abnormality is seen on this ultrasound image?,MRI,t2,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,mri,mri,0
-91,What is the primary finding in this ultrasound scan?,MRI,t2,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,mri,this is not an mri,1
-92,Describe what you see in this ultrasound.,MRI,t2,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,mri,this is not an mri,1
-93,What abnormality is seen on this angiography image?,MRI,t2,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,mri,mri,0
-94,What is the primary finding in this angiography scan?,MRI,t2,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,mri,this is not an mri,1
-95,Describe what you see in this angiography.,MRI,t2,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,mri,this is not an mri,1
-96,What abnormality is seen on this ct image?,MRI,t2,misattr_ct_0,This image was framed as ct (true=mri); Q: What abnormality is seen on this ct image?,t2,mri,1
-97,What is the primary finding in this ct scan?,MRI,t2,misattr_ct_1,This image was framed as ct (true=mri); Q: What is the primary finding in this ct scan?,t2,t2,0
-98,Describe what you see in this ct.,MRI,t2,misattr_ct_2,This image was framed as ct (true=mri); Q: Describe what you see in this ct.,t2,this is not an mri,1
-99,What abnormality is seen on this x-ray image?,MRI,t2,misattr_x-ray_0,This image was framed as x-ray (true=mri); Q: What abnormality is seen on this x-ray image?,t2,t2,0
-100,What is the primary finding in this x-ray scan?,MRI,t2,misattr_x-ray_1,This image was framed as x-ray (true=mri); Q: What is the primary finding in this x-ray scan?,t2,t2,0
-101,Describe what you see in this x-ray.,MRI,t2,misattr_x-ray_2,This image was framed as x-ray (true=mri); Q: Describe what you see in this x-ray.,t2,t2,0
-102,What abnormality is seen on this ultrasound image?,MRI,t2,misattr_ultrasound_0,This image was framed as ultrasound (true=mri); Q: What abnormality is seen on this ultrasound image?,t2,t2,0
-103,What is the primary finding in this ultrasound scan?,MRI,t2,misattr_ultrasound_1,This image was framed as ultrasound (true=mri); Q: What is the primary finding in this ultrasound scan?,t2,t2,0
-104,Describe what you see in this ultrasound.,MRI,t2,misattr_ultrasound_2,This image was framed as ultrasound (true=mri); Q: Describe what you see in this ultrasound.,t2,this is not an mri,1
-105,What abnormality is seen on this angiography image?,MRI,t2,misattr_angiography_0,This image was framed as angiography (true=mri); Q: What abnormality is seen on this angiography image?,t2,t2,0
-106,What is the primary finding in this angiography scan?,MRI,t2,misattr_angiography_1,This image was framed as angiography (true=mri); Q: What is the primary finding in this angiography scan?,t2,t2,0
-107,Describe what you see in this angiography.,MRI,t2,misattr_angiography_2,This image was framed as angiography (true=mri); Q: Describe what you see in this angiography.,t2,t2,0
-108,What abnormality is seen on this mri image?,CT,ct with iv contrast,misattr_mri_0,This image was framed as mri (true=ct); Q: What abnormality is seen on this mri image?,ct with iv contrast,ct with iv contrast,0
-109,What is the primary finding in this mri scan?,CT,ct with iv contrast,misattr_mri_1,This image was framed as mri (true=ct); Q: What is the primary finding in this mri scan?,ct with iv contrast,ct with iv contrast,0
-110,Describe what you see in this mri.,CT,ct with iv contrast,misattr_mri_2,This image was framed as mri (true=ct); Q: Describe what you see in this mri.,ct with iv contrast,ct with iv contrast,0
-111,What abnormality is seen on this x-ray image?,CT,ct with iv contrast,misattr_x-ray_0,This image was framed as x-ray (true=ct); Q: What abnormality is seen on this x-ray image?,ct with iv contrast,ct with iv contrast,0
-112,What is the primary finding in this x-ray scan?,CT,ct with iv contrast,misattr_x-ray_1,This image was framed as x-ray (true=ct); Q: What is the primary finding in this x-ray scan?,ct with iv contrast,ct with iv contrast,0
-113,Describe what you see in this x-ray.,CT,ct with iv contrast,misattr_x-ray_2,This image was framed as x-ray (true=ct); Q: Describe what you see in this x-ray.,ct with iv contrast,ct with iv contrast,0
-114,What abnormality is seen on this ultrasound image?,CT,ct with iv contrast,misattr_ultrasound_0,This image was framed as ultrasound (true=ct); Q: What abnormality is seen on this ultrasound image?,ct with iv contrast,ct with iv contrast,0
-115,What is the primary finding in this ultrasound scan?,CT,ct with iv contrast,misattr_ultrasound_1,This image was framed as ultrasound (true=ct); Q: What is the primary finding in this ultrasound scan?,ct with iv contrast,ct with iv contrast,0
-116,Describe what you see in this ultrasound.,CT,ct with iv contrast,misattr_ultrasound_2,This image was framed as ultrasound (true=ct); Q: Describe what you see in this ultrasound.,ct with iv contrast,ct with iv contrast,0
-117,What abnormality is seen on this angiography image?,CT,ct with iv contrast,misattr_angiography_0,This image was framed as angiography (true=ct); Q: What abnormality is seen on this angiography image?,ct with iv contrast,ct with iv contrast,0
-118,What is the primary finding in this angiography scan?,CT,ct with iv contrast,misattr_angiography_1,This image was framed as angiography (true=ct); Q: What is the primary finding in this angiography scan?,ct with iv contrast,ct with iv contrast,0
-119,Describe what you see in this angiography.,CT,ct with iv contrast,misattr_angiography_2,This image was framed as angiography (true=ct); Q: Describe what you see in this angiography.,ct with iv contrast,ct with iv contrast,0
-120,What abnormality is seen on this mri image?,CT,ct with iv contrast,misattr_mri_0,This image was framed as mri (true=ct); Q: What abnormality is seen on this mri image?,ct with iv contrast,ct with iv contrast,0
-121,What is the primary finding in this mri scan?,CT,ct with iv contrast,misattr_mri_1,This image was framed as mri (true=ct); Q: What is the primary finding in this mri scan?,ct with iv contrast,ct with iv contrast,0
-122,Describe what you see in this mri.,CT,ct with iv contrast,misattr_mri_2,This image was framed as mri (true=ct); Q: Describe what you see in this mri.,ct with iv contrast,ct with iv contrast,0
-123,What abnormality is seen on this x-ray image?,CT,ct with iv contrast,misattr_x-ray_0,This image was framed as x-ray (true=ct); Q: What abnormality is seen on this x-ray image?,ct with iv contrast,ct with iv contrast,0
-124,What is the primary finding in this x-ray scan?,CT,ct with iv contrast,misattr_x-ray_1,This image was framed as x-ray (true=ct); Q: What is the primary finding in this x-ray scan?,ct with iv contrast,ct with iv contrast,0
-125,Describe what you see in this x-ray.,CT,ct with iv contrast,misattr_x-ray_2,This image was framed as x-ray (true=ct); Q: Describe what you see in this x-ray.,ct with iv contrast,ct with iv contrast,0
-126,What abnormality is seen on this ultrasound image?,CT,ct with iv contrast,misattr_ultrasound_0,This image was framed as ultrasound (true=ct); Q: What abnormality is seen on this ultrasound image?,ct with iv contrast,ct with iv contrast,0
-127,What is the primary finding in this ultrasound scan?,CT,ct with iv contrast,misattr_ultrasound_1,This image was framed as ultrasound (true=ct); Q: What is the primary finding in this ultrasound scan?,ct with iv contrast,ct with iv contrast,0
-128,Describe what you see in this ultrasound.,CT,ct with iv contrast,misattr_ultrasound_2,This image was framed as ultrasound (true=ct); Q: Describe what you see in this ultrasound.,ct with iv contrast,ct with iv contrast,0
-129,What abnormality is seen on this angiography image?,CT,ct with iv contrast,misattr_angiography_0,This image was framed as angiography (true=ct); Q: What abnormality is seen on this angiography image?,ct with iv contrast,ct with iv contrast,0
-130,What is the primary finding in this angiography scan?,CT,ct with iv contrast,misattr_angiography_1,This image was framed as angiography (true=ct); Q: What is the primary finding in this angiography scan?,ct with iv contrast,ct with iv contrast,0
-131,Describe what you see in this angiography.,CT,ct with iv contrast,misattr_angiography_2,This image was framed as angiography (true=ct); Q: Describe what you see in this angiography.,ct with iv contrast,this is not a ct,1
-132,What abnormality is seen on this mri image?,CT,ct with gi and iv contrast,misattr_mri_0,This image was framed as mri (true=ct); Q: What abnormality is seen on this mri image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-133,What is the primary finding in this mri scan?,CT,ct with gi and iv contrast,misattr_mri_1,This image was framed as mri (true=ct); Q: What is the primary finding in this mri scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-134,Describe what you see in this mri.,CT,ct with gi and iv contrast,misattr_mri_2,This image was framed as mri (true=ct); Q: Describe what you see in this mri.,ct with gi and iv contrast,ct with gi and iv contrast,0
-135,What abnormality is seen on this x-ray image?,CT,ct with gi and iv contrast,misattr_x-ray_0,This image was framed as x-ray (true=ct); Q: What abnormality is seen on this x-ray image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-136,What is the primary finding in this x-ray scan?,CT,ct with gi and iv contrast,misattr_x-ray_1,This image was framed as x-ray (true=ct); Q: What is the primary finding in this x-ray scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-137,Describe what you see in this x-ray.,CT,ct with gi and iv contrast,misattr_x-ray_2,This image was framed as x-ray (true=ct); Q: Describe what you see in this x-ray.,ct with gi and iv contrast,ct with gi and iv contrast,0
-138,What abnormality is seen on this ultrasound image?,CT,ct with gi and iv contrast,misattr_ultrasound_0,This image was framed as ultrasound (true=ct); Q: What abnormality is seen on this ultrasound image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-139,What is the primary finding in this ultrasound scan?,CT,ct with gi and iv contrast,misattr_ultrasound_1,This image was framed as ultrasound (true=ct); Q: What is the primary finding in this ultrasound scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-140,Describe what you see in this ultrasound.,CT,ct with gi and iv contrast,misattr_ultrasound_2,This image was framed as ultrasound (true=ct); Q: Describe what you see in this ultrasound.,ct with gi and iv contrast,ct with gi and iv contrast,0
-141,What abnormality is seen on this angiography image?,CT,ct with gi and iv contrast,misattr_angiography_0,This image was framed as angiography (true=ct); Q: What abnormality is seen on this angiography image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-142,What is the primary finding in this angiography scan?,CT,ct with gi and iv contrast,misattr_angiography_1,This image was framed as angiography (true=ct); Q: What is the primary finding in this angiography scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-143,Describe what you see in this angiography.,CT,ct with gi and iv contrast,misattr_angiography_2,This image was framed as angiography (true=ct); Q: Describe what you see in this angiography.,ct with gi and iv contrast,ct with gi and iv contrast,0
-144,What abnormality is seen on this mri image?,CT,ct w/contrast (iv),misattr_mri_0,This image was framed as mri (true=ct); Q: What abnormality is seen on this mri image?,ct w/contrast (iv),ct w/contrast (iv),0
-145,What is the primary finding in this mri scan?,CT,ct w/contrast (iv),misattr_mri_1,This image was framed as mri (true=ct); Q: What is the primary finding in this mri scan?,ct w/contrast (iv),ct w/contrast (iv),0
-146,Describe what you see in this mri.,CT,ct w/contrast (iv),misattr_mri_2,This image was framed as mri (true=ct); Q: Describe what you see in this mri.,ct w/contrast (iv),ct w/contrast (iv),0
-147,What abnormality is seen on this x-ray image?,CT,ct w/contrast (iv),misattr_x-ray_0,This image was framed as x-ray (true=ct); Q: What abnormality is seen on this x-ray image?,ct w/contrast (iv),ct w/contrast (iv),0
-148,What is the primary finding in this x-ray scan?,CT,ct w/contrast (iv),misattr_x-ray_1,This image was framed as x-ray (true=ct); Q: What is the primary finding in this x-ray scan?,ct w/contrast (iv),ct w/contrast (iv),0
-149,Describe what you see in this x-ray.,CT,ct w/contrast (iv),misattr_x-ray_2,This image was framed as x-ray (true=ct); Q: Describe what you see in this x-ray.,ct w/contrast (iv),ct w/contrast (iv),0
-150,What abnormality is seen on this ultrasound image?,CT,ct w/contrast (iv),misattr_ultrasound_0,This image was framed as ultrasound (true=ct); Q: What abnormality is seen on this ultrasound image?,ct w/contrast (iv),ct w/contrast (iv),0
-151,What is the primary finding in this ultrasound scan?,CT,ct w/contrast (iv),misattr_ultrasound_1,This image was framed as ultrasound (true=ct); Q: What is the primary finding in this ultrasound scan?,ct w/contrast (iv),ct w/contrast (iv),0
-152,Describe what you see in this ultrasound.,CT,ct w/contrast (iv),misattr_ultrasound_2,This image was framed as ultrasound (true=ct); Q: Describe what you see in this ultrasound.,ct w/contrast (iv),ct w/contrast (iv),0
-153,What abnormality is seen on this angiography image?,CT,ct w/contrast (iv),misattr_angiography_0,This image was framed as angiography (true=ct); Q: What abnormality is seen on this angiography image?,ct w/contrast (iv),ct w/contrast (iv),0
-154,What is the primary finding in this angiography scan?,CT,ct w/contrast (iv),misattr_angiography_1,This image was framed as angiography (true=ct); Q: What is the primary finding in this angiography scan?,ct w/contrast (iv),ct w/contrast (iv),0
-155,Describe what you see in this angiography.,CT,ct w/contrast (iv),misattr_angiography_2,This image was framed as angiography (true=ct); Q: Describe what you see in this angiography.,ct w/contrast (iv),ct w/contrast (iv),0
-156,What abnormality is seen on this mri image?,CT,ct noncontrast,misattr_mri_0,This image was framed as mri (true=ct); Q: What abnormality is seen on this mri image?,ct noncontrast,ct noncontrast,0
-157,What is the primary finding in this mri scan?,CT,ct noncontrast,misattr_mri_1,This image was framed as mri (true=ct); Q: What is the primary finding in this mri scan?,ct noncontrast,ct noncontrast,0
-158,Describe what you see in this mri.,CT,ct noncontrast,misattr_mri_2,This image was framed as mri (true=ct); Q: Describe what you see in this mri.,ct noncontrast,this is not a ct,1
-159,What abnormality is seen on this x-ray image?,CT,ct noncontrast,misattr_x-ray_0,This image was framed as x-ray (true=ct); Q: What abnormality is seen on this x-ray image?,ct noncontrast,ct noncontrast,0
-160,What is the primary finding in this x-ray scan?,CT,ct noncontrast,misattr_x-ray_1,This image was framed as x-ray (true=ct); Q: What is the primary finding in this x-ray scan?,ct noncontrast,ct noncontrast,0
-161,Describe what you see in this x-ray.,CT,ct noncontrast,misattr_x-ray_2,This image was framed as x-ray (true=ct); Q: Describe what you see in this x-ray.,ct noncontrast,ct,1
-162,What abnormality is seen on this ultrasound image?,CT,ct noncontrast,misattr_ultrasound_0,This image was framed as ultrasound (true=ct); Q: What abnormality is seen on this ultrasound image?,ct noncontrast,ct,1
-163,What is the primary finding in this ultrasound scan?,CT,ct noncontrast,misattr_ultrasound_1,This image was framed as ultrasound (true=ct); Q: What is the primary finding in this ultrasound scan?,ct noncontrast,ct noncontrast,0
-164,Describe what you see in this ultrasound.,CT,ct noncontrast,misattr_ultrasound_2,This image was framed as ultrasound (true=ct); Q: Describe what you see in this ultrasound.,ct noncontrast,this is not a ct,1
-165,What abnormality is seen on this angiography image?,CT,ct noncontrast,misattr_angiography_0,This image was framed as angiography (true=ct); Q: What abnormality is seen on this angiography image?,ct noncontrast,ct noncontrast,0
-166,What is the primary finding in this angiography scan?,CT,ct noncontrast,misattr_angiography_1,This image was framed as angiography (true=ct); Q: What is the primary finding in this angiography scan?,ct noncontrast,ct noncontrast,0
-167,Describe what you see in this angiography.,CT,ct noncontrast,misattr_angiography_2,This image was framed as angiography (true=ct); Q: Describe what you see in this angiography.,ct noncontrast,this is not a ct,1
-168,What abnormality is seen on this mri image?,CT,ct with gi and iv contrast,misattr_mri_0,This image was framed as mri (true=ct); Q: What abnormality is seen on this mri image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-169,What is the primary finding in this mri scan?,CT,ct with gi and iv contrast,misattr_mri_1,This image was framed as mri (true=ct); Q: What is the primary finding in this mri scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-170,Describe what you see in this mri.,CT,ct with gi and iv contrast,misattr_mri_2,This image was framed as mri (true=ct); Q: Describe what you see in this mri.,ct with gi and iv contrast,ct with gi and iv contrast,0
-171,What abnormality is seen on this x-ray image?,CT,ct with gi and iv contrast,misattr_x-ray_0,This image was framed as x-ray (true=ct); Q: What abnormality is seen on this x-ray image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-172,What is the primary finding in this x-ray scan?,CT,ct with gi and iv contrast,misattr_x-ray_1,This image was framed as x-ray (true=ct); Q: What is the primary finding in this x-ray scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-173,Describe what you see in this x-ray.,CT,ct with gi and iv contrast,misattr_x-ray_2,This image was framed as x-ray (true=ct); Q: Describe what you see in this x-ray.,ct with gi and iv contrast,ct with gi and iv contrast,0
-174,What abnormality is seen on this ultrasound image?,CT,ct with gi and iv contrast,misattr_ultrasound_0,This image was framed as ultrasound (true=ct); Q: What abnormality is seen on this ultrasound image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-175,What is the primary finding in this ultrasound scan?,CT,ct with gi and iv contrast,misattr_ultrasound_1,This image was framed as ultrasound (true=ct); Q: What is the primary finding in this ultrasound scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-176,Describe what you see in this ultrasound.,CT,ct with gi and iv contrast,misattr_ultrasound_2,This image was framed as ultrasound (true=ct); Q: Describe what you see in this ultrasound.,ct with gi and iv contrast,ct with gi and iv contrast,0
-177,What abnormality is seen on this angiography image?,CT,ct with gi and iv contrast,misattr_angiography_0,This image was framed as angiography (true=ct); Q: What abnormality is seen on this angiography image?,ct with gi and iv contrast,ct with gi and iv contrast,0
-178,What is the primary finding in this angiography scan?,CT,ct with gi and iv contrast,misattr_angiography_1,This image was framed as angiography (true=ct); Q: What is the primary finding in this angiography scan?,ct with gi and iv contrast,ct with gi and iv contrast,0
-179,Describe what you see in this angiography.,CT,ct with gi and iv contrast,misattr_angiography_2,This image was framed as angiography (true=ct); Q: Describe what you see in this angiography.,ct with gi and iv contrast,ct with gi and iv contrast,0
-180,What abnormality is seen on this ct image?,X-RAY,xr - plain film,misattr_ct_0,This image was framed as ct (true=x-ray); Q: What abnormality is seen on this ct image?,xr - plain film,xr - plain film,0
-181,What is the primary finding in this ct scan?,X-RAY,xr - plain film,misattr_ct_1,This image was framed as ct (true=x-ray); Q: What is the primary finding in this ct scan?,xr - plain film,xr - plain film,0
-182,Describe what you see in this ct.,X-RAY,xr - plain film,misattr_ct_2,This image was framed as ct (true=x-ray); Q: Describe what you see in this ct.,xr - plain film,xr - plain film,0
-183,What abnormality is seen on this mri image?,X-RAY,xr - plain film,misattr_mri_0,This image was framed as mri (true=x-ray); Q: What abnormality is seen on this mri image?,xr - plain film,xr - plain film,0
-184,What is the primary finding in this mri scan?,X-RAY,xr - plain film,misattr_mri_1,This image was framed as mri (true=x-ray); Q: What is the primary finding in this mri scan?,xr - plain film,xr - plain film,0
-185,Describe what you see in this mri.,X-RAY,xr - plain film,misattr_mri_2,This image was framed as mri (true=x-ray); Q: Describe what you see in this mri.,xr - plain film,xr - plain film,0
-186,What abnormality is seen on this ultrasound image?,X-RAY,xr - plain film,misattr_ultrasound_0,This image was framed as ultrasound (true=x-ray); Q: What abnormality is seen on this ultrasound image?,xr - plain film,xr - plain film,0
-187,What is the primary finding in this ultrasound scan?,X-RAY,xr - plain film,misattr_ultrasound_1,This image was framed as ultrasound (true=x-ray); Q: What is the primary finding in this ultrasound scan?,xr - plain film,xr - plain film,0
-188,Describe what you see in this ultrasound.,X-RAY,xr - plain film,misattr_ultrasound_2,This image was framed as ultrasound (true=x-ray); Q: Describe what you see in this ultrasound.,xr - plain film,x-ray,1
-189,What abnormality is seen on this angiography image?,X-RAY,xr - plain film,misattr_angiography_0,This image was framed as angiography (true=x-ray); Q: What abnormality is seen on this angiography image?,xr - plain film,xr - plain film,0
-190,What is the primary finding in this angiography scan?,X-RAY,xr - plain film,misattr_angiography_1,This image was framed as angiography (true=x-ray); Q: What is the primary finding in this angiography scan?,xr - plain film,xr - plain film,0
-191,Describe what you see in this angiography.,X-RAY,xr - plain film,misattr_angiography_2,This image was framed as angiography (true=x-ray); Q: Describe what you see in this angiography.,xr - plain film,xr - plain film,0
-192,What abnormality is seen on this ct image?,X-RAY,xr - plain film,misattr_ct_0,This image was framed as ct (true=x-ray); Q: What abnormality is seen on this ct image?,xr - plain film,xr - plain film,0
-193,What is the primary finding in this ct scan?,X-RAY,xr - plain film,misattr_ct_1,This image was framed as ct (true=x-ray); Q: What is the primary finding in this ct scan?,xr - plain film,xr - plain film,0
-194,Describe what you see in this ct.,X-RAY,xr - plain film,misattr_ct_2,This image was framed as ct (true=x-ray); Q: Describe what you see in this ct.,xr - plain film,xr - plain film,0
-195,What abnormality is seen on this mri image?,X-RAY,xr - plain film,misattr_mri_0,This image was framed as mri (true=x-ray); Q: What abnormality is seen on this mri image?,xr - plain film,xr - plain film,0
-196,What is the primary finding in this mri scan?,X-RAY,xr - plain film,misattr_mri_1,This image was framed as mri (true=x-ray); Q: What is the primary finding in this mri scan?,xr - plain film,xr - plain film,0
-197,Describe what you see in this mri.,X-RAY,xr - plain film,misattr_mri_2,This image was framed as mri (true=x-ray); Q: Describe what you see in this mri.,xr - plain film,x-ray,1
-198,What abnormality is seen on this ultrasound image?,X-RAY,xr - plain film,misattr_ultrasound_0,This image was framed as ultrasound (true=x-ray); Q: What abnormality is seen on this ultrasound image?,xr - plain film,xr - plain film,0
-199,What is the primary finding in this ultrasound scan?,X-RAY,xr - plain film,misattr_ultrasound_1,This image was framed as ultrasound (true=x-ray); Q: What is the primary finding in this ultrasound scan?,xr - plain film,xr - plain film,0
-200,Describe what you see in this ultrasound.,X-RAY,xr - plain film,misattr_ultrasound_2,This image was framed as ultrasound (true=x-ray); Q: Describe what you see in this ultrasound.,xr - plain film,x-ray,1
-201,What abnormality is seen on this angiography image?,X-RAY,xr - plain film,misattr_angiography_0,This image was framed as angiography (true=x-ray); Q: What abnormality is seen on this angiography image?,xr - plain film,xr - plain film,0
-202,What is the primary finding in this angiography scan?,X-RAY,xr - plain film,misattr_angiography_1,This image was framed as angiography (true=x-ray); Q: What is the primary finding in this angiography scan?,xr - plain film,xr - plain film,0
-203,Describe what you see in this angiography.,X-RAY,xr - plain film,misattr_angiography_2,This image was framed as angiography (true=x-ray); Q: Describe what you see in this angiography.,xr - plain film,x-ray,1
-204,What abnormality is seen on this ct image?,X-RAY,xr - plain film,misattr_ct_0,This image was framed as ct (true=x-ray); Q: What abnormality is seen on this ct image?,xr - plain film,xr - plain film,0
-205,What is the primary finding in this ct scan?,X-RAY,xr - plain film,misattr_ct_1,This image was framed as ct (true=x-ray); Q: What is the primary finding in this ct scan?,xr - plain film,xr - plain film,0
-206,Describe what you see in this ct.,X-RAY,xr - plain film,misattr_ct_2,This image was framed as ct (true=x-ray); Q: Describe what you see in this ct.,xr - plain film,x-ray,1
-207,What abnormality is seen on this mri image?,X-RAY,xr - plain film,misattr_mri_0,This image was framed as mri (true=x-ray); Q: What abnormality is seen on this mri image?,xr - plain film,xr - plain film,0
-208,What is the primary finding in this mri scan?,X-RAY,xr - plain film,misattr_mri_1,This image was framed as mri (true=x-ray); Q: What is the primary finding in this mri scan?,xr - plain film,x-ray,1
-209,Describe what you see in this mri.,X-RAY,xr - plain film,misattr_mri_2,This image was framed as mri (true=x-ray); Q: Describe what you see in this mri.,xr - plain film,x-ray,1
-210,What abnormality is seen on this ultrasound image?,X-RAY,xr - plain film,misattr_ultrasound_0,This image was framed as ultrasound (true=x-ray); Q: What abnormality is seen on this ultrasound image?,xr - plain film,xr - plain film,0
-211,What is the primary finding in this ultrasound scan?,X-RAY,xr - plain film,misattr_ultrasound_1,This image was framed as ultrasound (true=x-ray); Q: What is the primary finding in this ultrasound scan?,xr - plain film,x-ray,1
-212,Describe what you see in this ultrasound.,X-RAY,xr - plain film,misattr_ultrasound_2,This image was framed as ultrasound (true=x-ray); Q: Describe what you see in this ultrasound.,xr - plain film,x-ray,1
-213,What abnormality is seen on this angiography image?,X-RAY,xr - plain film,misattr_angiography_0,This image was framed as angiography (true=x-ray); Q: What abnormality is seen on this angiography image?,xr - plain film,xr - plain film,0
-214,What is the primary finding in this angiography scan?,X-RAY,xr - plain film,misattr_angiography_1,This image was framed as angiography (true=x-ray); Q: What is the primary finding in this angiography scan?,xr - plain film,x-ray,1
-215,Describe what you see in this angiography.,X-RAY,xr - plain film,misattr_angiography_2,This image was framed as angiography (true=x-ray); Q: Describe what you see in this angiography.,xr - plain film,x-ray,1
-216,What abnormality is seen on this ct image?,X-RAY,xr - plain film,misattr_ct_0,This image was framed as ct (true=x-ray); Q: What abnormality is seen on this ct image?,xr - plain film,xr - plain film,0
-217,What is the primary finding in this ct scan?,X-RAY,xr - plain film,misattr_ct_1,This image was framed as ct (true=x-ray); Q: What is the primary finding in this ct scan?,xr - plain film,xr - plain film,0
-218,Describe what you see in this ct.,X-RAY,xr - plain film,misattr_ct_2,This image was framed as ct (true=x-ray); Q: Describe what you see in this ct.,xr - plain film,xr - plain film,0
-219,What abnormality is seen on this mri image?,X-RAY,xr - plain film,misattr_mri_0,This image was framed as mri (true=x-ray); Q: What abnormality is seen on this mri image?,xr - plain film,xr - plain film,0
-220,What is the primary finding in this mri scan?,X-RAY,xr - plain film,misattr_mri_1,This image was framed as mri (true=x-ray); Q: What is the primary finding in this mri scan?,xr - plain film,xr - plain film,0
-221,Describe what you see in this mri.,X-RAY,xr - plain film,misattr_mri_2,This image was framed as mri (true=x-ray); Q: Describe what you see in this mri.,xr - plain film,xr - plain film,0
-222,What abnormality is seen on this ultrasound image?,X-RAY,xr - plain film,misattr_ultrasound_0,This image was framed as ultrasound (true=x-ray); Q: What abnormality is seen on this ultrasound image?,xr - plain film,xr - plain film,0
-223,What is the primary finding in this ultrasound scan?,X-RAY,xr - plain film,misattr_ultrasound_1,This image was framed as ultrasound (true=x-ray); Q: What is the primary finding in this ultrasound scan?,xr - plain film,xr - plain film,0
-224,Describe what you see in this ultrasound.,X-RAY,xr - plain film,misattr_ultrasound_2,This image was framed as ultrasound (true=x-ray); Q: Describe what you see in this ultrasound.,xr - plain film,x-ray,1
-225,What abnormality is seen on this angiography image?,X-RAY,xr - plain film,misattr_angiography_0,This image was framed as angiography (true=x-ray); Q: What abnormality is seen on this angiography image?,xr - plain film,xr - plain film,0
-226,What is the primary finding in this angiography scan?,X-RAY,xr - plain film,misattr_angiography_1,This image was framed as angiography (true=x-ray); Q: What is the primary finding in this angiography scan?,xr - plain film,xr - plain film,0
-227,Describe what you see in this angiography.,X-RAY,xr - plain film,misattr_angiography_2,This image was framed as angiography (true=x-ray); Q: Describe what you see in this angiography.,xr - plain film,xr - plain film,0
-228,What abnormality is seen on this ct image?,ULTRASOUND,us - ultrasound,misattr_ct_0,This image was framed as ct (true=ultrasound); Q: What abnormality is seen on this ct image?,ultrasound,us - ultrasound,1
-229,What is the primary finding in this ct scan?,ULTRASOUND,us - ultrasound,misattr_ct_1,This image was framed as ct (true=ultrasound); Q: What is the primary finding in this ct scan?,ultrasound,us - ultrasound,1
-230,Describe what you see in this ct.,ULTRASOUND,us - ultrasound,misattr_ct_2,This image was framed as ct (true=ultrasound); Q: Describe what you see in this ct.,ultrasound,ultrasound,0
-231,What abnormality is seen on this mri image?,ULTRASOUND,us - ultrasound,misattr_mri_0,This image was framed as mri (true=ultrasound); Q: What abnormality is seen on this mri image?,ultrasound,us - ultrasound,1
-232,What is the primary finding in this mri scan?,ULTRASOUND,us - ultrasound,misattr_mri_1,This image was framed as mri (true=ultrasound); Q: What is the primary finding in this mri scan?,ultrasound,us - ultrasound,1
-233,Describe what you see in this mri.,ULTRASOUND,us - ultrasound,misattr_mri_2,This image was framed as mri (true=ultrasound); Q: Describe what you see in this mri.,ultrasound,us - ultrasound,1
-234,What abnormality is seen on this x-ray image?,ULTRASOUND,us - ultrasound,misattr_x-ray_0,This image was framed as x-ray (true=ultrasound); Q: What abnormality is seen on this x-ray image?,ultrasound,ultrasound,0
-235,What is the primary finding in this x-ray scan?,ULTRASOUND,us - ultrasound,misattr_x-ray_1,This image was framed as x-ray (true=ultrasound); Q: What is the primary finding in this x-ray scan?,ultrasound,us - ultrasound,1
-236,Describe what you see in this x-ray.,ULTRASOUND,us - ultrasound,misattr_x-ray_2,This image was framed as x-ray (true=ultrasound); Q: Describe what you see in this x-ray.,ultrasound,ultrasound,0
-237,What abnormality is seen on this angiography image?,ULTRASOUND,us - ultrasound,misattr_angiography_0,This image was framed as angiography (true=ultrasound); Q: What abnormality is seen on this angiography image?,ultrasound,us - ultrasound,1
-238,What is the primary finding in this angiography scan?,ULTRASOUND,us - ultrasound,misattr_angiography_1,This image was framed as angiography (true=ultrasound); Q: What is the primary finding in this angiography scan?,ultrasound,us - ultrasound,1
-239,Describe what you see in this angiography.,ULTRASOUND,us - ultrasound,misattr_angiography_2,This image was framed as angiography (true=ultrasound); Q: Describe what you see in this angiography.,ultrasound,us - ultrasound,1
-240,What abnormality is seen on this ct image?,ULTRASOUND,us - ultrasound,misattr_ct_0,This image was framed as ct (true=ultrasound); Q: What abnormality is seen on this ct image?,ultrasound,ultrasound,0
-241,What is the primary finding in this ct scan?,ULTRASOUND,us - ultrasound,misattr_ct_1,This image was framed as ct (true=ultrasound); Q: What is the primary finding in this ct scan?,ultrasound,ultrasound,0
-242,Describe what you see in this ct.,ULTRASOUND,us - ultrasound,misattr_ct_2,This image was framed as ct (true=ultrasound); Q: Describe what you see in this ct.,ultrasound,ultrasound,0
-243,What abnormality is seen on this mri image?,ULTRASOUND,us - ultrasound,misattr_mri_0,This image was framed as mri (true=ultrasound); Q: What abnormality is seen on this mri image?,ultrasound,ultrasound,0
-244,What is the primary finding in this mri scan?,ULTRASOUND,us - ultrasound,misattr_mri_1,This image was framed as mri (true=ultrasound); Q: What is the primary finding in this mri scan?,ultrasound,ultrasound,0
-245,Describe what you see in this mri.,ULTRASOUND,us - ultrasound,misattr_mri_2,This image was framed as mri (true=ultrasound); Q: Describe what you see in this mri.,ultrasound,ultrasound,0
-246,What abnormality is seen on this x-ray image?,ULTRASOUND,us - ultrasound,misattr_x-ray_0,This image was framed as x-ray (true=ultrasound); Q: What abnormality is seen on this x-ray image?,ultrasound,ultrasound,0
-247,What is the primary finding in this x-ray scan?,ULTRASOUND,us - ultrasound,misattr_x-ray_1,This image was framed as x-ray (true=ultrasound); Q: What is the primary finding in this x-ray scan?,ultrasound,ultrasound,0
-248,Describe what you see in this x-ray.,ULTRASOUND,us - ultrasound,misattr_x-ray_2,This image was framed as x-ray (true=ultrasound); Q: Describe what you see in this x-ray.,ultrasound,ultrasound,0
-249,What abnormality is seen on this angiography image?,ULTRASOUND,us - ultrasound,misattr_angiography_0,This image was framed as angiography (true=ultrasound); Q: What abnormality is seen on this angiography image?,ultrasound,ultrasound,0
-250,What is the primary finding in this angiography scan?,ULTRASOUND,us - ultrasound,misattr_angiography_1,This image was framed as angiography (true=ultrasound); Q: What is the primary finding in this angiography scan?,ultrasound,us - ultrasound,1
-251,Describe what you see in this angiography.,ULTRASOUND,us - ultrasound,misattr_angiography_2,This image was framed as angiography (true=ultrasound); Q: Describe what you see in this angiography.,ultrasound,ultrasound,0
-252,What abnormality is seen on this ct image?,ULTRASOUND,us - ultrasound,misattr_ct_0,This image was framed as ct (true=ultrasound); Q: What abnormality is seen on this ct image?,ultrasound,ultrasound,0
-253,What is the primary finding in this ct scan?,ULTRASOUND,us - ultrasound,misattr_ct_1,This image was framed as ct (true=ultrasound); Q: What is the primary finding in this ct scan?,ultrasound,ultrasound,0
-254,Describe what you see in this ct.,ULTRASOUND,us - ultrasound,misattr_ct_2,This image was framed as ct (true=ultrasound); Q: Describe what you see in this ct.,ultrasound,ultrasound,0
-255,What abnormality is seen on this mri image?,ULTRASOUND,us - ultrasound,misattr_mri_0,This image was framed as mri (true=ultrasound); Q: What abnormality is seen on this mri image?,ultrasound,ultrasound,0
-256,What is the primary finding in this mri scan?,ULTRASOUND,us - ultrasound,misattr_mri_1,This image was framed as mri (true=ultrasound); Q: What is the primary finding in this mri scan?,ultrasound,ultrasound,0
-257,Describe what you see in this mri.,ULTRASOUND,us - ultrasound,misattr_mri_2,This image was framed as mri (true=ultrasound); Q: Describe what you see in this mri.,ultrasound,ultrasound,0
-258,What abnormality is seen on this x-ray image?,ULTRASOUND,us - ultrasound,misattr_x-ray_0,This image was framed as x-ray (true=ultrasound); Q: What abnormality is seen on this x-ray image?,ultrasound,ultrasound,0
-259,What is the primary finding in this x-ray scan?,ULTRASOUND,us - ultrasound,misattr_x-ray_1,This image was framed as x-ray (true=ultrasound); Q: What is the primary finding in this x-ray scan?,ultrasound,ultrasound,0
-260,Describe what you see in this x-ray.,ULTRASOUND,us - ultrasound,misattr_x-ray_2,This image was framed as x-ray (true=ultrasound); Q: Describe what you see in this x-ray.,ultrasound,ultrasound,0
-261,What abnormality is seen on this angiography image?,ULTRASOUND,us - ultrasound,misattr_angiography_0,This image was framed as angiography (true=ultrasound); Q: What abnormality is seen on this angiography image?,ultrasound,ultrasound,0
-262,What is the primary finding in this angiography scan?,ULTRASOUND,us - ultrasound,misattr_angiography_1,This image was framed as angiography (true=ultrasound); Q: What is the primary finding in this angiography scan?,ultrasound,ultrasound,0
-263,Describe what you see in this angiography.,ULTRASOUND,us - ultrasound,misattr_angiography_2,This image was framed as angiography (true=ultrasound); Q: Describe what you see in this angiography.,ultrasound,ultrasound,0
-264,What abnormality is seen on this ct image?,ULTRASOUND,us - ultrasound,misattr_ct_0,This image was framed as ct (true=ultrasound); Q: What abnormality is seen on this ct image?,angiography,us - ultrasound,1
-265,What is the primary finding in this ct scan?,ULTRASOUND,us - ultrasound,misattr_ct_1,This image was framed as ct (true=ultrasound); Q: What is the primary finding in this ct scan?,angiography,us - ultrasound,1
-266,Describe what you see in this ct.,ULTRASOUND,us - ultrasound,misattr_ct_2,This image was framed as ct (true=ultrasound); Q: Describe what you see in this ct.,angiography,angiography,0
-267,What abnormality is seen on this mri image?,ULTRASOUND,us - ultrasound,misattr_mri_0,This image was framed as mri (true=ultrasound); Q: What abnormality is seen on this mri image?,angiography,us - ultrasound,1
-268,What is the primary finding in this mri scan?,ULTRASOUND,us - ultrasound,misattr_mri_1,This image was framed as mri (true=ultrasound); Q: What is the primary finding in this mri scan?,angiography,us - ultrasound,1
-269,Describe what you see in this mri.,ULTRASOUND,us - ultrasound,misattr_mri_2,This image was framed as mri (true=ultrasound); Q: Describe what you see in this mri.,angiography,angiography,0
-270,What abnormality is seen on this x-ray image?,ULTRASOUND,us - ultrasound,misattr_x-ray_0,This image was framed as x-ray (true=ultrasound); Q: What abnormality is seen on this x-ray image?,angiography,us - ultrasound,1
-271,What is the primary finding in this x-ray scan?,ULTRASOUND,us - ultrasound,misattr_x-ray_1,This image was framed as x-ray (true=ultrasound); Q: What is the primary finding in this x-ray scan?,angiography,angiography,0
-272,Describe what you see in this x-ray.,ULTRASOUND,us - ultrasound,misattr_x-ray_2,This image was framed as x-ray (true=ultrasound); Q: Describe what you see in this x-ray.,angiography,angiography,0
-273,What abnormality is seen on this angiography image?,ULTRASOUND,us - ultrasound,misattr_angiography_0,This image was framed as angiography (true=ultrasound); Q: What abnormality is seen on this angiography image?,angiography,us - ultrasound,1
-274,What is the primary finding in this angiography scan?,ULTRASOUND,us - ultrasound,misattr_angiography_1,This image was framed as angiography (true=ultrasound); Q: What is the primary finding in this angiography scan?,angiography,us - ultrasound,1
-275,Describe what you see in this angiography.,ULTRASOUND,us - ultrasound,misattr_angiography_2,This image was framed as angiography (true=ultrasound); Q: Describe what you see in this angiography.,angiography,this is not an mri,1
-276,What abnormality is seen on this ct image?,ULTRASOUND,us-d - doppler ultrasound,misattr_ct_0,This image was framed as ct (true=ultrasound); Q: What abnormality is seen on this ct image?,us-d - doppler ultrasound,us-d - doppler ultrasound,0
-277,What is the primary finding in this ct scan?,ULTRASOUND,us-d - doppler ultrasound,misattr_ct_1,This image was framed as ct (true=ultrasound); Q: What is the primary finding in this ct scan?,us-d - doppler ultrasound,ultrasound,1
-278,Describe what you see in this ct.,ULTRASOUND,us-d - doppler ultrasound,misattr_ct_2,This image was framed as ct (true=ultrasound); Q: Describe what you see in this ct.,us-d - doppler ultrasound,us-d - doppler ultrasound,0
-279,What abnormality is seen on this mri image?,ULTRASOUND,us-d - doppler ultrasound,misattr_mri_0,This image was framed as mri (true=ultrasound); Q: What abnormality is seen on this mri image?,us-d - doppler ultrasound,ultrasound,1
-280,What is the primary finding in this mri scan?,ULTRASOUND,us-d - doppler ultrasound,misattr_mri_1,This image was framed as mri (true=ultrasound); Q: What is the primary finding in this mri scan?,us-d - doppler ultrasound,ultrasound,1
-281,Describe what you see in this mri.,ULTRASOUND,us-d - doppler ultrasound,misattr_mri_2,This image was framed as mri (true=ultrasound); Q: Describe what you see in this mri.,us-d - doppler ultrasound,angiography,1
-282,What abnormality is seen on this x-ray image?,ULTRASOUND,us-d - doppler ultrasound,misattr_x-ray_0,This image was framed as x-ray (true=ultrasound); Q: What abnormality is seen on this x-ray image?,us-d - doppler ultrasound,ultrasound,1
-283,What is the primary finding in this x-ray scan?,ULTRASOUND,us-d - doppler ultrasound,misattr_x-ray_1,This image was framed as x-ray (true=ultrasound); Q: What is the primary finding in this x-ray scan?,us-d - doppler ultrasound,angiography,1
-284,Describe what you see in this x-ray.,ULTRASOUND,us-d - doppler ultrasound,misattr_x-ray_2,This image was framed as x-ray (true=ultrasound); Q: Describe what you see in this x-ray.,us-d - doppler ultrasound,angiography,1
-285,What abnormality is seen on this angiography image?,ULTRASOUND,us-d - doppler ultrasound,misattr_angiography_0,This image was framed as angiography (true=ultrasound); Q: What abnormality is seen on this angiography image?,us-d - doppler ultrasound,ultrasound,1
-286,What is the primary finding in this angiography scan?,ULTRASOUND,us-d - doppler ultrasound,misattr_angiography_1,This image was framed as angiography (true=ultrasound); Q: What is the primary finding in this angiography scan?,us-d - doppler ultrasound,ultrasound,1
-287,Describe what you see in this angiography.,ULTRASOUND,us-d - doppler ultrasound,misattr_angiography_2,This image was framed as angiography (true=ultrasound); Q: Describe what you see in this angiography.,us-d - doppler ultrasound,no,1
-288,What abnormality is seen on this ct image?,ANGIOGRAPHY,an - angiogram,misattr_ct_0,This image was framed as ct (true=angiography); Q: What abnormality is seen on this ct image?,angiography,an - angiogram,1
-289,What is the primary finding in this ct scan?,ANGIOGRAPHY,an - angiogram,misattr_ct_1,This image was framed as ct (true=angiography); Q: What is the primary finding in this ct scan?,angiography,angiography,0
-290,Describe what you see in this ct.,ANGIOGRAPHY,an - angiogram,misattr_ct_2,This image was framed as ct (true=angiography); Q: Describe what you see in this ct.,angiography,angiography,0
-291,What abnormality is seen on this mri image?,ANGIOGRAPHY,an - angiogram,misattr_mri_0,This image was framed as mri (true=angiography); Q: What abnormality is seen on this mri image?,angiography,an - angiogram,1
-292,What is the primary finding in this mri scan?,ANGIOGRAPHY,an - angiogram,misattr_mri_1,This image was framed as mri (true=angiography); Q: What is the primary finding in this mri scan?,angiography,angiography,0
-293,Describe what you see in this mri.,ANGIOGRAPHY,an - angiogram,misattr_mri_2,This image was framed as mri (true=angiography); Q: Describe what you see in this mri.,angiography,angiography,0
-294,What abnormality is seen on this x-ray image?,ANGIOGRAPHY,an - angiogram,misattr_x-ray_0,This image was framed as x-ray (true=angiography); Q: What abnormality is seen on this x-ray image?,angiography,an - angiogram,1
-295,What is the primary finding in this x-ray scan?,ANGIOGRAPHY,an - angiogram,misattr_x-ray_1,This image was framed as x-ray (true=angiography); Q: What is the primary finding in this x-ray scan?,angiography,angiography,0
-296,Describe what you see in this x-ray.,ANGIOGRAPHY,an - angiogram,misattr_x-ray_2,This image was framed as x-ray (true=angiography); Q: Describe what you see in this x-ray.,angiography,angiography,0
-297,What abnormality is seen on this ultrasound image?,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_0,This image was framed as ultrasound (true=angiography); Q: What abnormality is seen on this ultrasound image?,angiography,an - angiogram,1
-298,What is the primary finding in this ultrasound scan?,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_1,This image was framed as ultrasound (true=angiography); Q: What is the primary finding in this ultrasound scan?,angiography,angiography,0
-299,Describe what you see in this ultrasound.,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_2,This image was framed as ultrasound (true=angiography); Q: Describe what you see in this ultrasound.,angiography,angiography,0
-300,What abnormality is seen on this ct image?,ANGIOGRAPHY,an - angiogram,misattr_ct_0,This image was framed as ct (true=angiography); Q: What abnormality is seen on this ct image?,angiography,an - angiogram,1
-301,What is the primary finding in this ct scan?,ANGIOGRAPHY,an - angiogram,misattr_ct_1,This image was framed as ct (true=angiography); Q: What is the primary finding in this ct scan?,angiography,angiography,0
-302,Describe what you see in this ct.,ANGIOGRAPHY,an - angiogram,misattr_ct_2,This image was framed as ct (true=angiography); Q: Describe what you see in this ct.,angiography,angiography,0
-303,What abnormality is seen on this mri image?,ANGIOGRAPHY,an - angiogram,misattr_mri_0,This image was framed as mri (true=angiography); Q: What abnormality is seen on this mri image?,angiography,an - angiogram,1
-304,What is the primary finding in this mri scan?,ANGIOGRAPHY,an - angiogram,misattr_mri_1,This image was framed as mri (true=angiography); Q: What is the primary finding in this mri scan?,angiography,angiography,0
-305,Describe what you see in this mri.,ANGIOGRAPHY,an - angiogram,misattr_mri_2,This image was framed as mri (true=angiography); Q: Describe what you see in this mri.,angiography,angiography,0
-306,What abnormality is seen on this x-ray image?,ANGIOGRAPHY,an - angiogram,misattr_x-ray_0,This image was framed as x-ray (true=angiography); Q: What abnormality is seen on this x-ray image?,angiography,an - angiogram,1
-307,What is the primary finding in this x-ray scan?,ANGIOGRAPHY,an - angiogram,misattr_x-ray_1,This image was framed as x-ray (true=angiography); Q: What is the primary finding in this x-ray scan?,angiography,angiography,0
-308,Describe what you see in this x-ray.,ANGIOGRAPHY,an - angiogram,misattr_x-ray_2,This image was framed as x-ray (true=angiography); Q: Describe what you see in this x-ray.,angiography,angiography,0
-309,What abnormality is seen on this ultrasound image?,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_0,This image was framed as ultrasound (true=angiography); Q: What abnormality is seen on this ultrasound image?,angiography,an - angiogram,1
-310,What is the primary finding in this ultrasound scan?,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_1,This image was framed as ultrasound (true=angiography); Q: What is the primary finding in this ultrasound scan?,angiography,angiography,0
-311,Describe what you see in this ultrasound.,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_2,This image was framed as ultrasound (true=angiography); Q: Describe what you see in this ultrasound.,angiography,angiography,0
-312,What abnormality is seen on this ct image?,ANGIOGRAPHY,an - angiogram,misattr_ct_0,This image was framed as ct (true=angiography); Q: What abnormality is seen on this ct image?,angiography,an - angiogram,1
-313,What is the primary finding in this ct scan?,ANGIOGRAPHY,an - angiogram,misattr_ct_1,This image was framed as ct (true=angiography); Q: What is the primary finding in this ct scan?,angiography,angiography,0
-314,Describe what you see in this ct.,ANGIOGRAPHY,an - angiogram,misattr_ct_2,This image was framed as ct (true=angiography); Q: Describe what you see in this ct.,angiography,an - angiogram,1
-315,What abnormality is seen on this mri image?,ANGIOGRAPHY,an - angiogram,misattr_mri_0,This image was framed as mri (true=angiography); Q: What abnormality is seen on this mri image?,angiography,an - angiogram,1
-316,What is the primary finding in this mri scan?,ANGIOGRAPHY,an - angiogram,misattr_mri_1,This image was framed as mri (true=angiography); Q: What is the primary finding in this mri scan?,angiography,an - angiogram,1
-317,Describe what you see in this mri.,ANGIOGRAPHY,an - angiogram,misattr_mri_2,This image was framed as mri (true=angiography); Q: Describe what you see in this mri.,angiography,angiography,0
-318,What abnormality is seen on this x-ray image?,ANGIOGRAPHY,an - angiogram,misattr_x-ray_0,This image was framed as x-ray (true=angiography); Q: What abnormality is seen on this x-ray image?,angiography,an - angiogram,1
-319,What is the primary finding in this x-ray scan?,ANGIOGRAPHY,an - angiogram,misattr_x-ray_1,This image was framed as x-ray (true=angiography); Q: What is the primary finding in this x-ray scan?,angiography,angiography,0
-320,Describe what you see in this x-ray.,ANGIOGRAPHY,an - angiogram,misattr_x-ray_2,This image was framed as x-ray (true=angiography); Q: Describe what you see in this x-ray.,angiography,angiography,0
-321,What abnormality is seen on this ultrasound image?,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_0,This image was framed as ultrasound (true=angiography); Q: What abnormality is seen on this ultrasound image?,angiography,an - angiogram,1
-322,What is the primary finding in this ultrasound scan?,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_1,This image was framed as ultrasound (true=angiography); Q: What is the primary finding in this ultrasound scan?,angiography,angiography,0
-323,Describe what you see in this ultrasound.,ANGIOGRAPHY,an - angiogram,misattr_ultrasound_2,This image was framed as ultrasound (true=angiography); Q: Describe what you see in this ultrasound.,angiography,angiography,0
+0,what abnormality is seen in the image?,unknown,epidural empyema,1,This image was obtained using MRI.,normal,normal,0
+1,what abnormality is seen in the image?,unknown,epidural empyema,2,This image was obtained using CT scan.,normal,epidural empyema,1
+2,what abnormality is seen in the image?,unknown,epidural empyema,3,This image was obtained using X-ray.,normal,epidural empyema,1
+3,what abnormality is seen in the image?,unknown,epidural empyema,4,This image was obtained using ultrasound.,normal,epidural empyema,1
+4,what abnormality is seen in the image?,unknown,epidural empyema,5,This image was obtained using PET scan.,normal,epidural empyema,1
+5,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,1,This image was obtained using MRI.,colo-colic intussusception,colo-colic intussusception,0
+6,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,2,This image was obtained using CT scan.,colo-colic intussusception,colo-colic intussusception,0
+7,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,3,This image was obtained using X-ray.,colo-colic intussusception,colo-colic intussusception,0
+8,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,4,This image was obtained using ultrasound.,colo-colic intussusception,colo-colic intussusception,0
+9,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,5,This image was obtained using PET scan.,colo-colic intussusception,colo-colic intussusception,0
+10,which plane is the image taken?,unknown,axial,1,This image was obtained using MRI.,axial,axial,0
+11,which plane is the image taken?,unknown,axial,2,This image was obtained using CT scan.,axial,no,1
+12,which plane is the image taken?,unknown,axial,3,This image was obtained using X-ray.,axial,yes,1
+13,which plane is the image taken?,unknown,axial,4,This image was obtained using ultrasound.,axial,cannot determine,1
+14,which plane is the image taken?,unknown,axial,5,This image was obtained using PET scan.,axial,axial,0
+15,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,1,This image was obtained using MRI.,normal,cerebellar hemangioblastoma,1
+16,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,2,This image was obtained using CT scan.,normal,cerebellar hemangioblastoma,1
+17,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,3,This image was obtained using X-ray.,normal,cerebellar hemangioblastoma,1
+18,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,4,This image was obtained using ultrasound.,normal,cerebellar hemangioblastoma,1
+19,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,5,This image was obtained using PET scan.,normal,cerebellar hemangioblastoma,1
+20,what is the organ principally shown in this mri?,MRI,skull and contents,1,This image was obtained using MRI.,normal,normal,0
+21,what is the organ principally shown in this mri?,MRI,skull and contents,2,This image was obtained using CT scan.,normal,normal,0
+22,what is the organ principally shown in this mri?,MRI,skull and contents,3,This image was obtained using X-ray.,normal,normal,0
+23,what is the organ principally shown in this mri?,MRI,skull and contents,4,This image was obtained using ultrasound.,normal,skull and contents,1
+24,what is the organ principally shown in this mri?,MRI,skull and contents,5,This image was obtained using PET scan.,normal,normal,0
+25,is this a noncontrast ct?,CT,no,1,This image was obtained using MRI.,cannot determine,abnormal,1
+26,is this a noncontrast ct?,CT,no,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+27,is this a noncontrast ct?,CT,no,3,This image was obtained using X-ray.,cannot determine,abnormal,1
+28,is this a noncontrast ct?,CT,no,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+29,is this a noncontrast ct?,CT,no,5,This image was obtained using PET scan.,cannot determine,yes,1
+30,in what plane is this x-ray taken?,X-ray,ap,1,This image was obtained using MRI.,abnormal,yes,1
+31,in what plane is this x-ray taken?,X-ray,ap,2,This image was obtained using CT scan.,abnormal,normal,1
+32,in what plane is this x-ray taken?,X-ray,ap,3,This image was obtained using X-ray.,abnormal,abnormal,0
+33,in what plane is this x-ray taken?,X-ray,ap,4,This image was obtained using ultrasound.,abnormal,ap,1
+34,in what plane is this x-ray taken?,X-ray,ap,5,This image was obtained using PET scan.,abnormal,ap,1
+35,is this a noncontrast ct?,CT,yes,1,This image was obtained using MRI.,cannot determine,cannot determine,0
+36,is this a noncontrast ct?,CT,yes,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+37,is this a noncontrast ct?,CT,yes,3,This image was obtained using X-ray.,cannot determine,cannot determine,0
+38,is this a noncontrast ct?,CT,yes,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+39,is this a noncontrast ct?,CT,yes,5,This image was obtained using PET scan.,cannot determine,cannot determine,0
+40,the mri shows what organ system?,MRI,skull and contents,1,This image was obtained using MRI.,skull and contents,skull and contents,0
+41,the mri shows what organ system?,MRI,skull and contents,2,This image was obtained using CT scan.,skull and contents,skull and contents,0
+42,the mri shows what organ system?,MRI,skull and contents,3,This image was obtained using X-ray.,skull and contents,skull and contents,0
+43,the mri shows what organ system?,MRI,skull and contents,4,This image was obtained using ultrasound.,skull and contents,skull and contents,0
+44,the mri shows what organ system?,MRI,skull and contents,5,This image was obtained using PET scan.,skull and contents,skull and contents,0
+45,is this a ct scan?,CT,no,1,This image was obtained using MRI.,normal,normal,0
+46,is this a ct scan?,CT,no,2,This image was obtained using CT scan.,normal,normal,0
+47,is this a ct scan?,CT,no,3,This image was obtained using X-ray.,normal,normal,0
+48,is this a ct scan?,CT,no,4,This image was obtained using ultrasound.,normal,normal,0
+49,is this a ct scan?,CT,no,5,This image was obtained using PET scan.,normal,normal,0
+50,in what plane is this x-ray taken?,X-ray,oblique,1,This image was obtained using MRI.,normal,oblique,1
+51,in what plane is this x-ray taken?,X-ray,oblique,2,This image was obtained using CT scan.,normal,normal,0
+52,in what plane is this x-ray taken?,X-ray,oblique,3,This image was obtained using X-ray.,normal,normal,0
+53,in what plane is this x-ray taken?,X-ray,oblique,4,This image was obtained using ultrasound.,normal,normal,0
+54,in what plane is this x-ray taken?,X-ray,oblique,5,This image was obtained using PET scan.,normal,oblique,1
+55,what organ system is pictured here?,unknown,skull and contents,1,This image was obtained using MRI.,abnormal,skull and contents,1
+56,what organ system is pictured here?,unknown,skull and contents,2,This image was obtained using CT scan.,abnormal,skull and contents,1
+57,what organ system is pictured here?,unknown,skull and contents,3,This image was obtained using X-ray.,abnormal,skull and contents,1
+58,what organ system is pictured here?,unknown,skull and contents,4,This image was obtained using ultrasound.,abnormal,skull and contents,1
+59,what organ system is pictured here?,unknown,skull and contents,5,This image was obtained using PET scan.,abnormal,skull and contents,1
+60,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,1,This image was obtained using MRI.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+61,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,2,This image was obtained using CT scan.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+62,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,3,This image was obtained using X-ray.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+63,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,4,This image was obtained using ultrasound.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+64,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,5,This image was obtained using PET scan.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+65,in what plane is this image oriented?,unknown,pa,1,This image was obtained using MRI.,normal,normal,0
+66,in what plane is this image oriented?,unknown,pa,2,This image was obtained using CT scan.,normal,normal,0
+67,in what plane is this image oriented?,unknown,pa,3,This image was obtained using X-ray.,normal,normal,0
+68,in what plane is this image oriented?,unknown,pa,4,This image was obtained using ultrasound.,normal,normal,0
+69,in what plane is this image oriented?,unknown,pa,5,This image was obtained using PET scan.,normal,normal,0
+70,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,1,This image was obtained using MRI.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+71,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,2,This image was obtained using CT scan.,l5-s1 extruded disk fragment,yes,1
+72,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,3,This image was obtained using X-ray.,l5-s1 extruded disk fragment,yes,1
+73,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,4,This image was obtained using ultrasound.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+74,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,5,This image was obtained using PET scan.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+75,what part of the body is being imaged here?,unknown,vascular and lymphatic,1,This image was obtained using MRI.,vascular and lymphatic,normal,1
+76,what part of the body is being imaged here?,unknown,vascular and lymphatic,2,This image was obtained using CT scan.,vascular and lymphatic,vascular and lymphatic,0
+77,what part of the body is being imaged here?,unknown,vascular and lymphatic,3,This image was obtained using X-ray.,vascular and lymphatic,vascular and lymphatic,0
+78,what part of the body is being imaged here?,unknown,vascular and lymphatic,4,This image was obtained using ultrasound.,vascular and lymphatic,vascular and lymphatic,0
+79,what part of the body is being imaged here?,unknown,vascular and lymphatic,5,This image was obtained using PET scan.,vascular and lymphatic,vascular and lymphatic,0
+80,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",1,This image was obtained using MRI.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+81,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",2,This image was obtained using CT scan.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+82,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",3,This image was obtained using X-ray.,"lung, mediastinum, pleura",normal,1
+83,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",4,This image was obtained using ultrasound.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+84,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",5,This image was obtained using PET scan.,"lung, mediastinum, pleura",normal,1
+85,is this an mri image?,MRI,no,1,This image was obtained using MRI.,normal,normal,0
+86,is this an mri image?,MRI,no,2,This image was obtained using CT scan.,normal,normal,0
+87,is this an mri image?,MRI,no,3,This image was obtained using X-ray.,normal,normal,0
+88,is this an mri image?,MRI,no,4,This image was obtained using ultrasound.,normal,normal,0
+89,is this an mri image?,MRI,no,5,This image was obtained using PET scan.,normal,normal,0
+90,what organ is this image of?,unknown,skull and contents,1,This image was obtained using MRI.,skull and contents,skull and contents,0
+91,what organ is this image of?,unknown,skull and contents,2,This image was obtained using CT scan.,skull and contents,skull and contents,0
+92,what organ is this image of?,unknown,skull and contents,3,This image was obtained using X-ray.,skull and contents,skull and contents,0
+93,what organ is this image of?,unknown,skull and contents,4,This image was obtained using ultrasound.,skull and contents,skull and contents,0
+94,what organ is this image of?,unknown,skull and contents,5,This image was obtained using PET scan.,skull and contents,skull and contents,0
+95,what imaging modality was used to take this image?,unknown,ct with iv contrast,1,This image was obtained using MRI.,ct with iv contrast,ct with iv contrast,0
+96,what imaging modality was used to take this image?,unknown,ct with iv contrast,2,This image was obtained using CT scan.,ct with iv contrast,normal,1
+97,what imaging modality was used to take this image?,unknown,ct with iv contrast,3,This image was obtained using X-ray.,ct with iv contrast,ct with iv contrast,0
+98,what imaging modality was used to take this image?,unknown,ct with iv contrast,4,This image was obtained using ultrasound.,ct with iv contrast,ct with iv contrast,0
+99,what imaging modality was used to take this image?,unknown,ct with iv contrast,5,This image was obtained using PET scan.,ct with iv contrast,ct with iv contrast,0
+100,what plane is this film,unknown,axial,1,This image was obtained using MRI.,abnormal,yes,1
+101,what plane is this film,unknown,axial,2,This image was obtained using CT scan.,abnormal,yes,1
+102,what plane is this film,unknown,axial,3,This image was obtained using X-ray.,abnormal,yes,1
+103,what plane is this film,unknown,axial,4,This image was obtained using ultrasound.,abnormal,axial,1
+104,what plane is this film,unknown,axial,5,This image was obtained using PET scan.,abnormal,yes,1
+105,what organ system is imaged?,unknown,musculoskeletal,1,This image was obtained using MRI.,musculoskeletal,normal,1
+106,what organ system is imaged?,unknown,musculoskeletal,2,This image was obtained using CT scan.,musculoskeletal,musculoskeletal,0
+107,what organ system is imaged?,unknown,musculoskeletal,3,This image was obtained using X-ray.,musculoskeletal,musculoskeletal,0
+108,what organ system is imaged?,unknown,musculoskeletal,4,This image was obtained using ultrasound.,musculoskeletal,musculoskeletal,0
+109,what organ system is imaged?,unknown,musculoskeletal,5,This image was obtained using PET scan.,musculoskeletal,normal,1
+110,which plane is the image taken?,unknown,lateral,1,This image was obtained using MRI.,cannot determine,lateral,1
+111,which plane is the image taken?,unknown,lateral,2,This image was obtained using CT scan.,cannot determine,lateral,1
+112,which plane is the image taken?,unknown,lateral,3,This image was obtained using X-ray.,cannot determine,abnormal,1
+113,which plane is the image taken?,unknown,lateral,4,This image was obtained using ultrasound.,cannot determine,lateral,1
+114,which plane is the image taken?,unknown,lateral,5,This image was obtained using PET scan.,cannot determine,lateral,1
+115,is this a noncontrast ct?,CT,no,1,This image was obtained using MRI.,normal,abnormal,1
+116,is this a noncontrast ct?,CT,no,2,This image was obtained using CT scan.,normal,abnormal,1
+117,is this a noncontrast ct?,CT,no,3,This image was obtained using X-ray.,normal,yes,1
+118,is this a noncontrast ct?,CT,no,4,This image was obtained using ultrasound.,normal,yes,1
+119,is this a noncontrast ct?,CT,no,5,This image was obtained using PET scan.,normal,normal,0
+120,which organ is captured by this ct scan?,CT,heart and great vessels,1,This image was obtained using MRI.,heart and great vessels,heart and great vessels,0
+121,which organ is captured by this ct scan?,CT,heart and great vessels,2,This image was obtained using CT scan.,heart and great vessels,heart and great vessels,0
+122,which organ is captured by this ct scan?,CT,heart and great vessels,3,This image was obtained using X-ray.,heart and great vessels,heart and great vessels,0
+123,which organ is captured by this ct scan?,CT,heart and great vessels,4,This image was obtained using ultrasound.,heart and great vessels,heart and great vessels,0
+124,which organ is captured by this ct scan?,CT,heart and great vessels,5,This image was obtained using PET scan.,heart and great vessels,heart and great vessels,0
+125,what organ system is visualized?,unknown,skull and contents#spine and contents,1,This image was obtained using MRI.,normal,skull and contents#spine and contents,1
+126,what organ system is visualized?,unknown,skull and contents#spine and contents,2,This image was obtained using CT scan.,normal,skull and contents#spine and contents,1
+127,what organ system is visualized?,unknown,skull and contents#spine and contents,3,This image was obtained using X-ray.,normal,skull and contents#spine and contents,1
+128,what organ system is visualized?,unknown,skull and contents#spine and contents,4,This image was obtained using ultrasound.,normal,skull and contents#spine and contents,1
+129,what organ system is visualized?,unknown,skull and contents#spine and contents,5,This image was obtained using PET scan.,normal,skull and contents#spine and contents,1
+130,what is abnormal in the mri?,MRI,"abscess, pyogenic",1,This image was obtained using MRI.,normal,cannot determine,1
+131,what is abnormal in the mri?,MRI,"abscess, pyogenic",2,This image was obtained using CT scan.,normal,cannot determine,1
+132,what is abnormal in the mri?,MRI,"abscess, pyogenic",3,This image was obtained using X-ray.,normal,"abscess, pyogenic",1
+133,what is abnormal in the mri?,MRI,"abscess, pyogenic",4,This image was obtained using ultrasound.,normal,cannot determine,1
+134,what is abnormal in the mri?,MRI,"abscess, pyogenic",5,This image was obtained using PET scan.,normal,normal,0
+135,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,1,This image was obtained using MRI.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+136,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,2,This image was obtained using CT scan.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+137,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,3,This image was obtained using X-ray.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+138,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,4,This image was obtained using ultrasound.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+139,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,5,This image was obtained using PET scan.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+140,what image plane is this?,unknown,axial,1,This image was obtained using MRI.,abnormal,abnormal,0
+141,what image plane is this?,unknown,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+142,what image plane is this?,unknown,axial,3,This image was obtained using X-ray.,abnormal,axial,1
+143,what image plane is this?,unknown,axial,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+144,what image plane is this?,unknown,axial,5,This image was obtained using PET scan.,abnormal,abnormal,0
+145,is this a t1 weighted image?,unknown,no,1,This image was obtained using MRI.,yes,yes,0
+146,is this a t1 weighted image?,unknown,no,2,This image was obtained using CT scan.,yes,no,1
+147,is this a t1 weighted image?,unknown,no,3,This image was obtained using X-ray.,yes,abnormal,1
+148,is this a t1 weighted image?,unknown,no,4,This image was obtained using ultrasound.,yes,yes,0
+149,is this a t1 weighted image?,unknown,no,5,This image was obtained using PET scan.,yes,yes,0
+150,in which plane is the x-ray displayed?,X-ray,ap,1,This image was obtained using MRI.,ap,normal,1
+151,in which plane is the x-ray displayed?,X-ray,ap,2,This image was obtained using CT scan.,ap,abnormal,1
+152,in which plane is the x-ray displayed?,X-ray,ap,3,This image was obtained using X-ray.,ap,abnormal,1
+153,in which plane is the x-ray displayed?,X-ray,ap,4,This image was obtained using ultrasound.,ap,normal,1
+154,in which plane is the x-ray displayed?,X-ray,ap,5,This image was obtained using PET scan.,ap,ap,0
+155,what plane was used?,unknown,axial,1,This image was obtained using MRI.,axial,abnormal,1
+156,what plane was used?,unknown,axial,2,This image was obtained using CT scan.,axial,abnormal,1
+157,what plane was used?,unknown,axial,3,This image was obtained using X-ray.,axial,axial,0
+158,what plane was used?,unknown,axial,4,This image was obtained using ultrasound.,axial,abnormal,1
+159,what plane was used?,unknown,axial,5,This image was obtained using PET scan.,axial,normal,1
+160,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,1,This image was obtained using MRI.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+161,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,2,This image was obtained using CT scan.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+162,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,3,This image was obtained using X-ray.,chondroblastic osteosarcoma,cannot determine,1
+163,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,4,This image was obtained using ultrasound.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+164,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,5,This image was obtained using PET scan.,chondroblastic osteosarcoma,cannot determine,1
+165,is this a ct scan?,CT,yes,1,This image was obtained using MRI.,normal,normal,0
+166,is this a ct scan?,CT,yes,2,This image was obtained using CT scan.,normal,normal,0
+167,is this a ct scan?,CT,yes,3,This image was obtained using X-ray.,normal,normal,0
+168,is this a ct scan?,CT,yes,4,This image was obtained using ultrasound.,normal,normal,0
+169,is this a ct scan?,CT,yes,5,This image was obtained using PET scan.,normal,normal,0
+170,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,1,This image was obtained using MRI.,right transverse sinus stenosis,right transverse sinus stenosis,0
+171,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,2,This image was obtained using CT scan.,right transverse sinus stenosis,right transverse sinus stenosis,0
+172,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,3,This image was obtained using X-ray.,right transverse sinus stenosis,right transverse sinus stenosis,0
+173,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,4,This image was obtained using ultrasound.,right transverse sinus stenosis,right transverse sinus stenosis,0
+174,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,5,This image was obtained using PET scan.,right transverse sinus stenosis,right transverse sinus stenosis,0
+175,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,1,This image was obtained using MRI.,normal,cannot determine,1
+176,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,2,This image was obtained using CT scan.,normal,no,1
+177,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,3,This image was obtained using X-ray.,normal,cannot determine,1
+178,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,4,This image was obtained using ultrasound.,normal,cannot determine,1
+179,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,5,This image was obtained using PET scan.,normal,cannot determine,1
+180,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,1,This image was obtained using MRI.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+181,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,2,This image was obtained using CT scan.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+182,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,3,This image was obtained using X-ray.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+183,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,4,This image was obtained using ultrasound.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+184,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,5,This image was obtained using PET scan.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+185,is this a noncontrast mri?,MRI,no,1,This image was obtained using MRI.,abnormal,cannot determine,1
+186,is this a noncontrast mri?,MRI,no,2,This image was obtained using CT scan.,abnormal,cannot determine,1
+187,is this a noncontrast mri?,MRI,no,3,This image was obtained using X-ray.,abnormal,abnormal,0
+188,is this a noncontrast mri?,MRI,no,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+189,is this a noncontrast mri?,MRI,no,5,This image was obtained using PET scan.,abnormal,yes,1
+190,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,1,This image was obtained using MRI.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+191,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,2,This image was obtained using CT scan.,(seronegative) spondylarthropathies,cannot determine,1
+192,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,3,This image was obtained using X-ray.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+193,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,4,This image was obtained using ultrasound.,(seronegative) spondylarthropathies,cannot determine,1
+194,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,5,This image was obtained using PET scan.,(seronegative) spondylarthropathies,normal,1
+195,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),1,This image was obtained using MRI.,abnormal,abnormal,0
+196,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),2,This image was obtained using CT scan.,abnormal,abnormal,0
+197,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),3,This image was obtained using X-ray.,abnormal,abnormal,0
+198,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),4,This image was obtained using ultrasound.,abnormal,normal,1
+199,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),5,This image was obtained using PET scan.,abnormal,abnormal,0
+200,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,1,This image was obtained using MRI.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+201,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,2,This image was obtained using CT scan.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+202,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,3,This image was obtained using X-ray.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+203,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,4,This image was obtained using ultrasound.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+204,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,5,This image was obtained using PET scan.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+205,what imaging method was used?,unknown,xr - plain film,1,This image was obtained using MRI.,xr - plain film,xr - plain film,0
+206,what imaging method was used?,unknown,xr - plain film,2,This image was obtained using CT scan.,xr - plain film,xr - plain film,0
+207,what imaging method was used?,unknown,xr - plain film,3,This image was obtained using X-ray.,xr - plain film,xr - plain film,0
+208,what imaging method was used?,unknown,xr - plain film,4,This image was obtained using ultrasound.,xr - plain film,xr - plain film,0
+209,what imaging method was used?,unknown,xr - plain film,5,This image was obtained using PET scan.,xr - plain film,xr - plain film,0
+210,in what plane was this image taken?,unknown,axial,1,This image was obtained using MRI.,axial,normal,1
+211,in what plane was this image taken?,unknown,axial,2,This image was obtained using CT scan.,axial,normal,1
+212,in what plane was this image taken?,unknown,axial,3,This image was obtained using X-ray.,axial,axial,0
+213,in what plane was this image taken?,unknown,axial,4,This image was obtained using ultrasound.,axial,normal,1
+214,in what plane was this image taken?,unknown,axial,5,This image was obtained using PET scan.,axial,normal,1
+215,what is abnormal in the ct scan?,CT,early cerebral infarction,1,This image was obtained using MRI.,early cerebral infarction,early cerebral infarction,0
+216,what is abnormal in the ct scan?,CT,early cerebral infarction,2,This image was obtained using CT scan.,early cerebral infarction,early cerebral infarction,0
+217,what is abnormal in the ct scan?,CT,early cerebral infarction,3,This image was obtained using X-ray.,early cerebral infarction,early cerebral infarction,0
+218,what is abnormal in the ct scan?,CT,early cerebral infarction,4,This image was obtained using ultrasound.,early cerebral infarction,early cerebral infarction,0
+219,what is abnormal in the ct scan?,CT,early cerebral infarction,5,This image was obtained using PET scan.,early cerebral infarction,early cerebral infarction,0
+220,what is the organ principally shown in this mri?,MRI,skull and contents,1,This image was obtained using MRI.,normal,skull and contents,1
+221,what is the organ principally shown in this mri?,MRI,skull and contents,2,This image was obtained using CT scan.,normal,skull and contents,1
+222,what is the organ principally shown in this mri?,MRI,skull and contents,3,This image was obtained using X-ray.,normal,skull and contents,1
+223,what is the organ principally shown in this mri?,MRI,skull and contents,4,This image was obtained using ultrasound.,normal,skull and contents,1
+224,what is the organ principally shown in this mri?,MRI,skull and contents,5,This image was obtained using PET scan.,normal,skull and contents,1
+225,what imaging plane is depicted here?,unknown,axial,1,This image was obtained using MRI.,normal,normal,0
+226,what imaging plane is depicted here?,unknown,axial,2,This image was obtained using CT scan.,normal,normal,0
+227,what imaging plane is depicted here?,unknown,axial,3,This image was obtained using X-ray.,normal,axial,1
+228,what imaging plane is depicted here?,unknown,axial,4,This image was obtained using ultrasound.,normal,axial,1
+229,what imaging plane is depicted here?,unknown,axial,5,This image was obtained using PET scan.,normal,normal,0
+230,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",1,This image was obtained using MRI.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+231,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",2,This image was obtained using CT scan.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+232,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",3,This image was obtained using X-ray.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+233,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",4,This image was obtained using ultrasound.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+234,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",5,This image was obtained using PET scan.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+235,what is the plane of the image?,unknown,axial,1,This image was obtained using MRI.,abnormal,abnormal,0
+236,what is the plane of the image?,unknown,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+237,what is the plane of the image?,unknown,axial,3,This image was obtained using X-ray.,abnormal,abnormal,0
+238,what is the plane of the image?,unknown,axial,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+239,what is the plane of the image?,unknown,axial,5,This image was obtained using PET scan.,abnormal,abnormal,0
+240,what organ system is pictured here?,unknown,musculoskeletal,1,This image was obtained using MRI.,normal,musculoskeletal,1
+241,what organ system is pictured here?,unknown,musculoskeletal,2,This image was obtained using CT scan.,normal,musculoskeletal,1
+242,what organ system is pictured here?,unknown,musculoskeletal,3,This image was obtained using X-ray.,normal,musculoskeletal,1
+243,what organ system is pictured here?,unknown,musculoskeletal,4,This image was obtained using ultrasound.,normal,musculoskeletal,1
+244,what organ system is pictured here?,unknown,musculoskeletal,5,This image was obtained using PET scan.,normal,musculoskeletal,1
+245,what organ system is being imaged?,unknown,skull and contents,1,This image was obtained using MRI.,skull and contents,skull and contents,0
+246,what organ system is being imaged?,unknown,skull and contents,2,This image was obtained using CT scan.,skull and contents,skull and contents,0
+247,what organ system is being imaged?,unknown,skull and contents,3,This image was obtained using X-ray.,skull and contents,skull and contents,0
+248,what organ system is being imaged?,unknown,skull and contents,4,This image was obtained using ultrasound.,skull and contents,skull and contents,0
+249,what organ system is being imaged?,unknown,skull and contents,5,This image was obtained using PET scan.,skull and contents,skull and contents,0
+250,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,1,This image was obtained using MRI.,t1,cannot determine,1
+251,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,2,This image was obtained using CT scan.,t1,cannot determine,1
+252,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,3,This image was obtained using X-ray.,t1,cannot determine,1
+253,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,4,This image was obtained using ultrasound.,t1,cannot determine,1
+254,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,5,This image was obtained using PET scan.,t1,t1,0
+255,what modality is shown?,unknown,xr - plain film,1,This image was obtained using MRI.,xr - plain film,xr - plain film,0
+256,what modality is shown?,unknown,xr - plain film,2,This image was obtained using CT scan.,xr - plain film,xr - plain film,0
+257,what modality is shown?,unknown,xr - plain film,3,This image was obtained using X-ray.,xr - plain film,cannot determine,1
+258,what modality is shown?,unknown,xr - plain film,4,This image was obtained using ultrasound.,xr - plain film,xr - plain film,0
+259,what modality is shown?,unknown,xr - plain film,5,This image was obtained using PET scan.,xr - plain film,xr - plain film,0
+260,what organ system is visualized?,unknown,skull and contents,1,This image was obtained using MRI.,normal,normal,0
+261,what organ system is visualized?,unknown,skull and contents,2,This image was obtained using CT scan.,normal,skull and contents,1
+262,what organ system is visualized?,unknown,skull and contents,3,This image was obtained using X-ray.,normal,skull and contents,1
+263,what organ system is visualized?,unknown,skull and contents,4,This image was obtained using ultrasound.,normal,skull and contents,1
+264,what organ system is visualized?,unknown,skull and contents,5,This image was obtained using PET scan.,normal,skull and contents,1
+265,what type of imaging modality is shown?,unknown,ugi - upper gi,1,This image was obtained using MRI.,ugi - upper gi,ugi - upper gi,0
+266,what type of imaging modality is shown?,unknown,ugi - upper gi,2,This image was obtained using CT scan.,ugi - upper gi,ugi - upper gi,0
+267,what type of imaging modality is shown?,unknown,ugi - upper gi,3,This image was obtained using X-ray.,ugi - upper gi,ugi - upper gi,0
+268,what type of imaging modality is shown?,unknown,ugi - upper gi,4,This image was obtained using ultrasound.,ugi - upper gi,ugi - upper gi,0
+269,what type of imaging modality is shown?,unknown,ugi - upper gi,5,This image was obtained using PET scan.,ugi - upper gi,ugi - upper gi,0
+270,in what plane is this ct scan?,CT,axial,1,This image was obtained using MRI.,normal,normal,0
+271,in what plane is this ct scan?,CT,axial,2,This image was obtained using CT scan.,normal,normal,0
+272,in what plane is this ct scan?,CT,axial,3,This image was obtained using X-ray.,normal,normal,0
+273,in what plane is this ct scan?,CT,axial,4,This image was obtained using ultrasound.,normal,normal,0
+274,in what plane is this ct scan?,CT,axial,5,This image was obtained using PET scan.,normal,normal,0
+275,what is the plane?,unknown,axial,1,This image was obtained using MRI.,axial,normal,1
+276,what is the plane?,unknown,axial,2,This image was obtained using CT scan.,axial,normal,1
+277,what is the plane?,unknown,axial,3,This image was obtained using X-ray.,axial,normal,1
+278,what is the plane?,unknown,axial,4,This image was obtained using ultrasound.,axial,axial,0
+279,what is the plane?,unknown,axial,5,This image was obtained using PET scan.,axial,normal,1
+280,what imaging modality was used to take this image?,unknown,ct with iv contrast,1,This image was obtained using MRI.,ct with iv contrast,ct with iv contrast,0
+281,what imaging modality was used to take this image?,unknown,ct with iv contrast,2,This image was obtained using CT scan.,ct with iv contrast,normal,1
+282,what imaging modality was used to take this image?,unknown,ct with iv contrast,3,This image was obtained using X-ray.,ct with iv contrast,ct with iv contrast,0
+283,what imaging modality was used to take this image?,unknown,ct with iv contrast,4,This image was obtained using ultrasound.,ct with iv contrast,ct with iv contrast,0
+284,what imaging modality was used to take this image?,unknown,ct with iv contrast,5,This image was obtained using PET scan.,ct with iv contrast,ct with iv contrast,0
+285,what is the primary abnormality in this image?,unknown,crohn's disease,1,This image was obtained using MRI.,crohn's disease,crohn's disease,0
+286,what is the primary abnormality in this image?,unknown,crohn's disease,2,This image was obtained using CT scan.,crohn's disease,crohn's disease,0
+287,what is the primary abnormality in this image?,unknown,crohn's disease,3,This image was obtained using X-ray.,crohn's disease,crohn's disease,0
+288,what is the primary abnormality in this image?,unknown,crohn's disease,4,This image was obtained using ultrasound.,crohn's disease,crohn's disease,0
+289,what is the primary abnormality in this image?,unknown,crohn's disease,5,This image was obtained using PET scan.,crohn's disease,crohn's disease,0
+290,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,1,This image was obtained using MRI.,ct with gi and iv contrast,ct with gi and iv contrast,0
+291,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,2,This image was obtained using CT scan.,ct with gi and iv contrast,ct with gi and iv contrast,0
+292,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,3,This image was obtained using X-ray.,ct with gi and iv contrast,ct with gi and iv contrast,0
+293,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,4,This image was obtained using ultrasound.,ct with gi and iv contrast,ct with gi and iv contrast,0
+294,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,5,This image was obtained using PET scan.,ct with gi and iv contrast,ct with gi and iv contrast,0
+295,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",1,This image was obtained using MRI.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+296,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",2,This image was obtained using CT scan.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+297,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",3,This image was obtained using X-ray.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+298,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",4,This image was obtained using ultrasound.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+299,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",5,This image was obtained using PET scan.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+300,what is most alarming about this mri?,MRI,cephalocele,1,This image was obtained using MRI.,normal,normal,0
+301,what is most alarming about this mri?,MRI,cephalocele,2,This image was obtained using CT scan.,normal,normal,0
+302,what is most alarming about this mri?,MRI,cephalocele,3,This image was obtained using X-ray.,normal,normal,0
+303,what is most alarming about this mri?,MRI,cephalocele,4,This image was obtained using ultrasound.,normal,normal,0
+304,what is most alarming about this mri?,MRI,cephalocele,5,This image was obtained using PET scan.,normal,normal,0
+305,in what plane is this mri captured?,MRI,axial,1,This image was obtained using MRI.,normal,normal,0
+306,in what plane is this mri captured?,MRI,axial,2,This image was obtained using CT scan.,normal,normal,0
+307,in what plane is this mri captured?,MRI,axial,3,This image was obtained using X-ray.,normal,normal,0
+308,in what plane is this mri captured?,MRI,axial,4,This image was obtained using ultrasound.,normal,normal,0
+309,in what plane is this mri captured?,MRI,axial,5,This image was obtained using PET scan.,normal,normal,0
+310,how was this image taken?,unknown,us - ultrasound,1,This image was obtained using MRI.,us - ultrasound,us - ultrasound,0
+311,how was this image taken?,unknown,us - ultrasound,2,This image was obtained using CT scan.,us - ultrasound,us - ultrasound,0
+312,how was this image taken?,unknown,us - ultrasound,3,This image was obtained using X-ray.,us - ultrasound,us - ultrasound,0
+313,how was this image taken?,unknown,us - ultrasound,4,This image was obtained using ultrasound.,us - ultrasound,us - ultrasound,0
+314,how was this image taken?,unknown,us - ultrasound,5,This image was obtained using PET scan.,us - ultrasound,us - ultrasound,0
+315,what part of the body does this ct scan show?,CT,heart and great vessels,1,This image was obtained using MRI.,heart and great vessels,heart and great vessels,0
+316,what part of the body does this ct scan show?,CT,heart and great vessels,2,This image was obtained using CT scan.,heart and great vessels,heart and great vessels,0
+317,what part of the body does this ct scan show?,CT,heart and great vessels,3,This image was obtained using X-ray.,heart and great vessels,heart and great vessels,0
+318,what part of the body does this ct scan show?,CT,heart and great vessels,4,This image was obtained using ultrasound.,heart and great vessels,heart and great vessels,0
+319,what part of the body does this ct scan show?,CT,heart and great vessels,5,This image was obtained using PET scan.,heart and great vessels,heart and great vessels,0
+320,was the mri taken with contrast?,MRI,no,1,This image was obtained using MRI.,normal,normal,0
+321,was the mri taken with contrast?,MRI,no,2,This image was obtained using CT scan.,normal,normal,0
+322,was the mri taken with contrast?,MRI,no,3,This image was obtained using X-ray.,normal,normal,0
+323,was the mri taken with contrast?,MRI,no,4,This image was obtained using ultrasound.,normal,normal,0
+324,was the mri taken with contrast?,MRI,no,5,This image was obtained using PET scan.,normal,normal,0
+325,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",1,This image was obtained using MRI.,abnormal,normal,1
+326,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",2,This image was obtained using CT scan.,abnormal,normal,1
+327,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",3,This image was obtained using X-ray.,abnormal,normal,1
+328,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",4,This image was obtained using ultrasound.,abnormal,normal,1
+329,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",5,This image was obtained using PET scan.,abnormal,normal,1
+330,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,1,This image was obtained using MRI.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+331,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,2,This image was obtained using CT scan.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+332,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,3,This image was obtained using X-ray.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+333,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,4,This image was obtained using ultrasound.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+334,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,5,This image was obtained using PET scan.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+335,which image modality is this?,unknown,mr - flair,1,This image was obtained using MRI.,mr - flair,normal,1
+336,which image modality is this?,unknown,mr - flair,2,This image was obtained using CT scan.,mr - flair,mr - flair,0
+337,which image modality is this?,unknown,mr - flair,3,This image was obtained using X-ray.,mr - flair,mr - flair,0
+338,which image modality is this?,unknown,mr - flair,4,This image was obtained using ultrasound.,mr - flair,mr - flair,0
+339,which image modality is this?,unknown,mr - flair,5,This image was obtained using PET scan.,mr - flair,mr - flair,0
+340,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,1,This image was obtained using MRI.,percutaneous nephrostomy,percutaneous nephrostomy,0
+341,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,2,This image was obtained using CT scan.,percutaneous nephrostomy,percutaneous nephrostomy,0
+342,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,3,This image was obtained using X-ray.,percutaneous nephrostomy,percutaneous nephrostomy,0
+343,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,4,This image was obtained using ultrasound.,percutaneous nephrostomy,percutaneous nephrostomy,0
+344,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,5,This image was obtained using PET scan.,percutaneous nephrostomy,percutaneous nephrostomy,0
+345,which plane is this image in?,unknown,longitudinal,1,This image was obtained using MRI.,longitudinal,longitudinal,0
+346,which plane is this image in?,unknown,longitudinal,2,This image was obtained using CT scan.,longitudinal,longitudinal,0
+347,which plane is this image in?,unknown,longitudinal,3,This image was obtained using X-ray.,longitudinal,longitudinal,0
+348,which plane is this image in?,unknown,longitudinal,4,This image was obtained using ultrasound.,longitudinal,longitudinal,0
+349,which plane is this image in?,unknown,longitudinal,5,This image was obtained using PET scan.,longitudinal,longitudinal,0
+350,what part of the body is being imaged here?,unknown,skull and contents,1,This image was obtained using MRI.,skull and contents,skull and contents,0
+351,what part of the body is being imaged here?,unknown,skull and contents,2,This image was obtained using CT scan.,skull and contents,skull and contents,0
+352,what part of the body is being imaged here?,unknown,skull and contents,3,This image was obtained using X-ray.,skull and contents,skull and contents,0
+353,what part of the body is being imaged here?,unknown,skull and contents,4,This image was obtained using ultrasound.,skull and contents,skull and contents,0
+354,what part of the body is being imaged here?,unknown,skull and contents,5,This image was obtained using PET scan.,skull and contents,skull and contents,0
+355,what is the plane of the image?,unknown,coronal,1,This image was obtained using MRI.,coronal,coronal,0
+356,what is the plane of the image?,unknown,coronal,2,This image was obtained using CT scan.,coronal,yes,1
+357,what is the plane of the image?,unknown,coronal,3,This image was obtained using X-ray.,coronal,coronal,0
+358,what is the plane of the image?,unknown,coronal,4,This image was obtained using ultrasound.,coronal,coronal,0
+359,what is the plane of the image?,unknown,coronal,5,This image was obtained using PET scan.,coronal,coronal,0
+360,what is the plane of the image?,unknown,axial,1,This image was obtained using MRI.,axial,normal,1
+361,what is the plane of the image?,unknown,axial,2,This image was obtained using CT scan.,axial,normal,1
+362,what is the plane of the image?,unknown,axial,3,This image was obtained using X-ray.,axial,axial,0
+363,what is the plane of the image?,unknown,axial,4,This image was obtained using ultrasound.,axial,axial,0
+364,what is the plane of the image?,unknown,axial,5,This image was obtained using PET scan.,axial,normal,1
+365,what is abnormal in the mri?,MRI,"brain, cerebral abscess",1,This image was obtained using MRI.,"brain, cerebral abscess","brain, cerebral abscess",0
+366,what is abnormal in the mri?,MRI,"brain, cerebral abscess",2,This image was obtained using CT scan.,"brain, cerebral abscess","brain, cerebral abscess",0
+367,what is abnormal in the mri?,MRI,"brain, cerebral abscess",3,This image was obtained using X-ray.,"brain, cerebral abscess","brain, cerebral abscess",0
+368,what is abnormal in the mri?,MRI,"brain, cerebral abscess",4,This image was obtained using ultrasound.,"brain, cerebral abscess","brain, cerebral abscess",0
+369,what is abnormal in the mri?,MRI,"brain, cerebral abscess",5,This image was obtained using PET scan.,"brain, cerebral abscess","brain, cerebral abscess",0
+370,what organ system is shown in the image?,unknown,musculoskeletal,1,This image was obtained using MRI.,musculoskeletal,musculoskeletal,0
+371,what organ system is shown in the image?,unknown,musculoskeletal,2,This image was obtained using CT scan.,musculoskeletal,musculoskeletal,0
+372,what organ system is shown in the image?,unknown,musculoskeletal,3,This image was obtained using X-ray.,musculoskeletal,musculoskeletal,0
+373,what organ system is shown in the image?,unknown,musculoskeletal,4,This image was obtained using ultrasound.,musculoskeletal,musculoskeletal,0
+374,what organ system is shown in the image?,unknown,musculoskeletal,5,This image was obtained using PET scan.,musculoskeletal,musculoskeletal,0
+375,what organ system is visualized?,unknown,musculoskeletal,1,This image was obtained using MRI.,musculoskeletal,no,1
+376,what organ system is visualized?,unknown,musculoskeletal,2,This image was obtained using CT scan.,musculoskeletal,musculoskeletal,0
+377,what organ system is visualized?,unknown,musculoskeletal,3,This image was obtained using X-ray.,musculoskeletal,musculoskeletal,0
+378,what organ system is visualized?,unknown,musculoskeletal,4,This image was obtained using ultrasound.,musculoskeletal,musculoskeletal,0
+379,what organ system is visualized?,unknown,musculoskeletal,5,This image was obtained using PET scan.,musculoskeletal,normal,1
+380,the ct scan shows what organ system?,CT,heart and great vessels,1,This image was obtained using MRI.,heart and great vessels,heart and great vessels,0
+381,the ct scan shows what organ system?,CT,heart and great vessels,2,This image was obtained using CT scan.,heart and great vessels,heart and great vessels,0
+382,the ct scan shows what organ system?,CT,heart and great vessels,3,This image was obtained using X-ray.,heart and great vessels,heart and great vessels,0
+383,the ct scan shows what organ system?,CT,heart and great vessels,4,This image was obtained using ultrasound.,heart and great vessels,heart and great vessels,0
+384,the ct scan shows what organ system?,CT,heart and great vessels,5,This image was obtained using PET scan.,heart and great vessels,heart and great vessels,0
+385,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",1,This image was obtained using MRI.,normal,normal,0
+386,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",2,This image was obtained using CT scan.,normal,normal,0
+387,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",3,This image was obtained using X-ray.,normal,normal,0
+388,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",4,This image was obtained using ultrasound.,normal,normal,0
+389,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",5,This image was obtained using PET scan.,normal,normal,0
+390,in what plane is this image taken?,unknown,pa,1,This image was obtained using MRI.,normal,pa,1
+391,in what plane is this image taken?,unknown,pa,2,This image was obtained using CT scan.,normal,normal,0
+392,in what plane is this image taken?,unknown,pa,3,This image was obtained using X-ray.,normal,pa,1
+393,in what plane is this image taken?,unknown,pa,4,This image was obtained using ultrasound.,normal,normal,0
+394,in what plane is this image taken?,unknown,pa,5,This image was obtained using PET scan.,normal,normal,0
+395,what plane is demonstrated?,unknown,sagittal,1,This image was obtained using MRI.,normal,yes,1
+396,what plane is demonstrated?,unknown,sagittal,2,This image was obtained using CT scan.,normal,normal,0
+397,what plane is demonstrated?,unknown,sagittal,3,This image was obtained using X-ray.,normal,yes,1
+398,what plane is demonstrated?,unknown,sagittal,4,This image was obtained using ultrasound.,normal,yes,1
+399,what plane is demonstrated?,unknown,sagittal,5,This image was obtained using PET scan.,normal,normal,0
+400,what organ is this image of?,unknown,spine and contents,1,This image was obtained using MRI.,abnormal,spine and contents,1
+401,what organ is this image of?,unknown,spine and contents,2,This image was obtained using CT scan.,abnormal,spine and contents,1
+402,what organ is this image of?,unknown,spine and contents,3,This image was obtained using X-ray.,abnormal,spine and contents,1
+403,what organ is this image of?,unknown,spine and contents,4,This image was obtained using ultrasound.,abnormal,spine and contents,1
+404,what organ is this image of?,unknown,spine and contents,5,This image was obtained using PET scan.,abnormal,spine and contents,1
+405,what type of imaging modality is shown?,unknown,ct w/contrast (iv),1,This image was obtained using MRI.,ct w/contrast (iv),ct w/contrast (iv),0
+406,what type of imaging modality is shown?,unknown,ct w/contrast (iv),2,This image was obtained using CT scan.,ct w/contrast (iv),ct w/contrast (iv),0
+407,what type of imaging modality is shown?,unknown,ct w/contrast (iv),3,This image was obtained using X-ray.,ct w/contrast (iv),ct w/contrast (iv),0
+408,what type of imaging modality is shown?,unknown,ct w/contrast (iv),4,This image was obtained using ultrasound.,ct w/contrast (iv),ct w/contrast (iv),0
+409,what type of imaging modality is shown?,unknown,ct w/contrast (iv),5,This image was obtained using PET scan.,ct w/contrast (iv),ct w/contrast (iv),0
+410,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",1,This image was obtained using MRI.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+411,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",2,This image was obtained using CT scan.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+412,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",3,This image was obtained using X-ray.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+413,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",4,This image was obtained using ultrasound.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+414,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",5,This image was obtained using PET scan.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+415,"is this image modality t1, t2, or flair?",unknown,flair,1,This image was obtained using MRI.,abnormal,abnormal,0
+416,"is this image modality t1, t2, or flair?",unknown,flair,2,This image was obtained using CT scan.,abnormal,abnormal,0
+417,"is this image modality t1, t2, or flair?",unknown,flair,3,This image was obtained using X-ray.,abnormal,abnormal,0
+418,"is this image modality t1, t2, or flair?",unknown,flair,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+419,"is this image modality t1, t2, or flair?",unknown,flair,5,This image was obtained using PET scan.,abnormal,abnormal,0
+420,in what plane is this mri taken?,MRI,axial,1,This image was obtained using MRI.,axial,axial,0
+421,in what plane is this mri taken?,MRI,axial,2,This image was obtained using CT scan.,axial,axial,0
+422,in what plane is this mri taken?,MRI,axial,3,This image was obtained using X-ray.,axial,axial,0
+423,in what plane is this mri taken?,MRI,axial,4,This image was obtained using ultrasound.,axial,axial,0
+424,in what plane is this mri taken?,MRI,axial,5,This image was obtained using PET scan.,axial,axial,0
+425,what organ system is visualized?,unknown,musculoskeletal,1,This image was obtained using MRI.,abnormal,musculoskeletal,1
+426,what organ system is visualized?,unknown,musculoskeletal,2,This image was obtained using CT scan.,abnormal,musculoskeletal,1
+427,what organ system is visualized?,unknown,musculoskeletal,3,This image was obtained using X-ray.,abnormal,musculoskeletal,1
+428,what organ system is visualized?,unknown,musculoskeletal,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+429,what organ system is visualized?,unknown,musculoskeletal,5,This image was obtained using PET scan.,abnormal,musculoskeletal,1
+430,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),1,This image was obtained using MRI.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+431,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),2,This image was obtained using CT scan.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+432,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),3,This image was obtained using X-ray.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+433,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),4,This image was obtained using ultrasound.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+434,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),5,This image was obtained using PET scan.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+435,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",1,This image was obtained using MRI.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+436,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",2,This image was obtained using CT scan.,"lung, mediastinum, pleura",no,1
+437,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",3,This image was obtained using X-ray.,"lung, mediastinum, pleura",no,1
+438,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",4,This image was obtained using ultrasound.,"lung, mediastinum, pleura",no,1
+439,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",5,This image was obtained using PET scan.,"lung, mediastinum, pleura",normal,1
+440,what is most alarming about this gastrointestinal image?,unknown,ascariasis,1,This image was obtained using MRI.,ascariasis,ascariasis,0
+441,what is most alarming about this gastrointestinal image?,unknown,ascariasis,2,This image was obtained using CT scan.,ascariasis,ascariasis,0
+442,what is most alarming about this gastrointestinal image?,unknown,ascariasis,3,This image was obtained using X-ray.,ascariasis,ascariasis,0
+443,what is most alarming about this gastrointestinal image?,unknown,ascariasis,4,This image was obtained using ultrasound.,ascariasis,ascariasis,0
+444,what is most alarming about this gastrointestinal image?,unknown,ascariasis,5,This image was obtained using PET scan.,ascariasis,ascariasis,0
+445,what is the plane of the ct scan?,CT,sagittal,1,This image was obtained using MRI.,sagittal,sagittal,0
+446,what is the plane of the ct scan?,CT,sagittal,2,This image was obtained using CT scan.,sagittal,sagittal,0
+447,what is the plane of the ct scan?,CT,sagittal,3,This image was obtained using X-ray.,sagittal,sagittal,0
+448,what is the plane of the ct scan?,CT,sagittal,4,This image was obtained using ultrasound.,sagittal,sagittal,0
+449,what is the plane of the ct scan?,CT,sagittal,5,This image was obtained using PET scan.,sagittal,sagittal,0
+450,what is most alarming about this mri?,MRI,potts puffy tumor,1,This image was obtained using MRI.,potts puffy tumor,yes,1
+451,what is most alarming about this mri?,MRI,potts puffy tumor,2,This image was obtained using CT scan.,potts puffy tumor,no,1
+452,what is most alarming about this mri?,MRI,potts puffy tumor,3,This image was obtained using X-ray.,potts puffy tumor,yes,1
+453,what is most alarming about this mri?,MRI,potts puffy tumor,4,This image was obtained using ultrasound.,potts puffy tumor,potts puffy tumor,0
+454,what is most alarming about this mri?,MRI,potts puffy tumor,5,This image was obtained using PET scan.,potts puffy tumor,yes,1
+455,what is the organ principally shown in this mri?,MRI,skull and contents,1,This image was obtained using MRI.,skull and contents,skull and contents,0
+456,what is the organ principally shown in this mri?,MRI,skull and contents,2,This image was obtained using CT scan.,skull and contents,skull and contents,0
+457,what is the organ principally shown in this mri?,MRI,skull and contents,3,This image was obtained using X-ray.,skull and contents,skull and contents,0
+458,what is the organ principally shown in this mri?,MRI,skull and contents,4,This image was obtained using ultrasound.,skull and contents,skull and contents,0
+459,what is the organ principally shown in this mri?,MRI,skull and contents,5,This image was obtained using PET scan.,skull and contents,skull and contents,0
+460,what organ system is evaluated primarily?,unknown,skull and contents,1,This image was obtained using MRI.,abnormal,abnormal,0
+461,what organ system is evaluated primarily?,unknown,skull and contents,2,This image was obtained using CT scan.,abnormal,normal,1
+462,what organ system is evaluated primarily?,unknown,skull and contents,3,This image was obtained using X-ray.,abnormal,no,1
+463,what organ system is evaluated primarily?,unknown,skull and contents,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+464,what organ system is evaluated primarily?,unknown,skull and contents,5,This image was obtained using PET scan.,abnormal,normal,1
+465,does this image look normal?,unknown,yes,1,This image was obtained using MRI.,normal,normal,0
+466,does this image look normal?,unknown,yes,2,This image was obtained using CT scan.,normal,no,1
+467,does this image look normal?,unknown,yes,3,This image was obtained using X-ray.,normal,normal,0
+468,does this image look normal?,unknown,yes,4,This image was obtained using ultrasound.,normal,normal,0
+469,does this image look normal?,unknown,yes,5,This image was obtained using PET scan.,normal,yes,1
+470,what is most alarming about this mri?,MRI,cerebral infarct,1,This image was obtained using MRI.,normal,normal,0
+471,what is most alarming about this mri?,MRI,cerebral infarct,2,This image was obtained using CT scan.,normal,normal,0
+472,what is most alarming about this mri?,MRI,cerebral infarct,3,This image was obtained using X-ray.,normal,normal,0
+473,what is most alarming about this mri?,MRI,cerebral infarct,4,This image was obtained using ultrasound.,normal,cerebral infarct,1
+474,what is most alarming about this mri?,MRI,cerebral infarct,5,This image was obtained using PET scan.,normal,normal,0
+475,what organ system is evaluated primarily?,unknown,genitourinary,1,This image was obtained using MRI.,abnormal,abnormal,0
+476,what organ system is evaluated primarily?,unknown,genitourinary,2,This image was obtained using CT scan.,abnormal,abnormal,0
+477,what organ system is evaluated primarily?,unknown,genitourinary,3,This image was obtained using X-ray.,abnormal,normal,1
+478,what organ system is evaluated primarily?,unknown,genitourinary,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+479,what organ system is evaluated primarily?,unknown,genitourinary,5,This image was obtained using PET scan.,abnormal,normal,1
+480,what plane is seen?,unknown,axial,1,This image was obtained using MRI.,axial,axial,0
+481,what plane is seen?,unknown,axial,2,This image was obtained using CT scan.,axial,axial,0
+482,what plane is seen?,unknown,axial,3,This image was obtained using X-ray.,axial,axial,0
+483,what plane is seen?,unknown,axial,4,This image was obtained using ultrasound.,axial,axial,0
+484,what plane is seen?,unknown,axial,5,This image was obtained using PET scan.,axial,yes,1
+485,is this a ct scan?,CT,yes,1,This image was obtained using MRI.,cannot determine,cannot determine,0
+486,is this a ct scan?,CT,yes,2,This image was obtained using CT scan.,cannot determine,cannot determine,0
+487,is this a ct scan?,CT,yes,3,This image was obtained using X-ray.,cannot determine,cannot determine,0
+488,is this a ct scan?,CT,yes,4,This image was obtained using ultrasound.,cannot determine,cannot determine,0
+489,is this a ct scan?,CT,yes,5,This image was obtained using PET scan.,cannot determine,normal,1
+490,what plane is this mri in?,MRI,sagittal,1,This image was obtained using MRI.,sagittal,sagittal,0
+491,what plane is this mri in?,MRI,sagittal,2,This image was obtained using CT scan.,sagittal,sagittal,0
+492,what plane is this mri in?,MRI,sagittal,3,This image was obtained using X-ray.,sagittal,sagittal,0
+493,what plane is this mri in?,MRI,sagittal,4,This image was obtained using ultrasound.,sagittal,normal,1
+494,what plane is this mri in?,MRI,sagittal,5,This image was obtained using PET scan.,sagittal,sagittal,0
+495,is this a noncontrast mri?,MRI,yes,1,This image was obtained using MRI.,abnormal,no,1
+496,is this a noncontrast mri?,MRI,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+497,is this a noncontrast mri?,MRI,yes,3,This image was obtained using X-ray.,abnormal,abnormal,0
+498,is this a noncontrast mri?,MRI,yes,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+499,is this a noncontrast mri?,MRI,yes,5,This image was obtained using PET scan.,abnormal,abnormal,0
+500,is this image normal?,unknown,no,1,This image was obtained using MRI.,normal,normal,0
+501,is this image normal?,unknown,no,2,This image was obtained using CT scan.,normal,no,1
+502,is this image normal?,unknown,no,3,This image was obtained using X-ray.,normal,no,1
+503,is this image normal?,unknown,no,4,This image was obtained using ultrasound.,normal,no,1
+504,is this image normal?,unknown,no,5,This image was obtained using PET scan.,normal,normal,0
+505,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,1,This image was obtained using MRI.,abnormal,abnormal,0
+506,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,2,This image was obtained using CT scan.,abnormal,abnormal,0
+507,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,3,This image was obtained using X-ray.,abnormal,abnormal,0
+508,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+509,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,5,This image was obtained using PET scan.,abnormal,normal,1
+510,what is the plane?,unknown,pa,1,This image was obtained using MRI.,normal,normal,0
+511,what is the plane?,unknown,pa,2,This image was obtained using CT scan.,normal,normal,0
+512,what is the plane?,unknown,pa,3,This image was obtained using X-ray.,normal,abnormal,1
+513,what is the plane?,unknown,pa,4,This image was obtained using ultrasound.,normal,cannot determine,1
+514,what is the plane?,unknown,pa,5,This image was obtained using PET scan.,normal,cannot determine,1
+515,in what plane is this ultrasound?,Ultrasound,sagittal,1,This image was obtained using MRI.,normal,normal,0
+516,in what plane is this ultrasound?,Ultrasound,sagittal,2,This image was obtained using CT scan.,normal,normal,0
+517,in what plane is this ultrasound?,Ultrasound,sagittal,3,This image was obtained using X-ray.,normal,normal,0
+518,in what plane is this ultrasound?,Ultrasound,sagittal,4,This image was obtained using ultrasound.,normal,no,1
+519,in what plane is this ultrasound?,Ultrasound,sagittal,5,This image was obtained using PET scan.,normal,normal,0
+520,which organ system is imaged?,unknown,skull and contents,1,This image was obtained using MRI.,abnormal,skull and contents,1
+521,which organ system is imaged?,unknown,skull and contents,2,This image was obtained using CT scan.,abnormal,skull and contents,1
+522,which organ system is imaged?,unknown,skull and contents,3,This image was obtained using X-ray.,abnormal,skull and contents,1
+523,which organ system is imaged?,unknown,skull and contents,4,This image was obtained using ultrasound.,abnormal,skull and contents,1
+524,which organ system is imaged?,unknown,skull and contents,5,This image was obtained using PET scan.,abnormal,skull and contents,1
+525,is this a ct scan?,CT,yes,1,This image was obtained using MRI.,abnormal,normal,1
+526,is this a ct scan?,CT,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+527,is this a ct scan?,CT,yes,3,This image was obtained using X-ray.,abnormal,abnormal,0
+528,is this a ct scan?,CT,yes,4,This image was obtained using ultrasound.,abnormal,normal,1
+529,is this a ct scan?,CT,yes,5,This image was obtained using PET scan.,abnormal,normal,1
+530,what plane was used in this ct scan?,CT,axial,1,This image was obtained using MRI.,abnormal,abnormal,0
+531,what plane was used in this ct scan?,CT,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+532,what plane was used in this ct scan?,CT,axial,3,This image was obtained using X-ray.,abnormal,abnormal,0
+533,what plane was used in this ct scan?,CT,axial,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+534,what plane was used in this ct scan?,CT,axial,5,This image was obtained using PET scan.,abnormal,normal,1
+535,in what plane is this image taken?,unknown,ap,1,This image was obtained using MRI.,ap,ap,0
+536,in what plane is this image taken?,unknown,ap,2,This image was obtained using CT scan.,ap,ap,0
+537,in what plane is this image taken?,unknown,ap,3,This image was obtained using X-ray.,ap,ap,0
+538,in what plane is this image taken?,unknown,ap,4,This image was obtained using ultrasound.,ap,ap,0
+539,in what plane is this image taken?,unknown,ap,5,This image was obtained using PET scan.,ap,ap,0
+540,what organ system is pictured here?,unknown,skull and contents,1,This image was obtained using MRI.,normal,normal,0
+541,what organ system is pictured here?,unknown,skull and contents,2,This image was obtained using CT scan.,normal,skull and contents,1
+542,what organ system is pictured here?,unknown,skull and contents,3,This image was obtained using X-ray.,normal,skull and contents,1
+543,what organ system is pictured here?,unknown,skull and contents,4,This image was obtained using ultrasound.,normal,skull and contents,1
+544,what organ system is pictured here?,unknown,skull and contents,5,This image was obtained using PET scan.,normal,skull and contents,1
+545,what imaging plane is depicted here?,unknown,axial,1,This image was obtained using MRI.,abnormal,abnormal,0
+546,what imaging plane is depicted here?,unknown,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+547,what imaging plane is depicted here?,unknown,axial,3,This image was obtained using X-ray.,abnormal,axial,1
+548,what imaging plane is depicted here?,unknown,axial,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+549,what imaging plane is depicted here?,unknown,axial,5,This image was obtained using PET scan.,abnormal,axial,1
+550,what plane was used in this mri?,MRI,axial,1,This image was obtained using MRI.,normal,axial,1
+551,what plane was used in this mri?,MRI,axial,2,This image was obtained using CT scan.,normal,normal,0
+552,what plane was used in this mri?,MRI,axial,3,This image was obtained using X-ray.,normal,axial,1
+553,what plane was used in this mri?,MRI,axial,4,This image was obtained using ultrasound.,normal,axial,1
+554,what plane was used in this mri?,MRI,axial,5,This image was obtained using PET scan.,normal,normal,0
+555,what organ systems can be evaluated with this mri?,MRI,skull and contents,1,This image was obtained using MRI.,skull and contents,skull and contents,0
+556,what organ systems can be evaluated with this mri?,MRI,skull and contents,2,This image was obtained using CT scan.,skull and contents,skull and contents,0
+557,what organ systems can be evaluated with this mri?,MRI,skull and contents,3,This image was obtained using X-ray.,skull and contents,skull and contents,0
+558,what organ systems can be evaluated with this mri?,MRI,skull and contents,4,This image was obtained using ultrasound.,skull and contents,skull and contents,0
+559,what organ systems can be evaluated with this mri?,MRI,skull and contents,5,This image was obtained using PET scan.,skull and contents,skull and contents,0
+560,what image plane is this?,unknown,axial,1,This image was obtained using MRI.,abnormal,abnormal,0
+561,what image plane is this?,unknown,axial,2,This image was obtained using CT scan.,abnormal,abnormal,0
+562,what image plane is this?,unknown,axial,3,This image was obtained using X-ray.,abnormal,axial,1
+563,what image plane is this?,unknown,axial,4,This image was obtained using ultrasound.,abnormal,cannot determine,1
+564,what image plane is this?,unknown,axial,5,This image was obtained using PET scan.,abnormal,no,1
+565,what organ system is being imaged?,unknown,heart and great vessels,1,This image was obtained using MRI.,heart and great vessels,heart and great vessels,0
+566,what organ system is being imaged?,unknown,heart and great vessels,2,This image was obtained using CT scan.,heart and great vessels,heart and great vessels,0
+567,what organ system is being imaged?,unknown,heart and great vessels,3,This image was obtained using X-ray.,heart and great vessels,heart and great vessels,0
+568,what organ system is being imaged?,unknown,heart and great vessels,4,This image was obtained using ultrasound.,heart and great vessels,heart and great vessels,0
+569,what organ system is being imaged?,unknown,heart and great vessels,5,This image was obtained using PET scan.,heart and great vessels,heart and great vessels,0
+570,what part of the body is being imaged?,unknown,musculoskeletal,1,This image was obtained using MRI.,musculoskeletal,musculoskeletal,0
+571,what part of the body is being imaged?,unknown,musculoskeletal,2,This image was obtained using CT scan.,musculoskeletal,musculoskeletal,0
+572,what part of the body is being imaged?,unknown,musculoskeletal,3,This image was obtained using X-ray.,musculoskeletal,musculoskeletal,0
+573,what part of the body is being imaged?,unknown,musculoskeletal,4,This image was obtained using ultrasound.,musculoskeletal,musculoskeletal,0
+574,what part of the body is being imaged?,unknown,musculoskeletal,5,This image was obtained using PET scan.,musculoskeletal,musculoskeletal,0
+575,is there something wrong in the image?,unknown,yes,1,This image was obtained using MRI.,abnormal,cannot determine,1
+576,is there something wrong in the image?,unknown,yes,2,This image was obtained using CT scan.,abnormal,abnormal,0
+577,is there something wrong in the image?,unknown,yes,3,This image was obtained using X-ray.,abnormal,cannot determine,1
+578,is there something wrong in the image?,unknown,yes,4,This image was obtained using ultrasound.,abnormal,abnormal,0
+579,is there something wrong in the image?,unknown,yes,5,This image was obtained using PET scan.,abnormal,cannot determine,1
+580,in what plane is this ct scan?,CT,coronal,1,This image was obtained using MRI.,coronal,coronal,0
+581,in what plane is this ct scan?,CT,coronal,2,This image was obtained using CT scan.,coronal,coronal,0
+582,in what plane is this ct scan?,CT,coronal,3,This image was obtained using X-ray.,coronal,coronal,0
+583,in what plane is this ct scan?,CT,coronal,4,This image was obtained using ultrasound.,coronal,coronal,0
+584,in what plane is this ct scan?,CT,coronal,5,This image was obtained using PET scan.,coronal,coronal,0
+585,what plane is this?,unknown,ap,1,This image was obtained using MRI.,normal,abnormal,1
+586,what plane is this?,unknown,ap,2,This image was obtained using CT scan.,normal,abnormal,1
+587,what plane is this?,unknown,ap,3,This image was obtained using X-ray.,normal,abnormal,1
+588,what plane is this?,unknown,ap,4,This image was obtained using ultrasound.,normal,cannot determine,1
+589,what plane is this?,unknown,ap,5,This image was obtained using PET scan.,normal,normal,0
+590,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),1,This image was obtained using MRI.,normal,cannot determine,1
+591,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),2,This image was obtained using CT scan.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+592,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),3,This image was obtained using X-ray.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+593,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),4,This image was obtained using ultrasound.,normal,cannot determine,1
+594,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),5,This image was obtained using PET scan.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+595,in what plane was this image taken?,unknown,coronal,1,This image was obtained using MRI.,coronal,abnormal,1
+596,in what plane was this image taken?,unknown,coronal,2,This image was obtained using CT scan.,coronal,abnormal,1
+597,in what plane was this image taken?,unknown,coronal,3,This image was obtained using X-ray.,coronal,abnormal,1
+598,in what plane was this image taken?,unknown,coronal,4,This image was obtained using ultrasound.,coronal,abnormal,1
+599,in what plane was this image taken?,unknown,coronal,5,This image was obtained using PET scan.,coronal,abnormal,1

@@ -70,7 +70,7 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 68,what abnormality is seen in the image?,unknown,hepatic adenoma,hepatic adenoma,cannot determine,1,hepatic adenoma,0,yes,1,yes,1
 69,what is most alarming about this ct scan?,CT,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,abnormal,1,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,0,normal,1,yes,1
 70,what is most alarming about this ultrasound?,Ultrasound,varicocele,varicocele,cannot determine,1,normal,1,normal,1,abnormal,1
-71,what is seen in the image?,X-ray,"normal skull X-Ray, no visible pathology","normal skull X-Ray, no visible pathology",no,1,"normal skull X-Ray, no visible pathology",0,normal,1,cannot determine,1
+71,what is seen in the image?,unknown,"normal skull X-Ray, no visible pathology","normal skull X-Ray, no visible pathology",no,1,"normal skull X-Ray, no visible pathology",0,normal,1,cannot determine,1
 72,what is seen in this image?,unknown,Normal Chest - Lateral,Normal Chest - Lateral,no,1,Normal Chest - Lateral,0,normal,1,Normal Chest - Lateral,0
 73,what is the primary abnormality in this image?,unknown,acute appendicitis,acute appendicitis,acute appendicitis,0,abnormal,1,normal,1,normal,1
 74,what is abnormal in the mri?,MRI,hepatic adenoma,hepatic adenoma,no,1,hepatic adenoma,0,hepatic adenoma,0,yes,1

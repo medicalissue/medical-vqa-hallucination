@@ -39,18 +39,18 @@ DATASETS = ["vqa_rad", "vqa_med_2019", "vqa_med_2021"]
 DS_LABEL = {"vqa_rad": "vqa_rad", "vqa_med_2019": "med2019_local", "vqa_med_2021": "vqa_med2021"}
 
 MODALITY_PATTERNS = [
-    ("X-ray",       re.compile(r"\b(x[-\s]?ray|xr\b|chest x|plain film|radiograph)\b", re.I)),
+    # MUMC와 동일한 키워드 (mammography는 MUMC가 unknown 처리하므로 제외)
+    ("X-ray",       re.compile(r"\b(x[-\s]?ray|xr\b|chest x|plain film)\b", re.I)),
     ("CT",          re.compile(r"\b(ct\b|cta\b|computed tomograph)", re.I)),
-    ("MRI",         re.compile(r"\b(mri\b|mr\b|magnetic resonance|t1|t2|flair|dwi|adc)", re.I)),
+    ("MRI",         re.compile(r"\b(mri\b|mr\b|magnetic resonance)", re.I)),
     ("Ultrasound", re.compile(r"\b(ultrasound|sonograph|doppler|us\b)", re.I)),
     ("Angiography", re.compile(r"\b(angiograph|angiogram)\b", re.I)),
-    ("Mammography", re.compile(r"\b(mammograph)\b", re.I)),
-    ("Nuclear",     re.compile(r"\b(pet|spect|scintigraph|nuclear medicine|nm-)\b", re.I)),
 ]
 
 
-def infer_modality(question: str, gt: str) -> str:
-    text = f"{question} {gt}"
+def infer_modality(question: str, gt: str = "") -> str:
+    """MUMC와 동일하게 질문만 보고 modality 추론 (GT는 무시)."""
+    text = question or ""
     for label, pat in MODALITY_PATTERNS:
         if pat.search(text):
             return label

@@ -18,11 +18,11 @@ qid,question,answer,modality,pred_label,correct
 16,where is the location of the mass?,anterior mediastinum,unknown,The mass is located in the right upper lobe of the lung.,0
 17,is the gastric bubble shown on the left or right side of the patient?,right side,unknown,The gastric bubble is shown on the right side of the patient in the,1
 18,what bright white structures form an x?,lateral ventricles,unknown,"The bright white structures in the MRI image form an ""x"" shape.",0
-19,what modality was used?,plain film,X-ray,A chest X-ray was used to obtain the image.,0
+19,what modality was used?,plain film,unknown,A chest X-ray was used to obtain the image.,0
 20,in what plane was this image taken?,axial,unknown,The image was taken in the coronal plane.,0
 21,how large is the mass in the right upper quadrant?,3.4 cm,unknown,"The mass in the right upper quadrant appears to be quite large. However,",0
 22,the mass is found in which part of the pancreas?,the pancreatic head,unknown,The mass is located in the body and tail of the pancreas.,0
-23,how was this image taken,t2-mri,MRI,This image was taken using a 3 Tesla (3T) magnetic reson,0
+23,how was this image taken,t2-mri,unknown,This image was taken using a 3 Tesla (3T) magnetic reson,0
 24,what side of the brain is a lesion on?,left,unknown,The lesion is on the right side of the brain.,0
 25,describe the pathology,cardiomegaly with pulmonary edema,unknown,The pathology ASSISTANT is a tool that helps in the analysis and interpretation,0
 26,where is the ascending colon?,posterior to the appendix,unknown,"In the image, the ascending colon appears to be in a retroperit",0
@@ -88,7 +88,7 @@ qid,question,answer,modality,pred_label,correct
 86,where is the colon most prominent from this view?,left,unknown,The colon appears to be most prominent in the right lower quadrant of the ab,0
 87,in which two ventricles can calcifications be seen on this ct scan?,the 3rd ventricle and the lateral ventricles,CT,The two ventricles that can be seen on this ct scan are the,0
 88,what structure is depicted?,brain,unknown,"The image depicts the corpus callosum, which is a large bundle",0
-89,what imaging modality is used?,ct,CT,The imaging modality used in this case is computed tomography (CT).,0
+89,what imaging modality is used?,ct,unknown,The imaging modality used in this case is computed tomography (CT).,0
 90,how is the artifact in this image categorized?,motion,unknown,The artifact in this image is categorized as a Type 1 artifact,0
 91,which ventricle is the mass located in?,4th ventricle,unknown,The mass is located in the right lateral ventricle.,0
 92,where is the mass located?,head of the pancreas,unknown,The mass is located in the right adrenal gland.,0
@@ -104,4 +104,4 @@ qid,question,answer,modality,pred_label,correct
 102,what type of artifact is shown in this image?,motion,unknown,"The image shows a motion artifact, which is a type of artifact that",1
 103,"where is obstruction present, if any?",proximal aspect of the appendix,unknown,"The image shows an obstruction in the sigmoid colon, which is a",0
 104,how is the patient oriented?,posterior-anterior,unknown,"The patient is oriented in a supine position, which means they are lying",0
-105,how was this image taken?,ct,CT,This image was taken using a computed tomography (CT) scan. CT sc,1
+105,how was this image taken?,ct,unknown,This image was taken using a computed tomography (CT) scan. CT sc,1

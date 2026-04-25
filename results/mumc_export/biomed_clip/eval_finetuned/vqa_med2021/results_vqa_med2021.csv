@@ -70,7 +70,7 @@ qid,question,answer,modality,pred_label,correct
 68,what abnormality is seen in the image?,hepatic adenoma,unknown,hepatic adenoma,1
 69,what is most alarming about this ct scan?,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,CT,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,1
 70,what is most alarming about this ultrasound?,varicocele,Ultrasound,varicocele,1
-71,what is seen in the image?,"normal skull X-Ray, no visible pathology",X-ray,"normal skull X-Ray, no visible pathology",1
+71,what is seen in the image?,"normal skull X-Ray, no visible pathology",unknown,"normal skull X-Ray, no visible pathology",1
 72,what is seen in this image?,Normal Chest - Lateral,unknown,Normal Chest - Lateral,1
 73,what is the primary abnormality in this image?,acute appendicitis,unknown,acute appendicitis,1
 74,what is abnormal in the mri?,hepatic adenoma,MRI,hepatic adenoma,1
