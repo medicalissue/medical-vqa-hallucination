@@ -16,6 +16,7 @@
 | 5 | `05_사례_분석/` | raw output 가장 인상적인 사례들 |
 | 6 | `06_종합_해석/` | 한계, 시사점, 향후 작업 |
 | 7 | `07_카테고리별_분석/` | modality / plane / organ / abnormality 카테고리별 hallucination 패턴 |
+| 8 | `08_P7_modality_misattribution/` | **(가장 임팩트 큰 finding)** 틀린 modality framing에 모델이 굴복하는가 |
 
 ## 어디서부터 읽어야 할지 모르겠으면
 

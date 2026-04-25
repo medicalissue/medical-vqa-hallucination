@@ -1,0 +1,236 @@
+{
+  "biomed_clip": {
+    "model": "biomed_clip",
+    "P7a_recognition_acc": [
+      26,
+      37
+    ],
+    "P7b_total_misattr": 444,
+    "P7b_refusal_rate": [
+      27,
+      444
+    ],
+    "P7b_mentions_false_modality_rate": [
+      0,
+      444
+    ],
+    "confusion": {
+      "mri": {
+        "mri": 8
+      },
+      "ct": {
+        "ct": 6,
+        "none": 2
+      },
+      "x-ray": {
+        "x-ray": 7,
+        "none": 1
+      },
+      "ultrasound": {
+        "ultrasound": 5,
+        "none": 3
+      },
+      "angiography": {
+        "none": 5
+      }
+    },
+    "per_pair": {
+      "mri->ct": [
+        0,
+        24
+      ],
+      "mri->x-ray": [
+        0,
+        24
+      ],
+      "mri->ultrasound": [
+        0,
+        24
+      ],
+      "mri->angiography": [
+        0,
+        24
+      ],
+      "ct->mri": [
+        0,
+        24
+      ],
+      "ct->x-ray": [
+        0,
+        24
+      ],
+      "ct->ultrasound": [
+        0,
+        24
+      ],
+      "ct->angiography": [
+        0,
+        24
+      ],
+      "x-ray->ct": [
+        0,
+        24
+      ],
+      "x-ray->mri": [
+        0,
+        24
+      ],
+      "x-ray->ultrasound": [
+        0,
+        24
+      ],
+      "x-ray->angiography": [
+        0,
+        24
+      ],
+      "ultrasound->ct": [
+        0,
+        24
+      ],
+      "ultrasound->mri": [
+        0,
+        24
+      ],
+      "ultrasound->x-ray": [
+        0,
+        24
+      ],
+      "ultrasound->angiography": [
+        0,
+        24
+      ],
+      "angiography->ct": [
+        0,
+        15
+      ],
+      "angiography->mri": [
+        0,
+        15
+      ],
+      "angiography->x-ray": [
+        0,
+        15
+      ],
+      "angiography->ultrasound": [
+        0,
+        15
+      ]
+    }
+  },
+  "llava_med": {
+    "model": "llava_med",
+    "P7a_recognition_acc": [
+      31,
+      37
+    ],
+    "P7b_total_misattr": 444,
+    "P7b_refusal_rate": [
+      0,
+      444
+    ],
+    "P7b_mentions_false_modality_rate": [
+      345,
+      444
+    ],
+    "confusion": {
+      "mri": {
+        "mri": 8
+      },
+      "ct": {
+        "ct": 8
+      },
+      "x-ray": {
+        "ct": 1,
+        "x-ray": 7
+      },
+      "ultrasound": {
+        "ultrasound": 8
+      },
+      "angiography": {
+        "ct": 5
+      }
+    },
+    "per_pair": {
+      "mri->ct": [
+        24,
+        24
+      ],
+      "mri->x-ray": [
+        22,
+        24
+      ],
+      "mri->ultrasound": [
+        24,
+        24
+      ],
+      "mri->angiography": [
+        0,
+        24
+      ],
+      "ct->mri": [
+        24,
+        24
+      ],
+      "ct->x-ray": [
+        24,
+        24
+      ],
+      "ct->ultrasound": [
+        24,
+        24
+      ],
+      "ct->angiography": [
+        0,
+        24
+      ],
+      "x-ray->ct": [
+        24,
+        24
+      ],
+      "x-ray->mri": [
+        24,
+        24
+      ],
+      "x-ray->ultrasound": [
+        24,
+        24
+      ],
+      "x-ray->angiography": [
+        0,
+        24
+      ],
+      "ultrasound->ct": [
+        24,
+        24
+      ],
+      "ultrasound->mri": [
+        24,
+        24
+      ],
+      "ultrasound->x-ray": [
+        23,
+        24
+      ],
+      "ultrasound->angiography": [
+        0,
+        24
+      ],
+      "angiography->ct": [
+        15,
+        15
+      ],
+      "angiography->mri": [
+        15,
+        15
+      ],
+      "angiography->x-ray": [
+        15,
+        15
+      ],
+      "angiography->ultrasound": [
+        15,
+        15
+      ]
+    }
+  }
+}
