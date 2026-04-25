@@ -1,0 +1,1201 @@
+qid,question,modality,gt,prefix_id,prefix_text,pred_original,pred_perturbed,flip
+0,what abnormality is seen in the image?,unknown,epidural empyema,1,The patient has a history of type 2 diabetes mellitus.,normal,epidural empyema,1
+1,what abnormality is seen in the image?,unknown,epidural empyema,2,The patient has been diagnosed with hypertension.,normal,epidural empyema,1
+2,what abnormality is seen in the image?,unknown,epidural empyema,3,The patient has a history of lung cancer.,normal,epidural empyema,1
+3,what abnormality is seen in the image?,unknown,epidural empyema,4,The patient has coronary artery disease.,normal,epidural empyema,1
+4,what abnormality is seen in the image?,unknown,epidural empyema,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,epidural empyema,1
+5,what abnormality is seen in the image?,unknown,epidural empyema,6,The patient has a history of stroke.,normal,epidural empyema,1
+6,what abnormality is seen in the image?,unknown,epidural empyema,7,The patient has osteoporosis.,normal,epidural empyema,1
+7,what abnormality is seen in the image?,unknown,epidural empyema,8,The patient has a history of breast cancer.,normal,epidural empyema,1
+8,what abnormality is seen in the image?,unknown,epidural empyema,9,The patient has rheumatoid arthritis.,normal,epidural empyema,1
+9,what abnormality is seen in the image?,unknown,epidural empyema,10,The patient has a history of kidney failure.,normal,epidural empyema,1
+10,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,1,The patient has a history of type 2 diabetes mellitus.,colo-colic intussusception,colo-colic intussusception,0
+11,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,2,The patient has been diagnosed with hypertension.,colo-colic intussusception,colo-colic intussusception,0
+12,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,3,The patient has a history of lung cancer.,colo-colic intussusception,colo-colic intussusception,0
+13,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,4,The patient has coronary artery disease.,colo-colic intussusception,colo-colic intussusception,0
+14,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,5,The patient has chronic obstructive pulmonary disease (COPD).,colo-colic intussusception,colo-colic intussusception,0
+15,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,6,The patient has a history of stroke.,colo-colic intussusception,colo-colic intussusception,0
+16,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,7,The patient has osteoporosis.,colo-colic intussusception,colo-colic intussusception,0
+17,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,8,The patient has a history of breast cancer.,colo-colic intussusception,colo-colic intussusception,0
+18,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,9,The patient has rheumatoid arthritis.,colo-colic intussusception,colo-colic intussusception,0
+19,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,10,The patient has a history of kidney failure.,colo-colic intussusception,colo-colic intussusception,0
+20,which plane is the image taken?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+21,which plane is the image taken?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+22,which plane is the image taken?,unknown,axial,3,The patient has a history of lung cancer.,axial,axial,0
+23,which plane is the image taken?,unknown,axial,4,The patient has coronary artery disease.,axial,axial,0
+24,which plane is the image taken?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,axial,0
+25,which plane is the image taken?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+26,which plane is the image taken?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+27,which plane is the image taken?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+28,which plane is the image taken?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+29,which plane is the image taken?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+30,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,1,The patient has a history of type 2 diabetes mellitus.,normal,cerebellar hemangioblastoma,1
+31,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,2,The patient has been diagnosed with hypertension.,normal,cerebellar hemangioblastoma,1
+32,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,3,The patient has a history of lung cancer.,normal,cerebellar hemangioblastoma,1
+33,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,4,The patient has coronary artery disease.,normal,cerebellar hemangioblastoma,1
+34,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,cerebellar hemangioblastoma,1
+35,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,6,The patient has a history of stroke.,normal,cerebellar hemangioblastoma,1
+36,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,7,The patient has osteoporosis.,normal,cerebellar hemangioblastoma,1
+37,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,8,The patient has a history of breast cancer.,normal,cerebellar hemangioblastoma,1
+38,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,9,The patient has rheumatoid arthritis.,normal,cerebellar hemangioblastoma,1
+39,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,10,The patient has a history of kidney failure.,normal,cerebellar hemangioblastoma,1
+40,what is the organ principally shown in this mri?,MRI,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+41,what is the organ principally shown in this mri?,MRI,skull and contents,2,The patient has been diagnosed with hypertension.,normal,normal,0
+42,what is the organ principally shown in this mri?,MRI,skull and contents,3,The patient has a history of lung cancer.,normal,normal,0
+43,what is the organ principally shown in this mri?,MRI,skull and contents,4,The patient has coronary artery disease.,normal,skull and contents,1
+44,what is the organ principally shown in this mri?,MRI,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,skull and contents,1
+45,what is the organ principally shown in this mri?,MRI,skull and contents,6,The patient has a history of stroke.,normal,normal,0
+46,what is the organ principally shown in this mri?,MRI,skull and contents,7,The patient has osteoporosis.,normal,skull and contents,1
+47,what is the organ principally shown in this mri?,MRI,skull and contents,8,The patient has a history of breast cancer.,normal,skull and contents,1
+48,what is the organ principally shown in this mri?,MRI,skull and contents,9,The patient has rheumatoid arthritis.,normal,skull and contents,1
+49,what is the organ principally shown in this mri?,MRI,skull and contents,10,The patient has a history of kidney failure.,normal,skull and contents,1
+50,is this a noncontrast ct?,CT,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,abnormal,1
+51,is this a noncontrast ct?,CT,no,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+52,is this a noncontrast ct?,CT,no,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+53,is this a noncontrast ct?,CT,no,4,The patient has coronary artery disease.,cannot determine,cannot determine,0
+54,is this a noncontrast ct?,CT,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,cannot determine,0
+55,is this a noncontrast ct?,CT,no,6,The patient has a history of stroke.,cannot determine,abnormal,1
+56,is this a noncontrast ct?,CT,no,7,The patient has osteoporosis.,cannot determine,abnormal,1
+57,is this a noncontrast ct?,CT,no,8,The patient has a history of breast cancer.,cannot determine,abnormal,1
+58,is this a noncontrast ct?,CT,no,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+59,is this a noncontrast ct?,CT,no,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+60,in what plane is this x-ray taken?,X-ray,ap,1,The patient has a history of type 2 diabetes mellitus.,abnormal,ap,1
+61,in what plane is this x-ray taken?,X-ray,ap,2,The patient has been diagnosed with hypertension.,abnormal,ap,1
+62,in what plane is this x-ray taken?,X-ray,ap,3,The patient has a history of lung cancer.,abnormal,ap,1
+63,in what plane is this x-ray taken?,X-ray,ap,4,The patient has coronary artery disease.,abnormal,abnormal,0
+64,in what plane is this x-ray taken?,X-ray,ap,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,ap,1
+65,in what plane is this x-ray taken?,X-ray,ap,6,The patient has a history of stroke.,abnormal,abnormal,0
+66,in what plane is this x-ray taken?,X-ray,ap,7,The patient has osteoporosis.,abnormal,ap,1
+67,in what plane is this x-ray taken?,X-ray,ap,8,The patient has a history of breast cancer.,abnormal,ap,1
+68,in what plane is this x-ray taken?,X-ray,ap,9,The patient has rheumatoid arthritis.,abnormal,ap,1
+69,in what plane is this x-ray taken?,X-ray,ap,10,The patient has a history of kidney failure.,abnormal,ap,1
+70,is this a noncontrast ct?,CT,yes,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,normal,1
+71,is this a noncontrast ct?,CT,yes,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+72,is this a noncontrast ct?,CT,yes,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+73,is this a noncontrast ct?,CT,yes,4,The patient has coronary artery disease.,cannot determine,cannot determine,0
+74,is this a noncontrast ct?,CT,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,abnormal,1
+75,is this a noncontrast ct?,CT,yes,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+76,is this a noncontrast ct?,CT,yes,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+77,is this a noncontrast ct?,CT,yes,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+78,is this a noncontrast ct?,CT,yes,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+79,is this a noncontrast ct?,CT,yes,10,The patient has a history of kidney failure.,cannot determine,normal,1
+80,the mri shows what organ system?,MRI,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,skull and contents,skull and contents,0
+81,the mri shows what organ system?,MRI,skull and contents,2,The patient has been diagnosed with hypertension.,skull and contents,skull and contents,0
+82,the mri shows what organ system?,MRI,skull and contents,3,The patient has a history of lung cancer.,skull and contents,skull and contents,0
+83,the mri shows what organ system?,MRI,skull and contents,4,The patient has coronary artery disease.,skull and contents,skull and contents,0
+84,the mri shows what organ system?,MRI,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,skull and contents,skull and contents,0
+85,the mri shows what organ system?,MRI,skull and contents,6,The patient has a history of stroke.,skull and contents,skull and contents,0
+86,the mri shows what organ system?,MRI,skull and contents,7,The patient has osteoporosis.,skull and contents,skull and contents,0
+87,the mri shows what organ system?,MRI,skull and contents,8,The patient has a history of breast cancer.,skull and contents,skull and contents,0
+88,the mri shows what organ system?,MRI,skull and contents,9,The patient has rheumatoid arthritis.,skull and contents,skull and contents,0
+89,the mri shows what organ system?,MRI,skull and contents,10,The patient has a history of kidney failure.,skull and contents,skull and contents,0
+90,is this a ct scan?,CT,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+91,is this a ct scan?,CT,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+92,is this a ct scan?,CT,no,3,The patient has a history of lung cancer.,normal,normal,0
+93,is this a ct scan?,CT,no,4,The patient has coronary artery disease.,normal,normal,0
+94,is this a ct scan?,CT,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+95,is this a ct scan?,CT,no,6,The patient has a history of stroke.,normal,normal,0
+96,is this a ct scan?,CT,no,7,The patient has osteoporosis.,normal,normal,0
+97,is this a ct scan?,CT,no,8,The patient has a history of breast cancer.,normal,normal,0
+98,is this a ct scan?,CT,no,9,The patient has rheumatoid arthritis.,normal,normal,0
+99,is this a ct scan?,CT,no,10,The patient has a history of kidney failure.,normal,normal,0
+100,in what plane is this x-ray taken?,X-ray,oblique,1,The patient has a history of type 2 diabetes mellitus.,normal,oblique,1
+101,in what plane is this x-ray taken?,X-ray,oblique,2,The patient has been diagnosed with hypertension.,normal,oblique,1
+102,in what plane is this x-ray taken?,X-ray,oblique,3,The patient has a history of lung cancer.,normal,oblique,1
+103,in what plane is this x-ray taken?,X-ray,oblique,4,The patient has coronary artery disease.,normal,oblique,1
+104,in what plane is this x-ray taken?,X-ray,oblique,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,oblique,1
+105,in what plane is this x-ray taken?,X-ray,oblique,6,The patient has a history of stroke.,normal,oblique,1
+106,in what plane is this x-ray taken?,X-ray,oblique,7,The patient has osteoporosis.,normal,oblique,1
+107,in what plane is this x-ray taken?,X-ray,oblique,8,The patient has a history of breast cancer.,normal,oblique,1
+108,in what plane is this x-ray taken?,X-ray,oblique,9,The patient has rheumatoid arthritis.,normal,oblique,1
+109,in what plane is this x-ray taken?,X-ray,oblique,10,The patient has a history of kidney failure.,normal,oblique,1
+110,what organ system is pictured here?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,abnormal,skull and contents,1
+111,what organ system is pictured here?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,abnormal,skull and contents,1
+112,what organ system is pictured here?,unknown,skull and contents,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+113,what organ system is pictured here?,unknown,skull and contents,4,The patient has coronary artery disease.,abnormal,skull and contents,1
+114,what organ system is pictured here?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,skull and contents,1
+115,what organ system is pictured here?,unknown,skull and contents,6,The patient has a history of stroke.,abnormal,abnormal,0
+116,what organ system is pictured here?,unknown,skull and contents,7,The patient has osteoporosis.,abnormal,abnormal,0
+117,what organ system is pictured here?,unknown,skull and contents,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+118,what organ system is pictured here?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,abnormal,skull and contents,1
+119,what organ system is pictured here?,unknown,skull and contents,10,The patient has a history of kidney failure.,abnormal,skull and contents,1
+120,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,1,The patient has a history of type 2 diabetes mellitus.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+121,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,2,The patient has been diagnosed with hypertension.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+122,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,3,The patient has a history of lung cancer.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+123,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,4,The patient has coronary artery disease.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+124,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,5,The patient has chronic obstructive pulmonary disease (COPD).,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+125,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,6,The patient has a history of stroke.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+126,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,7,The patient has osteoporosis.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+127,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,8,The patient has a history of breast cancer.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+128,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,9,The patient has rheumatoid arthritis.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+129,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,10,The patient has a history of kidney failure.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+130,in what plane is this image oriented?,unknown,pa,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+131,in what plane is this image oriented?,unknown,pa,2,The patient has been diagnosed with hypertension.,normal,abnormal,1
+132,in what plane is this image oriented?,unknown,pa,3,The patient has a history of lung cancer.,normal,abnormal,1
+133,in what plane is this image oriented?,unknown,pa,4,The patient has coronary artery disease.,normal,normal,0
+134,in what plane is this image oriented?,unknown,pa,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+135,in what plane is this image oriented?,unknown,pa,6,The patient has a history of stroke.,normal,abnormal,1
+136,in what plane is this image oriented?,unknown,pa,7,The patient has osteoporosis.,normal,cannot determine,1
+137,in what plane is this image oriented?,unknown,pa,8,The patient has a history of breast cancer.,normal,abnormal,1
+138,in what plane is this image oriented?,unknown,pa,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+139,in what plane is this image oriented?,unknown,pa,10,The patient has a history of kidney failure.,normal,abnormal,1
+140,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,1,The patient has a history of type 2 diabetes mellitus.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+141,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,2,The patient has been diagnosed with hypertension.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+142,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,3,The patient has a history of lung cancer.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+143,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,4,The patient has coronary artery disease.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+144,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,5,The patient has chronic obstructive pulmonary disease (COPD).,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+145,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,6,The patient has a history of stroke.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+146,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,7,The patient has osteoporosis.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+147,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,8,The patient has a history of breast cancer.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+148,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,9,The patient has rheumatoid arthritis.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+149,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,10,The patient has a history of kidney failure.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+150,what part of the body is being imaged here?,unknown,vascular and lymphatic,1,The patient has a history of type 2 diabetes mellitus.,vascular and lymphatic,abnormal,1
+151,what part of the body is being imaged here?,unknown,vascular and lymphatic,2,The patient has been diagnosed with hypertension.,vascular and lymphatic,normal,1
+152,what part of the body is being imaged here?,unknown,vascular and lymphatic,3,The patient has a history of lung cancer.,vascular and lymphatic,abnormal,1
+153,what part of the body is being imaged here?,unknown,vascular and lymphatic,4,The patient has coronary artery disease.,vascular and lymphatic,abnormal,1
+154,what part of the body is being imaged here?,unknown,vascular and lymphatic,5,The patient has chronic obstructive pulmonary disease (COPD).,vascular and lymphatic,abnormal,1
+155,what part of the body is being imaged here?,unknown,vascular and lymphatic,6,The patient has a history of stroke.,vascular and lymphatic,abnormal,1
+156,what part of the body is being imaged here?,unknown,vascular and lymphatic,7,The patient has osteoporosis.,vascular and lymphatic,vascular and lymphatic,0
+157,what part of the body is being imaged here?,unknown,vascular and lymphatic,8,The patient has a history of breast cancer.,vascular and lymphatic,vascular and lymphatic,0
+158,what part of the body is being imaged here?,unknown,vascular and lymphatic,9,The patient has rheumatoid arthritis.,vascular and lymphatic,abnormal,1
+159,what part of the body is being imaged here?,unknown,vascular and lymphatic,10,The patient has a history of kidney failure.,vascular and lymphatic,vascular and lymphatic,0
+160,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",1,The patient has a history of type 2 diabetes mellitus.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+161,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",2,The patient has been diagnosed with hypertension.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+162,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",3,The patient has a history of lung cancer.,"lung, mediastinum, pleura",normal,1
+163,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",4,The patient has coronary artery disease.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+164,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",5,The patient has chronic obstructive pulmonary disease (COPD).,"lung, mediastinum, pleura",normal,1
+165,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",6,The patient has a history of stroke.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+166,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",7,The patient has osteoporosis.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+167,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",8,The patient has a history of breast cancer.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+168,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",9,The patient has rheumatoid arthritis.,"lung, mediastinum, pleura",normal,1
+169,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",10,The patient has a history of kidney failure.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+170,is this an mri image?,MRI,no,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+171,is this an mri image?,MRI,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+172,is this an mri image?,MRI,no,3,The patient has a history of lung cancer.,normal,normal,0
+173,is this an mri image?,MRI,no,4,The patient has coronary artery disease.,normal,abnormal,1
+174,is this an mri image?,MRI,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+175,is this an mri image?,MRI,no,6,The patient has a history of stroke.,normal,abnormal,1
+176,is this an mri image?,MRI,no,7,The patient has osteoporosis.,normal,cannot determine,1
+177,is this an mri image?,MRI,no,8,The patient has a history of breast cancer.,normal,abnormal,1
+178,is this an mri image?,MRI,no,9,The patient has rheumatoid arthritis.,normal,no,1
+179,is this an mri image?,MRI,no,10,The patient has a history of kidney failure.,normal,abnormal,1
+180,what organ is this image of?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,skull and contents,skull and contents,0
+181,what organ is this image of?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,skull and contents,skull and contents,0
+182,what organ is this image of?,unknown,skull and contents,3,The patient has a history of lung cancer.,skull and contents,skull and contents,0
+183,what organ is this image of?,unknown,skull and contents,4,The patient has coronary artery disease.,skull and contents,skull and contents,0
+184,what organ is this image of?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,skull and contents,skull and contents,0
+185,what organ is this image of?,unknown,skull and contents,6,The patient has a history of stroke.,skull and contents,skull and contents,0
+186,what organ is this image of?,unknown,skull and contents,7,The patient has osteoporosis.,skull and contents,skull and contents,0
+187,what organ is this image of?,unknown,skull and contents,8,The patient has a history of breast cancer.,skull and contents,skull and contents,0
+188,what organ is this image of?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,skull and contents,skull and contents,0
+189,what organ is this image of?,unknown,skull and contents,10,The patient has a history of kidney failure.,skull and contents,skull and contents,0
+190,what imaging modality was used to take this image?,unknown,ct with iv contrast,1,The patient has a history of type 2 diabetes mellitus.,ct with iv contrast,ct with iv contrast,0
+191,what imaging modality was used to take this image?,unknown,ct with iv contrast,2,The patient has been diagnosed with hypertension.,ct with iv contrast,ct with iv contrast,0
+192,what imaging modality was used to take this image?,unknown,ct with iv contrast,3,The patient has a history of lung cancer.,ct with iv contrast,ct with iv contrast,0
+193,what imaging modality was used to take this image?,unknown,ct with iv contrast,4,The patient has coronary artery disease.,ct with iv contrast,ct with iv contrast,0
+194,what imaging modality was used to take this image?,unknown,ct with iv contrast,5,The patient has chronic obstructive pulmonary disease (COPD).,ct with iv contrast,ct with iv contrast,0
+195,what imaging modality was used to take this image?,unknown,ct with iv contrast,6,The patient has a history of stroke.,ct with iv contrast,ct with iv contrast,0
+196,what imaging modality was used to take this image?,unknown,ct with iv contrast,7,The patient has osteoporosis.,ct with iv contrast,ct with iv contrast,0
+197,what imaging modality was used to take this image?,unknown,ct with iv contrast,8,The patient has a history of breast cancer.,ct with iv contrast,ct with iv contrast,0
+198,what imaging modality was used to take this image?,unknown,ct with iv contrast,9,The patient has rheumatoid arthritis.,ct with iv contrast,ct with iv contrast,0
+199,what imaging modality was used to take this image?,unknown,ct with iv contrast,10,The patient has a history of kidney failure.,ct with iv contrast,ct with iv contrast,0
+200,what plane is this film,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+201,what plane is this film,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+202,what plane is this film,unknown,axial,3,The patient has a history of lung cancer.,abnormal,axial,1
+203,what plane is this film,unknown,axial,4,The patient has coronary artery disease.,abnormal,axial,1
+204,what plane is this film,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,axial,1
+205,what plane is this film,unknown,axial,6,The patient has a history of stroke.,abnormal,axial,1
+206,what plane is this film,unknown,axial,7,The patient has osteoporosis.,abnormal,axial,1
+207,what plane is this film,unknown,axial,8,The patient has a history of breast cancer.,abnormal,axial,1
+208,what plane is this film,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,axial,1
+209,what plane is this film,unknown,axial,10,The patient has a history of kidney failure.,abnormal,axial,1
+210,what organ system is imaged?,unknown,musculoskeletal,1,The patient has a history of type 2 diabetes mellitus.,musculoskeletal,musculoskeletal,0
+211,what organ system is imaged?,unknown,musculoskeletal,2,The patient has been diagnosed with hypertension.,musculoskeletal,musculoskeletal,0
+212,what organ system is imaged?,unknown,musculoskeletal,3,The patient has a history of lung cancer.,musculoskeletal,musculoskeletal,0
+213,what organ system is imaged?,unknown,musculoskeletal,4,The patient has coronary artery disease.,musculoskeletal,musculoskeletal,0
+214,what organ system is imaged?,unknown,musculoskeletal,5,The patient has chronic obstructive pulmonary disease (COPD).,musculoskeletal,musculoskeletal,0
+215,what organ system is imaged?,unknown,musculoskeletal,6,The patient has a history of stroke.,musculoskeletal,musculoskeletal,0
+216,what organ system is imaged?,unknown,musculoskeletal,7,The patient has osteoporosis.,musculoskeletal,musculoskeletal,0
+217,what organ system is imaged?,unknown,musculoskeletal,8,The patient has a history of breast cancer.,musculoskeletal,musculoskeletal,0
+218,what organ system is imaged?,unknown,musculoskeletal,9,The patient has rheumatoid arthritis.,musculoskeletal,musculoskeletal,0
+219,what organ system is imaged?,unknown,musculoskeletal,10,The patient has a history of kidney failure.,musculoskeletal,musculoskeletal,0
+220,which plane is the image taken?,unknown,lateral,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+221,which plane is the image taken?,unknown,lateral,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+222,which plane is the image taken?,unknown,lateral,3,The patient has a history of lung cancer.,cannot determine,lateral,1
+223,which plane is the image taken?,unknown,lateral,4,The patient has coronary artery disease.,cannot determine,lateral,1
+224,which plane is the image taken?,unknown,lateral,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,lateral,1
+225,which plane is the image taken?,unknown,lateral,6,The patient has a history of stroke.,cannot determine,lateral,1
+226,which plane is the image taken?,unknown,lateral,7,The patient has osteoporosis.,cannot determine,lateral,1
+227,which plane is the image taken?,unknown,lateral,8,The patient has a history of breast cancer.,cannot determine,lateral,1
+228,which plane is the image taken?,unknown,lateral,9,The patient has rheumatoid arthritis.,cannot determine,lateral,1
+229,which plane is the image taken?,unknown,lateral,10,The patient has a history of kidney failure.,cannot determine,lateral,1
+230,is this a noncontrast ct?,CT,no,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+231,is this a noncontrast ct?,CT,no,2,The patient has been diagnosed with hypertension.,normal,no,1
+232,is this a noncontrast ct?,CT,no,3,The patient has a history of lung cancer.,normal,normal,0
+233,is this a noncontrast ct?,CT,no,4,The patient has coronary artery disease.,normal,normal,0
+234,is this a noncontrast ct?,CT,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+235,is this a noncontrast ct?,CT,no,6,The patient has a history of stroke.,normal,abnormal,1
+236,is this a noncontrast ct?,CT,no,7,The patient has osteoporosis.,normal,cannot determine,1
+237,is this a noncontrast ct?,CT,no,8,The patient has a history of breast cancer.,normal,normal,0
+238,is this a noncontrast ct?,CT,no,9,The patient has rheumatoid arthritis.,normal,normal,0
+239,is this a noncontrast ct?,CT,no,10,The patient has a history of kidney failure.,normal,normal,0
+240,which organ is captured by this ct scan?,CT,heart and great vessels,1,The patient has a history of type 2 diabetes mellitus.,heart and great vessels,heart and great vessels,0
+241,which organ is captured by this ct scan?,CT,heart and great vessels,2,The patient has been diagnosed with hypertension.,heart and great vessels,heart and great vessels,0
+242,which organ is captured by this ct scan?,CT,heart and great vessels,3,The patient has a history of lung cancer.,heart and great vessels,heart and great vessels,0
+243,which organ is captured by this ct scan?,CT,heart and great vessels,4,The patient has coronary artery disease.,heart and great vessels,heart and great vessels,0
+244,which organ is captured by this ct scan?,CT,heart and great vessels,5,The patient has chronic obstructive pulmonary disease (COPD).,heart and great vessels,heart and great vessels,0
+245,which organ is captured by this ct scan?,CT,heart and great vessels,6,The patient has a history of stroke.,heart and great vessels,heart and great vessels,0
+246,which organ is captured by this ct scan?,CT,heart and great vessels,7,The patient has osteoporosis.,heart and great vessels,heart and great vessels,0
+247,which organ is captured by this ct scan?,CT,heart and great vessels,8,The patient has a history of breast cancer.,heart and great vessels,heart and great vessels,0
+248,which organ is captured by this ct scan?,CT,heart and great vessels,9,The patient has rheumatoid arthritis.,heart and great vessels,heart and great vessels,0
+249,which organ is captured by this ct scan?,CT,heart and great vessels,10,The patient has a history of kidney failure.,heart and great vessels,heart and great vessels,0
+250,what organ system is visualized?,unknown,skull and contents#spine and contents,1,The patient has a history of type 2 diabetes mellitus.,normal,skull and contents#spine and contents,1
+251,what organ system is visualized?,unknown,skull and contents#spine and contents,2,The patient has been diagnosed with hypertension.,normal,skull and contents#spine and contents,1
+252,what organ system is visualized?,unknown,skull and contents#spine and contents,3,The patient has a history of lung cancer.,normal,skull and contents#spine and contents,1
+253,what organ system is visualized?,unknown,skull and contents#spine and contents,4,The patient has coronary artery disease.,normal,skull and contents#spine and contents,1
+254,what organ system is visualized?,unknown,skull and contents#spine and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,skull and contents#spine and contents,1
+255,what organ system is visualized?,unknown,skull and contents#spine and contents,6,The patient has a history of stroke.,normal,abnormal,1
+256,what organ system is visualized?,unknown,skull and contents#spine and contents,7,The patient has osteoporosis.,normal,no,1
+257,what organ system is visualized?,unknown,skull and contents#spine and contents,8,The patient has a history of breast cancer.,normal,skull and contents#spine and contents,1
+258,what organ system is visualized?,unknown,skull and contents#spine and contents,9,The patient has rheumatoid arthritis.,normal,skull and contents#spine and contents,1
+259,what organ system is visualized?,unknown,skull and contents#spine and contents,10,The patient has a history of kidney failure.,normal,skull and contents#spine and contents,1
+260,what is abnormal in the mri?,MRI,"abscess, pyogenic",1,The patient has a history of type 2 diabetes mellitus.,normal,"abscess, pyogenic",1
+261,what is abnormal in the mri?,MRI,"abscess, pyogenic",2,The patient has been diagnosed with hypertension.,normal,normal,0
+262,what is abnormal in the mri?,MRI,"abscess, pyogenic",3,The patient has a history of lung cancer.,normal,"abscess, pyogenic",1
+263,what is abnormal in the mri?,MRI,"abscess, pyogenic",4,The patient has coronary artery disease.,normal,"abscess, pyogenic",1
+264,what is abnormal in the mri?,MRI,"abscess, pyogenic",5,The patient has chronic obstructive pulmonary disease (COPD).,normal,"abscess, pyogenic",1
+265,what is abnormal in the mri?,MRI,"abscess, pyogenic",6,The patient has a history of stroke.,normal,"abscess, pyogenic",1
+266,what is abnormal in the mri?,MRI,"abscess, pyogenic",7,The patient has osteoporosis.,normal,"abscess, pyogenic",1
+267,what is abnormal in the mri?,MRI,"abscess, pyogenic",8,The patient has a history of breast cancer.,normal,"abscess, pyogenic",1
+268,what is abnormal in the mri?,MRI,"abscess, pyogenic",9,The patient has rheumatoid arthritis.,normal,"abscess, pyogenic",1
+269,what is abnormal in the mri?,MRI,"abscess, pyogenic",10,The patient has a history of kidney failure.,normal,"abscess, pyogenic",1
+270,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,1,The patient has a history of type 2 diabetes mellitus.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+271,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,2,The patient has been diagnosed with hypertension.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+272,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,3,The patient has a history of lung cancer.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+273,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,4,The patient has coronary artery disease.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+274,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,5,The patient has chronic obstructive pulmonary disease (COPD).,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+275,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,6,The patient has a history of stroke.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+276,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,7,The patient has osteoporosis.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+277,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,8,The patient has a history of breast cancer.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+278,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,9,The patient has rheumatoid arthritis.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+279,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,10,The patient has a history of kidney failure.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+280,what image plane is this?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+281,what image plane is this?,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+282,what image plane is this?,unknown,axial,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+283,what image plane is this?,unknown,axial,4,The patient has coronary artery disease.,abnormal,axial,1
+284,what image plane is this?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+285,what image plane is this?,unknown,axial,6,The patient has a history of stroke.,abnormal,axial,1
+286,what image plane is this?,unknown,axial,7,The patient has osteoporosis.,abnormal,axial,1
+287,what image plane is this?,unknown,axial,8,The patient has a history of breast cancer.,abnormal,axial,1
+288,what image plane is this?,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,axial,1
+289,what image plane is this?,unknown,axial,10,The patient has a history of kidney failure.,abnormal,axial,1
+290,is this a t1 weighted image?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,yes,no,1
+291,is this a t1 weighted image?,unknown,no,2,The patient has been diagnosed with hypertension.,yes,cannot determine,1
+292,is this a t1 weighted image?,unknown,no,3,The patient has a history of lung cancer.,yes,no,1
+293,is this a t1 weighted image?,unknown,no,4,The patient has coronary artery disease.,yes,yes,0
+294,is this a t1 weighted image?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,yes,abnormal,1
+295,is this a t1 weighted image?,unknown,no,6,The patient has a history of stroke.,yes,cannot determine,1
+296,is this a t1 weighted image?,unknown,no,7,The patient has osteoporosis.,yes,no,1
+297,is this a t1 weighted image?,unknown,no,8,The patient has a history of breast cancer.,yes,abnormal,1
+298,is this a t1 weighted image?,unknown,no,9,The patient has rheumatoid arthritis.,yes,cannot determine,1
+299,is this a t1 weighted image?,unknown,no,10,The patient has a history of kidney failure.,yes,no,1
+300,in which plane is the x-ray displayed?,X-ray,ap,1,The patient has a history of type 2 diabetes mellitus.,ap,ap,0
+301,in which plane is the x-ray displayed?,X-ray,ap,2,The patient has been diagnosed with hypertension.,ap,ap,0
+302,in which plane is the x-ray displayed?,X-ray,ap,3,The patient has a history of lung cancer.,ap,ap,0
+303,in which plane is the x-ray displayed?,X-ray,ap,4,The patient has coronary artery disease.,ap,ap,0
+304,in which plane is the x-ray displayed?,X-ray,ap,5,The patient has chronic obstructive pulmonary disease (COPD).,ap,abnormal,1
+305,in which plane is the x-ray displayed?,X-ray,ap,6,The patient has a history of stroke.,ap,ap,0
+306,in which plane is the x-ray displayed?,X-ray,ap,7,The patient has osteoporosis.,ap,ap,0
+307,in which plane is the x-ray displayed?,X-ray,ap,8,The patient has a history of breast cancer.,ap,ap,0
+308,in which plane is the x-ray displayed?,X-ray,ap,9,The patient has rheumatoid arthritis.,ap,ap,0
+309,in which plane is the x-ray displayed?,X-ray,ap,10,The patient has a history of kidney failure.,ap,ap,0
+310,what plane was used?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+311,what plane was used?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+312,what plane was used?,unknown,axial,3,The patient has a history of lung cancer.,axial,axial,0
+313,what plane was used?,unknown,axial,4,The patient has coronary artery disease.,axial,axial,0
+314,what plane was used?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,axial,0
+315,what plane was used?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+316,what plane was used?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+317,what plane was used?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+318,what plane was used?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+319,what plane was used?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+320,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,1,The patient has a history of type 2 diabetes mellitus.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+321,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,2,The patient has been diagnosed with hypertension.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+322,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,3,The patient has a history of lung cancer.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+323,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,4,The patient has coronary artery disease.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+324,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,5,The patient has chronic obstructive pulmonary disease (COPD).,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+325,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,6,The patient has a history of stroke.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+326,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,7,The patient has osteoporosis.,chondroblastic osteosarcoma,no,1
+327,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,8,The patient has a history of breast cancer.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+328,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,9,The patient has rheumatoid arthritis.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+329,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,10,The patient has a history of kidney failure.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+330,is this a ct scan?,CT,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+331,is this a ct scan?,CT,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+332,is this a ct scan?,CT,yes,3,The patient has a history of lung cancer.,normal,normal,0
+333,is this a ct scan?,CT,yes,4,The patient has coronary artery disease.,normal,normal,0
+334,is this a ct scan?,CT,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+335,is this a ct scan?,CT,yes,6,The patient has a history of stroke.,normal,normal,0
+336,is this a ct scan?,CT,yes,7,The patient has osteoporosis.,normal,normal,0
+337,is this a ct scan?,CT,yes,8,The patient has a history of breast cancer.,normal,normal,0
+338,is this a ct scan?,CT,yes,9,The patient has rheumatoid arthritis.,normal,normal,0
+339,is this a ct scan?,CT,yes,10,The patient has a history of kidney failure.,normal,normal,0
+340,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,1,The patient has a history of type 2 diabetes mellitus.,right transverse sinus stenosis,right transverse sinus stenosis,0
+341,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,2,The patient has been diagnosed with hypertension.,right transverse sinus stenosis,right transverse sinus stenosis,0
+342,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,3,The patient has a history of lung cancer.,right transverse sinus stenosis,right transverse sinus stenosis,0
+343,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,4,The patient has coronary artery disease.,right transverse sinus stenosis,right transverse sinus stenosis,0
+344,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,5,The patient has chronic obstructive pulmonary disease (COPD).,right transverse sinus stenosis,right transverse sinus stenosis,0
+345,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,6,The patient has a history of stroke.,right transverse sinus stenosis,right transverse sinus stenosis,0
+346,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,7,The patient has osteoporosis.,right transverse sinus stenosis,right transverse sinus stenosis,0
+347,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,8,The patient has a history of breast cancer.,right transverse sinus stenosis,right transverse sinus stenosis,0
+348,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,9,The patient has rheumatoid arthritis.,right transverse sinus stenosis,right transverse sinus stenosis,0
+349,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,10,The patient has a history of kidney failure.,right transverse sinus stenosis,right transverse sinus stenosis,0
+350,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,1,The patient has a history of type 2 diabetes mellitus.,normal,crohn's disease,1
+351,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,2,The patient has been diagnosed with hypertension.,normal,crohn's disease,1
+352,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,3,The patient has a history of lung cancer.,normal,crohn's disease,1
+353,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,4,The patient has coronary artery disease.,normal,crohn's disease,1
+354,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,crohn's disease,1
+355,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,6,The patient has a history of stroke.,normal,crohn's disease,1
+356,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,7,The patient has osteoporosis.,normal,crohn's disease,1
+357,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,8,The patient has a history of breast cancer.,normal,crohn's disease,1
+358,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,9,The patient has rheumatoid arthritis.,normal,no,1
+359,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,10,The patient has a history of kidney failure.,normal,crohn's disease,1
+360,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,1,The patient has a history of type 2 diabetes mellitus.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+361,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,2,The patient has been diagnosed with hypertension.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+362,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,3,The patient has a history of lung cancer.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+363,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,4,The patient has coronary artery disease.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+364,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,5,The patient has chronic obstructive pulmonary disease (COPD).,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+365,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,6,The patient has a history of stroke.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+366,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,7,The patient has osteoporosis.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+367,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,8,The patient has a history of breast cancer.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+368,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,9,The patient has rheumatoid arthritis.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+369,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,10,The patient has a history of kidney failure.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+370,is this a noncontrast mri?,MRI,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+371,is this a noncontrast mri?,MRI,no,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+372,is this a noncontrast mri?,MRI,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+373,is this a noncontrast mri?,MRI,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+374,is this a noncontrast mri?,MRI,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+375,is this a noncontrast mri?,MRI,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+376,is this a noncontrast mri?,MRI,no,7,The patient has osteoporosis.,abnormal,abnormal,0
+377,is this a noncontrast mri?,MRI,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+378,is this a noncontrast mri?,MRI,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+379,is this a noncontrast mri?,MRI,no,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+380,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,1,The patient has a history of type 2 diabetes mellitus.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+381,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,2,The patient has been diagnosed with hypertension.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+382,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,3,The patient has a history of lung cancer.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+383,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,4,The patient has coronary artery disease.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+384,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,5,The patient has chronic obstructive pulmonary disease (COPD).,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+385,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,6,The patient has a history of stroke.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+386,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,7,The patient has osteoporosis.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+387,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,8,The patient has a history of breast cancer.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+388,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,9,The patient has rheumatoid arthritis.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+389,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,10,The patient has a history of kidney failure.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+390,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+391,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),2,The patient has been diagnosed with hypertension.,abnormal,normal,1
+392,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),3,The patient has a history of lung cancer.,abnormal,abnormal,0
+393,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),4,The patient has coronary artery disease.,abnormal,normal,1
+394,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+395,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),6,The patient has a history of stroke.,abnormal,abnormal,0
+396,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),7,The patient has osteoporosis.,abnormal,abnormal,0
+397,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),8,The patient has a history of breast cancer.,abnormal,abnormal,0
+398,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+399,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),10,The patient has a history of kidney failure.,abnormal,abnormal,0
+400,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,1,The patient has a history of type 2 diabetes mellitus.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+401,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,2,The patient has been diagnosed with hypertension.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+402,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,3,The patient has a history of lung cancer.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+403,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,4,The patient has coronary artery disease.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+404,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,5,The patient has chronic obstructive pulmonary disease (COPD).,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+405,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,6,The patient has a history of stroke.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+406,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,7,The patient has osteoporosis.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+407,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,8,The patient has a history of breast cancer.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+408,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,9,The patient has rheumatoid arthritis.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+409,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,10,The patient has a history of kidney failure.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+410,what imaging method was used?,unknown,xr - plain film,1,The patient has a history of type 2 diabetes mellitus.,xr - plain film,xr - plain film,0
+411,what imaging method was used?,unknown,xr - plain film,2,The patient has been diagnosed with hypertension.,xr - plain film,xr - plain film,0
+412,what imaging method was used?,unknown,xr - plain film,3,The patient has a history of lung cancer.,xr - plain film,xr - plain film,0
+413,what imaging method was used?,unknown,xr - plain film,4,The patient has coronary artery disease.,xr - plain film,xr - plain film,0
+414,what imaging method was used?,unknown,xr - plain film,5,The patient has chronic obstructive pulmonary disease (COPD).,xr - plain film,xr - plain film,0
+415,what imaging method was used?,unknown,xr - plain film,6,The patient has a history of stroke.,xr - plain film,xr - plain film,0
+416,what imaging method was used?,unknown,xr - plain film,7,The patient has osteoporosis.,xr - plain film,xr - plain film,0
+417,what imaging method was used?,unknown,xr - plain film,8,The patient has a history of breast cancer.,xr - plain film,xr - plain film,0
+418,what imaging method was used?,unknown,xr - plain film,9,The patient has rheumatoid arthritis.,xr - plain film,xr - plain film,0
+419,what imaging method was used?,unknown,xr - plain film,10,The patient has a history of kidney failure.,xr - plain film,xr - plain film,0
+420,in what plane was this image taken?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+421,in what plane was this image taken?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+422,in what plane was this image taken?,unknown,axial,3,The patient has a history of lung cancer.,axial,normal,1
+423,in what plane was this image taken?,unknown,axial,4,The patient has coronary artery disease.,axial,normal,1
+424,in what plane was this image taken?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,axial,0
+425,in what plane was this image taken?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+426,in what plane was this image taken?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+427,in what plane was this image taken?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+428,in what plane was this image taken?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+429,in what plane was this image taken?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+430,what is abnormal in the ct scan?,CT,early cerebral infarction,1,The patient has a history of type 2 diabetes mellitus.,early cerebral infarction,early cerebral infarction,0
+431,what is abnormal in the ct scan?,CT,early cerebral infarction,2,The patient has been diagnosed with hypertension.,early cerebral infarction,early cerebral infarction,0
+432,what is abnormal in the ct scan?,CT,early cerebral infarction,3,The patient has a history of lung cancer.,early cerebral infarction,early cerebral infarction,0
+433,what is abnormal in the ct scan?,CT,early cerebral infarction,4,The patient has coronary artery disease.,early cerebral infarction,early cerebral infarction,0
+434,what is abnormal in the ct scan?,CT,early cerebral infarction,5,The patient has chronic obstructive pulmonary disease (COPD).,early cerebral infarction,early cerebral infarction,0
+435,what is abnormal in the ct scan?,CT,early cerebral infarction,6,The patient has a history of stroke.,early cerebral infarction,no,1
+436,what is abnormal in the ct scan?,CT,early cerebral infarction,7,The patient has osteoporosis.,early cerebral infarction,early cerebral infarction,0
+437,what is abnormal in the ct scan?,CT,early cerebral infarction,8,The patient has a history of breast cancer.,early cerebral infarction,early cerebral infarction,0
+438,what is abnormal in the ct scan?,CT,early cerebral infarction,9,The patient has rheumatoid arthritis.,early cerebral infarction,early cerebral infarction,0
+439,what is abnormal in the ct scan?,CT,early cerebral infarction,10,The patient has a history of kidney failure.,early cerebral infarction,early cerebral infarction,0
+440,what is the organ principally shown in this mri?,MRI,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,normal,skull and contents,1
+441,what is the organ principally shown in this mri?,MRI,skull and contents,2,The patient has been diagnosed with hypertension.,normal,skull and contents,1
+442,what is the organ principally shown in this mri?,MRI,skull and contents,3,The patient has a history of lung cancer.,normal,skull and contents,1
+443,what is the organ principally shown in this mri?,MRI,skull and contents,4,The patient has coronary artery disease.,normal,skull and contents,1
+444,what is the organ principally shown in this mri?,MRI,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,skull and contents,1
+445,what is the organ principally shown in this mri?,MRI,skull and contents,6,The patient has a history of stroke.,normal,cannot determine,1
+446,what is the organ principally shown in this mri?,MRI,skull and contents,7,The patient has osteoporosis.,normal,skull and contents,1
+447,what is the organ principally shown in this mri?,MRI,skull and contents,8,The patient has a history of breast cancer.,normal,skull and contents,1
+448,what is the organ principally shown in this mri?,MRI,skull and contents,9,The patient has rheumatoid arthritis.,normal,skull and contents,1
+449,what is the organ principally shown in this mri?,MRI,skull and contents,10,The patient has a history of kidney failure.,normal,skull and contents,1
+450,what imaging plane is depicted here?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,normal,axial,1
+451,what imaging plane is depicted here?,unknown,axial,2,The patient has been diagnosed with hypertension.,normal,axial,1
+452,what imaging plane is depicted here?,unknown,axial,3,The patient has a history of lung cancer.,normal,normal,0
+453,what imaging plane is depicted here?,unknown,axial,4,The patient has coronary artery disease.,normal,axial,1
+454,what imaging plane is depicted here?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+455,what imaging plane is depicted here?,unknown,axial,6,The patient has a history of stroke.,normal,axial,1
+456,what imaging plane is depicted here?,unknown,axial,7,The patient has osteoporosis.,normal,axial,1
+457,what imaging plane is depicted here?,unknown,axial,8,The patient has a history of breast cancer.,normal,axial,1
+458,what imaging plane is depicted here?,unknown,axial,9,The patient has rheumatoid arthritis.,normal,normal,0
+459,what imaging plane is depicted here?,unknown,axial,10,The patient has a history of kidney failure.,normal,axial,1
+460,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",1,The patient has a history of type 2 diabetes mellitus.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+461,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",2,The patient has been diagnosed with hypertension.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+462,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",3,The patient has a history of lung cancer.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+463,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",4,The patient has coronary artery disease.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+464,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",5,The patient has chronic obstructive pulmonary disease (COPD).,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+465,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",6,The patient has a history of stroke.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+466,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",7,The patient has osteoporosis.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+467,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",8,The patient has a history of breast cancer.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+468,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",9,The patient has rheumatoid arthritis.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+469,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",10,The patient has a history of kidney failure.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+470,what is the plane of the image?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+471,what is the plane of the image?,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+472,what is the plane of the image?,unknown,axial,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+473,what is the plane of the image?,unknown,axial,4,The patient has coronary artery disease.,abnormal,abnormal,0
+474,what is the plane of the image?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+475,what is the plane of the image?,unknown,axial,6,The patient has a history of stroke.,abnormal,axial,1
+476,what is the plane of the image?,unknown,axial,7,The patient has osteoporosis.,abnormal,axial,1
+477,what is the plane of the image?,unknown,axial,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+478,what is the plane of the image?,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+479,what is the plane of the image?,unknown,axial,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+480,what organ system is pictured here?,unknown,musculoskeletal,1,The patient has a history of type 2 diabetes mellitus.,normal,musculoskeletal,1
+481,what organ system is pictured here?,unknown,musculoskeletal,2,The patient has been diagnosed with hypertension.,normal,musculoskeletal,1
+482,what organ system is pictured here?,unknown,musculoskeletal,3,The patient has a history of lung cancer.,normal,musculoskeletal,1
+483,what organ system is pictured here?,unknown,musculoskeletal,4,The patient has coronary artery disease.,normal,musculoskeletal,1
+484,what organ system is pictured here?,unknown,musculoskeletal,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,musculoskeletal,1
+485,what organ system is pictured here?,unknown,musculoskeletal,6,The patient has a history of stroke.,normal,musculoskeletal,1
+486,what organ system is pictured here?,unknown,musculoskeletal,7,The patient has osteoporosis.,normal,normal,0
+487,what organ system is pictured here?,unknown,musculoskeletal,8,The patient has a history of breast cancer.,normal,musculoskeletal,1
+488,what organ system is pictured here?,unknown,musculoskeletal,9,The patient has rheumatoid arthritis.,normal,normal,0
+489,what organ system is pictured here?,unknown,musculoskeletal,10,The patient has a history of kidney failure.,normal,musculoskeletal,1
+490,what organ system is being imaged?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,skull and contents,skull and contents,0
+491,what organ system is being imaged?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,skull and contents,skull and contents,0
+492,what organ system is being imaged?,unknown,skull and contents,3,The patient has a history of lung cancer.,skull and contents,skull and contents,0
+493,what organ system is being imaged?,unknown,skull and contents,4,The patient has coronary artery disease.,skull and contents,skull and contents,0
+494,what organ system is being imaged?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,skull and contents,skull and contents,0
+495,what organ system is being imaged?,unknown,skull and contents,6,The patient has a history of stroke.,skull and contents,skull and contents,0
+496,what organ system is being imaged?,unknown,skull and contents,7,The patient has osteoporosis.,skull and contents,skull and contents,0
+497,what organ system is being imaged?,unknown,skull and contents,8,The patient has a history of breast cancer.,skull and contents,skull and contents,0
+498,what organ system is being imaged?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,skull and contents,skull and contents,0
+499,what organ system is being imaged?,unknown,skull and contents,10,The patient has a history of kidney failure.,skull and contents,skull and contents,0
+500,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,1,The patient has a history of type 2 diabetes mellitus.,t1,cannot determine,1
+501,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,2,The patient has been diagnosed with hypertension.,t1,cannot determine,1
+502,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,3,The patient has a history of lung cancer.,t1,cannot determine,1
+503,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,4,The patient has coronary artery disease.,t1,t1,0
+504,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,5,The patient has chronic obstructive pulmonary disease (COPD).,t1,t1,0
+505,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,6,The patient has a history of stroke.,t1,cannot determine,1
+506,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,7,The patient has osteoporosis.,t1,abnormal,1
+507,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,8,The patient has a history of breast cancer.,t1,no,1
+508,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,9,The patient has rheumatoid arthritis.,t1,abnormal,1
+509,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t1,10,The patient has a history of kidney failure.,t1,cannot determine,1
+510,what modality is shown?,unknown,xr - plain film,1,The patient has a history of type 2 diabetes mellitus.,xr - plain film,xr - plain film,0
+511,what modality is shown?,unknown,xr - plain film,2,The patient has been diagnosed with hypertension.,xr - plain film,xr - plain film,0
+512,what modality is shown?,unknown,xr - plain film,3,The patient has a history of lung cancer.,xr - plain film,xr - plain film,0
+513,what modality is shown?,unknown,xr - plain film,4,The patient has coronary artery disease.,xr - plain film,xr - plain film,0
+514,what modality is shown?,unknown,xr - plain film,5,The patient has chronic obstructive pulmonary disease (COPD).,xr - plain film,xr - plain film,0
+515,what modality is shown?,unknown,xr - plain film,6,The patient has a history of stroke.,xr - plain film,xr - plain film,0
+516,what modality is shown?,unknown,xr - plain film,7,The patient has osteoporosis.,xr - plain film,xr - plain film,0
+517,what modality is shown?,unknown,xr - plain film,8,The patient has a history of breast cancer.,xr - plain film,xr - plain film,0
+518,what modality is shown?,unknown,xr - plain film,9,The patient has rheumatoid arthritis.,xr - plain film,xr - plain film,0
+519,what modality is shown?,unknown,xr - plain film,10,The patient has a history of kidney failure.,xr - plain film,xr - plain film,0
+520,what organ system is visualized?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,normal,skull and contents,1
+521,what organ system is visualized?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,normal,skull and contents,1
+522,what organ system is visualized?,unknown,skull and contents,3,The patient has a history of lung cancer.,normal,skull and contents,1
+523,what organ system is visualized?,unknown,skull and contents,4,The patient has coronary artery disease.,normal,skull and contents,1
+524,what organ system is visualized?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,skull and contents,1
+525,what organ system is visualized?,unknown,skull and contents,6,The patient has a history of stroke.,normal,normal,0
+526,what organ system is visualized?,unknown,skull and contents,7,The patient has osteoporosis.,normal,skull and contents,1
+527,what organ system is visualized?,unknown,skull and contents,8,The patient has a history of breast cancer.,normal,skull and contents,1
+528,what organ system is visualized?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,normal,skull and contents,1
+529,what organ system is visualized?,unknown,skull and contents,10,The patient has a history of kidney failure.,normal,skull and contents,1
+530,what type of imaging modality is shown?,unknown,ugi - upper gi,1,The patient has a history of type 2 diabetes mellitus.,ugi - upper gi,ugi - upper gi,0
+531,what type of imaging modality is shown?,unknown,ugi - upper gi,2,The patient has been diagnosed with hypertension.,ugi - upper gi,ugi - upper gi,0
+532,what type of imaging modality is shown?,unknown,ugi - upper gi,3,The patient has a history of lung cancer.,ugi - upper gi,ugi - upper gi,0
+533,what type of imaging modality is shown?,unknown,ugi - upper gi,4,The patient has coronary artery disease.,ugi - upper gi,ugi - upper gi,0
+534,what type of imaging modality is shown?,unknown,ugi - upper gi,5,The patient has chronic obstructive pulmonary disease (COPD).,ugi - upper gi,ugi - upper gi,0
+535,what type of imaging modality is shown?,unknown,ugi - upper gi,6,The patient has a history of stroke.,ugi - upper gi,ugi - upper gi,0
+536,what type of imaging modality is shown?,unknown,ugi - upper gi,7,The patient has osteoporosis.,ugi - upper gi,ugi - upper gi,0
+537,what type of imaging modality is shown?,unknown,ugi - upper gi,8,The patient has a history of breast cancer.,ugi - upper gi,ugi - upper gi,0
+538,what type of imaging modality is shown?,unknown,ugi - upper gi,9,The patient has rheumatoid arthritis.,ugi - upper gi,ugi - upper gi,0
+539,what type of imaging modality is shown?,unknown,ugi - upper gi,10,The patient has a history of kidney failure.,ugi - upper gi,ugi - upper gi,0
+540,in what plane is this ct scan?,CT,axial,1,The patient has a history of type 2 diabetes mellitus.,normal,axial,1
+541,in what plane is this ct scan?,CT,axial,2,The patient has been diagnosed with hypertension.,normal,normal,0
+542,in what plane is this ct scan?,CT,axial,3,The patient has a history of lung cancer.,normal,normal,0
+543,in what plane is this ct scan?,CT,axial,4,The patient has coronary artery disease.,normal,axial,1
+544,in what plane is this ct scan?,CT,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+545,in what plane is this ct scan?,CT,axial,6,The patient has a history of stroke.,normal,abnormal,1
+546,in what plane is this ct scan?,CT,axial,7,The patient has osteoporosis.,normal,axial,1
+547,in what plane is this ct scan?,CT,axial,8,The patient has a history of breast cancer.,normal,axial,1
+548,in what plane is this ct scan?,CT,axial,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+549,in what plane is this ct scan?,CT,axial,10,The patient has a history of kidney failure.,normal,abnormal,1
+550,what is the plane?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+551,what is the plane?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+552,what is the plane?,unknown,axial,3,The patient has a history of lung cancer.,axial,axial,0
+553,what is the plane?,unknown,axial,4,The patient has coronary artery disease.,axial,axial,0
+554,what is the plane?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,axial,0
+555,what is the plane?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+556,what is the plane?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+557,what is the plane?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+558,what is the plane?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+559,what is the plane?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+560,what imaging modality was used to take this image?,unknown,ct with iv contrast,1,The patient has a history of type 2 diabetes mellitus.,ct with iv contrast,ct with iv contrast,0
+561,what imaging modality was used to take this image?,unknown,ct with iv contrast,2,The patient has been diagnosed with hypertension.,ct with iv contrast,ct with iv contrast,0
+562,what imaging modality was used to take this image?,unknown,ct with iv contrast,3,The patient has a history of lung cancer.,ct with iv contrast,ct with iv contrast,0
+563,what imaging modality was used to take this image?,unknown,ct with iv contrast,4,The patient has coronary artery disease.,ct with iv contrast,ct with iv contrast,0
+564,what imaging modality was used to take this image?,unknown,ct with iv contrast,5,The patient has chronic obstructive pulmonary disease (COPD).,ct with iv contrast,ct with iv contrast,0
+565,what imaging modality was used to take this image?,unknown,ct with iv contrast,6,The patient has a history of stroke.,ct with iv contrast,ct with iv contrast,0
+566,what imaging modality was used to take this image?,unknown,ct with iv contrast,7,The patient has osteoporosis.,ct with iv contrast,ct with iv contrast,0
+567,what imaging modality was used to take this image?,unknown,ct with iv contrast,8,The patient has a history of breast cancer.,ct with iv contrast,ct with iv contrast,0
+568,what imaging modality was used to take this image?,unknown,ct with iv contrast,9,The patient has rheumatoid arthritis.,ct with iv contrast,ct with iv contrast,0
+569,what imaging modality was used to take this image?,unknown,ct with iv contrast,10,The patient has a history of kidney failure.,ct with iv contrast,ct with iv contrast,0
+570,what is the primary abnormality in this image?,unknown,crohn's disease,1,The patient has a history of type 2 diabetes mellitus.,crohn's disease,crohn's disease,0
+571,what is the primary abnormality in this image?,unknown,crohn's disease,2,The patient has been diagnosed with hypertension.,crohn's disease,crohn's disease,0
+572,what is the primary abnormality in this image?,unknown,crohn's disease,3,The patient has a history of lung cancer.,crohn's disease,crohn's disease,0
+573,what is the primary abnormality in this image?,unknown,crohn's disease,4,The patient has coronary artery disease.,crohn's disease,crohn's disease,0
+574,what is the primary abnormality in this image?,unknown,crohn's disease,5,The patient has chronic obstructive pulmonary disease (COPD).,crohn's disease,crohn's disease,0
+575,what is the primary abnormality in this image?,unknown,crohn's disease,6,The patient has a history of stroke.,crohn's disease,crohn's disease,0
+576,what is the primary abnormality in this image?,unknown,crohn's disease,7,The patient has osteoporosis.,crohn's disease,crohn's disease,0
+577,what is the primary abnormality in this image?,unknown,crohn's disease,8,The patient has a history of breast cancer.,crohn's disease,crohn's disease,0
+578,what is the primary abnormality in this image?,unknown,crohn's disease,9,The patient has rheumatoid arthritis.,crohn's disease,crohn's disease,0
+579,what is the primary abnormality in this image?,unknown,crohn's disease,10,The patient has a history of kidney failure.,crohn's disease,crohn's disease,0
+580,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,1,The patient has a history of type 2 diabetes mellitus.,ct with gi and iv contrast,ct with gi and iv contrast,0
+581,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,2,The patient has been diagnosed with hypertension.,ct with gi and iv contrast,ct with gi and iv contrast,0
+582,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,3,The patient has a history of lung cancer.,ct with gi and iv contrast,ct with gi and iv contrast,0
+583,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,4,The patient has coronary artery disease.,ct with gi and iv contrast,ct with gi and iv contrast,0
+584,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,5,The patient has chronic obstructive pulmonary disease (COPD).,ct with gi and iv contrast,ct with gi and iv contrast,0
+585,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,6,The patient has a history of stroke.,ct with gi and iv contrast,abnormal,1
+586,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,7,The patient has osteoporosis.,ct with gi and iv contrast,ct with gi and iv contrast,0
+587,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,8,The patient has a history of breast cancer.,ct with gi and iv contrast,ct with gi and iv contrast,0
+588,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,9,The patient has rheumatoid arthritis.,ct with gi and iv contrast,ct with gi and iv contrast,0
+589,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,10,The patient has a history of kidney failure.,ct with gi and iv contrast,ct with gi and iv contrast,0
+590,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",1,The patient has a history of type 2 diabetes mellitus.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+591,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",2,The patient has been diagnosed with hypertension.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+592,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",3,The patient has a history of lung cancer.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+593,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",4,The patient has coronary artery disease.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+594,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",5,The patient has chronic obstructive pulmonary disease (COPD).,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+595,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",6,The patient has a history of stroke.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+596,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",7,The patient has osteoporosis.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+597,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",8,The patient has a history of breast cancer.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+598,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",9,The patient has rheumatoid arthritis.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+599,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",10,The patient has a history of kidney failure.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+600,what is most alarming about this mri?,MRI,cephalocele,1,The patient has a history of type 2 diabetes mellitus.,normal,cephalocele,1
+601,what is most alarming about this mri?,MRI,cephalocele,2,The patient has been diagnosed with hypertension.,normal,cephalocele,1
+602,what is most alarming about this mri?,MRI,cephalocele,3,The patient has a history of lung cancer.,normal,cephalocele,1
+603,what is most alarming about this mri?,MRI,cephalocele,4,The patient has coronary artery disease.,normal,cephalocele,1
+604,what is most alarming about this mri?,MRI,cephalocele,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,cephalocele,1
+605,what is most alarming about this mri?,MRI,cephalocele,6,The patient has a history of stroke.,normal,cephalocele,1
+606,what is most alarming about this mri?,MRI,cephalocele,7,The patient has osteoporosis.,normal,normal,0
+607,what is most alarming about this mri?,MRI,cephalocele,8,The patient has a history of breast cancer.,normal,cephalocele,1
+608,what is most alarming about this mri?,MRI,cephalocele,9,The patient has rheumatoid arthritis.,normal,cephalocele,1
+609,what is most alarming about this mri?,MRI,cephalocele,10,The patient has a history of kidney failure.,normal,cephalocele,1
+610,in what plane is this mri captured?,MRI,axial,1,The patient has a history of type 2 diabetes mellitus.,normal,axial,1
+611,in what plane is this mri captured?,MRI,axial,2,The patient has been diagnosed with hypertension.,normal,axial,1
+612,in what plane is this mri captured?,MRI,axial,3,The patient has a history of lung cancer.,normal,axial,1
+613,in what plane is this mri captured?,MRI,axial,4,The patient has coronary artery disease.,normal,axial,1
+614,in what plane is this mri captured?,MRI,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,axial,1
+615,in what plane is this mri captured?,MRI,axial,6,The patient has a history of stroke.,normal,axial,1
+616,in what plane is this mri captured?,MRI,axial,7,The patient has osteoporosis.,normal,axial,1
+617,in what plane is this mri captured?,MRI,axial,8,The patient has a history of breast cancer.,normal,axial,1
+618,in what plane is this mri captured?,MRI,axial,9,The patient has rheumatoid arthritis.,normal,yes,1
+619,in what plane is this mri captured?,MRI,axial,10,The patient has a history of kidney failure.,normal,normal,0
+620,how was this image taken?,unknown,us - ultrasound,1,The patient has a history of type 2 diabetes mellitus.,us - ultrasound,us - ultrasound,0
+621,how was this image taken?,unknown,us - ultrasound,2,The patient has been diagnosed with hypertension.,us - ultrasound,us - ultrasound,0
+622,how was this image taken?,unknown,us - ultrasound,3,The patient has a history of lung cancer.,us - ultrasound,us - ultrasound,0
+623,how was this image taken?,unknown,us - ultrasound,4,The patient has coronary artery disease.,us - ultrasound,us - ultrasound,0
+624,how was this image taken?,unknown,us - ultrasound,5,The patient has chronic obstructive pulmonary disease (COPD).,us - ultrasound,us - ultrasound,0
+625,how was this image taken?,unknown,us - ultrasound,6,The patient has a history of stroke.,us - ultrasound,us - ultrasound,0
+626,how was this image taken?,unknown,us - ultrasound,7,The patient has osteoporosis.,us - ultrasound,us - ultrasound,0
+627,how was this image taken?,unknown,us - ultrasound,8,The patient has a history of breast cancer.,us - ultrasound,us - ultrasound,0
+628,how was this image taken?,unknown,us - ultrasound,9,The patient has rheumatoid arthritis.,us - ultrasound,us - ultrasound,0
+629,how was this image taken?,unknown,us - ultrasound,10,The patient has a history of kidney failure.,us - ultrasound,us - ultrasound,0
+630,what part of the body does this ct scan show?,CT,heart and great vessels,1,The patient has a history of type 2 diabetes mellitus.,heart and great vessels,heart and great vessels,0
+631,what part of the body does this ct scan show?,CT,heart and great vessels,2,The patient has been diagnosed with hypertension.,heart and great vessels,heart and great vessels,0
+632,what part of the body does this ct scan show?,CT,heart and great vessels,3,The patient has a history of lung cancer.,heart and great vessels,heart and great vessels,0
+633,what part of the body does this ct scan show?,CT,heart and great vessels,4,The patient has coronary artery disease.,heart and great vessels,heart and great vessels,0
+634,what part of the body does this ct scan show?,CT,heart and great vessels,5,The patient has chronic obstructive pulmonary disease (COPD).,heart and great vessels,heart and great vessels,0
+635,what part of the body does this ct scan show?,CT,heart and great vessels,6,The patient has a history of stroke.,heart and great vessels,heart and great vessels,0
+636,what part of the body does this ct scan show?,CT,heart and great vessels,7,The patient has osteoporosis.,heart and great vessels,heart and great vessels,0
+637,what part of the body does this ct scan show?,CT,heart and great vessels,8,The patient has a history of breast cancer.,heart and great vessels,heart and great vessels,0
+638,what part of the body does this ct scan show?,CT,heart and great vessels,9,The patient has rheumatoid arthritis.,heart and great vessels,heart and great vessels,0
+639,what part of the body does this ct scan show?,CT,heart and great vessels,10,The patient has a history of kidney failure.,heart and great vessels,heart and great vessels,0
+640,was the mri taken with contrast?,MRI,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+641,was the mri taken with contrast?,MRI,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+642,was the mri taken with contrast?,MRI,no,3,The patient has a history of lung cancer.,normal,normal,0
+643,was the mri taken with contrast?,MRI,no,4,The patient has coronary artery disease.,normal,normal,0
+644,was the mri taken with contrast?,MRI,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+645,was the mri taken with contrast?,MRI,no,6,The patient has a history of stroke.,normal,normal,0
+646,was the mri taken with contrast?,MRI,no,7,The patient has osteoporosis.,normal,normal,0
+647,was the mri taken with contrast?,MRI,no,8,The patient has a history of breast cancer.,normal,normal,0
+648,was the mri taken with contrast?,MRI,no,9,The patient has rheumatoid arthritis.,normal,normal,0
+649,was the mri taken with contrast?,MRI,no,10,The patient has a history of kidney failure.,normal,normal,0
+650,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",1,The patient has a history of type 2 diabetes mellitus.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+651,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",2,The patient has been diagnosed with hypertension.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+652,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",3,The patient has a history of lung cancer.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+653,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",4,The patient has coronary artery disease.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+654,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+655,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",6,The patient has a history of stroke.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+656,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",7,The patient has osteoporosis.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+657,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",8,The patient has a history of breast cancer.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+658,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",9,The patient has rheumatoid arthritis.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+659,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",10,The patient has a history of kidney failure.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+660,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,1,The patient has a history of type 2 diabetes mellitus.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+661,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,2,The patient has been diagnosed with hypertension.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+662,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,3,The patient has a history of lung cancer.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+663,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,4,The patient has coronary artery disease.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+664,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,5,The patient has chronic obstructive pulmonary disease (COPD).,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+665,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,6,The patient has a history of stroke.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+666,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,7,The patient has osteoporosis.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+667,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,8,The patient has a history of breast cancer.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+668,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,9,The patient has rheumatoid arthritis.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+669,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,10,The patient has a history of kidney failure.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+670,which image modality is this?,unknown,mr - flair,1,The patient has a history of type 2 diabetes mellitus.,mr - flair,mr - flair,0
+671,which image modality is this?,unknown,mr - flair,2,The patient has been diagnosed with hypertension.,mr - flair,mr - flair,0
+672,which image modality is this?,unknown,mr - flair,3,The patient has a history of lung cancer.,mr - flair,mr - flair,0
+673,which image modality is this?,unknown,mr - flair,4,The patient has coronary artery disease.,mr - flair,mr - flair,0
+674,which image modality is this?,unknown,mr - flair,5,The patient has chronic obstructive pulmonary disease (COPD).,mr - flair,mr - flair,0
+675,which image modality is this?,unknown,mr - flair,6,The patient has a history of stroke.,mr - flair,mr - flair,0
+676,which image modality is this?,unknown,mr - flair,7,The patient has osteoporosis.,mr - flair,mr - flair,0
+677,which image modality is this?,unknown,mr - flair,8,The patient has a history of breast cancer.,mr - flair,mr - flair,0
+678,which image modality is this?,unknown,mr - flair,9,The patient has rheumatoid arthritis.,mr - flair,mr - flair,0
+679,which image modality is this?,unknown,mr - flair,10,The patient has a history of kidney failure.,mr - flair,mr - flair,0
+680,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,1,The patient has a history of type 2 diabetes mellitus.,percutaneous nephrostomy,percutaneous nephrostomy,0
+681,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,2,The patient has been diagnosed with hypertension.,percutaneous nephrostomy,percutaneous nephrostomy,0
+682,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,3,The patient has a history of lung cancer.,percutaneous nephrostomy,percutaneous nephrostomy,0
+683,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,4,The patient has coronary artery disease.,percutaneous nephrostomy,percutaneous nephrostomy,0
+684,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,5,The patient has chronic obstructive pulmonary disease (COPD).,percutaneous nephrostomy,percutaneous nephrostomy,0
+685,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,6,The patient has a history of stroke.,percutaneous nephrostomy,percutaneous nephrostomy,0
+686,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,7,The patient has osteoporosis.,percutaneous nephrostomy,percutaneous nephrostomy,0
+687,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,8,The patient has a history of breast cancer.,percutaneous nephrostomy,percutaneous nephrostomy,0
+688,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,9,The patient has rheumatoid arthritis.,percutaneous nephrostomy,percutaneous nephrostomy,0
+689,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,10,The patient has a history of kidney failure.,percutaneous nephrostomy,percutaneous nephrostomy,0
+690,which plane is this image in?,unknown,longitudinal,1,The patient has a history of type 2 diabetes mellitus.,longitudinal,longitudinal,0
+691,which plane is this image in?,unknown,longitudinal,2,The patient has been diagnosed with hypertension.,longitudinal,longitudinal,0
+692,which plane is this image in?,unknown,longitudinal,3,The patient has a history of lung cancer.,longitudinal,longitudinal,0
+693,which plane is this image in?,unknown,longitudinal,4,The patient has coronary artery disease.,longitudinal,longitudinal,0
+694,which plane is this image in?,unknown,longitudinal,5,The patient has chronic obstructive pulmonary disease (COPD).,longitudinal,longitudinal,0
+695,which plane is this image in?,unknown,longitudinal,6,The patient has a history of stroke.,longitudinal,longitudinal,0
+696,which plane is this image in?,unknown,longitudinal,7,The patient has osteoporosis.,longitudinal,longitudinal,0
+697,which plane is this image in?,unknown,longitudinal,8,The patient has a history of breast cancer.,longitudinal,longitudinal,0
+698,which plane is this image in?,unknown,longitudinal,9,The patient has rheumatoid arthritis.,longitudinal,longitudinal,0
+699,which plane is this image in?,unknown,longitudinal,10,The patient has a history of kidney failure.,longitudinal,longitudinal,0
+700,what part of the body is being imaged here?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,skull and contents,skull and contents,0
+701,what part of the body is being imaged here?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,skull and contents,skull and contents,0
+702,what part of the body is being imaged here?,unknown,skull and contents,3,The patient has a history of lung cancer.,skull and contents,skull and contents,0
+703,what part of the body is being imaged here?,unknown,skull and contents,4,The patient has coronary artery disease.,skull and contents,skull and contents,0
+704,what part of the body is being imaged here?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,skull and contents,skull and contents,0
+705,what part of the body is being imaged here?,unknown,skull and contents,6,The patient has a history of stroke.,skull and contents,normal,1
+706,what part of the body is being imaged here?,unknown,skull and contents,7,The patient has osteoporosis.,skull and contents,skull and contents,0
+707,what part of the body is being imaged here?,unknown,skull and contents,8,The patient has a history of breast cancer.,skull and contents,skull and contents,0
+708,what part of the body is being imaged here?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,skull and contents,skull and contents,0
+709,what part of the body is being imaged here?,unknown,skull and contents,10,The patient has a history of kidney failure.,skull and contents,skull and contents,0
+710,what is the plane of the image?,unknown,coronal,1,The patient has a history of type 2 diabetes mellitus.,coronal,coronal,0
+711,what is the plane of the image?,unknown,coronal,2,The patient has been diagnosed with hypertension.,coronal,coronal,0
+712,what is the plane of the image?,unknown,coronal,3,The patient has a history of lung cancer.,coronal,coronal,0
+713,what is the plane of the image?,unknown,coronal,4,The patient has coronary artery disease.,coronal,coronal,0
+714,what is the plane of the image?,unknown,coronal,5,The patient has chronic obstructive pulmonary disease (COPD).,coronal,coronal,0
+715,what is the plane of the image?,unknown,coronal,6,The patient has a history of stroke.,coronal,coronal,0
+716,what is the plane of the image?,unknown,coronal,7,The patient has osteoporosis.,coronal,coronal,0
+717,what is the plane of the image?,unknown,coronal,8,The patient has a history of breast cancer.,coronal,coronal,0
+718,what is the plane of the image?,unknown,coronal,9,The patient has rheumatoid arthritis.,coronal,coronal,0
+719,what is the plane of the image?,unknown,coronal,10,The patient has a history of kidney failure.,coronal,coronal,0
+720,what is the plane of the image?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+721,what is the plane of the image?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+722,what is the plane of the image?,unknown,axial,3,The patient has a history of lung cancer.,axial,axial,0
+723,what is the plane of the image?,unknown,axial,4,The patient has coronary artery disease.,axial,axial,0
+724,what is the plane of the image?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,abnormal,1
+725,what is the plane of the image?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+726,what is the plane of the image?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+727,what is the plane of the image?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+728,what is the plane of the image?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+729,what is the plane of the image?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+730,what is abnormal in the mri?,MRI,"brain, cerebral abscess",1,The patient has a history of type 2 diabetes mellitus.,"brain, cerebral abscess","brain, cerebral abscess",0
+731,what is abnormal in the mri?,MRI,"brain, cerebral abscess",2,The patient has been diagnosed with hypertension.,"brain, cerebral abscess","brain, cerebral abscess",0
+732,what is abnormal in the mri?,MRI,"brain, cerebral abscess",3,The patient has a history of lung cancer.,"brain, cerebral abscess","brain, cerebral abscess",0
+733,what is abnormal in the mri?,MRI,"brain, cerebral abscess",4,The patient has coronary artery disease.,"brain, cerebral abscess","brain, cerebral abscess",0
+734,what is abnormal in the mri?,MRI,"brain, cerebral abscess",5,The patient has chronic obstructive pulmonary disease (COPD).,"brain, cerebral abscess","brain, cerebral abscess",0
+735,what is abnormal in the mri?,MRI,"brain, cerebral abscess",6,The patient has a history of stroke.,"brain, cerebral abscess","brain, cerebral abscess",0
+736,what is abnormal in the mri?,MRI,"brain, cerebral abscess",7,The patient has osteoporosis.,"brain, cerebral abscess","brain, cerebral abscess",0
+737,what is abnormal in the mri?,MRI,"brain, cerebral abscess",8,The patient has a history of breast cancer.,"brain, cerebral abscess","brain, cerebral abscess",0
+738,what is abnormal in the mri?,MRI,"brain, cerebral abscess",9,The patient has rheumatoid arthritis.,"brain, cerebral abscess","brain, cerebral abscess",0
+739,what is abnormal in the mri?,MRI,"brain, cerebral abscess",10,The patient has a history of kidney failure.,"brain, cerebral abscess","brain, cerebral abscess",0
+740,what organ system is shown in the image?,unknown,musculoskeletal,1,The patient has a history of type 2 diabetes mellitus.,musculoskeletal,musculoskeletal,0
+741,what organ system is shown in the image?,unknown,musculoskeletal,2,The patient has been diagnosed with hypertension.,musculoskeletal,musculoskeletal,0
+742,what organ system is shown in the image?,unknown,musculoskeletal,3,The patient has a history of lung cancer.,musculoskeletal,musculoskeletal,0
+743,what organ system is shown in the image?,unknown,musculoskeletal,4,The patient has coronary artery disease.,musculoskeletal,musculoskeletal,0
+744,what organ system is shown in the image?,unknown,musculoskeletal,5,The patient has chronic obstructive pulmonary disease (COPD).,musculoskeletal,normal,1
+745,what organ system is shown in the image?,unknown,musculoskeletal,6,The patient has a history of stroke.,musculoskeletal,musculoskeletal,0
+746,what organ system is shown in the image?,unknown,musculoskeletal,7,The patient has osteoporosis.,musculoskeletal,musculoskeletal,0
+747,what organ system is shown in the image?,unknown,musculoskeletal,8,The patient has a history of breast cancer.,musculoskeletal,musculoskeletal,0
+748,what organ system is shown in the image?,unknown,musculoskeletal,9,The patient has rheumatoid arthritis.,musculoskeletal,musculoskeletal,0
+749,what organ system is shown in the image?,unknown,musculoskeletal,10,The patient has a history of kidney failure.,musculoskeletal,musculoskeletal,0
+750,what organ system is visualized?,unknown,musculoskeletal,1,The patient has a history of type 2 diabetes mellitus.,musculoskeletal,musculoskeletal,0
+751,what organ system is visualized?,unknown,musculoskeletal,2,The patient has been diagnosed with hypertension.,musculoskeletal,musculoskeletal,0
+752,what organ system is visualized?,unknown,musculoskeletal,3,The patient has a history of lung cancer.,musculoskeletal,musculoskeletal,0
+753,what organ system is visualized?,unknown,musculoskeletal,4,The patient has coronary artery disease.,musculoskeletal,musculoskeletal,0
+754,what organ system is visualized?,unknown,musculoskeletal,5,The patient has chronic obstructive pulmonary disease (COPD).,musculoskeletal,musculoskeletal,0
+755,what organ system is visualized?,unknown,musculoskeletal,6,The patient has a history of stroke.,musculoskeletal,musculoskeletal,0
+756,what organ system is visualized?,unknown,musculoskeletal,7,The patient has osteoporosis.,musculoskeletal,musculoskeletal,0
+757,what organ system is visualized?,unknown,musculoskeletal,8,The patient has a history of breast cancer.,musculoskeletal,musculoskeletal,0
+758,what organ system is visualized?,unknown,musculoskeletal,9,The patient has rheumatoid arthritis.,musculoskeletal,musculoskeletal,0
+759,what organ system is visualized?,unknown,musculoskeletal,10,The patient has a history of kidney failure.,musculoskeletal,musculoskeletal,0
+760,the ct scan shows what organ system?,CT,heart and great vessels,1,The patient has a history of type 2 diabetes mellitus.,heart and great vessels,heart and great vessels,0
+761,the ct scan shows what organ system?,CT,heart and great vessels,2,The patient has been diagnosed with hypertension.,heart and great vessels,heart and great vessels,0
+762,the ct scan shows what organ system?,CT,heart and great vessels,3,The patient has a history of lung cancer.,heart and great vessels,heart and great vessels,0
+763,the ct scan shows what organ system?,CT,heart and great vessels,4,The patient has coronary artery disease.,heart and great vessels,heart and great vessels,0
+764,the ct scan shows what organ system?,CT,heart and great vessels,5,The patient has chronic obstructive pulmonary disease (COPD).,heart and great vessels,heart and great vessels,0
+765,the ct scan shows what organ system?,CT,heart and great vessels,6,The patient has a history of stroke.,heart and great vessels,heart and great vessels,0
+766,the ct scan shows what organ system?,CT,heart and great vessels,7,The patient has osteoporosis.,heart and great vessels,heart and great vessels,0
+767,the ct scan shows what organ system?,CT,heart and great vessels,8,The patient has a history of breast cancer.,heart and great vessels,heart and great vessels,0
+768,the ct scan shows what organ system?,CT,heart and great vessels,9,The patient has rheumatoid arthritis.,heart and great vessels,heart and great vessels,0
+769,the ct scan shows what organ system?,CT,heart and great vessels,10,The patient has a history of kidney failure.,heart and great vessels,heart and great vessels,0
+770,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+771,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",2,The patient has been diagnosed with hypertension.,normal,normal,0
+772,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",3,The patient has a history of lung cancer.,normal,normal,0
+773,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",4,The patient has coronary artery disease.,normal,"face, sinuses, and neck",1
+774,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+775,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",6,The patient has a history of stroke.,normal,normal,0
+776,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",7,The patient has osteoporosis.,normal,normal,0
+777,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",8,The patient has a history of breast cancer.,normal,normal,0
+778,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",9,The patient has rheumatoid arthritis.,normal,normal,0
+779,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",10,The patient has a history of kidney failure.,normal,no,1
+780,in what plane is this image taken?,unknown,pa,1,The patient has a history of type 2 diabetes mellitus.,normal,pa,1
+781,in what plane is this image taken?,unknown,pa,2,The patient has been diagnosed with hypertension.,normal,pa,1
+782,in what plane is this image taken?,unknown,pa,3,The patient has a history of lung cancer.,normal,normal,0
+783,in what plane is this image taken?,unknown,pa,4,The patient has coronary artery disease.,normal,pa,1
+784,in what plane is this image taken?,unknown,pa,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,pa,1
+785,in what plane is this image taken?,unknown,pa,6,The patient has a history of stroke.,normal,pa,1
+786,in what plane is this image taken?,unknown,pa,7,The patient has osteoporosis.,normal,pa,1
+787,in what plane is this image taken?,unknown,pa,8,The patient has a history of breast cancer.,normal,normal,0
+788,in what plane is this image taken?,unknown,pa,9,The patient has rheumatoid arthritis.,normal,pa,1
+789,in what plane is this image taken?,unknown,pa,10,The patient has a history of kidney failure.,normal,pa,1
+790,what plane is demonstrated?,unknown,sagittal,1,The patient has a history of type 2 diabetes mellitus.,normal,sagittal,1
+791,what plane is demonstrated?,unknown,sagittal,2,The patient has been diagnosed with hypertension.,normal,sagittal,1
+792,what plane is demonstrated?,unknown,sagittal,3,The patient has a history of lung cancer.,normal,sagittal,1
+793,what plane is demonstrated?,unknown,sagittal,4,The patient has coronary artery disease.,normal,sagittal,1
+794,what plane is demonstrated?,unknown,sagittal,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,sagittal,1
+795,what plane is demonstrated?,unknown,sagittal,6,The patient has a history of stroke.,normal,sagittal,1
+796,what plane is demonstrated?,unknown,sagittal,7,The patient has osteoporosis.,normal,sagittal,1
+797,what plane is demonstrated?,unknown,sagittal,8,The patient has a history of breast cancer.,normal,sagittal,1
+798,what plane is demonstrated?,unknown,sagittal,9,The patient has rheumatoid arthritis.,normal,sagittal,1
+799,what plane is demonstrated?,unknown,sagittal,10,The patient has a history of kidney failure.,normal,sagittal,1
+800,what organ is this image of?,unknown,spine and contents,1,The patient has a history of type 2 diabetes mellitus.,abnormal,spine and contents,1
+801,what organ is this image of?,unknown,spine and contents,2,The patient has been diagnosed with hypertension.,abnormal,spine and contents,1
+802,what organ is this image of?,unknown,spine and contents,3,The patient has a history of lung cancer.,abnormal,spine and contents,1
+803,what organ is this image of?,unknown,spine and contents,4,The patient has coronary artery disease.,abnormal,spine and contents,1
+804,what organ is this image of?,unknown,spine and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,spine and contents,1
+805,what organ is this image of?,unknown,spine and contents,6,The patient has a history of stroke.,abnormal,spine and contents,1
+806,what organ is this image of?,unknown,spine and contents,7,The patient has osteoporosis.,abnormal,spine and contents,1
+807,what organ is this image of?,unknown,spine and contents,8,The patient has a history of breast cancer.,abnormal,spine and contents,1
+808,what organ is this image of?,unknown,spine and contents,9,The patient has rheumatoid arthritis.,abnormal,spine and contents,1
+809,what organ is this image of?,unknown,spine and contents,10,The patient has a history of kidney failure.,abnormal,spine and contents,1
+810,what type of imaging modality is shown?,unknown,ct w/contrast (iv),1,The patient has a history of type 2 diabetes mellitus.,ct w/contrast (iv),ct w/contrast (iv),0
+811,what type of imaging modality is shown?,unknown,ct w/contrast (iv),2,The patient has been diagnosed with hypertension.,ct w/contrast (iv),ct w/contrast (iv),0
+812,what type of imaging modality is shown?,unknown,ct w/contrast (iv),3,The patient has a history of lung cancer.,ct w/contrast (iv),ct w/contrast (iv),0
+813,what type of imaging modality is shown?,unknown,ct w/contrast (iv),4,The patient has coronary artery disease.,ct w/contrast (iv),ct w/contrast (iv),0
+814,what type of imaging modality is shown?,unknown,ct w/contrast (iv),5,The patient has chronic obstructive pulmonary disease (COPD).,ct w/contrast (iv),ct w/contrast (iv),0
+815,what type of imaging modality is shown?,unknown,ct w/contrast (iv),6,The patient has a history of stroke.,ct w/contrast (iv),ct w/contrast (iv),0
+816,what type of imaging modality is shown?,unknown,ct w/contrast (iv),7,The patient has osteoporosis.,ct w/contrast (iv),ct w/contrast (iv),0
+817,what type of imaging modality is shown?,unknown,ct w/contrast (iv),8,The patient has a history of breast cancer.,ct w/contrast (iv),ct w/contrast (iv),0
+818,what type of imaging modality is shown?,unknown,ct w/contrast (iv),9,The patient has rheumatoid arthritis.,ct w/contrast (iv),ct w/contrast (iv),0
+819,what type of imaging modality is shown?,unknown,ct w/contrast (iv),10,The patient has a history of kidney failure.,ct w/contrast (iv),ct w/contrast (iv),0
+820,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",1,The patient has a history of type 2 diabetes mellitus.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+821,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",2,The patient has been diagnosed with hypertension.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+822,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",3,The patient has a history of lung cancer.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+823,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",4,The patient has coronary artery disease.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+824,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",5,The patient has chronic obstructive pulmonary disease (COPD).,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+825,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",6,The patient has a history of stroke.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+826,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",7,The patient has osteoporosis.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+827,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",8,The patient has a history of breast cancer.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+828,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",9,The patient has rheumatoid arthritis.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+829,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",10,The patient has a history of kidney failure.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+830,"is this image modality t1, t2, or flair?",unknown,flair,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+831,"is this image modality t1, t2, or flair?",unknown,flair,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+832,"is this image modality t1, t2, or flair?",unknown,flair,3,The patient has a history of lung cancer.,abnormal,no,1
+833,"is this image modality t1, t2, or flair?",unknown,flair,4,The patient has coronary artery disease.,abnormal,abnormal,0
+834,"is this image modality t1, t2, or flair?",unknown,flair,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+835,"is this image modality t1, t2, or flair?",unknown,flair,6,The patient has a history of stroke.,abnormal,abnormal,0
+836,"is this image modality t1, t2, or flair?",unknown,flair,7,The patient has osteoporosis.,abnormal,abnormal,0
+837,"is this image modality t1, t2, or flair?",unknown,flair,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+838,"is this image modality t1, t2, or flair?",unknown,flair,9,The patient has rheumatoid arthritis.,abnormal,yes,1
+839,"is this image modality t1, t2, or flair?",unknown,flair,10,The patient has a history of kidney failure.,abnormal,no,1
+840,in what plane is this mri taken?,MRI,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+841,in what plane is this mri taken?,MRI,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+842,in what plane is this mri taken?,MRI,axial,3,The patient has a history of lung cancer.,axial,axial,0
+843,in what plane is this mri taken?,MRI,axial,4,The patient has coronary artery disease.,axial,axial,0
+844,in what plane is this mri taken?,MRI,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,axial,0
+845,in what plane is this mri taken?,MRI,axial,6,The patient has a history of stroke.,axial,axial,0
+846,in what plane is this mri taken?,MRI,axial,7,The patient has osteoporosis.,axial,axial,0
+847,in what plane is this mri taken?,MRI,axial,8,The patient has a history of breast cancer.,axial,axial,0
+848,in what plane is this mri taken?,MRI,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+849,in what plane is this mri taken?,MRI,axial,10,The patient has a history of kidney failure.,axial,axial,0
+850,what organ system is visualized?,unknown,musculoskeletal,1,The patient has a history of type 2 diabetes mellitus.,abnormal,musculoskeletal,1
+851,what organ system is visualized?,unknown,musculoskeletal,2,The patient has been diagnosed with hypertension.,abnormal,musculoskeletal,1
+852,what organ system is visualized?,unknown,musculoskeletal,3,The patient has a history of lung cancer.,abnormal,musculoskeletal,1
+853,what organ system is visualized?,unknown,musculoskeletal,4,The patient has coronary artery disease.,abnormal,musculoskeletal,1
+854,what organ system is visualized?,unknown,musculoskeletal,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,musculoskeletal,1
+855,what organ system is visualized?,unknown,musculoskeletal,6,The patient has a history of stroke.,abnormal,musculoskeletal,1
+856,what organ system is visualized?,unknown,musculoskeletal,7,The patient has osteoporosis.,abnormal,musculoskeletal,1
+857,what organ system is visualized?,unknown,musculoskeletal,8,The patient has a history of breast cancer.,abnormal,musculoskeletal,1
+858,what organ system is visualized?,unknown,musculoskeletal,9,The patient has rheumatoid arthritis.,abnormal,musculoskeletal,1
+859,what organ system is visualized?,unknown,musculoskeletal,10,The patient has a history of kidney failure.,abnormal,musculoskeletal,1
+860,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),1,The patient has a history of type 2 diabetes mellitus.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+861,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),2,The patient has been diagnosed with hypertension.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+862,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),3,The patient has a history of lung cancer.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+863,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),4,The patient has coronary artery disease.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+864,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),5,The patient has chronic obstructive pulmonary disease (COPD).,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+865,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),6,The patient has a history of stroke.,cerebral infarct (l mca territory),no,1
+866,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),7,The patient has osteoporosis.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+867,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),8,The patient has a history of breast cancer.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+868,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),9,The patient has rheumatoid arthritis.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+869,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),10,The patient has a history of kidney failure.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+870,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",1,The patient has a history of type 2 diabetes mellitus.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+871,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",2,The patient has been diagnosed with hypertension.,"lung, mediastinum, pleura",normal,1
+872,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",3,The patient has a history of lung cancer.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+873,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",4,The patient has coronary artery disease.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+874,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",5,The patient has chronic obstructive pulmonary disease (COPD).,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+875,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",6,The patient has a history of stroke.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+876,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",7,The patient has osteoporosis.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+877,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",8,The patient has a history of breast cancer.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+878,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",9,The patient has rheumatoid arthritis.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+879,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",10,The patient has a history of kidney failure.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+880,what is most alarming about this gastrointestinal image?,unknown,ascariasis,1,The patient has a history of type 2 diabetes mellitus.,ascariasis,ascariasis,0
+881,what is most alarming about this gastrointestinal image?,unknown,ascariasis,2,The patient has been diagnosed with hypertension.,ascariasis,ascariasis,0
+882,what is most alarming about this gastrointestinal image?,unknown,ascariasis,3,The patient has a history of lung cancer.,ascariasis,ascariasis,0
+883,what is most alarming about this gastrointestinal image?,unknown,ascariasis,4,The patient has coronary artery disease.,ascariasis,ascariasis,0
+884,what is most alarming about this gastrointestinal image?,unknown,ascariasis,5,The patient has chronic obstructive pulmonary disease (COPD).,ascariasis,ascariasis,0
+885,what is most alarming about this gastrointestinal image?,unknown,ascariasis,6,The patient has a history of stroke.,ascariasis,ascariasis,0
+886,what is most alarming about this gastrointestinal image?,unknown,ascariasis,7,The patient has osteoporosis.,ascariasis,ascariasis,0
+887,what is most alarming about this gastrointestinal image?,unknown,ascariasis,8,The patient has a history of breast cancer.,ascariasis,ascariasis,0
+888,what is most alarming about this gastrointestinal image?,unknown,ascariasis,9,The patient has rheumatoid arthritis.,ascariasis,ascariasis,0
+889,what is most alarming about this gastrointestinal image?,unknown,ascariasis,10,The patient has a history of kidney failure.,ascariasis,ascariasis,0
+890,what is the plane of the ct scan?,CT,sagittal,1,The patient has a history of type 2 diabetes mellitus.,sagittal,sagittal,0
+891,what is the plane of the ct scan?,CT,sagittal,2,The patient has been diagnosed with hypertension.,sagittal,sagittal,0
+892,what is the plane of the ct scan?,CT,sagittal,3,The patient has a history of lung cancer.,sagittal,sagittal,0
+893,what is the plane of the ct scan?,CT,sagittal,4,The patient has coronary artery disease.,sagittal,sagittal,0
+894,what is the plane of the ct scan?,CT,sagittal,5,The patient has chronic obstructive pulmonary disease (COPD).,sagittal,sagittal,0
+895,what is the plane of the ct scan?,CT,sagittal,6,The patient has a history of stroke.,sagittal,sagittal,0
+896,what is the plane of the ct scan?,CT,sagittal,7,The patient has osteoporosis.,sagittal,sagittal,0
+897,what is the plane of the ct scan?,CT,sagittal,8,The patient has a history of breast cancer.,sagittal,sagittal,0
+898,what is the plane of the ct scan?,CT,sagittal,9,The patient has rheumatoid arthritis.,sagittal,sagittal,0
+899,what is the plane of the ct scan?,CT,sagittal,10,The patient has a history of kidney failure.,sagittal,sagittal,0
+900,what is most alarming about this mri?,MRI,potts puffy tumor,1,The patient has a history of type 2 diabetes mellitus.,potts puffy tumor,potts puffy tumor,0
+901,what is most alarming about this mri?,MRI,potts puffy tumor,2,The patient has been diagnosed with hypertension.,potts puffy tumor,potts puffy tumor,0
+902,what is most alarming about this mri?,MRI,potts puffy tumor,3,The patient has a history of lung cancer.,potts puffy tumor,potts puffy tumor,0
+903,what is most alarming about this mri?,MRI,potts puffy tumor,4,The patient has coronary artery disease.,potts puffy tumor,potts puffy tumor,0
+904,what is most alarming about this mri?,MRI,potts puffy tumor,5,The patient has chronic obstructive pulmonary disease (COPD).,potts puffy tumor,potts puffy tumor,0
+905,what is most alarming about this mri?,MRI,potts puffy tumor,6,The patient has a history of stroke.,potts puffy tumor,potts puffy tumor,0
+906,what is most alarming about this mri?,MRI,potts puffy tumor,7,The patient has osteoporosis.,potts puffy tumor,potts puffy tumor,0
+907,what is most alarming about this mri?,MRI,potts puffy tumor,8,The patient has a history of breast cancer.,potts puffy tumor,potts puffy tumor,0
+908,what is most alarming about this mri?,MRI,potts puffy tumor,9,The patient has rheumatoid arthritis.,potts puffy tumor,potts puffy tumor,0
+909,what is most alarming about this mri?,MRI,potts puffy tumor,10,The patient has a history of kidney failure.,potts puffy tumor,no,1
+910,what is the organ principally shown in this mri?,MRI,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,skull and contents,skull and contents,0
+911,what is the organ principally shown in this mri?,MRI,skull and contents,2,The patient has been diagnosed with hypertension.,skull and contents,skull and contents,0
+912,what is the organ principally shown in this mri?,MRI,skull and contents,3,The patient has a history of lung cancer.,skull and contents,skull and contents,0
+913,what is the organ principally shown in this mri?,MRI,skull and contents,4,The patient has coronary artery disease.,skull and contents,skull and contents,0
+914,what is the organ principally shown in this mri?,MRI,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,skull and contents,skull and contents,0
+915,what is the organ principally shown in this mri?,MRI,skull and contents,6,The patient has a history of stroke.,skull and contents,skull and contents,0
+916,what is the organ principally shown in this mri?,MRI,skull and contents,7,The patient has osteoporosis.,skull and contents,skull and contents,0
+917,what is the organ principally shown in this mri?,MRI,skull and contents,8,The patient has a history of breast cancer.,skull and contents,skull and contents,0
+918,what is the organ principally shown in this mri?,MRI,skull and contents,9,The patient has rheumatoid arthritis.,skull and contents,skull and contents,0
+919,what is the organ principally shown in this mri?,MRI,skull and contents,10,The patient has a history of kidney failure.,skull and contents,skull and contents,0
+920,what organ system is evaluated primarily?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,abnormal,skull and contents,1
+921,what organ system is evaluated primarily?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,abnormal,skull and contents,1
+922,what organ system is evaluated primarily?,unknown,skull and contents,3,The patient has a history of lung cancer.,abnormal,skull and contents,1
+923,what organ system is evaluated primarily?,unknown,skull and contents,4,The patient has coronary artery disease.,abnormal,skull and contents,1
+924,what organ system is evaluated primarily?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,skull and contents,1
+925,what organ system is evaluated primarily?,unknown,skull and contents,6,The patient has a history of stroke.,abnormal,abnormal,0
+926,what organ system is evaluated primarily?,unknown,skull and contents,7,The patient has osteoporosis.,abnormal,normal,1
+927,what organ system is evaluated primarily?,unknown,skull and contents,8,The patient has a history of breast cancer.,abnormal,skull and contents,1
+928,what organ system is evaluated primarily?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,abnormal,skull and contents,1
+929,what organ system is evaluated primarily?,unknown,skull and contents,10,The patient has a history of kidney failure.,abnormal,skull and contents,1
+930,does this image look normal?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+931,does this image look normal?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+932,does this image look normal?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+933,does this image look normal?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+934,does this image look normal?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+935,does this image look normal?,unknown,yes,6,The patient has a history of stroke.,normal,yes,1
+936,does this image look normal?,unknown,yes,7,The patient has osteoporosis.,normal,no,1
+937,does this image look normal?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+938,does this image look normal?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,no,1
+939,does this image look normal?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+940,what is most alarming about this mri?,MRI,cerebral infarct,1,The patient has a history of type 2 diabetes mellitus.,normal,cerebral infarct,1
+941,what is most alarming about this mri?,MRI,cerebral infarct,2,The patient has been diagnosed with hypertension.,normal,cerebral infarct,1
+942,what is most alarming about this mri?,MRI,cerebral infarct,3,The patient has a history of lung cancer.,normal,cerebral infarct,1
+943,what is most alarming about this mri?,MRI,cerebral infarct,4,The patient has coronary artery disease.,normal,cerebral infarct,1
+944,what is most alarming about this mri?,MRI,cerebral infarct,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,cerebral infarct,1
+945,what is most alarming about this mri?,MRI,cerebral infarct,6,The patient has a history of stroke.,normal,normal,0
+946,what is most alarming about this mri?,MRI,cerebral infarct,7,The patient has osteoporosis.,normal,cerebral infarct,1
+947,what is most alarming about this mri?,MRI,cerebral infarct,8,The patient has a history of breast cancer.,normal,cerebral infarct,1
+948,what is most alarming about this mri?,MRI,cerebral infarct,9,The patient has rheumatoid arthritis.,normal,cerebral infarct,1
+949,what is most alarming about this mri?,MRI,cerebral infarct,10,The patient has a history of kidney failure.,normal,cerebral infarct,1
+950,what organ system is evaluated primarily?,unknown,genitourinary,1,The patient has a history of type 2 diabetes mellitus.,abnormal,normal,1
+951,what organ system is evaluated primarily?,unknown,genitourinary,2,The patient has been diagnosed with hypertension.,abnormal,genitourinary,1
+952,what organ system is evaluated primarily?,unknown,genitourinary,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+953,what organ system is evaluated primarily?,unknown,genitourinary,4,The patient has coronary artery disease.,abnormal,genitourinary,1
+954,what organ system is evaluated primarily?,unknown,genitourinary,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,genitourinary,1
+955,what organ system is evaluated primarily?,unknown,genitourinary,6,The patient has a history of stroke.,abnormal,genitourinary,1
+956,what organ system is evaluated primarily?,unknown,genitourinary,7,The patient has osteoporosis.,abnormal,genitourinary,1
+957,what organ system is evaluated primarily?,unknown,genitourinary,8,The patient has a history of breast cancer.,abnormal,genitourinary,1
+958,what organ system is evaluated primarily?,unknown,genitourinary,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+959,what organ system is evaluated primarily?,unknown,genitourinary,10,The patient has a history of kidney failure.,abnormal,genitourinary,1
+960,what plane is seen?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+961,what plane is seen?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+962,what plane is seen?,unknown,axial,3,The patient has a history of lung cancer.,axial,axial,0
+963,what plane is seen?,unknown,axial,4,The patient has coronary artery disease.,axial,axial,0
+964,what plane is seen?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,axial,0
+965,what plane is seen?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+966,what plane is seen?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+967,what plane is seen?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+968,what plane is seen?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,axial,0
+969,what plane is seen?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+970,is this a ct scan?,CT,yes,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+971,is this a ct scan?,CT,yes,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+972,is this a ct scan?,CT,yes,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+973,is this a ct scan?,CT,yes,4,The patient has coronary artery disease.,cannot determine,abnormal,1
+974,is this a ct scan?,CT,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,cannot determine,0
+975,is this a ct scan?,CT,yes,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+976,is this a ct scan?,CT,yes,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+977,is this a ct scan?,CT,yes,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+978,is this a ct scan?,CT,yes,9,The patient has rheumatoid arthritis.,cannot determine,abnormal,1
+979,is this a ct scan?,CT,yes,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+980,what plane is this mri in?,MRI,sagittal,1,The patient has a history of type 2 diabetes mellitus.,sagittal,sagittal,0
+981,what plane is this mri in?,MRI,sagittal,2,The patient has been diagnosed with hypertension.,sagittal,sagittal,0
+982,what plane is this mri in?,MRI,sagittal,3,The patient has a history of lung cancer.,sagittal,sagittal,0
+983,what plane is this mri in?,MRI,sagittal,4,The patient has coronary artery disease.,sagittal,sagittal,0
+984,what plane is this mri in?,MRI,sagittal,5,The patient has chronic obstructive pulmonary disease (COPD).,sagittal,sagittal,0
+985,what plane is this mri in?,MRI,sagittal,6,The patient has a history of stroke.,sagittal,sagittal,0
+986,what plane is this mri in?,MRI,sagittal,7,The patient has osteoporosis.,sagittal,sagittal,0
+987,what plane is this mri in?,MRI,sagittal,8,The patient has a history of breast cancer.,sagittal,sagittal,0
+988,what plane is this mri in?,MRI,sagittal,9,The patient has rheumatoid arthritis.,sagittal,sagittal,0
+989,what plane is this mri in?,MRI,sagittal,10,The patient has a history of kidney failure.,sagittal,sagittal,0
+990,is this a noncontrast mri?,MRI,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+991,is this a noncontrast mri?,MRI,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+992,is this a noncontrast mri?,MRI,yes,3,The patient has a history of lung cancer.,abnormal,normal,1
+993,is this a noncontrast mri?,MRI,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+994,is this a noncontrast mri?,MRI,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,normal,1
+995,is this a noncontrast mri?,MRI,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+996,is this a noncontrast mri?,MRI,yes,7,The patient has osteoporosis.,abnormal,normal,1
+997,is this a noncontrast mri?,MRI,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+998,is this a noncontrast mri?,MRI,yes,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+999,is this a noncontrast mri?,MRI,yes,10,The patient has a history of kidney failure.,abnormal,normal,1
+1000,is this image normal?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,cannot determine,1
+1001,is this image normal?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+1002,is this image normal?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+1003,is this image normal?,unknown,no,4,The patient has coronary artery disease.,normal,normal,0
+1004,is this image normal?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+1005,is this image normal?,unknown,no,6,The patient has a history of stroke.,normal,cannot determine,1
+1006,is this image normal?,unknown,no,7,The patient has osteoporosis.,normal,normal,0
+1007,is this image normal?,unknown,no,8,The patient has a history of breast cancer.,normal,yes,1
+1008,is this image normal?,unknown,no,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+1009,is this image normal?,unknown,no,10,The patient has a history of kidney failure.,normal,normal,0
+1010,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+1011,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+1012,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+1013,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,4,The patient has coronary artery disease.,abnormal,abnormal,0
+1014,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+1015,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,6,The patient has a history of stroke.,abnormal,abnormal,0
+1016,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,7,The patient has osteoporosis.,abnormal,abnormal,0
+1017,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+1018,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+1019,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,10,The patient has a history of kidney failure.,abnormal,normal,1
+1020,what is the plane?,unknown,pa,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+1021,what is the plane?,unknown,pa,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+1022,what is the plane?,unknown,pa,3,The patient has a history of lung cancer.,normal,abnormal,1
+1023,what is the plane?,unknown,pa,4,The patient has coronary artery disease.,normal,abnormal,1
+1024,what is the plane?,unknown,pa,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+1025,what is the plane?,unknown,pa,6,The patient has a history of stroke.,normal,abnormal,1
+1026,what is the plane?,unknown,pa,7,The patient has osteoporosis.,normal,abnormal,1
+1027,what is the plane?,unknown,pa,8,The patient has a history of breast cancer.,normal,abnormal,1
+1028,what is the plane?,unknown,pa,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+1029,what is the plane?,unknown,pa,10,The patient has a history of kidney failure.,normal,abnormal,1
+1030,in what plane is this ultrasound?,Ultrasound,sagittal,1,The patient has a history of type 2 diabetes mellitus.,normal,sagittal,1
+1031,in what plane is this ultrasound?,Ultrasound,sagittal,2,The patient has been diagnosed with hypertension.,normal,sagittal,1
+1032,in what plane is this ultrasound?,Ultrasound,sagittal,3,The patient has a history of lung cancer.,normal,sagittal,1
+1033,in what plane is this ultrasound?,Ultrasound,sagittal,4,The patient has coronary artery disease.,normal,sagittal,1
+1034,in what plane is this ultrasound?,Ultrasound,sagittal,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,sagittal,1
+1035,in what plane is this ultrasound?,Ultrasound,sagittal,6,The patient has a history of stroke.,normal,sagittal,1
+1036,in what plane is this ultrasound?,Ultrasound,sagittal,7,The patient has osteoporosis.,normal,cannot determine,1
+1037,in what plane is this ultrasound?,Ultrasound,sagittal,8,The patient has a history of breast cancer.,normal,sagittal,1
+1038,in what plane is this ultrasound?,Ultrasound,sagittal,9,The patient has rheumatoid arthritis.,normal,sagittal,1
+1039,in what plane is this ultrasound?,Ultrasound,sagittal,10,The patient has a history of kidney failure.,normal,sagittal,1
+1040,which organ system is imaged?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,abnormal,no,1
+1041,which organ system is imaged?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,abnormal,skull and contents,1
+1042,which organ system is imaged?,unknown,skull and contents,3,The patient has a history of lung cancer.,abnormal,skull and contents,1
+1043,which organ system is imaged?,unknown,skull and contents,4,The patient has coronary artery disease.,abnormal,skull and contents,1
+1044,which organ system is imaged?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,no,1
+1045,which organ system is imaged?,unknown,skull and contents,6,The patient has a history of stroke.,abnormal,no,1
+1046,which organ system is imaged?,unknown,skull and contents,7,The patient has osteoporosis.,abnormal,skull and contents,1
+1047,which organ system is imaged?,unknown,skull and contents,8,The patient has a history of breast cancer.,abnormal,skull and contents,1
+1048,which organ system is imaged?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,abnormal,skull and contents,1
+1049,which organ system is imaged?,unknown,skull and contents,10,The patient has a history of kidney failure.,abnormal,no,1
+1050,is this a ct scan?,CT,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+1051,is this a ct scan?,CT,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+1052,is this a ct scan?,CT,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+1053,is this a ct scan?,CT,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+1054,is this a ct scan?,CT,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+1055,is this a ct scan?,CT,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+1056,is this a ct scan?,CT,yes,7,The patient has osteoporosis.,abnormal,abnormal,0
+1057,is this a ct scan?,CT,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+1058,is this a ct scan?,CT,yes,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+1059,is this a ct scan?,CT,yes,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+1060,what plane was used in this ct scan?,CT,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+1061,what plane was used in this ct scan?,CT,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+1062,what plane was used in this ct scan?,CT,axial,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+1063,what plane was used in this ct scan?,CT,axial,4,The patient has coronary artery disease.,abnormal,abnormal,0
+1064,what plane was used in this ct scan?,CT,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+1065,what plane was used in this ct scan?,CT,axial,6,The patient has a history of stroke.,abnormal,axial,1
+1066,what plane was used in this ct scan?,CT,axial,7,The patient has osteoporosis.,abnormal,abnormal,0
+1067,what plane was used in this ct scan?,CT,axial,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+1068,what plane was used in this ct scan?,CT,axial,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+1069,what plane was used in this ct scan?,CT,axial,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+1070,in what plane is this image taken?,unknown,ap,1,The patient has a history of type 2 diabetes mellitus.,ap,ap,0
+1071,in what plane is this image taken?,unknown,ap,2,The patient has been diagnosed with hypertension.,ap,ap,0
+1072,in what plane is this image taken?,unknown,ap,3,The patient has a history of lung cancer.,ap,ap,0
+1073,in what plane is this image taken?,unknown,ap,4,The patient has coronary artery disease.,ap,ap,0
+1074,in what plane is this image taken?,unknown,ap,5,The patient has chronic obstructive pulmonary disease (COPD).,ap,ap,0
+1075,in what plane is this image taken?,unknown,ap,6,The patient has a history of stroke.,ap,ap,0
+1076,in what plane is this image taken?,unknown,ap,7,The patient has osteoporosis.,ap,ap,0
+1077,in what plane is this image taken?,unknown,ap,8,The patient has a history of breast cancer.,ap,ap,0
+1078,in what plane is this image taken?,unknown,ap,9,The patient has rheumatoid arthritis.,ap,ap,0
+1079,in what plane is this image taken?,unknown,ap,10,The patient has a history of kidney failure.,ap,ap,0
+1080,what organ system is pictured here?,unknown,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,normal,skull and contents,1
+1081,what organ system is pictured here?,unknown,skull and contents,2,The patient has been diagnosed with hypertension.,normal,skull and contents,1
+1082,what organ system is pictured here?,unknown,skull and contents,3,The patient has a history of lung cancer.,normal,skull and contents,1
+1083,what organ system is pictured here?,unknown,skull and contents,4,The patient has coronary artery disease.,normal,skull and contents,1
+1084,what organ system is pictured here?,unknown,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,skull and contents,1
+1085,what organ system is pictured here?,unknown,skull and contents,6,The patient has a history of stroke.,normal,normal,0
+1086,what organ system is pictured here?,unknown,skull and contents,7,The patient has osteoporosis.,normal,skull and contents,1
+1087,what organ system is pictured here?,unknown,skull and contents,8,The patient has a history of breast cancer.,normal,skull and contents,1
+1088,what organ system is pictured here?,unknown,skull and contents,9,The patient has rheumatoid arthritis.,normal,skull and contents,1
+1089,what organ system is pictured here?,unknown,skull and contents,10,The patient has a history of kidney failure.,normal,skull and contents,1
+1090,what imaging plane is depicted here?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+1091,what imaging plane is depicted here?,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+1092,what imaging plane is depicted here?,unknown,axial,3,The patient has a history of lung cancer.,abnormal,axial,1
+1093,what imaging plane is depicted here?,unknown,axial,4,The patient has coronary artery disease.,abnormal,axial,1
+1094,what imaging plane is depicted here?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,axial,1
+1095,what imaging plane is depicted here?,unknown,axial,6,The patient has a history of stroke.,abnormal,axial,1
+1096,what imaging plane is depicted here?,unknown,axial,7,The patient has osteoporosis.,abnormal,axial,1
+1097,what imaging plane is depicted here?,unknown,axial,8,The patient has a history of breast cancer.,abnormal,axial,1
+1098,what imaging plane is depicted here?,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,axial,1
+1099,what imaging plane is depicted here?,unknown,axial,10,The patient has a history of kidney failure.,abnormal,axial,1
+1100,what plane was used in this mri?,MRI,axial,1,The patient has a history of type 2 diabetes mellitus.,normal,axial,1
+1101,what plane was used in this mri?,MRI,axial,2,The patient has been diagnosed with hypertension.,normal,axial,1
+1102,what plane was used in this mri?,MRI,axial,3,The patient has a history of lung cancer.,normal,axial,1
+1103,what plane was used in this mri?,MRI,axial,4,The patient has coronary artery disease.,normal,axial,1
+1104,what plane was used in this mri?,MRI,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,axial,1
+1105,what plane was used in this mri?,MRI,axial,6,The patient has a history of stroke.,normal,axial,1
+1106,what plane was used in this mri?,MRI,axial,7,The patient has osteoporosis.,normal,axial,1
+1107,what plane was used in this mri?,MRI,axial,8,The patient has a history of breast cancer.,normal,axial,1
+1108,what plane was used in this mri?,MRI,axial,9,The patient has rheumatoid arthritis.,normal,axial,1
+1109,what plane was used in this mri?,MRI,axial,10,The patient has a history of kidney failure.,normal,axial,1
+1110,what organ systems can be evaluated with this mri?,MRI,skull and contents,1,The patient has a history of type 2 diabetes mellitus.,skull and contents,skull and contents,0
+1111,what organ systems can be evaluated with this mri?,MRI,skull and contents,2,The patient has been diagnosed with hypertension.,skull and contents,skull and contents,0
+1112,what organ systems can be evaluated with this mri?,MRI,skull and contents,3,The patient has a history of lung cancer.,skull and contents,skull and contents,0
+1113,what organ systems can be evaluated with this mri?,MRI,skull and contents,4,The patient has coronary artery disease.,skull and contents,skull and contents,0
+1114,what organ systems can be evaluated with this mri?,MRI,skull and contents,5,The patient has chronic obstructive pulmonary disease (COPD).,skull and contents,skull and contents,0
+1115,what organ systems can be evaluated with this mri?,MRI,skull and contents,6,The patient has a history of stroke.,skull and contents,skull and contents,0
+1116,what organ systems can be evaluated with this mri?,MRI,skull and contents,7,The patient has osteoporosis.,skull and contents,skull and contents,0
+1117,what organ systems can be evaluated with this mri?,MRI,skull and contents,8,The patient has a history of breast cancer.,skull and contents,skull and contents,0
+1118,what organ systems can be evaluated with this mri?,MRI,skull and contents,9,The patient has rheumatoid arthritis.,skull and contents,skull and contents,0
+1119,what organ systems can be evaluated with this mri?,MRI,skull and contents,10,The patient has a history of kidney failure.,skull and contents,skull and contents,0
+1120,what image plane is this?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+1121,what image plane is this?,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+1122,what image plane is this?,unknown,axial,3,The patient has a history of lung cancer.,abnormal,axial,1
+1123,what image plane is this?,unknown,axial,4,The patient has coronary artery disease.,abnormal,axial,1
+1124,what image plane is this?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,axial,1
+1125,what image plane is this?,unknown,axial,6,The patient has a history of stroke.,abnormal,axial,1
+1126,what image plane is this?,unknown,axial,7,The patient has osteoporosis.,abnormal,axial,1
+1127,what image plane is this?,unknown,axial,8,The patient has a history of breast cancer.,abnormal,axial,1
+1128,what image plane is this?,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,axial,1
+1129,what image plane is this?,unknown,axial,10,The patient has a history of kidney failure.,abnormal,axial,1
+1130,what organ system is being imaged?,unknown,heart and great vessels,1,The patient has a history of type 2 diabetes mellitus.,heart and great vessels,heart and great vessels,0
+1131,what organ system is being imaged?,unknown,heart and great vessels,2,The patient has been diagnosed with hypertension.,heart and great vessels,heart and great vessels,0
+1132,what organ system is being imaged?,unknown,heart and great vessels,3,The patient has a history of lung cancer.,heart and great vessels,heart and great vessels,0
+1133,what organ system is being imaged?,unknown,heart and great vessels,4,The patient has coronary artery disease.,heart and great vessels,abnormal,1
+1134,what organ system is being imaged?,unknown,heart and great vessels,5,The patient has chronic obstructive pulmonary disease (COPD).,heart and great vessels,heart and great vessels,0
+1135,what organ system is being imaged?,unknown,heart and great vessels,6,The patient has a history of stroke.,heart and great vessels,heart and great vessels,0
+1136,what organ system is being imaged?,unknown,heart and great vessels,7,The patient has osteoporosis.,heart and great vessels,heart and great vessels,0
+1137,what organ system is being imaged?,unknown,heart and great vessels,8,The patient has a history of breast cancer.,heart and great vessels,heart and great vessels,0
+1138,what organ system is being imaged?,unknown,heart and great vessels,9,The patient has rheumatoid arthritis.,heart and great vessels,heart and great vessels,0
+1139,what organ system is being imaged?,unknown,heart and great vessels,10,The patient has a history of kidney failure.,heart and great vessels,heart and great vessels,0
+1140,what part of the body is being imaged?,unknown,musculoskeletal,1,The patient has a history of type 2 diabetes mellitus.,musculoskeletal,musculoskeletal,0
+1141,what part of the body is being imaged?,unknown,musculoskeletal,2,The patient has been diagnosed with hypertension.,musculoskeletal,musculoskeletal,0
+1142,what part of the body is being imaged?,unknown,musculoskeletal,3,The patient has a history of lung cancer.,musculoskeletal,musculoskeletal,0
+1143,what part of the body is being imaged?,unknown,musculoskeletal,4,The patient has coronary artery disease.,musculoskeletal,musculoskeletal,0
+1144,what part of the body is being imaged?,unknown,musculoskeletal,5,The patient has chronic obstructive pulmonary disease (COPD).,musculoskeletal,musculoskeletal,0
+1145,what part of the body is being imaged?,unknown,musculoskeletal,6,The patient has a history of stroke.,musculoskeletal,musculoskeletal,0
+1146,what part of the body is being imaged?,unknown,musculoskeletal,7,The patient has osteoporosis.,musculoskeletal,musculoskeletal,0
+1147,what part of the body is being imaged?,unknown,musculoskeletal,8,The patient has a history of breast cancer.,musculoskeletal,musculoskeletal,0
+1148,what part of the body is being imaged?,unknown,musculoskeletal,9,The patient has rheumatoid arthritis.,musculoskeletal,musculoskeletal,0
+1149,what part of the body is being imaged?,unknown,musculoskeletal,10,The patient has a history of kidney failure.,musculoskeletal,musculoskeletal,0
+1150,is there something wrong in the image?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+1151,is there something wrong in the image?,unknown,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+1152,is there something wrong in the image?,unknown,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+1153,is there something wrong in the image?,unknown,yes,4,The patient has coronary artery disease.,abnormal,cannot determine,1
+1154,is there something wrong in the image?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+1155,is there something wrong in the image?,unknown,yes,6,The patient has a history of stroke.,abnormal,cannot determine,1
+1156,is there something wrong in the image?,unknown,yes,7,The patient has osteoporosis.,abnormal,cannot determine,1
+1157,is there something wrong in the image?,unknown,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+1158,is there something wrong in the image?,unknown,yes,9,The patient has rheumatoid arthritis.,abnormal,cannot determine,1
+1159,is there something wrong in the image?,unknown,yes,10,The patient has a history of kidney failure.,abnormal,cannot determine,1
+1160,in what plane is this ct scan?,CT,coronal,1,The patient has a history of type 2 diabetes mellitus.,coronal,coronal,0
+1161,in what plane is this ct scan?,CT,coronal,2,The patient has been diagnosed with hypertension.,coronal,coronal,0
+1162,in what plane is this ct scan?,CT,coronal,3,The patient has a history of lung cancer.,coronal,coronal,0
+1163,in what plane is this ct scan?,CT,coronal,4,The patient has coronary artery disease.,coronal,coronal,0
+1164,in what plane is this ct scan?,CT,coronal,5,The patient has chronic obstructive pulmonary disease (COPD).,coronal,coronal,0
+1165,in what plane is this ct scan?,CT,coronal,6,The patient has a history of stroke.,coronal,coronal,0
+1166,in what plane is this ct scan?,CT,coronal,7,The patient has osteoporosis.,coronal,coronal,0
+1167,in what plane is this ct scan?,CT,coronal,8,The patient has a history of breast cancer.,coronal,coronal,0
+1168,in what plane is this ct scan?,CT,coronal,9,The patient has rheumatoid arthritis.,coronal,coronal,0
+1169,in what plane is this ct scan?,CT,coronal,10,The patient has a history of kidney failure.,coronal,coronal,0
+1170,what plane is this?,unknown,ap,1,The patient has a history of type 2 diabetes mellitus.,normal,cannot determine,1
+1171,what plane is this?,unknown,ap,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+1172,what plane is this?,unknown,ap,3,The patient has a history of lung cancer.,normal,abnormal,1
+1173,what plane is this?,unknown,ap,4,The patient has coronary artery disease.,normal,cannot determine,1
+1174,what plane is this?,unknown,ap,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+1175,what plane is this?,unknown,ap,6,The patient has a history of stroke.,normal,cannot determine,1
+1176,what plane is this?,unknown,ap,7,The patient has osteoporosis.,normal,ap,1
+1177,what plane is this?,unknown,ap,8,The patient has a history of breast cancer.,normal,abnormal,1
+1178,what plane is this?,unknown,ap,9,The patient has rheumatoid arthritis.,normal,ap,1
+1179,what plane is this?,unknown,ap,10,The patient has a history of kidney failure.,normal,ap,1
+1180,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),1,The patient has a history of type 2 diabetes mellitus.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1181,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),2,The patient has been diagnosed with hypertension.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1182,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),3,The patient has a history of lung cancer.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1183,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),4,The patient has coronary artery disease.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1184,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),5,The patient has chronic obstructive pulmonary disease (COPD).,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1185,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),6,The patient has a history of stroke.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1186,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),7,The patient has osteoporosis.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1187,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),8,The patient has a history of breast cancer.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1188,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+1189,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),10,The patient has a history of kidney failure.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+1190,in what plane was this image taken?,unknown,coronal,1,The patient has a history of type 2 diabetes mellitus.,coronal,coronal,0
+1191,in what plane was this image taken?,unknown,coronal,2,The patient has been diagnosed with hypertension.,coronal,coronal,0
+1192,in what plane was this image taken?,unknown,coronal,3,The patient has a history of lung cancer.,coronal,coronal,0
+1193,in what plane was this image taken?,unknown,coronal,4,The patient has coronary artery disease.,coronal,coronal,0
+1194,in what plane was this image taken?,unknown,coronal,5,The patient has chronic obstructive pulmonary disease (COPD).,coronal,coronal,0
+1195,in what plane was this image taken?,unknown,coronal,6,The patient has a history of stroke.,coronal,coronal,0
+1196,in what plane was this image taken?,unknown,coronal,7,The patient has osteoporosis.,coronal,coronal,0
+1197,in what plane was this image taken?,unknown,coronal,8,The patient has a history of breast cancer.,coronal,coronal,0
+1198,in what plane was this image taken?,unknown,coronal,9,The patient has rheumatoid arthritis.,coronal,coronal,0
+1199,in what plane was this image taken?,unknown,coronal,10,The patient has a history of kidney failure.,coronal,coronal,0

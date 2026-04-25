@@ -126,6 +126,8 @@ def write_00(model_key: str):
             "p1": p1_avg,
             "p3": s["probes"].get("p3", {}).get("avg_flip_naive"),
             "p4": s["probes"].get("p4", {}).get("avg_flip_naive"),
+            "p5": s["probes"].get("p5", {}).get("avg_flip_naive"),
+            "p6": s["probes"].get("p6", {}).get("avg_flip_naive"),
             "p7": s["probes"].get("p7", {}).get("avg_flip_naive"),
         })
 
@@ -147,7 +149,8 @@ def write_00(model_key: str):
     sep  = "|---|" + ":---:|" * len(rows)
     body += [cols, sep]
     for label, key in [("P1 이미지 변형","p1"),("P3 무관한 텍스트","p3"),
-                        ("P4 인구통계","p4"),("P7 촬영 기기 오인식","p7")]:
+                        ("P4 인구통계","p4"),("P5 과거 병명","p5"),
+                        ("P6 학력·직업","p6"),("P7 촬영 기기 오인식","p7")]:
         cells = []
         for r in rows:
             v = r.get(key)
@@ -213,16 +216,17 @@ def write_01(model_key: str):
 | P1 | 이미지 변형 | blank / white / noise / gray 이미지로 교체 | 4 |
 | P3 | 무관한 텍스트 | 환자와 무관한 개인 서술 접두사 5종 | 5 |
 | P4 | 인구통계 | 성별·연령·인종·종교 접두사 11종 | 11 |
-| P7 | 촬영 기기 오인식 | MRI·CT·X-ray·Ultrasound·Angiography 잘못된 modality 단정 prefix 5종 | 5 |
+| P5 | 과거 병명 | 당뇨·고혈압·폐암 등 기저질환 접두사 10종 (MUMC와 동일) | 10 |
+| P6 | 학력·직업 | 학력 4종 + 직업 4종 (MUMC와 동일) | 8 |
+| P7 | 촬영 기기 오인식 | MRI·CT·X-ray·Ultrasound·PET 잘못된 modality 단정 prefix 5종 (MUMC와 동일) | 5 |
 
 **측정 지표**: Naive flip rate — 정규화 후 원본 vs 변형 답 불일치 비율 (%).
 Yes/No 질문은 첫 yes/no 토큰 변환율(`flip_yes_no`)도 함께 기록.
 """
     if model_key == "llava_med":
         md += "\nP2 (image-text mismatch refusal) 별도 측정: 거절률 0%, confident hallucination 100% (3 데이터셋 모두).\n"
-        md += "P5 (medical history), P6 (학력·직업) 프로브는 본 분석에서 미측정 (probe set이 P3/P4와 의미상 겹쳐 우선 순위에서 제외).\n"
     else:
-        md += "\nP2/P5/P6은 candidate set 한계로 본 분석에서 미측정.\n"
+        md += "\nP2 (거절 행동)은 candidate set에 \"cannot determine\"을 포함했으나 BiomedCLIP은 거의 선택하지 않음 (거절률 약 8%).\n"
     (target / "01_배경과_데이터셋.md").write_text(md)
 
 
@@ -249,7 +253,9 @@ def write_03(model_key: str):
         avg = sum(v["flip_naive"] for v in p1.values()) / len(p1)
         out.append(f"| **평균** | **{avg:.1f}%** | — |\n")
 
-        for code, name in [("p3","무관한 텍스트"),("p4","인구통계"),("p7","촬영 기기 오인식")]:
+        for code, name in [("p3","무관한 텍스트"),("p4","인구통계"),
+                            ("p5","과거 병명"),("p6","학력·직업"),
+                            ("p7","촬영 기기 오인식")]:
             if code not in s["probes"]: continue
             pp = s["probes"][code]
             out.append(f"### {code.upper()} — {name}\n")
@@ -280,6 +286,8 @@ def write_04(model_key: str):
             "p1": sum(v["flip_naive"] for v in p1.values())/len(p1),
             "p3": s["probes"].get("p3",{}).get("avg_flip_naive"),
             "p4": s["probes"].get("p4",{}).get("avg_flip_naive"),
+            "p5": s["probes"].get("p5",{}).get("avg_flip_naive"),
+            "p6": s["probes"].get("p6",{}).get("avg_flip_naive"),
             "p7": s["probes"].get("p7",{}).get("avg_flip_naive"),
         })
 
@@ -287,7 +295,8 @@ def write_04(model_key: str):
           "| 프로브 | " + " | ".join(r["ds"] for r in rows) + " |",
           "|---|" + ":---:|"*len(rows)]
     for lbl, key in [("P1 이미지 변형","p1"),("P3 무관한 텍스트","p3"),
-                      ("P4 인구통계","p4"),("P7 촬영 기기 오인식","p7")]:
+                      ("P4 인구통계","p4"),("P5 과거 병명","p5"),
+                      ("P6 학력·직업","p6"),("P7 촬영 기기 오인식","p7")]:
         cells = [f"{r[key]:.1f}%" if r[key] is not None else "—" for r in rows]
         md.append(f"| {lbl} | " + " | ".join(cells) + " |")
 

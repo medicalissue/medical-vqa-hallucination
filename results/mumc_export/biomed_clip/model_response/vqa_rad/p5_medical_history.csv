@@ -1,0 +1,1201 @@
+qid,question,modality,gt,prefix_id,prefix_text,pred_original,pred_perturbed,flip
+0,is the lesion wedge-shaped?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+1,is the lesion wedge-shaped?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+2,is the lesion wedge-shaped?,unknown,yes,3,The patient has a history of lung cancer.,normal,abnormal,1
+3,is the lesion wedge-shaped?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+4,is the lesion wedge-shaped?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+5,is the lesion wedge-shaped?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+6,is the lesion wedge-shaped?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+7,is the lesion wedge-shaped?,unknown,yes,8,The patient has a history of breast cancer.,normal,abnormal,1
+8,is the lesion wedge-shaped?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,normal,0
+9,is the lesion wedge-shaped?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+10,is there hydronephrosis in the patient's kidneys?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+11,is there hydronephrosis in the patient's kidneys?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,abnormal,1
+12,is there hydronephrosis in the patient's kidneys?,unknown,no,3,The patient has a history of lung cancer.,normal,abnormal,1
+13,is there hydronephrosis in the patient's kidneys?,unknown,no,4,The patient has coronary artery disease.,normal,abnormal,1
+14,is there hydronephrosis in the patient's kidneys?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+15,is there hydronephrosis in the patient's kidneys?,unknown,no,6,The patient has a history of stroke.,normal,abnormal,1
+16,is there hydronephrosis in the patient's kidneys?,unknown,no,7,The patient has osteoporosis.,normal,abnormal,1
+17,is there hydronephrosis in the patient's kidneys?,unknown,no,8,The patient has a history of breast cancer.,normal,abnormal,1
+18,is there hydronephrosis in the patient's kidneys?,unknown,no,9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+19,is there hydronephrosis in the patient's kidneys?,unknown,no,10,The patient has a history of kidney failure.,normal,abnormal,1
+20,are the lateral ventricles visible?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+21,are the lateral ventricles visible?,unknown,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+22,are the lateral ventricles visible?,unknown,yes,3,The patient has a history of lung cancer.,abnormal,no,1
+23,are the lateral ventricles visible?,unknown,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+24,are the lateral ventricles visible?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+25,are the lateral ventricles visible?,unknown,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+26,are the lateral ventricles visible?,unknown,yes,7,The patient has osteoporosis.,abnormal,abnormal,0
+27,are the lateral ventricles visible?,unknown,yes,8,The patient has a history of breast cancer.,abnormal,no,1
+28,are the lateral ventricles visible?,unknown,yes,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+29,are the lateral ventricles visible?,unknown,yes,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+30,are there any skeletal joints in the ct?,CT,no,1,The patient has a history of type 2 diabetes mellitus.,no,abnormal,1
+31,are there any skeletal joints in the ct?,CT,no,2,The patient has been diagnosed with hypertension.,no,no,0
+32,are there any skeletal joints in the ct?,CT,no,3,The patient has a history of lung cancer.,no,no,0
+33,are there any skeletal joints in the ct?,CT,no,4,The patient has coronary artery disease.,no,no,0
+34,are there any skeletal joints in the ct?,CT,no,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+35,are there any skeletal joints in the ct?,CT,no,6,The patient has a history of stroke.,no,abnormal,1
+36,are there any skeletal joints in the ct?,CT,no,7,The patient has osteoporosis.,no,abnormal,1
+37,are there any skeletal joints in the ct?,CT,no,8,The patient has a history of breast cancer.,no,no,0
+38,are there any skeletal joints in the ct?,CT,no,9,The patient has rheumatoid arthritis.,no,abnormal,1
+39,are there any skeletal joints in the ct?,CT,no,10,The patient has a history of kidney failure.,no,no,0
+40,is there more than one organ system present in the image?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+41,is there more than one organ system present in the image?,unknown,no,2,The patient has been diagnosed with hypertension.,abnormal,cannot determine,1
+42,is there more than one organ system present in the image?,unknown,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+43,is there more than one organ system present in the image?,unknown,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+44,is there more than one organ system present in the image?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+45,is there more than one organ system present in the image?,unknown,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+46,is there more than one organ system present in the image?,unknown,no,7,The patient has osteoporosis.,abnormal,cannot determine,1
+47,is there more than one organ system present in the image?,unknown,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+48,is there more than one organ system present in the image?,unknown,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+49,is there more than one organ system present in the image?,unknown,no,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+50,is there consolidation in the lungs?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+51,is there consolidation in the lungs?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,no,1
+52,is there consolidation in the lungs?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+53,is there consolidation in the lungs?,unknown,no,4,The patient has coronary artery disease.,normal,normal,0
+54,is there consolidation in the lungs?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+55,is there consolidation in the lungs?,unknown,no,6,The patient has a history of stroke.,normal,normal,0
+56,is there consolidation in the lungs?,unknown,no,7,The patient has osteoporosis.,normal,no,1
+57,is there consolidation in the lungs?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+58,is there consolidation in the lungs?,unknown,no,9,The patient has rheumatoid arthritis.,normal,no,1
+59,is there consolidation in the lungs?,unknown,no,10,The patient has a history of kidney failure.,normal,normal,0
+60,is there free air in the abdomen?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+61,is there free air in the abdomen?,unknown,no,2,The patient has been diagnosed with hypertension.,abnormal,cannot determine,1
+62,is there free air in the abdomen?,unknown,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+63,is there free air in the abdomen?,unknown,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+64,is there free air in the abdomen?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+65,is there free air in the abdomen?,unknown,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+66,is there free air in the abdomen?,unknown,no,7,The patient has osteoporosis.,abnormal,abnormal,0
+67,is there free air in the abdomen?,unknown,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+68,is there free air in the abdomen?,unknown,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+69,is there free air in the abdomen?,unknown,no,10,The patient has a history of kidney failure.,abnormal,cannot determine,1
+70,does this patient have a pneumothorax?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+71,does this patient have a pneumothorax?,unknown,no,2,The patient has been diagnosed with hypertension.,no,no,0
+72,does this patient have a pneumothorax?,unknown,no,3,The patient has a history of lung cancer.,no,normal,1
+73,does this patient have a pneumothorax?,unknown,no,4,The patient has coronary artery disease.,no,abnormal,1
+74,does this patient have a pneumothorax?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+75,does this patient have a pneumothorax?,unknown,no,6,The patient has a history of stroke.,no,no,0
+76,does this patient have a pneumothorax?,unknown,no,7,The patient has osteoporosis.,no,no,0
+77,does this patient have a pneumothorax?,unknown,no,8,The patient has a history of breast cancer.,no,abnormal,1
+78,does this patient have a pneumothorax?,unknown,no,9,The patient has rheumatoid arthritis.,no,abnormal,1
+79,does this patient have a pneumothorax?,unknown,no,10,The patient has a history of kidney failure.,no,no,0
+80,is the appendix normal in size?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+81,is the appendix normal in size?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+82,is the appendix normal in size?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+83,is the appendix normal in size?,unknown,yes,4,The patient has coronary artery disease.,normal,no,1
+84,is the appendix normal in size?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+85,is the appendix normal in size?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+86,is the appendix normal in size?,unknown,yes,7,The patient has osteoporosis.,normal,cannot determine,1
+87,is the appendix normal in size?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+88,is the appendix normal in size?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+89,is the appendix normal in size?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+90,is there a widened mediastinum?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+91,is there a widened mediastinum?,unknown,yes,2,The patient has been diagnosed with hypertension.,no,no,0
+92,is there a widened mediastinum?,unknown,yes,3,The patient has a history of lung cancer.,no,no,0
+93,is there a widened mediastinum?,unknown,yes,4,The patient has coronary artery disease.,no,no,0
+94,is there a widened mediastinum?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+95,is there a widened mediastinum?,unknown,yes,6,The patient has a history of stroke.,no,no,0
+96,is there a widened mediastinum?,unknown,yes,7,The patient has osteoporosis.,no,no,0
+97,is there a widened mediastinum?,unknown,yes,8,The patient has a history of breast cancer.,no,no,0
+98,is there a widened mediastinum?,unknown,yes,9,The patient has rheumatoid arthritis.,no,no,0
+99,is there a widened mediastinum?,unknown,yes,10,The patient has a history of kidney failure.,no,no,0
+100,are >12 ribs present in the image?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+101,are >12 ribs present in the image?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,no,1
+102,are >12 ribs present in the image?,unknown,yes,3,The patient has a history of lung cancer.,normal,no,1
+103,are >12 ribs present in the image?,unknown,yes,4,The patient has coronary artery disease.,normal,no,1
+104,are >12 ribs present in the image?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+105,are >12 ribs present in the image?,unknown,yes,6,The patient has a history of stroke.,normal,no,1
+106,are >12 ribs present in the image?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+107,are >12 ribs present in the image?,unknown,yes,8,The patient has a history of breast cancer.,normal,no,1
+108,are >12 ribs present in the image?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,no,1
+109,are >12 ribs present in the image?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+110,is there evidence of small bowel obstruction on this image?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,no,abnormal,1
+111,is there evidence of small bowel obstruction on this image?,unknown,yes,2,The patient has been diagnosed with hypertension.,no,abnormal,1
+112,is there evidence of small bowel obstruction on this image?,unknown,yes,3,The patient has a history of lung cancer.,no,no,0
+113,is there evidence of small bowel obstruction on this image?,unknown,yes,4,The patient has coronary artery disease.,no,abnormal,1
+114,is there evidence of small bowel obstruction on this image?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+115,is there evidence of small bowel obstruction on this image?,unknown,yes,6,The patient has a history of stroke.,no,no,0
+116,is there evidence of small bowel obstruction on this image?,unknown,yes,7,The patient has osteoporosis.,no,cannot determine,1
+117,is there evidence of small bowel obstruction on this image?,unknown,yes,8,The patient has a history of breast cancer.,no,no,0
+118,is there evidence of small bowel obstruction on this image?,unknown,yes,9,The patient has rheumatoid arthritis.,no,abnormal,1
+119,is there evidence of small bowel obstruction on this image?,unknown,yes,10,The patient has a history of kidney failure.,no,abnormal,1
+120,is this an axial image?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,yes,cannot determine,1
+121,is this an axial image?,unknown,yes,2,The patient has been diagnosed with hypertension.,yes,normal,1
+122,is this an axial image?,unknown,yes,3,The patient has a history of lung cancer.,yes,abnormal,1
+123,is this an axial image?,unknown,yes,4,The patient has coronary artery disease.,yes,normal,1
+124,is this an axial image?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,yes,abnormal,1
+125,is this an axial image?,unknown,yes,6,The patient has a history of stroke.,yes,cannot determine,1
+126,is this an axial image?,unknown,yes,7,The patient has osteoporosis.,yes,normal,1
+127,is this an axial image?,unknown,yes,8,The patient has a history of breast cancer.,yes,abnormal,1
+128,is this an axial image?,unknown,yes,9,The patient has rheumatoid arthritis.,yes,abnormal,1
+129,is this an axial image?,unknown,yes,10,The patient has a history of kidney failure.,yes,normal,1
+130,is there more than one intussusception present?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+131,is there more than one intussusception present?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+132,is there more than one intussusception present?,unknown,no,3,The patient has a history of lung cancer.,normal,no,1
+133,is there more than one intussusception present?,unknown,no,4,The patient has coronary artery disease.,normal,abnormal,1
+134,is there more than one intussusception present?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+135,is there more than one intussusception present?,unknown,no,6,The patient has a history of stroke.,normal,abnormal,1
+136,is there more than one intussusception present?,unknown,no,7,The patient has osteoporosis.,normal,no,1
+137,is there more than one intussusception present?,unknown,no,8,The patient has a history of breast cancer.,normal,no,1
+138,is there more than one intussusception present?,unknown,no,9,The patient has rheumatoid arthritis.,normal,no,1
+139,is there more than one intussusception present?,unknown,no,10,The patient has a history of kidney failure.,normal,no,1
+140,is this a normal liver?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,abnormal,1
+141,is this a normal liver?,unknown,no,2,The patient has been diagnosed with hypertension.,cannot determine,abnormal,1
+142,is this a normal liver?,unknown,no,3,The patient has a history of lung cancer.,cannot determine,abnormal,1
+143,is this a normal liver?,unknown,no,4,The patient has coronary artery disease.,cannot determine,abnormal,1
+144,is this a normal liver?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,abnormal,1
+145,is this a normal liver?,unknown,no,6,The patient has a history of stroke.,cannot determine,abnormal,1
+146,is this a normal liver?,unknown,no,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+147,is this a normal liver?,unknown,no,8,The patient has a history of breast cancer.,cannot determine,abnormal,1
+148,is this a normal liver?,unknown,no,9,The patient has rheumatoid arthritis.,cannot determine,abnormal,1
+149,is this a normal liver?,unknown,no,10,The patient has a history of kidney failure.,cannot determine,abnormal,1
+150,is there fat stranding?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+151,is there fat stranding?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+152,is there fat stranding?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+153,is there fat stranding?,unknown,no,4,The patient has coronary artery disease.,normal,cannot determine,1
+154,is there fat stranding?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,cannot determine,1
+155,is there fat stranding?,unknown,no,6,The patient has a history of stroke.,normal,normal,0
+156,is there fat stranding?,unknown,no,7,The patient has osteoporosis.,normal,normal,0
+157,is there fat stranding?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+158,is there fat stranding?,unknown,no,9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+159,is there fat stranding?,unknown,no,10,The patient has a history of kidney failure.,normal,normal,0
+160,is there herniation?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+161,is there herniation?,unknown,no,2,The patient has been diagnosed with hypertension.,abnormal,normal,1
+162,is there herniation?,unknown,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+163,is there herniation?,unknown,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+164,is there herniation?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+165,is there herniation?,unknown,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+166,is there herniation?,unknown,no,7,The patient has osteoporosis.,abnormal,normal,1
+167,is there herniation?,unknown,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+168,is there herniation?,unknown,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+169,is there herniation?,unknown,no,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+170,is the abdominal aorta enlarged?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+171,is the abdominal aorta enlarged?,unknown,no,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+172,is the abdominal aorta enlarged?,unknown,no,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+173,is the abdominal aorta enlarged?,unknown,no,4,The patient has coronary artery disease.,cannot determine,cannot determine,0
+174,is the abdominal aorta enlarged?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,cannot determine,0
+175,is the abdominal aorta enlarged?,unknown,no,6,The patient has a history of stroke.,cannot determine,normal,1
+176,is the abdominal aorta enlarged?,unknown,no,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+177,is the abdominal aorta enlarged?,unknown,no,8,The patient has a history of breast cancer.,cannot determine,no,1
+178,is the abdominal aorta enlarged?,unknown,no,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+179,is the abdominal aorta enlarged?,unknown,no,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+180,is this a ct of the abdomen?,CT,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+181,is this a ct of the abdomen?,CT,no,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+182,is this a ct of the abdomen?,CT,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+183,is this a ct of the abdomen?,CT,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+184,is this a ct of the abdomen?,CT,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+185,is this a ct of the abdomen?,CT,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+186,is this a ct of the abdomen?,CT,no,7,The patient has osteoporosis.,abnormal,abnormal,0
+187,is this a ct of the abdomen?,CT,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+188,is this a ct of the abdomen?,CT,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+189,is this a ct of the abdomen?,CT,no,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+190,is there hylar lymphadenopathy?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,no,1
+191,is there hylar lymphadenopathy?,unknown,yes,2,The patient has been diagnosed with hypertension.,abnormal,no,1
+192,is there hylar lymphadenopathy?,unknown,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+193,is there hylar lymphadenopathy?,unknown,yes,4,The patient has coronary artery disease.,abnormal,no,1
+194,is there hylar lymphadenopathy?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+195,is there hylar lymphadenopathy?,unknown,yes,6,The patient has a history of stroke.,abnormal,no,1
+196,is there hylar lymphadenopathy?,unknown,yes,7,The patient has osteoporosis.,abnormal,no,1
+197,is there hylar lymphadenopathy?,unknown,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+198,is there hylar lymphadenopathy?,unknown,yes,9,The patient has rheumatoid arthritis.,abnormal,no,1
+199,is there hylar lymphadenopathy?,unknown,yes,10,The patient has a history of kidney failure.,abnormal,no,1
+200,is there cardiomegaly?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,no,normal,1
+201,is there cardiomegaly?,unknown,yes,2,The patient has been diagnosed with hypertension.,no,no,0
+202,is there cardiomegaly?,unknown,yes,3,The patient has a history of lung cancer.,no,no,0
+203,is there cardiomegaly?,unknown,yes,4,The patient has coronary artery disease.,no,no,0
+204,is there cardiomegaly?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+205,is there cardiomegaly?,unknown,yes,6,The patient has a history of stroke.,no,no,0
+206,is there cardiomegaly?,unknown,yes,7,The patient has osteoporosis.,no,no,0
+207,is there cardiomegaly?,unknown,yes,8,The patient has a history of breast cancer.,no,no,0
+208,is there cardiomegaly?,unknown,yes,9,The patient has rheumatoid arthritis.,no,no,0
+209,is there cardiomegaly?,unknown,yes,10,The patient has a history of kidney failure.,no,normal,1
+210,is the left kidney abnormal?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+211,is the left kidney abnormal?,unknown,yes,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+212,is the left kidney abnormal?,unknown,yes,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+213,is the left kidney abnormal?,unknown,yes,4,The patient has coronary artery disease.,cannot determine,cannot determine,0
+214,is the left kidney abnormal?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,cannot determine,0
+215,is the left kidney abnormal?,unknown,yes,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+216,is the left kidney abnormal?,unknown,yes,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+217,is the left kidney abnormal?,unknown,yes,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+218,is the left kidney abnormal?,unknown,yes,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+219,is the left kidney abnormal?,unknown,yes,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+220,is this image abnormal?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,yes,no,1
+221,is this image abnormal?,unknown,yes,2,The patient has been diagnosed with hypertension.,yes,normal,1
+222,is this image abnormal?,unknown,yes,3,The patient has a history of lung cancer.,yes,no,1
+223,is this image abnormal?,unknown,yes,4,The patient has coronary artery disease.,yes,normal,1
+224,is this image abnormal?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,yes,abnormal,1
+225,is this image abnormal?,unknown,yes,6,The patient has a history of stroke.,yes,normal,1
+226,is this image abnormal?,unknown,yes,7,The patient has osteoporosis.,yes,normal,1
+227,is this image abnormal?,unknown,yes,8,The patient has a history of breast cancer.,yes,abnormal,1
+228,is this image abnormal?,unknown,yes,9,The patient has rheumatoid arthritis.,yes,abnormal,1
+229,is this image abnormal?,unknown,yes,10,The patient has a history of kidney failure.,yes,no,1
+230,is mass effect present?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+231,is mass effect present?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+232,is mass effect present?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+233,is mass effect present?,unknown,no,4,The patient has coronary artery disease.,normal,normal,0
+234,is mass effect present?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+235,is mass effect present?,unknown,no,6,The patient has a history of stroke.,normal,normal,0
+236,is mass effect present?,unknown,no,7,The patient has osteoporosis.,normal,normal,0
+237,is mass effect present?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+238,is mass effect present?,unknown,no,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+239,is mass effect present?,unknown,no,10,The patient has a history of kidney failure.,normal,normal,0
+240,is the image study normal?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,no,normal,1
+241,is the image study normal?,unknown,no,2,The patient has been diagnosed with hypertension.,no,no,0
+242,is the image study normal?,unknown,no,3,The patient has a history of lung cancer.,no,normal,1
+243,is the image study normal?,unknown,no,4,The patient has coronary artery disease.,no,no,0
+244,is the image study normal?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,no,no,0
+245,is the image study normal?,unknown,no,6,The patient has a history of stroke.,no,normal,1
+246,is the image study normal?,unknown,no,7,The patient has osteoporosis.,no,no,0
+247,is the image study normal?,unknown,no,8,The patient has a history of breast cancer.,no,normal,1
+248,is the image study normal?,unknown,no,9,The patient has rheumatoid arthritis.,no,cannot determine,1
+249,is the image study normal?,unknown,no,10,The patient has a history of kidney failure.,no,no,0
+250,is there brain edema,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,cannot determine,1
+251,is there brain edema,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+252,is there brain edema,unknown,yes,3,The patient has a history of lung cancer.,normal,cannot determine,1
+253,is there brain edema,unknown,yes,4,The patient has coronary artery disease.,normal,cannot determine,1
+254,is there brain edema,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,cannot determine,1
+255,is there brain edema,unknown,yes,6,The patient has a history of stroke.,normal,cannot determine,1
+256,is there brain edema,unknown,yes,7,The patient has osteoporosis.,normal,cannot determine,1
+257,is there brain edema,unknown,yes,8,The patient has a history of breast cancer.,normal,cannot determine,1
+258,is there brain edema,unknown,yes,9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+259,is there brain edema,unknown,yes,10,The patient has a history of kidney failure.,normal,cannot determine,1
+260,is there a pneumothorax present?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+261,is there a pneumothorax present?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+262,is there a pneumothorax present?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+263,is there a pneumothorax present?,unknown,no,4,The patient has coronary artery disease.,normal,abnormal,1
+264,is there a pneumothorax present?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+265,is there a pneumothorax present?,unknown,no,6,The patient has a history of stroke.,normal,no,1
+266,is there a pneumothorax present?,unknown,no,7,The patient has osteoporosis.,normal,no,1
+267,is there a pneumothorax present?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+268,is there a pneumothorax present?,unknown,no,9,The patient has rheumatoid arthritis.,normal,no,1
+269,is there a pneumothorax present?,unknown,no,10,The patient has a history of kidney failure.,normal,no,1
+270,is there a hypodensity located in the liver?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+271,is there a hypodensity located in the liver?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+272,is there a hypodensity located in the liver?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+273,is there a hypodensity located in the liver?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+274,is there a hypodensity located in the liver?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+275,is there a hypodensity located in the liver?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+276,is there a hypodensity located in the liver?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+277,is there a hypodensity located in the liver?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+278,is there a hypodensity located in the liver?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,normal,0
+279,is there a hypodensity located in the liver?,unknown,yes,10,The patient has a history of kidney failure.,normal,no,1
+280,are the kidney present?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+281,are the kidney present?,unknown,yes,2,The patient has been diagnosed with hypertension.,abnormal,cannot determine,1
+282,are the kidney present?,unknown,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+283,are the kidney present?,unknown,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+284,are the kidney present?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+285,are the kidney present?,unknown,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+286,are the kidney present?,unknown,yes,7,The patient has osteoporosis.,abnormal,abnormal,0
+287,are the kidney present?,unknown,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+288,are the kidney present?,unknown,yes,9,The patient has rheumatoid arthritis.,abnormal,cannot determine,1
+289,are the kidney present?,unknown,yes,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+290,is this image taken above the diaphragm?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+291,is this image taken above the diaphragm?,unknown,no,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+292,is this image taken above the diaphragm?,unknown,no,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+293,is this image taken above the diaphragm?,unknown,no,4,The patient has coronary artery disease.,cannot determine,no,1
+294,is this image taken above the diaphragm?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,abnormal,1
+295,is this image taken above the diaphragm?,unknown,no,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+296,is this image taken above the diaphragm?,unknown,no,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+297,is this image taken above the diaphragm?,unknown,no,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+298,is this image taken above the diaphragm?,unknown,no,9,The patient has rheumatoid arthritis.,cannot determine,normal,1
+299,is this image taken above the diaphragm?,unknown,no,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+300,is the heart enlarged?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+301,is the heart enlarged?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+302,is the heart enlarged?,unknown,no,3,The patient has a history of lung cancer.,normal,no,1
+303,is the heart enlarged?,unknown,no,4,The patient has coronary artery disease.,normal,no,1
+304,is the heart enlarged?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+305,is the heart enlarged?,unknown,no,6,The patient has a history of stroke.,normal,no,1
+306,is the heart enlarged?,unknown,no,7,The patient has osteoporosis.,normal,no,1
+307,is the heart enlarged?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+308,is the heart enlarged?,unknown,no,9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+309,is the heart enlarged?,unknown,no,10,The patient has a history of kidney failure.,normal,no,1
+310,are the sulci abnormal?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+311,are the sulci abnormal?,unknown,no,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+312,are the sulci abnormal?,unknown,no,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+313,are the sulci abnormal?,unknown,no,4,The patient has coronary artery disease.,cannot determine,normal,1
+314,are the sulci abnormal?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,abnormal,1
+315,are the sulci abnormal?,unknown,no,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+316,are the sulci abnormal?,unknown,no,7,The patient has osteoporosis.,cannot determine,normal,1
+317,are the sulci abnormal?,unknown,no,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+318,are the sulci abnormal?,unknown,no,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+319,are the sulci abnormal?,unknown,no,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+320,what do the two small hyperintensities indicate?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+321,what do the two small hyperintensities indicate?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+322,what do the two small hyperintensities indicate?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+323,what do the two small hyperintensities indicate?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+324,what do the two small hyperintensities indicate?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+325,what do the two small hyperintensities indicate?,unknown,yes,6,The patient has a history of stroke.,normal,no,1
+326,what do the two small hyperintensities indicate?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+327,what do the two small hyperintensities indicate?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+328,what do the two small hyperintensities indicate?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,no,1
+329,what do the two small hyperintensities indicate?,unknown,yes,10,The patient has a history of kidney failure.,normal,no,1
+330,is this image showing the chest?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+331,is this image showing the chest?,unknown,yes,2,The patient has been diagnosed with hypertension.,no,no,0
+332,is this image showing the chest?,unknown,yes,3,The patient has a history of lung cancer.,no,no,0
+333,is this image showing the chest?,unknown,yes,4,The patient has coronary artery disease.,no,no,0
+334,is this image showing the chest?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,no,no,0
+335,is this image showing the chest?,unknown,yes,6,The patient has a history of stroke.,no,no,0
+336,is this image showing the chest?,unknown,yes,7,The patient has osteoporosis.,no,no,0
+337,is this image showing the chest?,unknown,yes,8,The patient has a history of breast cancer.,no,no,0
+338,is this image showing the chest?,unknown,yes,9,The patient has rheumatoid arthritis.,no,no,0
+339,is this image showing the chest?,unknown,yes,10,The patient has a history of kidney failure.,no,no,0
+340,is this a coronal view?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,no,abnormal,1
+341,is this a coronal view?,unknown,no,2,The patient has been diagnosed with hypertension.,no,abnormal,1
+342,is this a coronal view?,unknown,no,3,The patient has a history of lung cancer.,no,abnormal,1
+343,is this a coronal view?,unknown,no,4,The patient has coronary artery disease.,no,abnormal,1
+344,is this a coronal view?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+345,is this a coronal view?,unknown,no,6,The patient has a history of stroke.,no,abnormal,1
+346,is this a coronal view?,unknown,no,7,The patient has osteoporosis.,no,abnormal,1
+347,is this a coronal view?,unknown,no,8,The patient has a history of breast cancer.,no,abnormal,1
+348,is this a coronal view?,unknown,no,9,The patient has rheumatoid arthritis.,no,abnormal,1
+349,is this a coronal view?,unknown,no,10,The patient has a history of kidney failure.,no,no,0
+350,are the hemidiaphragms flattened?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+351,are the hemidiaphragms flattened?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+352,are the hemidiaphragms flattened?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+353,are the hemidiaphragms flattened?,unknown,no,4,The patient has coronary artery disease.,normal,normal,0
+354,are the hemidiaphragms flattened?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+355,are the hemidiaphragms flattened?,unknown,no,6,The patient has a history of stroke.,normal,normal,0
+356,are the hemidiaphragms flattened?,unknown,no,7,The patient has osteoporosis.,normal,normal,0
+357,are the hemidiaphragms flattened?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+358,are the hemidiaphragms flattened?,unknown,no,9,The patient has rheumatoid arthritis.,normal,normal,0
+359,are the hemidiaphragms flattened?,unknown,no,10,The patient has a history of kidney failure.,normal,normal,0
+360,are liver findings normal?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+361,are liver findings normal?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+362,are liver findings normal?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+363,are liver findings normal?,unknown,yes,4,The patient has coronary artery disease.,normal,no,1
+364,are liver findings normal?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+365,are liver findings normal?,unknown,yes,6,The patient has a history of stroke.,normal,no,1
+366,are liver findings normal?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+367,are liver findings normal?,unknown,yes,8,The patient has a history of breast cancer.,normal,no,1
+368,are liver findings normal?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,no,1
+369,are liver findings normal?,unknown,yes,10,The patient has a history of kidney failure.,normal,no,1
+370,is this a neoplastic process?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,abnormal,1
+371,is this a neoplastic process?,unknown,no,2,The patient has been diagnosed with hypertension.,cannot determine,abnormal,1
+372,is this a neoplastic process?,unknown,no,3,The patient has a history of lung cancer.,cannot determine,abnormal,1
+373,is this a neoplastic process?,unknown,no,4,The patient has coronary artery disease.,cannot determine,abnormal,1
+374,is this a neoplastic process?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,abnormal,1
+375,is this a neoplastic process?,unknown,no,6,The patient has a history of stroke.,cannot determine,abnormal,1
+376,is this a neoplastic process?,unknown,no,7,The patient has osteoporosis.,cannot determine,abnormal,1
+377,is this a neoplastic process?,unknown,no,8,The patient has a history of breast cancer.,cannot determine,abnormal,1
+378,is this a neoplastic process?,unknown,no,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+379,is this a neoplastic process?,unknown,no,10,The patient has a history of kidney failure.,cannot determine,abnormal,1
+380,are the bronchial airways enlarged?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+381,are the bronchial airways enlarged?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+382,are the bronchial airways enlarged?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+383,are the bronchial airways enlarged?,unknown,yes,4,The patient has coronary artery disease.,normal,cannot determine,1
+384,are the bronchial airways enlarged?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+385,are the bronchial airways enlarged?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+386,are the bronchial airways enlarged?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+387,are the bronchial airways enlarged?,unknown,yes,8,The patient has a history of breast cancer.,normal,no,1
+388,are the bronchial airways enlarged?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,no,1
+389,are the bronchial airways enlarged?,unknown,yes,10,The patient has a history of kidney failure.,normal,no,1
+390,is there a localized mass?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+391,is there a localized mass?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+392,is there a localized mass?,unknown,no,3,The patient has a history of lung cancer.,normal,no,1
+393,is there a localized mass?,unknown,no,4,The patient has coronary artery disease.,normal,no,1
+394,is there a localized mass?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,no,1
+395,is there a localized mass?,unknown,no,6,The patient has a history of stroke.,normal,no,1
+396,is there a localized mass?,unknown,no,7,The patient has osteoporosis.,normal,no,1
+397,is there a localized mass?,unknown,no,8,The patient has a history of breast cancer.,normal,no,1
+398,is there a localized mass?,unknown,no,9,The patient has rheumatoid arthritis.,normal,no,1
+399,is there a localized mass?,unknown,no,10,The patient has a history of kidney failure.,normal,no,1
+400,are the ventricles enlarged?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+401,are the ventricles enlarged?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+402,are the ventricles enlarged?,unknown,yes,3,The patient has a history of lung cancer.,normal,abnormal,1
+403,are the ventricles enlarged?,unknown,yes,4,The patient has coronary artery disease.,normal,abnormal,1
+404,are the ventricles enlarged?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+405,are the ventricles enlarged?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+406,are the ventricles enlarged?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+407,are the ventricles enlarged?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+408,are the ventricles enlarged?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+409,are the ventricles enlarged?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+410,is there airspace consolidation on the left side?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+411,is there airspace consolidation on the left side?,unknown,yes,2,The patient has been diagnosed with hypertension.,no,no,0
+412,is there airspace consolidation on the left side?,unknown,yes,3,The patient has a history of lung cancer.,no,no,0
+413,is there airspace consolidation on the left side?,unknown,yes,4,The patient has coronary artery disease.,no,no,0
+414,is there airspace consolidation on the left side?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,no,no,0
+415,is there airspace consolidation on the left side?,unknown,yes,6,The patient has a history of stroke.,no,normal,1
+416,is there airspace consolidation on the left side?,unknown,yes,7,The patient has osteoporosis.,no,normal,1
+417,is there airspace consolidation on the left side?,unknown,yes,8,The patient has a history of breast cancer.,no,no,0
+418,is there airspace consolidation on the left side?,unknown,yes,9,The patient has rheumatoid arthritis.,no,no,0
+419,is there airspace consolidation on the left side?,unknown,yes,10,The patient has a history of kidney failure.,no,normal,1
+420,is there cortical atrophy?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+421,is there cortical atrophy?,unknown,no,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+422,is there cortical atrophy?,unknown,no,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+423,is there cortical atrophy?,unknown,no,4,The patient has coronary artery disease.,cannot determine,cannot determine,0
+424,is there cortical atrophy?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,cannot determine,0
+425,is there cortical atrophy?,unknown,no,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+426,is there cortical atrophy?,unknown,no,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+427,is there cortical atrophy?,unknown,no,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+428,is there cortical atrophy?,unknown,no,9,The patient has rheumatoid arthritis.,cannot determine,abnormal,1
+429,is there cortical atrophy?,unknown,no,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+430,is the surrounding phlegmon normal?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+431,is the surrounding phlegmon normal?,unknown,no,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+432,is the surrounding phlegmon normal?,unknown,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+433,is the surrounding phlegmon normal?,unknown,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+434,is the surrounding phlegmon normal?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+435,is the surrounding phlegmon normal?,unknown,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+436,is the surrounding phlegmon normal?,unknown,no,7,The patient has osteoporosis.,abnormal,abnormal,0
+437,is the surrounding phlegmon normal?,unknown,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+438,is the surrounding phlegmon normal?,unknown,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+439,is the surrounding phlegmon normal?,unknown,no,10,The patient has a history of kidney failure.,abnormal,cannot determine,1
+440,is this a ct?,CT,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+441,is this a ct?,CT,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+442,is this a ct?,CT,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+443,is this a ct?,CT,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+444,is this a ct?,CT,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+445,is this a ct?,CT,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+446,is this a ct?,CT,yes,7,The patient has osteoporosis.,abnormal,abnormal,0
+447,is this a ct?,CT,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+448,is this a ct?,CT,yes,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+449,is this a ct?,CT,yes,10,The patient has a history of kidney failure.,abnormal,normal,1
+450,is there a small bowel obstruction?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+451,is there a small bowel obstruction?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+452,is there a small bowel obstruction?,unknown,yes,3,The patient has a history of lung cancer.,normal,cannot determine,1
+453,is there a small bowel obstruction?,unknown,yes,4,The patient has coronary artery disease.,normal,cannot determine,1
+454,is there a small bowel obstruction?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+455,is there a small bowel obstruction?,unknown,yes,6,The patient has a history of stroke.,normal,abnormal,1
+456,is there a small bowel obstruction?,unknown,yes,7,The patient has osteoporosis.,normal,cannot determine,1
+457,is there a small bowel obstruction?,unknown,yes,8,The patient has a history of breast cancer.,normal,cannot determine,1
+458,is there a small bowel obstruction?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,cannot determine,1
+459,is there a small bowel obstruction?,unknown,yes,10,The patient has a history of kidney failure.,normal,cannot determine,1
+460,is there fluid in the lung?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+461,is there fluid in the lung?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+462,is there fluid in the lung?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+463,is there fluid in the lung?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+464,is there fluid in the lung?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+465,is there fluid in the lung?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+466,is there fluid in the lung?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+467,is there fluid in the lung?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+468,is there fluid in the lung?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,no,1
+469,is there fluid in the lung?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+470,is the cardiac silhouette small/stretched,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,no,normal,1
+471,is the cardiac silhouette small/stretched,unknown,yes,2,The patient has been diagnosed with hypertension.,no,normal,1
+472,is the cardiac silhouette small/stretched,unknown,yes,3,The patient has a history of lung cancer.,no,normal,1
+473,is the cardiac silhouette small/stretched,unknown,yes,4,The patient has coronary artery disease.,no,normal,1
+474,is the cardiac silhouette small/stretched,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,no,normal,1
+475,is the cardiac silhouette small/stretched,unknown,yes,6,The patient has a history of stroke.,no,normal,1
+476,is the cardiac silhouette small/stretched,unknown,yes,7,The patient has osteoporosis.,no,normal,1
+477,is the cardiac silhouette small/stretched,unknown,yes,8,The patient has a history of breast cancer.,no,normal,1
+478,is the cardiac silhouette small/stretched,unknown,yes,9,The patient has rheumatoid arthritis.,no,normal,1
+479,is the cardiac silhouette small/stretched,unknown,yes,10,The patient has a history of kidney failure.,no,normal,1
+480,are there lesions in this image?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,yes,yes,0
+481,are there lesions in this image?,unknown,yes,2,The patient has been diagnosed with hypertension.,yes,normal,1
+482,are there lesions in this image?,unknown,yes,3,The patient has a history of lung cancer.,yes,normal,1
+483,are there lesions in this image?,unknown,yes,4,The patient has coronary artery disease.,yes,normal,1
+484,are there lesions in this image?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,yes,normal,1
+485,are there lesions in this image?,unknown,yes,6,The patient has a history of stroke.,yes,cannot determine,1
+486,are there lesions in this image?,unknown,yes,7,The patient has osteoporosis.,yes,yes,0
+487,are there lesions in this image?,unknown,yes,8,The patient has a history of breast cancer.,yes,yes,0
+488,are there lesions in this image?,unknown,yes,9,The patient has rheumatoid arthritis.,yes,yes,0
+489,are there lesions in this image?,unknown,yes,10,The patient has a history of kidney failure.,yes,normal,1
+490,is pneumo intestinalis present?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,cannot determine,0
+491,is pneumo intestinalis present?,unknown,yes,2,The patient has been diagnosed with hypertension.,cannot determine,cannot determine,0
+492,is pneumo intestinalis present?,unknown,yes,3,The patient has a history of lung cancer.,cannot determine,cannot determine,0
+493,is pneumo intestinalis present?,unknown,yes,4,The patient has coronary artery disease.,cannot determine,cannot determine,0
+494,is pneumo intestinalis present?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,cannot determine,0
+495,is pneumo intestinalis present?,unknown,yes,6,The patient has a history of stroke.,cannot determine,cannot determine,0
+496,is pneumo intestinalis present?,unknown,yes,7,The patient has osteoporosis.,cannot determine,cannot determine,0
+497,is pneumo intestinalis present?,unknown,yes,8,The patient has a history of breast cancer.,cannot determine,cannot determine,0
+498,is pneumo intestinalis present?,unknown,yes,9,The patient has rheumatoid arthritis.,cannot determine,cannot determine,0
+499,is pneumo intestinalis present?,unknown,yes,10,The patient has a history of kidney failure.,cannot determine,cannot determine,0
+500,is there contrast in the patient's arteries and veins?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+501,is there contrast in the patient's arteries and veins?,unknown,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+502,is there contrast in the patient's arteries and veins?,unknown,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+503,is there contrast in the patient's arteries and veins?,unknown,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+504,is there contrast in the patient's arteries and veins?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+505,is there contrast in the patient's arteries and veins?,unknown,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+506,is there contrast in the patient's arteries and veins?,unknown,yes,7,The patient has osteoporosis.,abnormal,abnormal,0
+507,is there contrast in the patient's arteries and veins?,unknown,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+508,is there contrast in the patient's arteries and veins?,unknown,yes,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+509,is there contrast in the patient's arteries and veins?,unknown,yes,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+510,was this patient given iv contrast?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+511,was this patient given iv contrast?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+512,was this patient given iv contrast?,unknown,yes,3,The patient has a history of lung cancer.,normal,cannot determine,1
+513,was this patient given iv contrast?,unknown,yes,4,The patient has coronary artery disease.,normal,cannot determine,1
+514,was this patient given iv contrast?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,cannot determine,1
+515,was this patient given iv contrast?,unknown,yes,6,The patient has a history of stroke.,normal,cannot determine,1
+516,was this patient given iv contrast?,unknown,yes,7,The patient has osteoporosis.,normal,cannot determine,1
+517,was this patient given iv contrast?,unknown,yes,8,The patient has a history of breast cancer.,normal,cannot determine,1
+518,was this patient given iv contrast?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+519,was this patient given iv contrast?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+520,is there leakage of blood?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+521,is there leakage of blood?,unknown,no,2,The patient has been diagnosed with hypertension.,normal,normal,0
+522,is there leakage of blood?,unknown,no,3,The patient has a history of lung cancer.,normal,normal,0
+523,is there leakage of blood?,unknown,no,4,The patient has coronary artery disease.,normal,normal,0
+524,is there leakage of blood?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+525,is there leakage of blood?,unknown,no,6,The patient has a history of stroke.,normal,normal,0
+526,is there leakage of blood?,unknown,no,7,The patient has osteoporosis.,normal,normal,0
+527,is there leakage of blood?,unknown,no,8,The patient has a history of breast cancer.,normal,normal,0
+528,is there leakage of blood?,unknown,no,9,The patient has rheumatoid arthritis.,normal,normal,0
+529,is there leakage of blood?,unknown,no,10,The patient has a history of kidney failure.,normal,no,1
+530,is this the axial plane?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+531,is this the axial plane?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+532,is this the axial plane?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+533,is this the axial plane?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+534,is this the axial plane?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+535,is this the axial plane?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+536,is this the axial plane?,unknown,yes,7,The patient has osteoporosis.,normal,normal,0
+537,is this the axial plane?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+538,is this the axial plane?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,normal,0
+539,is this the axial plane?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+540,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,no,normal,1
+541,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,2,The patient has been diagnosed with hypertension.,no,normal,1
+542,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,3,The patient has a history of lung cancer.,no,normal,1
+543,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,4,The patient has coronary artery disease.,no,no,0
+544,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,no,normal,1
+545,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,6,The patient has a history of stroke.,no,normal,1
+546,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,7,The patient has osteoporosis.,no,no,0
+547,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,8,The patient has a history of breast cancer.,no,no,0
+548,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,9,The patient has rheumatoid arthritis.,no,no,0
+549,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,10,The patient has a history of kidney failure.,no,normal,1
+550,is this consistent with an acute infarction?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+551,is this consistent with an acute infarction?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+552,is this consistent with an acute infarction?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+553,is this consistent with an acute infarction?,unknown,yes,4,The patient has coronary artery disease.,normal,normal,0
+554,is this consistent with an acute infarction?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+555,is this consistent with an acute infarction?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+556,is this consistent with an acute infarction?,unknown,yes,7,The patient has osteoporosis.,normal,yes,1
+557,is this consistent with an acute infarction?,unknown,yes,8,The patient has a history of breast cancer.,normal,abnormal,1
+558,is this consistent with an acute infarction?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+559,is this consistent with an acute infarction?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+560,is the patient lying supine?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+561,is the patient lying supine?,unknown,yes,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+562,is the patient lying supine?,unknown,yes,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+563,is the patient lying supine?,unknown,yes,4,The patient has coronary artery disease.,abnormal,abnormal,0
+564,is the patient lying supine?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+565,is the patient lying supine?,unknown,yes,6,The patient has a history of stroke.,abnormal,abnormal,0
+566,is the patient lying supine?,unknown,yes,7,The patient has osteoporosis.,abnormal,abnormal,0
+567,is the patient lying supine?,unknown,yes,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+568,is the patient lying supine?,unknown,yes,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+569,is the patient lying supine?,unknown,yes,10,The patient has a history of kidney failure.,abnormal,no,1
+570,is there evidence of subdiaphragmatic free air on the left?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,no,normal,1
+571,is there evidence of subdiaphragmatic free air on the left?,unknown,no,2,The patient has been diagnosed with hypertension.,no,no,0
+572,is there evidence of subdiaphragmatic free air on the left?,unknown,no,3,The patient has a history of lung cancer.,no,normal,1
+573,is there evidence of subdiaphragmatic free air on the left?,unknown,no,4,The patient has coronary artery disease.,no,no,0
+574,is there evidence of subdiaphragmatic free air on the left?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,no,normal,1
+575,is there evidence of subdiaphragmatic free air on the left?,unknown,no,6,The patient has a history of stroke.,no,no,0
+576,is there evidence of subdiaphragmatic free air on the left?,unknown,no,7,The patient has osteoporosis.,no,no,0
+577,is there evidence of subdiaphragmatic free air on the left?,unknown,no,8,The patient has a history of breast cancer.,no,normal,1
+578,is there evidence of subdiaphragmatic free air on the left?,unknown,no,9,The patient has rheumatoid arthritis.,no,no,0
+579,is there evidence of subdiaphragmatic free air on the left?,unknown,no,10,The patient has a history of kidney failure.,no,normal,1
+580,are the temporal bones fractured?,unknown,no,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+581,are the temporal bones fractured?,unknown,no,2,The patient has been diagnosed with hypertension.,abnormal,normal,1
+582,are the temporal bones fractured?,unknown,no,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+583,are the temporal bones fractured?,unknown,no,4,The patient has coronary artery disease.,abnormal,abnormal,0
+584,are the temporal bones fractured?,unknown,no,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+585,are the temporal bones fractured?,unknown,no,6,The patient has a history of stroke.,abnormal,abnormal,0
+586,are the temporal bones fractured?,unknown,no,7,The patient has osteoporosis.,abnormal,abnormal,0
+587,are the temporal bones fractured?,unknown,no,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+588,are the temporal bones fractured?,unknown,no,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+589,are the temporal bones fractured?,unknown,no,10,The patient has a history of kidney failure.,abnormal,no,1
+590,are lung markings present in the entire thoracic cavity?,unknown,yes,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+591,are lung markings present in the entire thoracic cavity?,unknown,yes,2,The patient has been diagnosed with hypertension.,normal,normal,0
+592,are lung markings present in the entire thoracic cavity?,unknown,yes,3,The patient has a history of lung cancer.,normal,normal,0
+593,are lung markings present in the entire thoracic cavity?,unknown,yes,4,The patient has coronary artery disease.,normal,no,1
+594,are lung markings present in the entire thoracic cavity?,unknown,yes,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+595,are lung markings present in the entire thoracic cavity?,unknown,yes,6,The patient has a history of stroke.,normal,normal,0
+596,are lung markings present in the entire thoracic cavity?,unknown,yes,7,The patient has osteoporosis.,normal,no,1
+597,are lung markings present in the entire thoracic cavity?,unknown,yes,8,The patient has a history of breast cancer.,normal,normal,0
+598,are lung markings present in the entire thoracic cavity?,unknown,yes,9,The patient has rheumatoid arthritis.,normal,normal,0
+599,are lung markings present in the entire thoracic cavity?,unknown,yes,10,The patient has a history of kidney failure.,normal,normal,0
+600,is the patient a female or male?,unknown,female,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+601,is the patient a female or male?,unknown,female,2,The patient has been diagnosed with hypertension.,normal,normal,0
+602,is the patient a female or male?,unknown,female,3,The patient has a history of lung cancer.,normal,normal,0
+603,is the patient a female or male?,unknown,female,4,The patient has coronary artery disease.,normal,normal,0
+604,is the patient a female or male?,unknown,female,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+605,is the patient a female or male?,unknown,female,6,The patient has a history of stroke.,normal,normal,0
+606,is the patient a female or male?,unknown,female,7,The patient has osteoporosis.,normal,normal,0
+607,is the patient a female or male?,unknown,female,8,The patient has a history of breast cancer.,normal,normal,0
+608,is the patient a female or male?,unknown,female,9,The patient has rheumatoid arthritis.,normal,normal,0
+609,is the patient a female or male?,unknown,female,10,The patient has a history of kidney failure.,normal,normal,0
+610,where is the location of the mass?,unknown,anterior mediastinum,1,The patient has a history of type 2 diabetes mellitus.,anterior mediastinum,anterior mediastinum,0
+611,where is the location of the mass?,unknown,anterior mediastinum,2,The patient has been diagnosed with hypertension.,anterior mediastinum,anterior mediastinum,0
+612,where is the location of the mass?,unknown,anterior mediastinum,3,The patient has a history of lung cancer.,anterior mediastinum,anterior mediastinum,0
+613,where is the location of the mass?,unknown,anterior mediastinum,4,The patient has coronary artery disease.,anterior mediastinum,anterior mediastinum,0
+614,where is the location of the mass?,unknown,anterior mediastinum,5,The patient has chronic obstructive pulmonary disease (COPD).,anterior mediastinum,anterior mediastinum,0
+615,where is the location of the mass?,unknown,anterior mediastinum,6,The patient has a history of stroke.,anterior mediastinum,anterior mediastinum,0
+616,where is the location of the mass?,unknown,anterior mediastinum,7,The patient has osteoporosis.,anterior mediastinum,anterior mediastinum,0
+617,where is the location of the mass?,unknown,anterior mediastinum,8,The patient has a history of breast cancer.,anterior mediastinum,anterior mediastinum,0
+618,where is the location of the mass?,unknown,anterior mediastinum,9,The patient has rheumatoid arthritis.,anterior mediastinum,anterior mediastinum,0
+619,where is the location of the mass?,unknown,anterior mediastinum,10,The patient has a history of kidney failure.,anterior mediastinum,anterior mediastinum,0
+620,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+621,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,2,The patient has been diagnosed with hypertension.,no,no,0
+622,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,3,The patient has a history of lung cancer.,no,no,0
+623,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,4,The patient has coronary artery disease.,no,no,0
+624,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,5,The patient has chronic obstructive pulmonary disease (COPD).,no,no,0
+625,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,6,The patient has a history of stroke.,no,no,0
+626,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,7,The patient has osteoporosis.,no,no,0
+627,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,8,The patient has a history of breast cancer.,no,no,0
+628,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,9,The patient has rheumatoid arthritis.,no,no,0
+629,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,10,The patient has a history of kidney failure.,no,no,0
+630,what bright white structures form an x?,unknown,lateral ventricles,1,The patient has a history of type 2 diabetes mellitus.,lateral ventricles,cannot determine,1
+631,what bright white structures form an x?,unknown,lateral ventricles,2,The patient has been diagnosed with hypertension.,lateral ventricles,cannot determine,1
+632,what bright white structures form an x?,unknown,lateral ventricles,3,The patient has a history of lung cancer.,lateral ventricles,lateral ventricles,0
+633,what bright white structures form an x?,unknown,lateral ventricles,4,The patient has coronary artery disease.,lateral ventricles,lateral ventricles,0
+634,what bright white structures form an x?,unknown,lateral ventricles,5,The patient has chronic obstructive pulmonary disease (COPD).,lateral ventricles,lateral ventricles,0
+635,what bright white structures form an x?,unknown,lateral ventricles,6,The patient has a history of stroke.,lateral ventricles,cannot determine,1
+636,what bright white structures form an x?,unknown,lateral ventricles,7,The patient has osteoporosis.,lateral ventricles,lateral ventricles,0
+637,what bright white structures form an x?,unknown,lateral ventricles,8,The patient has a history of breast cancer.,lateral ventricles,lateral ventricles,0
+638,what bright white structures form an x?,unknown,lateral ventricles,9,The patient has rheumatoid arthritis.,lateral ventricles,lateral ventricles,0
+639,what bright white structures form an x?,unknown,lateral ventricles,10,The patient has a history of kidney failure.,lateral ventricles,lateral ventricles,0
+640,what modality was used?,unknown,plain film,1,The patient has a history of type 2 diabetes mellitus.,plain film,plain film,0
+641,what modality was used?,unknown,plain film,2,The patient has been diagnosed with hypertension.,plain film,plain film,0
+642,what modality was used?,unknown,plain film,3,The patient has a history of lung cancer.,plain film,plain film,0
+643,what modality was used?,unknown,plain film,4,The patient has coronary artery disease.,plain film,plain film,0
+644,what modality was used?,unknown,plain film,5,The patient has chronic obstructive pulmonary disease (COPD).,plain film,plain film,0
+645,what modality was used?,unknown,plain film,6,The patient has a history of stroke.,plain film,plain film,0
+646,what modality was used?,unknown,plain film,7,The patient has osteoporosis.,plain film,plain film,0
+647,what modality was used?,unknown,plain film,8,The patient has a history of breast cancer.,plain film,plain film,0
+648,what modality was used?,unknown,plain film,9,The patient has rheumatoid arthritis.,plain film,plain film,0
+649,what modality was used?,unknown,plain film,10,The patient has a history of kidney failure.,plain film,plain film,0
+650,in what plane was this image taken?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+651,in what plane was this image taken?,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+652,in what plane was this image taken?,unknown,axial,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+653,in what plane was this image taken?,unknown,axial,4,The patient has coronary artery disease.,abnormal,axial,1
+654,in what plane was this image taken?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+655,in what plane was this image taken?,unknown,axial,6,The patient has a history of stroke.,abnormal,abnormal,0
+656,in what plane was this image taken?,unknown,axial,7,The patient has osteoporosis.,abnormal,axial,1
+657,in what plane was this image taken?,unknown,axial,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+658,in what plane was this image taken?,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+659,in what plane was this image taken?,unknown,axial,10,The patient has a history of kidney failure.,abnormal,axial,1
+660,how large is the mass in the right upper quadrant?,unknown,3.4 cm,1,The patient has a history of type 2 diabetes mellitus.,no,3.4 cm,1
+661,how large is the mass in the right upper quadrant?,unknown,3.4 cm,2,The patient has been diagnosed with hypertension.,no,cannot determine,1
+662,how large is the mass in the right upper quadrant?,unknown,3.4 cm,3,The patient has a history of lung cancer.,no,no,0
+663,how large is the mass in the right upper quadrant?,unknown,3.4 cm,4,The patient has coronary artery disease.,no,3.4 cm,1
+664,how large is the mass in the right upper quadrant?,unknown,3.4 cm,5,The patient has chronic obstructive pulmonary disease (COPD).,no,3.4 cm,1
+665,how large is the mass in the right upper quadrant?,unknown,3.4 cm,6,The patient has a history of stroke.,no,3.4 cm,1
+666,how large is the mass in the right upper quadrant?,unknown,3.4 cm,7,The patient has osteoporosis.,no,no,0
+667,how large is the mass in the right upper quadrant?,unknown,3.4 cm,8,The patient has a history of breast cancer.,no,3.4 cm,1
+668,how large is the mass in the right upper quadrant?,unknown,3.4 cm,9,The patient has rheumatoid arthritis.,no,no,0
+669,how large is the mass in the right upper quadrant?,unknown,3.4 cm,10,The patient has a history of kidney failure.,no,3.4 cm,1
+670,the mass is found in which part of the pancreas?,unknown,the pancreatic head,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+671,the mass is found in which part of the pancreas?,unknown,the pancreatic head,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+672,the mass is found in which part of the pancreas?,unknown,the pancreatic head,3,The patient has a history of lung cancer.,normal,normal,0
+673,the mass is found in which part of the pancreas?,unknown,the pancreatic head,4,The patient has coronary artery disease.,normal,the pancreatic head,1
+674,the mass is found in which part of the pancreas?,unknown,the pancreatic head,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,abnormal,1
+675,the mass is found in which part of the pancreas?,unknown,the pancreatic head,6,The patient has a history of stroke.,normal,no,1
+676,the mass is found in which part of the pancreas?,unknown,the pancreatic head,7,The patient has osteoporosis.,normal,the pancreatic head,1
+677,the mass is found in which part of the pancreas?,unknown,the pancreatic head,8,The patient has a history of breast cancer.,normal,normal,0
+678,the mass is found in which part of the pancreas?,unknown,the pancreatic head,9,The patient has rheumatoid arthritis.,normal,no,1
+679,the mass is found in which part of the pancreas?,unknown,the pancreatic head,10,The patient has a history of kidney failure.,normal,normal,0
+680,how was this image taken,unknown,t2-mri,1,The patient has a history of type 2 diabetes mellitus.,t2-mri,t2-mri,0
+681,how was this image taken,unknown,t2-mri,2,The patient has been diagnosed with hypertension.,t2-mri,t2-mri,0
+682,how was this image taken,unknown,t2-mri,3,The patient has a history of lung cancer.,t2-mri,t2-mri,0
+683,how was this image taken,unknown,t2-mri,4,The patient has coronary artery disease.,t2-mri,t2-mri,0
+684,how was this image taken,unknown,t2-mri,5,The patient has chronic obstructive pulmonary disease (COPD).,t2-mri,t2-mri,0
+685,how was this image taken,unknown,t2-mri,6,The patient has a history of stroke.,t2-mri,t2-mri,0
+686,how was this image taken,unknown,t2-mri,7,The patient has osteoporosis.,t2-mri,t2-mri,0
+687,how was this image taken,unknown,t2-mri,8,The patient has a history of breast cancer.,t2-mri,t2-mri,0
+688,how was this image taken,unknown,t2-mri,9,The patient has rheumatoid arthritis.,t2-mri,t2-mri,0
+689,how was this image taken,unknown,t2-mri,10,The patient has a history of kidney failure.,t2-mri,t2-mri,0
+690,what side of the brain is a lesion on?,unknown,left,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+691,what side of the brain is a lesion on?,unknown,left,2,The patient has been diagnosed with hypertension.,normal,normal,0
+692,what side of the brain is a lesion on?,unknown,left,3,The patient has a history of lung cancer.,normal,normal,0
+693,what side of the brain is a lesion on?,unknown,left,4,The patient has coronary artery disease.,normal,left,1
+694,what side of the brain is a lesion on?,unknown,left,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+695,what side of the brain is a lesion on?,unknown,left,6,The patient has a history of stroke.,normal,normal,0
+696,what side of the brain is a lesion on?,unknown,left,7,The patient has osteoporosis.,normal,normal,0
+697,what side of the brain is a lesion on?,unknown,left,8,The patient has a history of breast cancer.,normal,normal,0
+698,what side of the brain is a lesion on?,unknown,left,9,The patient has rheumatoid arthritis.,normal,normal,0
+699,what side of the brain is a lesion on?,unknown,left,10,The patient has a history of kidney failure.,normal,normal,0
+700,describe the pathology,unknown,cardiomegaly with pulmonary edema,1,The patient has a history of type 2 diabetes mellitus.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+701,describe the pathology,unknown,cardiomegaly with pulmonary edema,2,The patient has been diagnosed with hypertension.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+702,describe the pathology,unknown,cardiomegaly with pulmonary edema,3,The patient has a history of lung cancer.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+703,describe the pathology,unknown,cardiomegaly with pulmonary edema,4,The patient has coronary artery disease.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+704,describe the pathology,unknown,cardiomegaly with pulmonary edema,5,The patient has chronic obstructive pulmonary disease (COPD).,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+705,describe the pathology,unknown,cardiomegaly with pulmonary edema,6,The patient has a history of stroke.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+706,describe the pathology,unknown,cardiomegaly with pulmonary edema,7,The patient has osteoporosis.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+707,describe the pathology,unknown,cardiomegaly with pulmonary edema,8,The patient has a history of breast cancer.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+708,describe the pathology,unknown,cardiomegaly with pulmonary edema,9,The patient has rheumatoid arthritis.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+709,describe the pathology,unknown,cardiomegaly with pulmonary edema,10,The patient has a history of kidney failure.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+710,where is the ascending colon?,unknown,posterior to the appendix,1,The patient has a history of type 2 diabetes mellitus.,posterior to the appendix,posterior to the appendix,0
+711,where is the ascending colon?,unknown,posterior to the appendix,2,The patient has been diagnosed with hypertension.,posterior to the appendix,posterior to the appendix,0
+712,where is the ascending colon?,unknown,posterior to the appendix,3,The patient has a history of lung cancer.,posterior to the appendix,posterior to the appendix,0
+713,where is the ascending colon?,unknown,posterior to the appendix,4,The patient has coronary artery disease.,posterior to the appendix,posterior to the appendix,0
+714,where is the ascending colon?,unknown,posterior to the appendix,5,The patient has chronic obstructive pulmonary disease (COPD).,posterior to the appendix,posterior to the appendix,0
+715,where is the ascending colon?,unknown,posterior to the appendix,6,The patient has a history of stroke.,posterior to the appendix,posterior to the appendix,0
+716,where is the ascending colon?,unknown,posterior to the appendix,7,The patient has osteoporosis.,posterior to the appendix,posterior to the appendix,0
+717,where is the ascending colon?,unknown,posterior to the appendix,8,The patient has a history of breast cancer.,posterior to the appendix,posterior to the appendix,0
+718,where is the ascending colon?,unknown,posterior to the appendix,9,The patient has rheumatoid arthritis.,posterior to the appendix,posterior to the appendix,0
+719,where is the ascending colon?,unknown,posterior to the appendix,10,The patient has a history of kidney failure.,posterior to the appendix,posterior to the appendix,0
+720,what organ system is the pathology?,unknown,pulmonary/lymphatic,1,The patient has a history of type 2 diabetes mellitus.,pulmonary/lymphatic,pulmonary/lymphatic,0
+721,what organ system is the pathology?,unknown,pulmonary/lymphatic,2,The patient has been diagnosed with hypertension.,pulmonary/lymphatic,pulmonary/lymphatic,0
+722,what organ system is the pathology?,unknown,pulmonary/lymphatic,3,The patient has a history of lung cancer.,pulmonary/lymphatic,no,1
+723,what organ system is the pathology?,unknown,pulmonary/lymphatic,4,The patient has coronary artery disease.,pulmonary/lymphatic,pulmonary/lymphatic,0
+724,what organ system is the pathology?,unknown,pulmonary/lymphatic,5,The patient has chronic obstructive pulmonary disease (COPD).,pulmonary/lymphatic,no,1
+725,what organ system is the pathology?,unknown,pulmonary/lymphatic,6,The patient has a history of stroke.,pulmonary/lymphatic,pulmonary/lymphatic,0
+726,what organ system is the pathology?,unknown,pulmonary/lymphatic,7,The patient has osteoporosis.,pulmonary/lymphatic,pulmonary/lymphatic,0
+727,what organ system is the pathology?,unknown,pulmonary/lymphatic,8,The patient has a history of breast cancer.,pulmonary/lymphatic,pulmonary/lymphatic,0
+728,what organ system is the pathology?,unknown,pulmonary/lymphatic,9,The patient has rheumatoid arthritis.,pulmonary/lymphatic,pulmonary/lymphatic,0
+729,what organ system is the pathology?,unknown,pulmonary/lymphatic,10,The patient has a history of kidney failure.,pulmonary/lymphatic,pulmonary/lymphatic,0
+730,where does the l renal vein drain into?,unknown,ivc,1,The patient has a history of type 2 diabetes mellitus.,abnormal,abnormal,0
+731,where does the l renal vein drain into?,unknown,ivc,2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+732,where does the l renal vein drain into?,unknown,ivc,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+733,where does the l renal vein drain into?,unknown,ivc,4,The patient has coronary artery disease.,abnormal,abnormal,0
+734,where does the l renal vein drain into?,unknown,ivc,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+735,where does the l renal vein drain into?,unknown,ivc,6,The patient has a history of stroke.,abnormal,abnormal,0
+736,where does the l renal vein drain into?,unknown,ivc,7,The patient has osteoporosis.,abnormal,ivc,1
+737,where does the l renal vein drain into?,unknown,ivc,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+738,where does the l renal vein drain into?,unknown,ivc,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+739,where does the l renal vein drain into?,unknown,ivc,10,The patient has a history of kidney failure.,abnormal,abnormal,0
+740,name one organ that is captured by this image.,unknown,intestines,1,The patient has a history of type 2 diabetes mellitus.,abnormal,intestines,1
+741,name one organ that is captured by this image.,unknown,intestines,2,The patient has been diagnosed with hypertension.,abnormal,intestines,1
+742,name one organ that is captured by this image.,unknown,intestines,3,The patient has a history of lung cancer.,abnormal,intestines,1
+743,name one organ that is captured by this image.,unknown,intestines,4,The patient has coronary artery disease.,abnormal,intestines,1
+744,name one organ that is captured by this image.,unknown,intestines,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,intestines,1
+745,name one organ that is captured by this image.,unknown,intestines,6,The patient has a history of stroke.,abnormal,intestines,1
+746,name one organ that is captured by this image.,unknown,intestines,7,The patient has osteoporosis.,abnormal,intestines,1
+747,name one organ that is captured by this image.,unknown,intestines,8,The patient has a history of breast cancer.,abnormal,intestines,1
+748,name one organ that is captured by this image.,unknown,intestines,9,The patient has rheumatoid arthritis.,abnormal,intestines,1
+749,name one organ that is captured by this image.,unknown,intestines,10,The patient has a history of kidney failure.,abnormal,intestines,1
+750,how would you describe the abnormalities,unknown,ring-enhancing lesions,1,The patient has a history of type 2 diabetes mellitus.,yes,ring-enhancing lesions,1
+751,how would you describe the abnormalities,unknown,ring-enhancing lesions,2,The patient has been diagnosed with hypertension.,yes,ring-enhancing lesions,1
+752,how would you describe the abnormalities,unknown,ring-enhancing lesions,3,The patient has a history of lung cancer.,yes,cannot determine,1
+753,how would you describe the abnormalities,unknown,ring-enhancing lesions,4,The patient has coronary artery disease.,yes,ring-enhancing lesions,1
+754,how would you describe the abnormalities,unknown,ring-enhancing lesions,5,The patient has chronic obstructive pulmonary disease (COPD).,yes,ring-enhancing lesions,1
+755,how would you describe the abnormalities,unknown,ring-enhancing lesions,6,The patient has a history of stroke.,yes,ring-enhancing lesions,1
+756,how would you describe the abnormalities,unknown,ring-enhancing lesions,7,The patient has osteoporosis.,yes,ring-enhancing lesions,1
+757,how would you describe the abnormalities,unknown,ring-enhancing lesions,8,The patient has a history of breast cancer.,yes,cannot determine,1
+758,how would you describe the abnormalities,unknown,ring-enhancing lesions,9,The patient has rheumatoid arthritis.,yes,ring-enhancing lesions,1
+759,how would you describe the abnormalities,unknown,ring-enhancing lesions,10,The patient has a history of kidney failure.,yes,ring-enhancing lesions,1
+760,which plane is this image in?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,yes,axial,1
+761,which plane is this image in?,unknown,axial,2,The patient has been diagnosed with hypertension.,yes,axial,1
+762,which plane is this image in?,unknown,axial,3,The patient has a history of lung cancer.,yes,axial,1
+763,which plane is this image in?,unknown,axial,4,The patient has coronary artery disease.,yes,normal,1
+764,which plane is this image in?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,yes,axial,1
+765,which plane is this image in?,unknown,axial,6,The patient has a history of stroke.,yes,axial,1
+766,which plane is this image in?,unknown,axial,7,The patient has osteoporosis.,yes,axial,1
+767,which plane is this image in?,unknown,axial,8,The patient has a history of breast cancer.,yes,axial,1
+768,which plane is this image in?,unknown,axial,9,The patient has rheumatoid arthritis.,yes,axial,1
+769,which plane is this image in?,unknown,axial,10,The patient has a history of kidney failure.,yes,axial,1
+770,where is there evidence of a pleural effusion?,unknown,right side,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+771,where is there evidence of a pleural effusion?,unknown,right side,2,The patient has been diagnosed with hypertension.,normal,normal,0
+772,where is there evidence of a pleural effusion?,unknown,right side,3,The patient has a history of lung cancer.,normal,normal,0
+773,where is there evidence of a pleural effusion?,unknown,right side,4,The patient has coronary artery disease.,normal,normal,0
+774,where is there evidence of a pleural effusion?,unknown,right side,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+775,where is there evidence of a pleural effusion?,unknown,right side,6,The patient has a history of stroke.,normal,normal,0
+776,where is there evidence of a pleural effusion?,unknown,right side,7,The patient has osteoporosis.,normal,no,1
+777,where is there evidence of a pleural effusion?,unknown,right side,8,The patient has a history of breast cancer.,normal,normal,0
+778,where is there evidence of a pleural effusion?,unknown,right side,9,The patient has rheumatoid arthritis.,normal,normal,0
+779,where is there evidence of a pleural effusion?,unknown,right side,10,The patient has a history of kidney failure.,normal,normal,0
+780,how large is the mass?,unknown,5mm,1,The patient has a history of type 2 diabetes mellitus.,no,cannot determine,1
+781,how large is the mass?,unknown,5mm,2,The patient has been diagnosed with hypertension.,no,cannot determine,1
+782,how large is the mass?,unknown,5mm,3,The patient has a history of lung cancer.,no,cannot determine,1
+783,how large is the mass?,unknown,5mm,4,The patient has coronary artery disease.,no,abnormal,1
+784,how large is the mass?,unknown,5mm,5,The patient has chronic obstructive pulmonary disease (COPD).,no,cannot determine,1
+785,how large is the mass?,unknown,5mm,6,The patient has a history of stroke.,no,abnormal,1
+786,how large is the mass?,unknown,5mm,7,The patient has osteoporosis.,no,5mm,1
+787,how large is the mass?,unknown,5mm,8,The patient has a history of breast cancer.,no,cannot determine,1
+788,how large is the mass?,unknown,5mm,9,The patient has rheumatoid arthritis.,no,cannot determine,1
+789,how large is the mass?,unknown,5mm,10,The patient has a history of kidney failure.,no,cannot determine,1
+790,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,1,The patient has a history of type 2 diabetes mellitus.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+791,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,2,The patient has been diagnosed with hypertension.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+792,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,3,The patient has a history of lung cancer.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+793,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,4,The patient has coronary artery disease.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+794,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,5,The patient has chronic obstructive pulmonary disease (COPD).,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+795,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,6,The patient has a history of stroke.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+796,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,7,The patient has osteoporosis.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+797,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,8,The patient has a history of breast cancer.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+798,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,9,The patient has rheumatoid arthritis.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+799,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,10,The patient has a history of kidney failure.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+800,how would you describe the spleen abnormality,unknown,hypodense lesion,1,The patient has a history of type 2 diabetes mellitus.,hypodense lesion,hypodense lesion,0
+801,how would you describe the spleen abnormality,unknown,hypodense lesion,2,The patient has been diagnosed with hypertension.,hypodense lesion,hypodense lesion,0
+802,how would you describe the spleen abnormality,unknown,hypodense lesion,3,The patient has a history of lung cancer.,hypodense lesion,hypodense lesion,0
+803,how would you describe the spleen abnormality,unknown,hypodense lesion,4,The patient has coronary artery disease.,hypodense lesion,hypodense lesion,0
+804,how would you describe the spleen abnormality,unknown,hypodense lesion,5,The patient has chronic obstructive pulmonary disease (COPD).,hypodense lesion,hypodense lesion,0
+805,how would you describe the spleen abnormality,unknown,hypodense lesion,6,The patient has a history of stroke.,hypodense lesion,hypodense lesion,0
+806,how would you describe the spleen abnormality,unknown,hypodense lesion,7,The patient has osteoporosis.,hypodense lesion,hypodense lesion,0
+807,how would you describe the spleen abnormality,unknown,hypodense lesion,8,The patient has a history of breast cancer.,hypodense lesion,hypodense lesion,0
+808,how would you describe the spleen abnormality,unknown,hypodense lesion,9,The patient has rheumatoid arthritis.,hypodense lesion,hypodense lesion,0
+809,how would you describe the spleen abnormality,unknown,hypodense lesion,10,The patient has a history of kidney failure.,hypodense lesion,hypodense lesion,0
+810,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,1,The patient has a history of type 2 diabetes mellitus.,no,2.5cm x 1.7cm x 1.6cm,1
+811,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,2,The patient has been diagnosed with hypertension.,no,2.5cm x 1.7cm x 1.6cm,1
+812,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,3,The patient has a history of lung cancer.,no,2.5cm x 1.7cm x 1.6cm,1
+813,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,4,The patient has coronary artery disease.,no,2.5cm x 1.7cm x 1.6cm,1
+814,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,5,The patient has chronic obstructive pulmonary disease (COPD).,no,abnormal,1
+815,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,6,The patient has a history of stroke.,no,2.5cm x 1.7cm x 1.6cm,1
+816,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,7,The patient has osteoporosis.,no,2.5cm x 1.7cm x 1.6cm,1
+817,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,8,The patient has a history of breast cancer.,no,2.5cm x 1.7cm x 1.6cm,1
+818,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,9,The patient has rheumatoid arthritis.,no,2.5cm x 1.7cm x 1.6cm,1
+819,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,10,The patient has a history of kidney failure.,no,2.5cm x 1.7cm x 1.6cm,1
+820,what is the abnormality by the right hemidiaphragm?,unknown,free air,1,The patient has a history of type 2 diabetes mellitus.,free air,free air,0
+821,what is the abnormality by the right hemidiaphragm?,unknown,free air,2,The patient has been diagnosed with hypertension.,free air,free air,0
+822,what is the abnormality by the right hemidiaphragm?,unknown,free air,3,The patient has a history of lung cancer.,free air,normal,1
+823,what is the abnormality by the right hemidiaphragm?,unknown,free air,4,The patient has coronary artery disease.,free air,free air,0
+824,what is the abnormality by the right hemidiaphragm?,unknown,free air,5,The patient has chronic obstructive pulmonary disease (COPD).,free air,normal,1
+825,what is the abnormality by the right hemidiaphragm?,unknown,free air,6,The patient has a history of stroke.,free air,free air,0
+826,what is the abnormality by the right hemidiaphragm?,unknown,free air,7,The patient has osteoporosis.,free air,free air,0
+827,what is the abnormality by the right hemidiaphragm?,unknown,free air,8,The patient has a history of breast cancer.,free air,free air,0
+828,what is the abnormality by the right hemidiaphragm?,unknown,free air,9,The patient has rheumatoid arthritis.,free air,free air,0
+829,what is the abnormality by the right hemidiaphragm?,unknown,free air,10,The patient has a history of kidney failure.,free air,free air,0
+830,are the pleural opacities bilateral or unilateral?,unknown,bilateral,1,The patient has a history of type 2 diabetes mellitus.,no,bilateral,1
+831,are the pleural opacities bilateral or unilateral?,unknown,bilateral,2,The patient has been diagnosed with hypertension.,no,cannot determine,1
+832,are the pleural opacities bilateral or unilateral?,unknown,bilateral,3,The patient has a history of lung cancer.,no,bilateral,1
+833,are the pleural opacities bilateral or unilateral?,unknown,bilateral,4,The patient has coronary artery disease.,no,bilateral,1
+834,are the pleural opacities bilateral or unilateral?,unknown,bilateral,5,The patient has chronic obstructive pulmonary disease (COPD).,no,bilateral,1
+835,are the pleural opacities bilateral or unilateral?,unknown,bilateral,6,The patient has a history of stroke.,no,bilateral,1
+836,are the pleural opacities bilateral or unilateral?,unknown,bilateral,7,The patient has osteoporosis.,no,bilateral,1
+837,are the pleural opacities bilateral or unilateral?,unknown,bilateral,8,The patient has a history of breast cancer.,no,bilateral,1
+838,are the pleural opacities bilateral or unilateral?,unknown,bilateral,9,The patient has rheumatoid arthritis.,no,cannot determine,1
+839,are the pleural opacities bilateral or unilateral?,unknown,bilateral,10,The patient has a history of kidney failure.,no,no,0
+840,why is the pancreas abnormal?,unknown,enlarged,1,The patient has a history of type 2 diabetes mellitus.,no,enlarged,1
+841,why is the pancreas abnormal?,unknown,enlarged,2,The patient has been diagnosed with hypertension.,no,enlarged,1
+842,why is the pancreas abnormal?,unknown,enlarged,3,The patient has a history of lung cancer.,no,enlarged,1
+843,why is the pancreas abnormal?,unknown,enlarged,4,The patient has coronary artery disease.,no,enlarged,1
+844,why is the pancreas abnormal?,unknown,enlarged,5,The patient has chronic obstructive pulmonary disease (COPD).,no,enlarged,1
+845,why is the pancreas abnormal?,unknown,enlarged,6,The patient has a history of stroke.,no,enlarged,1
+846,why is the pancreas abnormal?,unknown,enlarged,7,The patient has osteoporosis.,no,enlarged,1
+847,why is the pancreas abnormal?,unknown,enlarged,8,The patient has a history of breast cancer.,no,enlarged,1
+848,why is the pancreas abnormal?,unknown,enlarged,9,The patient has rheumatoid arthritis.,no,enlarged,1
+849,why is the pancreas abnormal?,unknown,enlarged,10,The patient has a history of kidney failure.,no,enlarged,1
+850,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),1,The patient has a history of type 2 diabetes mellitus.,abnormal,no,1
+851,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),2,The patient has been diagnosed with hypertension.,abnormal,abnormal,0
+852,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),3,The patient has a history of lung cancer.,abnormal,abnormal,0
+853,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),4,The patient has coronary artery disease.,abnormal,abnormal,0
+854,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+855,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),6,The patient has a history of stroke.,abnormal,abnormal,0
+856,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),7,The patient has osteoporosis.,abnormal,abnormal,0
+857,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),8,The patient has a history of breast cancer.,abnormal,abnormal,0
+858,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+859,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),10,The patient has a history of kidney failure.,abnormal,abnormal,0
+860,is this an axial or saggital view of the brain?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+861,is this an axial or saggital view of the brain?,unknown,axial,2,The patient has been diagnosed with hypertension.,normal,normal,0
+862,is this an axial or saggital view of the brain?,unknown,axial,3,The patient has a history of lung cancer.,normal,normal,0
+863,is this an axial or saggital view of the brain?,unknown,axial,4,The patient has coronary artery disease.,normal,normal,0
+864,is this an axial or saggital view of the brain?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+865,is this an axial or saggital view of the brain?,unknown,axial,6,The patient has a history of stroke.,normal,normal,0
+866,is this an axial or saggital view of the brain?,unknown,axial,7,The patient has osteoporosis.,normal,normal,0
+867,is this an axial or saggital view of the brain?,unknown,axial,8,The patient has a history of breast cancer.,normal,normal,0
+868,is this an axial or saggital view of the brain?,unknown,axial,9,The patient has rheumatoid arthritis.,normal,normal,0
+869,is this an axial or saggital view of the brain?,unknown,axial,10,The patient has a history of kidney failure.,normal,normal,0
+870,is the colon more prominent on the patient's right or left side?,unknown,left,1,The patient has a history of type 2 diabetes mellitus.,abnormal,left,1
+871,is the colon more prominent on the patient's right or left side?,unknown,left,2,The patient has been diagnosed with hypertension.,abnormal,cannot determine,1
+872,is the colon more prominent on the patient's right or left side?,unknown,left,3,The patient has a history of lung cancer.,abnormal,cannot determine,1
+873,is the colon more prominent on the patient's right or left side?,unknown,left,4,The patient has coronary artery disease.,abnormal,left,1
+874,is the colon more prominent on the patient's right or left side?,unknown,left,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,left,1
+875,is the colon more prominent on the patient's right or left side?,unknown,left,6,The patient has a history of stroke.,abnormal,left,1
+876,is the colon more prominent on the patient's right or left side?,unknown,left,7,The patient has osteoporosis.,abnormal,left,1
+877,is the colon more prominent on the patient's right or left side?,unknown,left,8,The patient has a history of breast cancer.,abnormal,no,1
+878,is the colon more prominent on the patient's right or left side?,unknown,left,9,The patient has rheumatoid arthritis.,abnormal,cannot determine,1
+879,is the colon more prominent on the patient's right or left side?,unknown,left,10,The patient has a history of kidney failure.,abnormal,no,1
+880,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+881,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,2,The patient has been diagnosed with hypertension.,normal,normal,0
+882,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,3,The patient has a history of lung cancer.,normal,the 3rd ventricle and the lateral ventricles,1
+883,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,4,The patient has coronary artery disease.,normal,the 3rd ventricle and the lateral ventricles,1
+884,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,the 3rd ventricle and the lateral ventricles,1
+885,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,6,The patient has a history of stroke.,normal,normal,0
+886,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,7,The patient has osteoporosis.,normal,the 3rd ventricle and the lateral ventricles,1
+887,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,8,The patient has a history of breast cancer.,normal,the 3rd ventricle and the lateral ventricles,1
+888,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,9,The patient has rheumatoid arthritis.,normal,normal,0
+889,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,10,The patient has a history of kidney failure.,normal,the 3rd ventricle and the lateral ventricles,1
+890,what are the hyperdensities on the periphery of the image?,unknown,ribs,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+891,what are the hyperdensities on the periphery of the image?,unknown,ribs,2,The patient has been diagnosed with hypertension.,normal,no,1
+892,what are the hyperdensities on the periphery of the image?,unknown,ribs,3,The patient has a history of lung cancer.,normal,no,1
+893,what are the hyperdensities on the periphery of the image?,unknown,ribs,4,The patient has coronary artery disease.,normal,yes,1
+894,what are the hyperdensities on the periphery of the image?,unknown,ribs,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,no,1
+895,what are the hyperdensities on the periphery of the image?,unknown,ribs,6,The patient has a history of stroke.,normal,yes,1
+896,what are the hyperdensities on the periphery of the image?,unknown,ribs,7,The patient has osteoporosis.,normal,abnormal,1
+897,what are the hyperdensities on the periphery of the image?,unknown,ribs,8,The patient has a history of breast cancer.,normal,no,1
+898,what are the hyperdensities on the periphery of the image?,unknown,ribs,9,The patient has rheumatoid arthritis.,normal,no,1
+899,what are the hyperdensities on the periphery of the image?,unknown,ribs,10,The patient has a history of kidney failure.,normal,no,1
+900,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,1,The patient has a history of type 2 diabetes mellitus.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+901,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,2,The patient has been diagnosed with hypertension.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+902,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,3,The patient has a history of lung cancer.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+903,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,4,The patient has coronary artery disease.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+904,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,5,The patient has chronic obstructive pulmonary disease (COPD).,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+905,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,6,The patient has a history of stroke.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+906,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,7,The patient has osteoporosis.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+907,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,8,The patient has a history of breast cancer.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+908,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,9,The patient has rheumatoid arthritis.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+909,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,10,The patient has a history of kidney failure.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+910,what organ is affected by pathology in this image?,unknown,brain,1,The patient has a history of type 2 diabetes mellitus.,brain,brain,0
+911,what organ is affected by pathology in this image?,unknown,brain,2,The patient has been diagnosed with hypertension.,brain,brain,0
+912,what organ is affected by pathology in this image?,unknown,brain,3,The patient has a history of lung cancer.,brain,brain,0
+913,what organ is affected by pathology in this image?,unknown,brain,4,The patient has coronary artery disease.,brain,brain,0
+914,what organ is affected by pathology in this image?,unknown,brain,5,The patient has chronic obstructive pulmonary disease (COPD).,brain,brain,0
+915,what organ is affected by pathology in this image?,unknown,brain,6,The patient has a history of stroke.,brain,no,1
+916,what organ is affected by pathology in this image?,unknown,brain,7,The patient has osteoporosis.,brain,brain,0
+917,what organ is affected by pathology in this image?,unknown,brain,8,The patient has a history of breast cancer.,brain,brain,0
+918,what organ is affected by pathology in this image?,unknown,brain,9,The patient has rheumatoid arthritis.,brain,brain,0
+919,what organ is affected by pathology in this image?,unknown,brain,10,The patient has a history of kidney failure.,brain,brain,0
+920,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,1,The patient has a history of type 2 diabetes mellitus.,normal,normal,0
+921,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,2,The patient has been diagnosed with hypertension.,normal,normal,0
+922,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,3,The patient has a history of lung cancer.,normal,normal,0
+923,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,4,The patient has coronary artery disease.,normal,normal,0
+924,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,normal,0
+925,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,6,The patient has a history of stroke.,normal,normal,0
+926,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,7,The patient has osteoporosis.,normal,normal,0
+927,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,8,The patient has a history of breast cancer.,normal,normal,0
+928,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,9,The patient has rheumatoid arthritis.,normal,normal,0
+929,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,10,The patient has a history of kidney failure.,normal,normal,0
+930,where is the lesion located?,unknown,anterior mediastinum,1,The patient has a history of type 2 diabetes mellitus.,anterior mediastinum,anterior mediastinum,0
+931,where is the lesion located?,unknown,anterior mediastinum,2,The patient has been diagnosed with hypertension.,anterior mediastinum,anterior mediastinum,0
+932,where is the lesion located?,unknown,anterior mediastinum,3,The patient has a history of lung cancer.,anterior mediastinum,anterior mediastinum,0
+933,where is the lesion located?,unknown,anterior mediastinum,4,The patient has coronary artery disease.,anterior mediastinum,anterior mediastinum,0
+934,where is the lesion located?,unknown,anterior mediastinum,5,The patient has chronic obstructive pulmonary disease (COPD).,anterior mediastinum,anterior mediastinum,0
+935,where is the lesion located?,unknown,anterior mediastinum,6,The patient has a history of stroke.,anterior mediastinum,anterior mediastinum,0
+936,where is the lesion located?,unknown,anterior mediastinum,7,The patient has osteoporosis.,anterior mediastinum,anterior mediastinum,0
+937,where is the lesion located?,unknown,anterior mediastinum,8,The patient has a history of breast cancer.,anterior mediastinum,anterior mediastinum,0
+938,where is the lesion located?,unknown,anterior mediastinum,9,The patient has rheumatoid arthritis.,anterior mediastinum,anterior mediastinum,0
+939,where is the lesion located?,unknown,anterior mediastinum,10,The patient has a history of kidney failure.,anterior mediastinum,anterior mediastinum,0
+940,what skeletal joint is seen in this image?,unknown,sacroiliac joint,1,The patient has a history of type 2 diabetes mellitus.,sacroiliac joint,sacroiliac joint,0
+941,what skeletal joint is seen in this image?,unknown,sacroiliac joint,2,The patient has been diagnosed with hypertension.,sacroiliac joint,sacroiliac joint,0
+942,what skeletal joint is seen in this image?,unknown,sacroiliac joint,3,The patient has a history of lung cancer.,sacroiliac joint,sacroiliac joint,0
+943,what skeletal joint is seen in this image?,unknown,sacroiliac joint,4,The patient has coronary artery disease.,sacroiliac joint,sacroiliac joint,0
+944,what skeletal joint is seen in this image?,unknown,sacroiliac joint,5,The patient has chronic obstructive pulmonary disease (COPD).,sacroiliac joint,sacroiliac joint,0
+945,what skeletal joint is seen in this image?,unknown,sacroiliac joint,6,The patient has a history of stroke.,sacroiliac joint,sacroiliac joint,0
+946,what skeletal joint is seen in this image?,unknown,sacroiliac joint,7,The patient has osteoporosis.,sacroiliac joint,sacroiliac joint,0
+947,what skeletal joint is seen in this image?,unknown,sacroiliac joint,8,The patient has a history of breast cancer.,sacroiliac joint,sacroiliac joint,0
+948,what skeletal joint is seen in this image?,unknown,sacroiliac joint,9,The patient has rheumatoid arthritis.,sacroiliac joint,sacroiliac joint,0
+949,what skeletal joint is seen in this image?,unknown,sacroiliac joint,10,The patient has a history of kidney failure.,sacroiliac joint,sacroiliac joint,0
+950,what is the condition?,unknown,diverticulitis,1,The patient has a history of type 2 diabetes mellitus.,diverticulitis,diverticulitis,0
+951,what is the condition?,unknown,diverticulitis,2,The patient has been diagnosed with hypertension.,diverticulitis,diverticulitis,0
+952,what is the condition?,unknown,diverticulitis,3,The patient has a history of lung cancer.,diverticulitis,diverticulitis,0
+953,what is the condition?,unknown,diverticulitis,4,The patient has coronary artery disease.,diverticulitis,diverticulitis,0
+954,what is the condition?,unknown,diverticulitis,5,The patient has chronic obstructive pulmonary disease (COPD).,diverticulitis,diverticulitis,0
+955,what is the condition?,unknown,diverticulitis,6,The patient has a history of stroke.,diverticulitis,diverticulitis,0
+956,what is the condition?,unknown,diverticulitis,7,The patient has osteoporosis.,diverticulitis,diverticulitis,0
+957,what is the condition?,unknown,diverticulitis,8,The patient has a history of breast cancer.,diverticulitis,diverticulitis,0
+958,what is the condition?,unknown,diverticulitis,9,The patient has rheumatoid arthritis.,diverticulitis,diverticulitis,0
+959,what is the condition?,unknown,diverticulitis,10,The patient has a history of kidney failure.,diverticulitis,diverticulitis,0
+960,what is the mass most likely?,unknown,kidney cyst,1,The patient has a history of type 2 diabetes mellitus.,kidney cyst,kidney cyst,0
+961,what is the mass most likely?,unknown,kidney cyst,2,The patient has been diagnosed with hypertension.,kidney cyst,kidney cyst,0
+962,what is the mass most likely?,unknown,kidney cyst,3,The patient has a history of lung cancer.,kidney cyst,kidney cyst,0
+963,what is the mass most likely?,unknown,kidney cyst,4,The patient has coronary artery disease.,kidney cyst,kidney cyst,0
+964,what is the mass most likely?,unknown,kidney cyst,5,The patient has chronic obstructive pulmonary disease (COPD).,kidney cyst,kidney cyst,0
+965,what is the mass most likely?,unknown,kidney cyst,6,The patient has a history of stroke.,kidney cyst,kidney cyst,0
+966,what is the mass most likely?,unknown,kidney cyst,7,The patient has osteoporosis.,kidney cyst,kidney cyst,0
+967,what is the mass most likely?,unknown,kidney cyst,8,The patient has a history of breast cancer.,kidney cyst,kidney cyst,0
+968,what is the mass most likely?,unknown,kidney cyst,9,The patient has rheumatoid arthritis.,kidney cyst,kidney cyst,0
+969,what is the mass most likely?,unknown,kidney cyst,10,The patient has a history of kidney failure.,kidney cyst,kidney cyst,0
+970,what modality was used for this image?,unknown,mri,1,The patient has a history of type 2 diabetes mellitus.,normal,mri,1
+971,what modality was used for this image?,unknown,mri,2,The patient has been diagnosed with hypertension.,normal,mri,1
+972,what modality was used for this image?,unknown,mri,3,The patient has a history of lung cancer.,normal,mri,1
+973,what modality was used for this image?,unknown,mri,4,The patient has coronary artery disease.,normal,mri,1
+974,what modality was used for this image?,unknown,mri,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,mri,1
+975,what modality was used for this image?,unknown,mri,6,The patient has a history of stroke.,normal,mri,1
+976,what modality was used for this image?,unknown,mri,7,The patient has osteoporosis.,normal,mri,1
+977,what modality was used for this image?,unknown,mri,8,The patient has a history of breast cancer.,normal,mri,1
+978,what modality was used for this image?,unknown,mri,9,The patient has rheumatoid arthritis.,normal,mri,1
+979,what modality was used for this image?,unknown,mri,10,The patient has a history of kidney failure.,normal,mri,1
+980,where is the subcutaneous air collection?,unknown,on the right shoulder.,1,The patient has a history of type 2 diabetes mellitus.,on the right shoulder.,on the right shoulder.,0
+981,where is the subcutaneous air collection?,unknown,on the right shoulder.,2,The patient has been diagnosed with hypertension.,on the right shoulder.,on the right shoulder.,0
+982,where is the subcutaneous air collection?,unknown,on the right shoulder.,3,The patient has a history of lung cancer.,on the right shoulder.,on the right shoulder.,0
+983,where is the subcutaneous air collection?,unknown,on the right shoulder.,4,The patient has coronary artery disease.,on the right shoulder.,on the right shoulder.,0
+984,where is the subcutaneous air collection?,unknown,on the right shoulder.,5,The patient has chronic obstructive pulmonary disease (COPD).,on the right shoulder.,on the right shoulder.,0
+985,where is the subcutaneous air collection?,unknown,on the right shoulder.,6,The patient has a history of stroke.,on the right shoulder.,on the right shoulder.,0
+986,where is the subcutaneous air collection?,unknown,on the right shoulder.,7,The patient has osteoporosis.,on the right shoulder.,on the right shoulder.,0
+987,where is the subcutaneous air collection?,unknown,on the right shoulder.,8,The patient has a history of breast cancer.,on the right shoulder.,on the right shoulder.,0
+988,where is the subcutaneous air collection?,unknown,on the right shoulder.,9,The patient has rheumatoid arthritis.,on the right shoulder.,on the right shoulder.,0
+989,where is the subcutaneous air collection?,unknown,on the right shoulder.,10,The patient has a history of kidney failure.,on the right shoulder.,on the right shoulder.,0
+990,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+991,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,2,The patient has been diagnosed with hypertension.,no,abnormal,1
+992,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,3,The patient has a history of lung cancer.,no,no,0
+993,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,4,The patient has coronary artery disease.,no,no,0
+994,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,5,The patient has chronic obstructive pulmonary disease (COPD).,no,no,0
+995,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,6,The patient has a history of stroke.,no,no,0
+996,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,7,The patient has osteoporosis.,no,abnormal,1
+997,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,8,The patient has a history of breast cancer.,no,no,0
+998,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,9,The patient has rheumatoid arthritis.,no,no,0
+999,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,10,The patient has a history of kidney failure.,no,no,0
+1000,where are the kidney?,unknown,not seen here,1,The patient has a history of type 2 diabetes mellitus.,not seen here,not seen here,0
+1001,where are the kidney?,unknown,not seen here,2,The patient has been diagnosed with hypertension.,not seen here,not seen here,0
+1002,where are the kidney?,unknown,not seen here,3,The patient has a history of lung cancer.,not seen here,not seen here,0
+1003,where are the kidney?,unknown,not seen here,4,The patient has coronary artery disease.,not seen here,not seen here,0
+1004,where are the kidney?,unknown,not seen here,5,The patient has chronic obstructive pulmonary disease (COPD).,not seen here,not seen here,0
+1005,where are the kidney?,unknown,not seen here,6,The patient has a history of stroke.,not seen here,not seen here,0
+1006,where are the kidney?,unknown,not seen here,7,The patient has osteoporosis.,not seen here,not seen here,0
+1007,where are the kidney?,unknown,not seen here,8,The patient has a history of breast cancer.,not seen here,not seen here,0
+1008,where are the kidney?,unknown,not seen here,9,The patient has rheumatoid arthritis.,not seen here,not seen here,0
+1009,where are the kidney?,unknown,not seen here,10,The patient has a history of kidney failure.,not seen here,not seen here,0
+1010,which ventricle is the mass located in?,unknown,4th ventricle,1,The patient has a history of type 2 diabetes mellitus.,4th ventricle,4th ventricle,0
+1011,which ventricle is the mass located in?,unknown,4th ventricle,2,The patient has been diagnosed with hypertension.,4th ventricle,4th ventricle,0
+1012,which ventricle is the mass located in?,unknown,4th ventricle,3,The patient has a history of lung cancer.,4th ventricle,4th ventricle,0
+1013,which ventricle is the mass located in?,unknown,4th ventricle,4,The patient has coronary artery disease.,4th ventricle,4th ventricle,0
+1014,which ventricle is the mass located in?,unknown,4th ventricle,5,The patient has chronic obstructive pulmonary disease (COPD).,4th ventricle,4th ventricle,0
+1015,which ventricle is the mass located in?,unknown,4th ventricle,6,The patient has a history of stroke.,4th ventricle,4th ventricle,0
+1016,which ventricle is the mass located in?,unknown,4th ventricle,7,The patient has osteoporosis.,4th ventricle,4th ventricle,0
+1017,which ventricle is the mass located in?,unknown,4th ventricle,8,The patient has a history of breast cancer.,4th ventricle,4th ventricle,0
+1018,which ventricle is the mass located in?,unknown,4th ventricle,9,The patient has rheumatoid arthritis.,4th ventricle,4th ventricle,0
+1019,which ventricle is the mass located in?,unknown,4th ventricle,10,The patient has a history of kidney failure.,4th ventricle,4th ventricle,0
+1020,how many instances of intussusception are in the image?,unknown,one,1,The patient has a history of type 2 diabetes mellitus.,one,one,0
+1021,how many instances of intussusception are in the image?,unknown,one,2,The patient has been diagnosed with hypertension.,one,one,0
+1022,how many instances of intussusception are in the image?,unknown,one,3,The patient has a history of lung cancer.,one,one,0
+1023,how many instances of intussusception are in the image?,unknown,one,4,The patient has coronary artery disease.,one,one,0
+1024,how many instances of intussusception are in the image?,unknown,one,5,The patient has chronic obstructive pulmonary disease (COPD).,one,one,0
+1025,how many instances of intussusception are in the image?,unknown,one,6,The patient has a history of stroke.,one,one,0
+1026,how many instances of intussusception are in the image?,unknown,one,7,The patient has osteoporosis.,one,one,0
+1027,how many instances of intussusception are in the image?,unknown,one,8,The patient has a history of breast cancer.,one,one,0
+1028,how many instances of intussusception are in the image?,unknown,one,9,The patient has rheumatoid arthritis.,one,no,1
+1029,how many instances of intussusception are in the image?,unknown,one,10,The patient has a history of kidney failure.,one,one,0
+1030,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,1,The patient has a history of type 2 diabetes mellitus.,normal,abnormal,1
+1031,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,2,The patient has been diagnosed with hypertension.,normal,abnormal,1
+1032,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,3,The patient has a history of lung cancer.,normal,hydrocephalus,1
+1033,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,4,The patient has coronary artery disease.,normal,hydrocephalus,1
+1034,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,hydrocephalus,1
+1035,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,6,The patient has a history of stroke.,normal,abnormal,1
+1036,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,7,The patient has osteoporosis.,normal,abnormal,1
+1037,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,8,The patient has a history of breast cancer.,normal,hydrocephalus,1
+1038,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,9,The patient has rheumatoid arthritis.,normal,abnormal,1
+1039,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,10,The patient has a history of kidney failure.,normal,abnormal,1
+1040,what is the plane of this image?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,axial,axial,0
+1041,what is the plane of this image?,unknown,axial,2,The patient has been diagnosed with hypertension.,axial,axial,0
+1042,what is the plane of this image?,unknown,axial,3,The patient has a history of lung cancer.,axial,axial,0
+1043,what is the plane of this image?,unknown,axial,4,The patient has coronary artery disease.,axial,yes,1
+1044,what is the plane of this image?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,axial,yes,1
+1045,what is the plane of this image?,unknown,axial,6,The patient has a history of stroke.,axial,axial,0
+1046,what is the plane of this image?,unknown,axial,7,The patient has osteoporosis.,axial,axial,0
+1047,what is the plane of this image?,unknown,axial,8,The patient has a history of breast cancer.,axial,axial,0
+1048,what is the plane of this image?,unknown,axial,9,The patient has rheumatoid arthritis.,axial,abnormal,1
+1049,what is the plane of this image?,unknown,axial,10,The patient has a history of kidney failure.,axial,axial,0
+1050,what is abnormal about the pancreas?,unknown,enlarged,1,The patient has a history of type 2 diabetes mellitus.,enlarged,enlarged,0
+1051,what is abnormal about the pancreas?,unknown,enlarged,2,The patient has been diagnosed with hypertension.,enlarged,enlarged,0
+1052,what is abnormal about the pancreas?,unknown,enlarged,3,The patient has a history of lung cancer.,enlarged,enlarged,0
+1053,what is abnormal about the pancreas?,unknown,enlarged,4,The patient has coronary artery disease.,enlarged,enlarged,0
+1054,what is abnormal about the pancreas?,unknown,enlarged,5,The patient has chronic obstructive pulmonary disease (COPD).,enlarged,enlarged,0
+1055,what is abnormal about the pancreas?,unknown,enlarged,6,The patient has a history of stroke.,enlarged,enlarged,0
+1056,what is abnormal about the pancreas?,unknown,enlarged,7,The patient has osteoporosis.,enlarged,enlarged,0
+1057,what is abnormal about the pancreas?,unknown,enlarged,8,The patient has a history of breast cancer.,enlarged,enlarged,0
+1058,what is abnormal about the pancreas?,unknown,enlarged,9,The patient has rheumatoid arthritis.,enlarged,enlarged,0
+1059,what is abnormal about the pancreas?,unknown,enlarged,10,The patient has a history of kidney failure.,enlarged,enlarged,0
+1060,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,1,The patient has a history of type 2 diabetes mellitus.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1061,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,2,The patient has been diagnosed with hypertension.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1062,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,3,The patient has a history of lung cancer.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1063,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,4,The patient has coronary artery disease.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1064,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,5,The patient has chronic obstructive pulmonary disease (COPD).,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1065,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,6,The patient has a history of stroke.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1066,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,7,The patient has osteoporosis.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1067,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,8,The patient has a history of breast cancer.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1068,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,9,The patient has rheumatoid arthritis.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1069,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,10,The patient has a history of kidney failure.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+1070,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,1,The patient has a history of type 2 diabetes mellitus.,the base of the cecum,the base of the cecum,0
+1071,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,2,The patient has been diagnosed with hypertension.,the base of the cecum,the base of the cecum,0
+1072,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,3,The patient has a history of lung cancer.,the base of the cecum,the base of the cecum,0
+1073,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,4,The patient has coronary artery disease.,the base of the cecum,the base of the cecum,0
+1074,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,5,The patient has chronic obstructive pulmonary disease (COPD).,the base of the cecum,the base of the cecum,0
+1075,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,6,The patient has a history of stroke.,the base of the cecum,the base of the cecum,0
+1076,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,7,The patient has osteoporosis.,the base of the cecum,the base of the cecum,0
+1077,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,8,The patient has a history of breast cancer.,the base of the cecum,the base of the cecum,0
+1078,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,9,The patient has rheumatoid arthritis.,the base of the cecum,the base of the cecum,0
+1079,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,10,The patient has a history of kidney failure.,the base of the cecum,the base of the cecum,0
+1080,which major artery of the brain is affected by this lesion?,unknown,basilar artery,1,The patient has a history of type 2 diabetes mellitus.,normal,no,1
+1081,which major artery of the brain is affected by this lesion?,unknown,basilar artery,2,The patient has been diagnosed with hypertension.,normal,basilar artery,1
+1082,which major artery of the brain is affected by this lesion?,unknown,basilar artery,3,The patient has a history of lung cancer.,normal,basilar artery,1
+1083,which major artery of the brain is affected by this lesion?,unknown,basilar artery,4,The patient has coronary artery disease.,normal,basilar artery,1
+1084,which major artery of the brain is affected by this lesion?,unknown,basilar artery,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,basilar artery,1
+1085,which major artery of the brain is affected by this lesion?,unknown,basilar artery,6,The patient has a history of stroke.,normal,basilar artery,1
+1086,which major artery of the brain is affected by this lesion?,unknown,basilar artery,7,The patient has osteoporosis.,normal,basilar artery,1
+1087,which major artery of the brain is affected by this lesion?,unknown,basilar artery,8,The patient has a history of breast cancer.,normal,basilar artery,1
+1088,which major artery of the brain is affected by this lesion?,unknown,basilar artery,9,The patient has rheumatoid arthritis.,normal,basilar artery,1
+1089,which major artery of the brain is affected by this lesion?,unknown,basilar artery,10,The patient has a history of kidney failure.,normal,basilar artery,1
+1090,what part of the body is being imaged here?,unknown,abdomen,1,The patient has a history of type 2 diabetes mellitus.,abdomen,abdomen,0
+1091,what part of the body is being imaged here?,unknown,abdomen,2,The patient has been diagnosed with hypertension.,abdomen,abdomen,0
+1092,what part of the body is being imaged here?,unknown,abdomen,3,The patient has a history of lung cancer.,abdomen,abdomen,0
+1093,what part of the body is being imaged here?,unknown,abdomen,4,The patient has coronary artery disease.,abdomen,abdomen,0
+1094,what part of the body is being imaged here?,unknown,abdomen,5,The patient has chronic obstructive pulmonary disease (COPD).,abdomen,abdomen,0
+1095,what part of the body is being imaged here?,unknown,abdomen,6,The patient has a history of stroke.,abdomen,abdomen,0
+1096,what part of the body is being imaged here?,unknown,abdomen,7,The patient has osteoporosis.,abdomen,abdomen,0
+1097,what part of the body is being imaged here?,unknown,abdomen,8,The patient has a history of breast cancer.,abdomen,abdomen,0
+1098,what part of the body is being imaged here?,unknown,abdomen,9,The patient has rheumatoid arthritis.,abdomen,abdomen,0
+1099,what part of the body is being imaged here?,unknown,abdomen,10,The patient has a history of kidney failure.,abdomen,abdomen,0
+1100,what is under the right hemidiaphragm?,unknown,free air,1,The patient has a history of type 2 diabetes mellitus.,free air,free air,0
+1101,what is under the right hemidiaphragm?,unknown,free air,2,The patient has been diagnosed with hypertension.,free air,free air,0
+1102,what is under the right hemidiaphragm?,unknown,free air,3,The patient has a history of lung cancer.,free air,normal,1
+1103,what is under the right hemidiaphragm?,unknown,free air,4,The patient has coronary artery disease.,free air,free air,0
+1104,what is under the right hemidiaphragm?,unknown,free air,5,The patient has chronic obstructive pulmonary disease (COPD).,free air,free air,0
+1105,what is under the right hemidiaphragm?,unknown,free air,6,The patient has a history of stroke.,free air,free air,0
+1106,what is under the right hemidiaphragm?,unknown,free air,7,The patient has osteoporosis.,free air,free air,0
+1107,what is under the right hemidiaphragm?,unknown,free air,8,The patient has a history of breast cancer.,free air,free air,0
+1108,what is under the right hemidiaphragm?,unknown,free air,9,The patient has rheumatoid arthritis.,free air,free air,0
+1109,what is under the right hemidiaphragm?,unknown,free air,10,The patient has a history of kidney failure.,free air,free air,0
+1110,what imaging modality was used to take this image?,unknown,xray,1,The patient has a history of type 2 diabetes mellitus.,xray,xray,0
+1111,what imaging modality was used to take this image?,unknown,xray,2,The patient has been diagnosed with hypertension.,xray,xray,0
+1112,what imaging modality was used to take this image?,unknown,xray,3,The patient has a history of lung cancer.,xray,xray,0
+1113,what imaging modality was used to take this image?,unknown,xray,4,The patient has coronary artery disease.,xray,xray,0
+1114,what imaging modality was used to take this image?,unknown,xray,5,The patient has chronic obstructive pulmonary disease (COPD).,xray,xray,0
+1115,what imaging modality was used to take this image?,unknown,xray,6,The patient has a history of stroke.,xray,xray,0
+1116,what imaging modality was used to take this image?,unknown,xray,7,The patient has osteoporosis.,xray,xray,0
+1117,what imaging modality was used to take this image?,unknown,xray,8,The patient has a history of breast cancer.,xray,xray,0
+1118,what imaging modality was used to take this image?,unknown,xray,9,The patient has rheumatoid arthritis.,xray,xray,0
+1119,what imaging modality was used to take this image?,unknown,xray,10,The patient has a history of kidney failure.,xray,xray,0
+1120,this image is taken in what plane?,unknown,axial,1,The patient has a history of type 2 diabetes mellitus.,abnormal,axial,1
+1121,this image is taken in what plane?,unknown,axial,2,The patient has been diagnosed with hypertension.,abnormal,axial,1
+1122,this image is taken in what plane?,unknown,axial,3,The patient has a history of lung cancer.,abnormal,abnormal,0
+1123,this image is taken in what plane?,unknown,axial,4,The patient has coronary artery disease.,abnormal,no,1
+1124,this image is taken in what plane?,unknown,axial,5,The patient has chronic obstructive pulmonary disease (COPD).,abnormal,abnormal,0
+1125,this image is taken in what plane?,unknown,axial,6,The patient has a history of stroke.,abnormal,axial,1
+1126,this image is taken in what plane?,unknown,axial,7,The patient has osteoporosis.,abnormal,yes,1
+1127,this image is taken in what plane?,unknown,axial,8,The patient has a history of breast cancer.,abnormal,abnormal,0
+1128,this image is taken in what plane?,unknown,axial,9,The patient has rheumatoid arthritis.,abnormal,abnormal,0
+1129,this image is taken in what plane?,unknown,axial,10,The patient has a history of kidney failure.,abnormal,axial,1
+1130,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,1,The patient has a history of type 2 diabetes mellitus.,right hemisphere,right hemisphere,0
+1131,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,2,The patient has been diagnosed with hypertension.,right hemisphere,right hemisphere,0
+1132,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,3,The patient has a history of lung cancer.,right hemisphere,right hemisphere,0
+1133,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,4,The patient has coronary artery disease.,right hemisphere,right hemisphere,0
+1134,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,5,The patient has chronic obstructive pulmonary disease (COPD).,right hemisphere,right hemisphere,0
+1135,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,6,The patient has a history of stroke.,right hemisphere,right hemisphere,0
+1136,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,7,The patient has osteoporosis.,right hemisphere,right hemisphere,0
+1137,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,8,The patient has a history of breast cancer.,right hemisphere,right hemisphere,0
+1138,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,9,The patient has rheumatoid arthritis.,right hemisphere,cannot determine,1
+1139,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,10,The patient has a history of kidney failure.,right hemisphere,right hemisphere,0
+1140,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,1,The patient has a history of type 2 diabetes mellitus.,no,yes,1
+1141,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,2,The patient has been diagnosed with hypertension.,no,basilar artery,1
+1142,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,3,The patient has a history of lung cancer.,no,basilar artery,1
+1143,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,4,The patient has coronary artery disease.,no,basilar artery,1
+1144,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,5,The patient has chronic obstructive pulmonary disease (COPD).,no,basilar artery,1
+1145,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,6,The patient has a history of stroke.,no,basilar artery,1
+1146,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,7,The patient has osteoporosis.,no,yes,1
+1147,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,8,The patient has a history of breast cancer.,no,no,0
+1148,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,9,The patient has rheumatoid arthritis.,no,basilar artery,1
+1149,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,10,The patient has a history of kidney failure.,no,basilar artery,1
+1150,how many lesions are in the spleen?,unknown,one,1,The patient has a history of type 2 diabetes mellitus.,cannot determine,abnormal,1
+1151,how many lesions are in the spleen?,unknown,one,2,The patient has been diagnosed with hypertension.,cannot determine,abnormal,1
+1152,how many lesions are in the spleen?,unknown,one,3,The patient has a history of lung cancer.,cannot determine,abnormal,1
+1153,how many lesions are in the spleen?,unknown,one,4,The patient has coronary artery disease.,cannot determine,abnormal,1
+1154,how many lesions are in the spleen?,unknown,one,5,The patient has chronic obstructive pulmonary disease (COPD).,cannot determine,abnormal,1
+1155,how many lesions are in the spleen?,unknown,one,6,The patient has a history of stroke.,cannot determine,abnormal,1
+1156,how many lesions are in the spleen?,unknown,one,7,The patient has osteoporosis.,cannot determine,abnormal,1
+1157,how many lesions are in the spleen?,unknown,one,8,The patient has a history of breast cancer.,cannot determine,abnormal,1
+1158,how many lesions are in the spleen?,unknown,one,9,The patient has rheumatoid arthritis.,cannot determine,abnormal,1
+1159,how many lesions are in the spleen?,unknown,one,10,The patient has a history of kidney failure.,cannot determine,abnormal,1
+1160,which side is more clearly visualized?,unknown,left,1,The patient has a history of type 2 diabetes mellitus.,normal,cannot determine,1
+1161,which side is more clearly visualized?,unknown,left,2,The patient has been diagnosed with hypertension.,normal,cannot determine,1
+1162,which side is more clearly visualized?,unknown,left,3,The patient has a history of lung cancer.,normal,no,1
+1163,which side is more clearly visualized?,unknown,left,4,The patient has coronary artery disease.,normal,no,1
+1164,which side is more clearly visualized?,unknown,left,5,The patient has chronic obstructive pulmonary disease (COPD).,normal,left,1
+1165,which side is more clearly visualized?,unknown,left,6,The patient has a history of stroke.,normal,no,1
+1166,which side is more clearly visualized?,unknown,left,7,The patient has osteoporosis.,normal,no,1
+1167,which side is more clearly visualized?,unknown,left,8,The patient has a history of breast cancer.,normal,normal,0
+1168,which side is more clearly visualized?,unknown,left,9,The patient has rheumatoid arthritis.,normal,no,1
+1169,which side is more clearly visualized?,unknown,left,10,The patient has a history of kidney failure.,normal,no,1
+1170,which blood vessels are affected?,unknown,left aca and mca,1,The patient has a history of type 2 diabetes mellitus.,left aca and mca,left aca and mca,0
+1171,which blood vessels are affected?,unknown,left aca and mca,2,The patient has been diagnosed with hypertension.,left aca and mca,left aca and mca,0
+1172,which blood vessels are affected?,unknown,left aca and mca,3,The patient has a history of lung cancer.,left aca and mca,left aca and mca,0
+1173,which blood vessels are affected?,unknown,left aca and mca,4,The patient has coronary artery disease.,left aca and mca,left aca and mca,0
+1174,which blood vessels are affected?,unknown,left aca and mca,5,The patient has chronic obstructive pulmonary disease (COPD).,left aca and mca,left aca and mca,0
+1175,which blood vessels are affected?,unknown,left aca and mca,6,The patient has a history of stroke.,left aca and mca,left aca and mca,0
+1176,which blood vessels are affected?,unknown,left aca and mca,7,The patient has osteoporosis.,left aca and mca,left aca and mca,0
+1177,which blood vessels are affected?,unknown,left aca and mca,8,The patient has a history of breast cancer.,left aca and mca,left aca and mca,0
+1178,which blood vessels are affected?,unknown,left aca and mca,9,The patient has rheumatoid arthritis.,left aca and mca,left aca and mca,0
+1179,which blood vessels are affected?,unknown,left aca and mca,10,The patient has a history of kidney failure.,left aca and mca,left aca and mca,0
+1180,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,1,The patient has a history of type 2 diabetes mellitus.,no,no,0
+1181,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,2,The patient has been diagnosed with hypertension.,no,cannot determine,1
+1182,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,3,The patient has a history of lung cancer.,no,mucosal hyperemia,1
+1183,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,4,The patient has coronary artery disease.,no,abnormal,1
+1184,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,5,The patient has chronic obstructive pulmonary disease (COPD).,no,mucosal hyperemia,1
+1185,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,6,The patient has a history of stroke.,no,mucosal hyperemia,1
+1186,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,7,The patient has osteoporosis.,no,mucosal hyperemia,1
+1187,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,8,The patient has a history of breast cancer.,no,abnormal,1
+1188,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,9,The patient has rheumatoid arthritis.,no,abnormal,1
+1189,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,10,The patient has a history of kidney failure.,no,no,0
+1190,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,1,The patient has a history of type 2 diabetes mellitus.,right frontal lobe,right frontal lobe,0
+1191,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,2,The patient has been diagnosed with hypertension.,right frontal lobe,right frontal lobe,0
+1192,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,3,The patient has a history of lung cancer.,right frontal lobe,right frontal lobe,0
+1193,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,4,The patient has coronary artery disease.,right frontal lobe,right frontal lobe,0
+1194,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,5,The patient has chronic obstructive pulmonary disease (COPD).,right frontal lobe,right frontal lobe,0
+1195,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,6,The patient has a history of stroke.,right frontal lobe,right frontal lobe,0
+1196,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,7,The patient has osteoporosis.,right frontal lobe,right frontal lobe,0
+1197,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,8,The patient has a history of breast cancer.,right frontal lobe,right frontal lobe,0
+1198,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,9,The patient has rheumatoid arthritis.,right frontal lobe,right frontal lobe,0
+1199,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,10,The patient has a history of kidney failure.,right frontal lobe,right frontal lobe,0

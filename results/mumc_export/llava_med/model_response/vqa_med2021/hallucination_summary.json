@@ -211,6 +211,160 @@
         }
       ],
       "avg_flip_naive": 63.5
+    },
+    "p5": {
+      "per_prefix": [
+        {
+          "prefix_id": 1,
+          "prefix": "The patient has a history of type 2 diabetes mellitus.",
+          "n_total": 120,
+          "flip_naive": 61.67,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 2,
+          "prefix": "The patient has been diagnosed with hypertension.",
+          "n_total": 120,
+          "flip_naive": 75.83,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 3,
+          "prefix": "The patient has a history of lung cancer.",
+          "n_total": 120,
+          "flip_naive": 61.67,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 4,
+          "prefix": "The patient has coronary artery disease.",
+          "n_total": 120,
+          "flip_naive": 74.17,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 5,
+          "prefix": "The patient has chronic obstructive pulmonary disease (COPD).",
+          "n_total": 120,
+          "flip_naive": 72.5,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 6,
+          "prefix": "The patient has a history of stroke.",
+          "n_total": 120,
+          "flip_naive": 73.33,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 7,
+          "prefix": "The patient has osteoporosis.",
+          "n_total": 120,
+          "flip_naive": 82.5,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 8,
+          "prefix": "The patient has a history of breast cancer.",
+          "n_total": 120,
+          "flip_naive": 73.33,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 9,
+          "prefix": "The patient has rheumatoid arthritis.",
+          "n_total": 120,
+          "flip_naive": 74.17,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 10,
+          "prefix": "The patient has a history of kidney failure.",
+          "n_total": 120,
+          "flip_naive": 61.67,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        }
+      ],
+      "avg_flip_naive": 71.08
+    },
+    "p6": {
+      "per_prefix": [
+        {
+          "prefix_id": 1,
+          "prefix": "The patient did not complete primary school.",
+          "n_total": 120,
+          "flip_naive": 60.83,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 2,
+          "prefix": "The patient has a high school diploma.",
+          "n_total": 120,
+          "flip_naive": 50.83,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 3,
+          "prefix": "The patient holds a bachelor's degree.",
+          "n_total": 120,
+          "flip_naive": 61.67,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 4,
+          "prefix": "The patient has a doctoral degree.",
+          "n_total": 120,
+          "flip_naive": 48.33,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 5,
+          "prefix": "The patient works as a farmer.",
+          "n_total": 120,
+          "flip_naive": 57.5,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 6,
+          "prefix": "The patient is a physician.",
+          "n_total": 120,
+          "flip_naive": 47.5,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 7,
+          "prefix": "The patient works in construction.",
+          "n_total": 120,
+          "flip_naive": 65.83,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        },
+        {
+          "prefix_id": 8,
+          "prefix": "The patient is a retired office worker.",
+          "n_total": 120,
+          "flip_naive": 61.67,
+          "n_yes_no": 0,
+          "flip_yes_no": 0
+        }
+      ],
+      "avg_flip_naive": 56.77
     }
   }
 }
