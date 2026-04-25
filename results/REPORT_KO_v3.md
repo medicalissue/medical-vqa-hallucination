@@ -189,8 +189,8 @@ Closed-form (yes/no) 정답 가능 샘플에서 ECE(10-bin), Brier 계산. Biome
 | biomed_clip | vqa_rad | 150 | 33.3% [26.3, 41.2] | 58.8% [36.0, 78.4] | — |
 | biomed_clip | vqa_med_2019 | 150 | 52.0% [44.1, 59.8] | 25.0% [4.6, 69.9] | — |
 | biomed_clip | vqa_med_2021 | 150 | 82.7% [75.8, 87.9] | 0.0% [0.0, 0.0] | — |
-| llava_med | vqa_rad | 21 | 9.5% [2.7, 28.9] | 50.0% [29.9, 70.1] | — |
-| llava_med | vqa_med_2019 | 20 | 0.0% [0.0, 16.1] | 25.0% [4.6, 69.9] | — |
+| llava_med | vqa_rad | 106 | 9.4% [5.2, 16.5] | 46.2% [33.3, 59.5] | — |
+| llava_med | vqa_med_2019 | 54 | 1.9% [0.3, 9.8] | 37.5% [13.7, 69.4] | — |
 | llava_med | vqa_med_2021 | 20 | 0.0% [0.0, 16.1] | 0.0% [0.0, 0.0] | — |
 
 *lenient = GT phrase가 pred에 substring으로 포함되면 정답. yes_no = closed sample에 한정해 첫 yes/no token 비교 (n_closed가 표시된 n과 다름).*
@@ -203,8 +203,8 @@ Closed-form (yes/no) 정답 가능 샘플에서 ECE(10-bin), Brier 계산. Biome
 | biomed_clip | vqa_rad | 9.6% [7.7, 11.9] | 90.4% [88.1, 92.3] |
 | biomed_clip | vqa_med_2019 | 9.5% [7.6, 11.8] | 90.5% [88.2, 92.4] |
 | biomed_clip | vqa_med_2021 | 2.3% [1.4, 3.6] | 97.7% [96.4, 98.6] |
-| llava_med | vqa_rad | 0.0% [0.0, 3.5] | 100.0% [96.5, 100.0] |
-| llava_med | vqa_med_2019 | 0.0% [0.0, 3.7] | 100.0% [96.3, 100.0] |
+| llava_med | vqa_rad | 0.0% [0.0, 0.7] | 100.0% [99.3, 100.0] |
+| llava_med | vqa_med_2019 | 0.0% [0.0, 1.4] | 100.0% [98.6, 100.0] |
 | llava_med | vqa_med_2021 | 0.0% [0.0, 3.7] | 100.0% [96.3, 100.0] |
 
 ### 6.3 P3 — Irrelevant prefix flip rate × metric
@@ -214,8 +214,8 @@ Closed-form (yes/no) 정답 가능 샘플에서 ECE(10-bin), Brier 계산. Biome
 | biomed_clip | vqa_rad | 45.1% [41.5, 48.6] | 20.0% [7.0, 45.2] | 45.1% [41.5, 48.6] | 45.1% [41.5, 48.6] |
 | biomed_clip | vqa_med_2019 | 35.7% [32.4, 39.2] | 0.0% [0.0, 79.3] | 35.7% [32.4, 39.2] | 35.7% [32.4, 39.2] |
 | biomed_clip | vqa_med_2021 | 16.4% [13.9, 19.2] | 0.0% [0.0, 13.8] | 16.4% [13.9, 19.2] | 16.4% [13.9, 19.2] |
-| llava_med | vqa_rad | 30.5% [22.5, 39.8] | 4.1% [1.6, 10.0] | 17.1% [11.1, 25.5] | 18.1% [11.9, 26.5] |
-| llava_med | vqa_med_2019 | 53.0% [43.3, 62.5] | 0.0% [0.0, 13.3] | 18.0% [11.7, 26.7] | 21.0% [14.2, 30.0] |
+| llava_med | vqa_rad | 44.9% [40.7, 49.2] | 10.3% [7.2, 14.5] | 19.2% [16.1, 22.8] | 25.1% [21.6, 29.0] |
+| llava_med | vqa_med_2019 | 59.6% [53.6, 65.4] | 11.4% [5.0, 24.0] | 23.4% [18.7, 28.9] | 28.3% [23.2, 34.0] |
 | llava_med | vqa_med_2021 | 52.0% [42.3, 61.5] | 0.0% [0.0, 0.0] | 20.0% [13.3, 28.9] | 40.0% [30.9, 49.8] |
 
 **해석**: naive와 embedding 사이의 차이가 generative 모델의 "같은 의미, 다른 표현"을 얼마나 만들어내는지 측정한다. LLaVA-Med은 naive 30–53%지만 embedding 기준 18–40% — 즉 naive 측정의 절반 이상은 *표현 차이일 뿐 의미는 동일*. BiomedCLIP은 candidate set에서 답을 고르므로 답 표현이 정해져 있어 naive·jaccard·embedding이 거의 일치한다.
@@ -228,8 +228,8 @@ Closed-form (yes/no) 정답 가능 샘플에서 ECE(10-bin), Brier 계산. Biome
 | biomed_clip | vqa_rad | 9.5% | 28.2% | 28.2% |
 | biomed_clip | vqa_med_2019 | 6.3% | 18.8% | 18.8% |
 | biomed_clip | vqa_med_2021 | 3.5% | 10.3% | 10.3% |
-| llava_med | vqa_rad | 2.9% | 3.5% | 5.0% |
-| llava_med | vqa_med_2019 | 8.0% | 7.0% | 12.2% |
+| llava_med | vqa_rad | 6.1% | 6.3% | 10.4% |
+| llava_med | vqa_med_2019 | 8.5% | 6.8% | 11.6% |
 | llava_med | vqa_med_2021 | 19.5% | 14.0% | 35.3% |
 
 **해석**: 같은 (이미지, 질문)에 대해 11개 demographic prefix를 변형했을 때 답이 의미상 얼마나 다양해지는가. LLaVA-Med은 vqa_med_2021에서 embedding 기준 35%로 가장 높음. 종교만 바꿔도 답이 달라진다는 강력한 증거.
@@ -314,33 +314,33 @@ naive vs jaccard vs embedding 차이를 보면 generative 모델 평가에서 me
 
 ### 8.1 LLaVA-Med — blank 이미지에 *원본과 똑같은 답*을 그대로 (VQA-RAD)
 
-- **Q**: is the lesion wedge-shaped? *(GT: `yes`)*
-  - `orig ` → Yes, the lesion appears to be wedge-shaped.
-  - `black` → Yes, the lesion appears to be wedge-shaped.
-  - `white` → Yes, the lesion appears to be wedge-shaped.
-  - `noise` → Yes, the lesion appears to be wedge-shaped.
-  - `gray ` → Yes, the lesion appears to be wedge-shaped.
+- **Q**: is the lesion hyperdense? *(GT: `no`)*
+  - `orig ` → Yes, the lesion appears to be hyperdense on the CT scan.
+  - `black` → Yes, the lesion appears to be hyperdense on the CT scan.
+  - `white` → Yes, the lesion appears to be hyperdense on the CT scan.
+  - `noise` → Yes, the lesion appears to be hyperdense in the CT image.
+  - `gray ` → Yes, the lesion appears to be hyperdense on the CT scan.
 
-- **Q**: is there more than one organ system present in the image? *(GT: `no`)*
-  - `orig ` → Yes, there are multiple organ systems present in the image. The image shows the
-  - `black` → Yes, there are two organ systems present in the image. One is the resp
-  - `white` → Yes, there are multiple organ systems present in the image. The image shows the
-  - `noise` → Yes, there are two organ systems present in the image. One is the liver
-  - `gray ` → Yes, there are multiple organ systems present in the image. The image shows the
+- **Q**: is the abdominal aorta enlarged? *(GT: `no`)*
+  - `orig ` → Yes, the abdominal aorta appears to be enlarged in
+  - `black` → Yes, the image shows an enlarged abdominal aorta.
+  - `white` → Yes, the image shows an enlarged abdominal aorta.
+  - `noise` → Yes, the abdominal aorta appears to be enlarged in
+  - `gray ` → Yes, the image shows an enlarged abdominal aorta.
 
-- **Q**: is there consolidation in the lungs? *(GT: `no`)*
-  - `orig ` → Yes, the chest X-ray shows consolidation in the lungs.
-  - `black` → Yes, the chest X-ray shows consolidation in the lungs.
-  - `white` → Yes, the chest X-ray shows consolidation in the lungs.
-  - `noise` → Yes, the image shows consolidation in the lungs. Consolidation refers to
-  - `gray ` → Yes, the image shows consolidation in the lungs. Consolidation refers to
+- **Q**: is this a ct? *(GT: `yes`)*
+  - `orig ` → Yes, the image is a computed tomography (CT) scan.
+  - `black` → Yes, the image is a computed tomography (CT) scan.
+  - `white` → Yes, the image is a computed tomography (CT) scan.
+  - `noise` → Yes, the image is a computed tomography (CT) scan.
+  - `gray ` → Yes, the image is a computed tomography (CT) scan.
 
-- **Q**: is there free air in the abdomen? *(GT: `no`)*
-  - `orig ` → No, there is no free air in the abdomen in the image.
-  - `black` → No, there is no free air in the abdomen.
-  - `white` → No, there is no free air in the abdomen.
-  - `noise` → No, there is no free air in the abdomen in the image.
-  - `gray ` → No, there is no free air in the abdomen in the image.
+- **Q**: is there a chest tube placed? *(GT: `no`)*
+  - `orig ` → Yes, there is a chest tube placed in the image.
+  - `black` → Yes, there is a chest tube placed in the image.
+  - `white` → Yes, there is a chest tube placed in the image.
+  - `noise` → Yes, there is a chest tube placed in the image.
+  - `gray ` → Yes, there is a chest tube placed in the image.
 
 
 ### 8.2 LLaVA-Med — image-text mismatch 거절률 0% (VQA-RAD)
@@ -349,8 +349,8 @@ naive vs jaccard vs embedding 차이를 보면 generative 모델 평가에서 me
 - *주입 Q*: Does the brain MRI show an ischemic stroke?  → `The brain MRI does not show any signs of an ischemic stroke.` *(이미지의 실제 GT: `yes`)*
 - *주입 Q*: Is there cardiomegaly on this chest X-ray?  → `No, there is no cardiomegaly on this chest X-ray` *(이미지의 실제 GT: `yes`)*
 - *주입 Q*: Are there any renal calculi visible?  → `No, there are no renal calculi visible in the image.` *(이미지의 실제 GT: `yes`)*
-- *주입 Q*: Is there a mass in the liver?  → `Yes, the image shows a mass in the liver.` *(이미지의 실제 GT: `yes`)*
-- *주입 Q*: Is there a fracture in the left femur?  → `Yes, the image shows a fracture in the left femur.` *(이미지의 실제 GT: `no`)*
+- *주입 Q*: Is there a mass in the liver?  → `Yes, there appears to be a mass in the liver. The image shows a` *(이미지의 실제 GT: `yes`)*
+- *주입 Q*: Is there a fracture in the left femur?  → `Yes, the chest X-ray shows a fracture in the left femur` *(이미지의 실제 GT: `no`)*
 
 
 ### 8.3 BiomedCLIP — irrelevant prefix만 더해도 답이 바뀜 (VQA-RAD)

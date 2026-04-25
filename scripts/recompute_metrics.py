@@ -44,7 +44,7 @@ def wilson(k: int, n: int, z: float = 1.96):
 
 
 def find_raw(model, dataset):
-    for sub in ("_big", "_full"):
+    for sub in ("_combined", "_big", "_full"):
         p = ROOT / "results" / f"{model}{sub}" / dataset / "raw.jsonl"
         if p.exists() and p.stat().st_size > 0:
             return p
