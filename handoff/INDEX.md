@@ -27,7 +27,7 @@
 - 각 폴더의 `images/` 안에 그 섹션과 관련된 plot이 모여 있습니다.
 - 모든 원본 plot은 `../results/full_v2/plots/` 에 (handoff에는 가장 중요한 것만 골라 복사).
 
-## 풀 리포트 (학술적 톤)는?
+## 풀 리포트는?
 
 - 한국어 풀 리포트: `../results/REPORT_KO_v3.md` (337 lines, methodology · CI · 사례)
 - 영문 README: `../README.md`
