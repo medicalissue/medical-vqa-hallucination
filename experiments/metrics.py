@@ -18,13 +18,26 @@ import numpy as np
 
 
 def _norm(s: str) -> str:
-    return " ".join(str(s).lower().strip().split())
+    s = str(s).lower().strip()
+    # strip trailing punctuation/whitespace
+    return " ".join(s.split()).rstrip(".!? ")
+
+
+def _contains_answer(pred: str, gt: str) -> bool:
+    """Generative-friendly accuracy: GT phrase appears as a token-substring of PRED.
+    Handles cases like GT='yes' / PRED='Yes, the lesion appears wedge-shaped.'
+    """
+    p = _norm(pred); g = _norm(gt)
+    if not g: return False
+    if p == g: return True
+    # word-boundary substring
+    return f" {g} " in f" {p} " or p.startswith(g + " ") or p.endswith(" " + g) or p == g
 
 
 def accuracy(preds: Sequence[str], gts: Sequence[str]) -> float:
     assert len(preds) == len(gts)
     if not preds: return 0.0
-    return sum(_norm(p) == _norm(g) for p, g in zip(preds, gts)) / len(preds)
+    return sum(_contains_answer(p, g) for p, g in zip(preds, gts)) / len(preds)
 
 
 def answer_flip_rate(orig_preds: Sequence[str], pert_preds: Sequence[str]) -> float:

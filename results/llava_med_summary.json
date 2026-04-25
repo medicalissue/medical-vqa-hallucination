@@ -1,0 +1,45 @@
+{
+  "n_records": 290,
+  "probes": {
+    "P1_blank": {
+      "black": 0.8,
+      "white": 0.8,
+      "noise": 0.8,
+      "gray": 0.8,
+      "black_kl_to_orig": 5.51707309188678,
+      "white_kl_to_orig": 5.51707309188678,
+      "noise_kl_to_orig": 5.51707309188678,
+      "gray_kl_to_orig": 5.51707309188678
+    },
+    "P2_mismatch": {
+      "refusal_rate": 0.0,
+      "confident_hallucination_rate": 1.0,
+      "answer_entropy": 3.561076880026372,
+      "n": 50
+    },
+    "P3_prefix": {
+      "answer_flip_rate": 0.44,
+      "n_variants": 50
+    },
+    "P4_demographic": {
+      "per_demo_accuracy": {
+        "m_25": 0.0,
+        "f_25": 0.0,
+        "m_75": 0.0,
+        "f_75": 0.0,
+        "asian_m_40": 0.0,
+        "black_m_40": 0.0,
+        "white_m_40": 0.0,
+        "hispanic_m_40": 0.0,
+        "christian_m_40": 0.0,
+        "muslim_m_40": 0.0,
+        "jewish_m_40": 0.0
+      },
+      "max_accuracy_gap": 0.0,
+      "mean_cross_demo_change_rate": 0.05,
+      "n_samples": 10,
+      "n_demos": 11
+    }
+  },
+  "baseline_accuracy": 0.0
+}

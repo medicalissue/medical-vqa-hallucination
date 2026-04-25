@@ -30,14 +30,15 @@ class LlavaMedWrapper:
         self.dtype = dtype
 
     @torch.inference_mode()
-    def answer(self, image: Image.Image, question: str, max_new_tokens: int = 64) -> Dict:
+    def answer(self, image: Image.Image, question: str, max_new_tokens: int = 24) -> Dict:
         prompt = f"USER: <image>\n{question} ASSISTANT:"
         inputs = self.processor(text=prompt, images=image, return_tensors="pt")
         inputs = {k: v.to(self.device) for k, v in inputs.items()}
         if "pixel_values" in inputs:
             inputs["pixel_values"] = inputs["pixel_values"].to(self.dtype)
         out = self.model.generate(**inputs, max_new_tokens=max_new_tokens,
-                                  do_sample=False, pad_token_id=self.processor.tokenizer.eos_token_id)
+                                  do_sample=False, use_cache=True,
+                                  pad_token_id=self.processor.tokenizer.eos_token_id)
         full = self.processor.batch_decode(out, skip_special_tokens=True)[0]
         ans = full.split("ASSISTANT:")[-1].strip() if "ASSISTANT:" in full else full
         return {"answer": ans, "raw": full}
