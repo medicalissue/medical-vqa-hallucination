@@ -54,5 +54,5 @@ Q: is the lesion wedge-shaped?  (GT: yes)
 ## 데이터 규모
 
 - BiomedCLIP: 데이터셋당 **150 samples × 29 변형 = 4350 records**, 총 **13,050 records**
-- LLaVA-Med: vqa_rad **n=106**, vqa_med_2019 **n=54**, vqa_med_2021 **n=20**
+- LLaVA-Med: vqa_rad **n=106**, vqa_med_2019 **n=78**, vqa_med_2021 **n=78** (sweep 완료)
 - 전체 raw output 모두 GitHub repo에 commit

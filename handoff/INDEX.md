@@ -37,5 +37,5 @@
 ## 데이터 마감 기준
 
 - BiomedCLIP: 데이터셋당 n=150
-- LLaVA-Med: vqa_rad n=106, vqa_med_2019 n=54, vqa_med_2021 n=20 (sweep 진행 중. 완료 시 자동 갱신)
+- LLaVA-Med: vqa_rad n=106, vqa_med_2019 n=78, vqa_med_2021 n=78 (sweep 완료)
 - 작성일: 2026-04-25
