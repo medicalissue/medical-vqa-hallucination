@@ -27,9 +27,12 @@ MODELS = ["biomed_clip", "llava_med"]
 
 
 def load(model: str, dataset: str):
-    p = ROOT / "results" / f"{model}_full" / dataset / "raw.jsonl"
-    if not p.exists(): return None
-    return [json.loads(l) for l in open(p)]
+    # prefer _big runs over _full
+    for sub in ("_big", "_full"):
+        p = ROOT / "results" / f"{model}{sub}" / dataset / "raw.jsonl"
+        if p.exists() and p.stat().st_size > 0:
+            return [json.loads(l) for l in open(p)]
+    return None
 
 
 def stats(recs):
