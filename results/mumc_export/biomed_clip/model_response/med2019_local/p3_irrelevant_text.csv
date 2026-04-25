@@ -1,0 +1,751 @@
+qid,question,modality,gt,prefix_id,prefix_text,pred_original,pred_perturbed,flip
+0,what abnormality is seen in the image?,unknown,epidural empyema,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,epidural empyema,1
+1,what abnormality is seen in the image?,unknown,epidural empyema,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,epidural empyema,1
+2,what abnormality is seen in the image?,unknown,epidural empyema,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,epidural empyema,1
+3,what abnormality is seen in the image?,unknown,epidural empyema,prefix_3,The patient enjoys hiking and long-distance running.,normal,epidural empyema,1
+4,what abnormality is seen in the image?,unknown,epidural empyema,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,epidural empyema,1
+5,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,prefix_0,This patient was seen for a routine dental check-up yesterday.,colo-colic intussusception,colo-colic intussusception,0
+6,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,prefix_1,The patient recently returned from a business trip to Tokyo.,colo-colic intussusception,colo-colic intussusception,0
+7,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,colo-colic intussusception,colo-colic intussusception,0
+8,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,prefix_3,The patient enjoys hiking and long-distance running.,colo-colic intussusception,colo-colic intussusception,0
+9,what is abnormal in the ultrasound?,Ultrasound,colo-colic intussusception,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,colo-colic intussusception,normal,1
+10,which plane is the image taken?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+11,which plane is the image taken?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+12,which plane is the image taken?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+13,which plane is the image taken?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+14,which plane is the image taken?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+15,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cerebellar hemangioblastoma,1
+16,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cerebellar hemangioblastoma,1
+17,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,cerebellar hemangioblastoma,1
+18,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,prefix_3,The patient enjoys hiking and long-distance running.,normal,cerebellar hemangioblastoma,1
+19,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,cerebellar hemangioblastoma,1
+20,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+21,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+22,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,skull and contents,1
+23,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,normal,skull and contents,1
+24,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+25,is this a noncontrast ct?,CT,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,abnormal,1
+26,is this a noncontrast ct?,CT,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+27,is this a noncontrast ct?,CT,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+28,is this a noncontrast ct?,CT,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,abnormal,1
+29,is this a noncontrast ct?,CT,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,abnormal,1
+30,in what plane is this x-ray taken?,X-ray,ap,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,ap,1
+31,in what plane is this x-ray taken?,X-ray,ap,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,ap,1
+32,in what plane is this x-ray taken?,X-ray,ap,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+33,in what plane is this x-ray taken?,X-ray,ap,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,ap,1
+34,in what plane is this x-ray taken?,X-ray,ap,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,ap,1
+35,is this a noncontrast ct?,CT,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,cannot determine,0
+36,is this a noncontrast ct?,CT,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+37,is this a noncontrast ct?,CT,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+38,is this a noncontrast ct?,CT,yes,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,abnormal,1
+39,is this a noncontrast ct?,CT,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+40,the mri shows what organ system?,MRI,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,skull and contents,abnormal,1
+41,the mri shows what organ system?,MRI,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,skull and contents,cannot determine,1
+42,the mri shows what organ system?,MRI,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,skull and contents,skull and contents,0
+43,the mri shows what organ system?,MRI,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,skull and contents,skull and contents,0
+44,the mri shows what organ system?,MRI,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,skull and contents,skull and contents,0
+45,is this a ct scan?,CT,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+46,is this a ct scan?,CT,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+47,is this a ct scan?,CT,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+48,is this a ct scan?,CT,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+49,is this a ct scan?,CT,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+50,in what plane is this x-ray taken?,X-ray,oblique,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,oblique,1
+51,in what plane is this x-ray taken?,X-ray,oblique,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,oblique,1
+52,in what plane is this x-ray taken?,X-ray,oblique,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,oblique,1
+53,in what plane is this x-ray taken?,X-ray,oblique,prefix_3,The patient enjoys hiking and long-distance running.,normal,oblique,1
+54,in what plane is this x-ray taken?,X-ray,oblique,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,oblique,1
+55,what organ system is pictured here?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+56,what organ system is pictured here?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+57,what organ system is pictured here?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+58,what organ system is pictured here?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+59,what organ system is pictured here?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+60,what imaging modality was used to take this image?,MRI,mr - t1w w/gadolinium,prefix_0,This patient was seen for a routine dental check-up yesterday.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+61,what imaging modality was used to take this image?,MRI,mr - t1w w/gadolinium,prefix_1,The patient recently returned from a business trip to Tokyo.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+62,what imaging modality was used to take this image?,MRI,mr - t1w w/gadolinium,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+63,what imaging modality was used to take this image?,MRI,mr - t1w w/gadolinium,prefix_3,The patient enjoys hiking and long-distance running.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+64,what imaging modality was used to take this image?,MRI,mr - t1w w/gadolinium,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,mr - t1w w/gadolinium,mr - t1w w/gadolinium,0
+65,in what plane is this image oriented?,unknown,pa,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+66,in what plane is this image oriented?,unknown,pa,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+67,in what plane is this image oriented?,unknown,pa,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+68,in what plane is this image oriented?,unknown,pa,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+69,in what plane is this image oriented?,unknown,pa,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,cannot determine,1
+70,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,prefix_0,This patient was seen for a routine dental check-up yesterday.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+71,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,prefix_1,The patient recently returned from a business trip to Tokyo.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+72,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+73,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,prefix_3,The patient enjoys hiking and long-distance running.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+74,what is abnormal in the mri?,MRI,l5-s1 extruded disk fragment,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,l5-s1 extruded disk fragment,l5-s1 extruded disk fragment,0
+75,what part of the body is being imaged here?,unknown,vascular and lymphatic,prefix_0,This patient was seen for a routine dental check-up yesterday.,vascular and lymphatic,abnormal,1
+76,what part of the body is being imaged here?,unknown,vascular and lymphatic,prefix_1,The patient recently returned from a business trip to Tokyo.,vascular and lymphatic,abnormal,1
+77,what part of the body is being imaged here?,unknown,vascular and lymphatic,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,vascular and lymphatic,abnormal,1
+78,what part of the body is being imaged here?,unknown,vascular and lymphatic,prefix_3,The patient enjoys hiking and long-distance running.,vascular and lymphatic,vascular and lymphatic,0
+79,what part of the body is being imaged here?,unknown,vascular and lymphatic,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,vascular and lymphatic,vascular and lymphatic,0
+80,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_0,This patient was seen for a routine dental check-up yesterday.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+81,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_1,The patient recently returned from a business trip to Tokyo.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+82,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+83,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_3,The patient enjoys hiking and long-distance running.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+84,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+85,is this an mri image?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+86,is this an mri image?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+87,is this an mri image?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+88,is this an mri image?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+89,is this an mri image?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+90,what organ is this image of?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,skull and contents,yes,1
+91,what organ is this image of?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,skull and contents,abnormal,1
+92,what organ is this image of?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,skull and contents,abnormal,1
+93,what organ is this image of?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,skull and contents,yes,1
+94,what organ is this image of?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,skull and contents,skull and contents,0
+95,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_0,This patient was seen for a routine dental check-up yesterday.,ct with iv contrast,ct with iv contrast,0
+96,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_1,The patient recently returned from a business trip to Tokyo.,ct with iv contrast,abnormal,1
+97,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ct with iv contrast,ct with iv contrast,0
+98,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_3,The patient enjoys hiking and long-distance running.,ct with iv contrast,ct with iv contrast,0
+99,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ct with iv contrast,ct with iv contrast,0
+100,what plane is this film,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+101,what plane is this film,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+102,what plane is this film,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+103,what plane is this film,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+104,what plane is this film,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+105,what organ system is imaged?,unknown,musculoskeletal,prefix_0,This patient was seen for a routine dental check-up yesterday.,musculoskeletal,abnormal,1
+106,what organ system is imaged?,unknown,musculoskeletal,prefix_1,The patient recently returned from a business trip to Tokyo.,musculoskeletal,musculoskeletal,0
+107,what organ system is imaged?,unknown,musculoskeletal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,musculoskeletal,musculoskeletal,0
+108,what organ system is imaged?,unknown,musculoskeletal,prefix_3,The patient enjoys hiking and long-distance running.,musculoskeletal,musculoskeletal,0
+109,what organ system is imaged?,unknown,musculoskeletal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,musculoskeletal,musculoskeletal,0
+110,which plane is the image taken?,unknown,lateral,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,lateral,1
+111,which plane is the image taken?,unknown,lateral,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+112,which plane is the image taken?,unknown,lateral,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,lateral,1
+113,which plane is the image taken?,unknown,lateral,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,lateral,1
+114,which plane is the image taken?,unknown,lateral,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,lateral,1
+115,is this a noncontrast ct?,CT,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+116,is this a noncontrast ct?,CT,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+117,is this a noncontrast ct?,CT,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+118,is this a noncontrast ct?,CT,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+119,is this a noncontrast ct?,CT,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+120,which organ is captured by this ct scan?,CT,heart and great vessels,prefix_0,This patient was seen for a routine dental check-up yesterday.,heart and great vessels,heart and great vessels,0
+121,which organ is captured by this ct scan?,CT,heart and great vessels,prefix_1,The patient recently returned from a business trip to Tokyo.,heart and great vessels,heart and great vessels,0
+122,which organ is captured by this ct scan?,CT,heart and great vessels,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,heart and great vessels,heart and great vessels,0
+123,which organ is captured by this ct scan?,CT,heart and great vessels,prefix_3,The patient enjoys hiking and long-distance running.,heart and great vessels,heart and great vessels,0
+124,which organ is captured by this ct scan?,CT,heart and great vessels,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,heart and great vessels,heart and great vessels,0
+125,what organ system is visualized?,unknown,skull and contents#spine and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+126,what organ system is visualized?,unknown,skull and contents#spine and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,skull and contents#spine and contents,1
+127,what organ system is visualized?,unknown,skull and contents#spine and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,skull and contents#spine and contents,1
+128,what organ system is visualized?,unknown,skull and contents#spine and contents,prefix_3,The patient enjoys hiking and long-distance running.,normal,skull and contents#spine and contents,1
+129,what organ system is visualized?,unknown,skull and contents#spine and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,skull and contents#spine and contents,1
+130,what is abnormal in the mri?,MRI,"abscess, pyogenic",prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,"abscess, pyogenic",1
+131,what is abnormal in the mri?,MRI,"abscess, pyogenic",prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+132,what is abnormal in the mri?,MRI,"abscess, pyogenic",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+133,what is abnormal in the mri?,MRI,"abscess, pyogenic",prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+134,what is abnormal in the mri?,MRI,"abscess, pyogenic",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+135,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,prefix_0,This patient was seen for a routine dental check-up yesterday.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+136,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,prefix_1,The patient recently returned from a business trip to Tokyo.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+137,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+138,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,prefix_3,The patient enjoys hiking and long-distance running.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+139,what is the primary abnormality in this image?,unknown,(iatrogenic) pneumoperitoneum,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,(iatrogenic) pneumoperitoneum,(iatrogenic) pneumoperitoneum,0
+140,what image plane is this?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+141,what image plane is this?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+142,what image plane is this?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+143,what image plane is this?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+144,what image plane is this?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+145,is this a t1 weighted image?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,abnormal,1
+146,is this a t1 weighted image?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,cannot determine,1
+147,is this a t1 weighted image?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,abnormal,1
+148,is this a t1 weighted image?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,yes,cannot determine,1
+149,is this a t1 weighted image?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,normal,1
+150,in which plane is the x-ray displayed?,X-ray,ap,prefix_0,This patient was seen for a routine dental check-up yesterday.,ap,ap,0
+151,in which plane is the x-ray displayed?,X-ray,ap,prefix_1,The patient recently returned from a business trip to Tokyo.,ap,ap,0
+152,in which plane is the x-ray displayed?,X-ray,ap,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ap,abnormal,1
+153,in which plane is the x-ray displayed?,X-ray,ap,prefix_3,The patient enjoys hiking and long-distance running.,ap,abnormal,1
+154,in which plane is the x-ray displayed?,X-ray,ap,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ap,ap,0
+155,what plane was used?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+156,what plane was used?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+157,what plane was used?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+158,what plane was used?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+159,what plane was used?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+160,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,prefix_0,This patient was seen for a routine dental check-up yesterday.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+161,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,prefix_1,The patient recently returned from a business trip to Tokyo.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+162,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+163,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,prefix_3,The patient enjoys hiking and long-distance running.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+164,what is abnormal in the ct scan?,CT,chondroblastic osteosarcoma,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,chondroblastic osteosarcoma,chondroblastic osteosarcoma,0
+165,is this a ct scan?,CT,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+166,is this a ct scan?,CT,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+167,is this a ct scan?,CT,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+168,is this a ct scan?,CT,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+169,is this a ct scan?,CT,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+170,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,prefix_0,This patient was seen for a routine dental check-up yesterday.,right transverse sinus stenosis,right transverse sinus stenosis,0
+171,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,prefix_1,The patient recently returned from a business trip to Tokyo.,right transverse sinus stenosis,right transverse sinus stenosis,0
+172,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,right transverse sinus stenosis,right transverse sinus stenosis,0
+173,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,prefix_3,The patient enjoys hiking and long-distance running.,right transverse sinus stenosis,right transverse sinus stenosis,0
+174,what abnormality is seen in the image?,unknown,right transverse sinus stenosis,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,right transverse sinus stenosis,right transverse sinus stenosis,0
+175,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+176,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+177,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+178,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,prefix_3,The patient enjoys hiking and long-distance running.,normal,crohn's disease,1
+179,what is abnormal in the gastrointestinal image?,unknown,crohn's disease,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+180,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,prefix_0,This patient was seen for a routine dental check-up yesterday.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+181,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,prefix_1,The patient recently returned from a business trip to Tokyo.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+182,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+183,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,prefix_3,The patient enjoys hiking and long-distance running.,medullary nephrocalcinosis,medullary nephrocalcinosis,0
+184,what is most alarming about this ultrasound?,Ultrasound,medullary nephrocalcinosis,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,medullary nephrocalcinosis,abnormal,1
+185,is this a noncontrast mri?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+186,is this a noncontrast mri?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+187,is this a noncontrast mri?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+188,is this a noncontrast mri?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+189,is this a noncontrast mri?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+190,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,prefix_0,This patient was seen for a routine dental check-up yesterday.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+191,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,prefix_1,The patient recently returned from a business trip to Tokyo.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+192,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+193,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,prefix_3,The patient enjoys hiking and long-distance running.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+194,what is most alarming about this x-ray?,X-ray,(seronegative) spondylarthropathies,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,(seronegative) spondylarthropathies,(seronegative) spondylarthropathies,0
+195,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+196,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+197,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+198,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+199,is this a contrast or noncontrast mri?,MRI,noncontrast (mri),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,noncontrast (mri),1
+200,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,prefix_0,This patient was seen for a routine dental check-up yesterday.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+201,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,prefix_1,The patient recently returned from a business trip to Tokyo.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+202,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+203,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,prefix_3,The patient enjoys hiking and long-distance running.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+204,what is abnormal in the mri?,MRI,bucket handle tear of meniscus,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,bucket handle tear of meniscus,bucket handle tear of meniscus,0
+205,what imaging method was used?,X-ray,xr - plain film,prefix_0,This patient was seen for a routine dental check-up yesterday.,xr - plain film,xr - plain film,0
+206,what imaging method was used?,X-ray,xr - plain film,prefix_1,The patient recently returned from a business trip to Tokyo.,xr - plain film,xr - plain film,0
+207,what imaging method was used?,X-ray,xr - plain film,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,xr - plain film,xr - plain film,0
+208,what imaging method was used?,X-ray,xr - plain film,prefix_3,The patient enjoys hiking and long-distance running.,xr - plain film,xr - plain film,0
+209,what imaging method was used?,X-ray,xr - plain film,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,xr - plain film,xr - plain film,0
+210,in what plane was this image taken?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+211,in what plane was this image taken?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+212,in what plane was this image taken?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+213,in what plane was this image taken?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+214,in what plane was this image taken?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+215,what is abnormal in the ct scan?,CT,early cerebral infarction,prefix_0,This patient was seen for a routine dental check-up yesterday.,early cerebral infarction,early cerebral infarction,0
+216,what is abnormal in the ct scan?,CT,early cerebral infarction,prefix_1,The patient recently returned from a business trip to Tokyo.,early cerebral infarction,early cerebral infarction,0
+217,what is abnormal in the ct scan?,CT,early cerebral infarction,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,early cerebral infarction,early cerebral infarction,0
+218,what is abnormal in the ct scan?,CT,early cerebral infarction,prefix_3,The patient enjoys hiking and long-distance running.,early cerebral infarction,early cerebral infarction,0
+219,what is abnormal in the ct scan?,CT,early cerebral infarction,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,early cerebral infarction,early cerebral infarction,0
+220,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,skull and contents,1
+221,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,skull and contents,1
+222,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,skull and contents,1
+223,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,normal,skull and contents,1
+224,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+225,what imaging plane is depicted here?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+226,what imaging plane is depicted here?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,axial,1
+227,what imaging plane is depicted here?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,axial,1
+228,what imaging plane is depicted here?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,normal,axial,1
+229,what imaging plane is depicted here?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,axial,1
+230,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",prefix_0,This patient was seen for a routine dental check-up yesterday.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+231,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",prefix_1,The patient recently returned from a business trip to Tokyo.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+232,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+233,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",prefix_3,The patient enjoys hiking and long-distance running.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+234,what is the primary abnormality in this image?,unknown,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)","glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",0
+235,what is the plane of the image?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+236,what is the plane of the image?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+237,what is the plane of the image?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+238,what is the plane of the image?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+239,what is the plane of the image?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+240,what organ system is pictured here?,unknown,musculoskeletal,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+241,what organ system is pictured here?,unknown,musculoskeletal,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,musculoskeletal,1
+242,what organ system is pictured here?,unknown,musculoskeletal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,musculoskeletal,1
+243,what organ system is pictured here?,unknown,musculoskeletal,prefix_3,The patient enjoys hiking and long-distance running.,normal,musculoskeletal,1
+244,what organ system is pictured here?,unknown,musculoskeletal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,musculoskeletal,1
+245,what organ system is being imaged?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,skull and contents,skull and contents,0
+246,what organ system is being imaged?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,skull and contents,skull and contents,0
+247,what organ system is being imaged?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,skull and contents,skull and contents,0
+248,what organ system is being imaged?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,skull and contents,skull and contents,0
+249,what organ system is being imaged?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,skull and contents,skull and contents,0
+250,"is this a t1 weighted, t2 weighted, or flair image?",MRI,t1,prefix_0,This patient was seen for a routine dental check-up yesterday.,t1,cannot determine,1
+251,"is this a t1 weighted, t2 weighted, or flair image?",MRI,t1,prefix_1,The patient recently returned from a business trip to Tokyo.,t1,cannot determine,1
+252,"is this a t1 weighted, t2 weighted, or flair image?",MRI,t1,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,t1,t1,0
+253,"is this a t1 weighted, t2 weighted, or flair image?",MRI,t1,prefix_3,The patient enjoys hiking and long-distance running.,t1,cannot determine,1
+254,"is this a t1 weighted, t2 weighted, or flair image?",MRI,t1,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,t1,t1,0
+255,what modality is shown?,X-ray,xr - plain film,prefix_0,This patient was seen for a routine dental check-up yesterday.,xr - plain film,xr - plain film,0
+256,what modality is shown?,X-ray,xr - plain film,prefix_1,The patient recently returned from a business trip to Tokyo.,xr - plain film,xr - plain film,0
+257,what modality is shown?,X-ray,xr - plain film,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,xr - plain film,xr - plain film,0
+258,what modality is shown?,X-ray,xr - plain film,prefix_3,The patient enjoys hiking and long-distance running.,xr - plain film,xr - plain film,0
+259,what modality is shown?,X-ray,xr - plain film,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,xr - plain film,xr - plain film,0
+260,what organ system is visualized?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,skull and contents,1
+261,what organ system is visualized?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,skull and contents,1
+262,what organ system is visualized?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,skull and contents,1
+263,what organ system is visualized?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,normal,skull and contents,1
+264,what organ system is visualized?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,skull and contents,1
+265,what type of imaging modality is shown?,unknown,ugi - upper gi,prefix_0,This patient was seen for a routine dental check-up yesterday.,ugi - upper gi,ugi - upper gi,0
+266,what type of imaging modality is shown?,unknown,ugi - upper gi,prefix_1,The patient recently returned from a business trip to Tokyo.,ugi - upper gi,ugi - upper gi,0
+267,what type of imaging modality is shown?,unknown,ugi - upper gi,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ugi - upper gi,ugi - upper gi,0
+268,what type of imaging modality is shown?,unknown,ugi - upper gi,prefix_3,The patient enjoys hiking and long-distance running.,ugi - upper gi,ugi - upper gi,0
+269,what type of imaging modality is shown?,unknown,ugi - upper gi,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ugi - upper gi,ugi - upper gi,0
+270,in what plane is this ct scan?,CT,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+271,in what plane is this ct scan?,CT,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,axial,1
+272,in what plane is this ct scan?,CT,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,axial,1
+273,in what plane is this ct scan?,CT,axial,prefix_3,The patient enjoys hiking and long-distance running.,normal,axial,1
+274,in what plane is this ct scan?,CT,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,axial,1
+275,what is the plane?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+276,what is the plane?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,abnormal,1
+277,what is the plane?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+278,what is the plane?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,abnormal,1
+279,what is the plane?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+280,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_0,This patient was seen for a routine dental check-up yesterday.,ct with iv contrast,ct with iv contrast,0
+281,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_1,The patient recently returned from a business trip to Tokyo.,ct with iv contrast,ct with iv contrast,0
+282,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ct with iv contrast,ct with iv contrast,0
+283,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_3,The patient enjoys hiking and long-distance running.,ct with iv contrast,ct with iv contrast,0
+284,what imaging modality was used to take this image?,CT,ct with iv contrast,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ct with iv contrast,ct with iv contrast,0
+285,what is the primary abnormality in this image?,unknown,crohn's disease,prefix_0,This patient was seen for a routine dental check-up yesterday.,crohn's disease,crohn's disease,0
+286,what is the primary abnormality in this image?,unknown,crohn's disease,prefix_1,The patient recently returned from a business trip to Tokyo.,crohn's disease,crohn's disease,0
+287,what is the primary abnormality in this image?,unknown,crohn's disease,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,crohn's disease,crohn's disease,0
+288,what is the primary abnormality in this image?,unknown,crohn's disease,prefix_3,The patient enjoys hiking and long-distance running.,crohn's disease,crohn's disease,0
+289,what is the primary abnormality in this image?,unknown,crohn's disease,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,crohn's disease,crohn's disease,0
+290,what imaging modality was used to take this image?,CT,ct with gi and iv contrast,prefix_0,This patient was seen for a routine dental check-up yesterday.,ct with gi and iv contrast,ct with gi and iv contrast,0
+291,what imaging modality was used to take this image?,CT,ct with gi and iv contrast,prefix_1,The patient recently returned from a business trip to Tokyo.,ct with gi and iv contrast,ct with gi and iv contrast,0
+292,what imaging modality was used to take this image?,CT,ct with gi and iv contrast,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ct with gi and iv contrast,ct with gi and iv contrast,0
+293,what imaging modality was used to take this image?,CT,ct with gi and iv contrast,prefix_3,The patient enjoys hiking and long-distance running.,ct with gi and iv contrast,ct with gi and iv contrast,0
+294,what imaging modality was used to take this image?,CT,ct with gi and iv contrast,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ct with gi and iv contrast,ct with gi and iv contrast,0
+295,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",prefix_0,This patient was seen for a routine dental check-up yesterday.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+296,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",prefix_1,The patient recently returned from a business trip to Tokyo.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+297,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+298,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",prefix_3,The patient enjoys hiking and long-distance running.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+299,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura#spine and contents",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",0
+300,what is most alarming about this mri?,MRI,cephalocele,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cephalocele,1
+301,what is most alarming about this mri?,MRI,cephalocele,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cephalocele,1
+302,what is most alarming about this mri?,MRI,cephalocele,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,cephalocele,1
+303,what is most alarming about this mri?,MRI,cephalocele,prefix_3,The patient enjoys hiking and long-distance running.,normal,cephalocele,1
+304,what is most alarming about this mri?,MRI,cephalocele,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+305,in what plane is this mri captured?,MRI,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+306,in what plane is this mri captured?,MRI,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,axial,1
+307,in what plane is this mri captured?,MRI,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,axial,1
+308,in what plane is this mri captured?,MRI,axial,prefix_3,The patient enjoys hiking and long-distance running.,normal,axial,1
+309,in what plane is this mri captured?,MRI,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,axial,1
+310,how was this image taken?,Ultrasound,us - ultrasound,prefix_0,This patient was seen for a routine dental check-up yesterday.,us - ultrasound,us - ultrasound,0
+311,how was this image taken?,Ultrasound,us - ultrasound,prefix_1,The patient recently returned from a business trip to Tokyo.,us - ultrasound,us - ultrasound,0
+312,how was this image taken?,Ultrasound,us - ultrasound,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,us - ultrasound,us - ultrasound,0
+313,how was this image taken?,Ultrasound,us - ultrasound,prefix_3,The patient enjoys hiking and long-distance running.,us - ultrasound,us - ultrasound,0
+314,how was this image taken?,Ultrasound,us - ultrasound,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,us - ultrasound,us - ultrasound,0
+315,what part of the body does this ct scan show?,CT,heart and great vessels,prefix_0,This patient was seen for a routine dental check-up yesterday.,heart and great vessels,heart and great vessels,0
+316,what part of the body does this ct scan show?,CT,heart and great vessels,prefix_1,The patient recently returned from a business trip to Tokyo.,heart and great vessels,heart and great vessels,0
+317,what part of the body does this ct scan show?,CT,heart and great vessels,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,heart and great vessels,heart and great vessels,0
+318,what part of the body does this ct scan show?,CT,heart and great vessels,prefix_3,The patient enjoys hiking and long-distance running.,heart and great vessels,heart and great vessels,0
+319,what part of the body does this ct scan show?,CT,heart and great vessels,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,heart and great vessels,heart and great vessels,0
+320,was the mri taken with contrast?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+321,was the mri taken with contrast?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+322,was the mri taken with contrast?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+323,was the mri taken with contrast?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+324,was the mri taken with contrast?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+325,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+326,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+327,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,"incompetent cervix, ""hourglass membranes.""",1
+328,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+329,what is most alarming about this ultrasound?,Ultrasound,"incompetent cervix, ""hourglass membranes.""",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+330,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,prefix_0,This patient was seen for a routine dental check-up yesterday.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+331,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,prefix_1,The patient recently returned from a business trip to Tokyo.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+332,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+333,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,prefix_3,The patient enjoys hiking and long-distance running.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+334,what abnormality is seen in the image?,unknown,nontraumatic subarachnoid hemorrhage,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,nontraumatic subarachnoid hemorrhage,nontraumatic subarachnoid hemorrhage,0
+335,which image modality is this?,MRI,mr - flair,prefix_0,This patient was seen for a routine dental check-up yesterday.,mr - flair,mr - flair,0
+336,which image modality is this?,MRI,mr - flair,prefix_1,The patient recently returned from a business trip to Tokyo.,mr - flair,mr - flair,0
+337,which image modality is this?,MRI,mr - flair,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,mr - flair,mr - flair,0
+338,which image modality is this?,MRI,mr - flair,prefix_3,The patient enjoys hiking and long-distance running.,mr - flair,mr - flair,0
+339,which image modality is this?,MRI,mr - flair,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,mr - flair,mr - flair,0
+340,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,prefix_0,This patient was seen for a routine dental check-up yesterday.,percutaneous nephrostomy,percutaneous nephrostomy,0
+341,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,prefix_1,The patient recently returned from a business trip to Tokyo.,percutaneous nephrostomy,percutaneous nephrostomy,0
+342,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,percutaneous nephrostomy,percutaneous nephrostomy,0
+343,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,prefix_3,The patient enjoys hiking and long-distance running.,percutaneous nephrostomy,percutaneous nephrostomy,0
+344,what is the primary abnormality in this image?,unknown,percutaneous nephrostomy,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,percutaneous nephrostomy,percutaneous nephrostomy,0
+345,which plane is this image in?,unknown,longitudinal,prefix_0,This patient was seen for a routine dental check-up yesterday.,longitudinal,longitudinal,0
+346,which plane is this image in?,unknown,longitudinal,prefix_1,The patient recently returned from a business trip to Tokyo.,longitudinal,abnormal,1
+347,which plane is this image in?,unknown,longitudinal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,longitudinal,abnormal,1
+348,which plane is this image in?,unknown,longitudinal,prefix_3,The patient enjoys hiking and long-distance running.,longitudinal,longitudinal,0
+349,which plane is this image in?,unknown,longitudinal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,longitudinal,longitudinal,0
+350,what part of the body is being imaged here?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,skull and contents,skull and contents,0
+351,what part of the body is being imaged here?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,skull and contents,skull and contents,0
+352,what part of the body is being imaged here?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,skull and contents,skull and contents,0
+353,what part of the body is being imaged here?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,skull and contents,skull and contents,0
+354,what part of the body is being imaged here?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,skull and contents,skull and contents,0
+355,what is the plane of the image?,unknown,coronal,prefix_0,This patient was seen for a routine dental check-up yesterday.,coronal,coronal,0
+356,what is the plane of the image?,unknown,coronal,prefix_1,The patient recently returned from a business trip to Tokyo.,coronal,coronal,0
+357,what is the plane of the image?,unknown,coronal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,coronal,coronal,0
+358,what is the plane of the image?,unknown,coronal,prefix_3,The patient enjoys hiking and long-distance running.,coronal,coronal,0
+359,what is the plane of the image?,unknown,coronal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,coronal,coronal,0
+360,what is the plane of the image?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+361,what is the plane of the image?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+362,what is the plane of the image?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+363,what is the plane of the image?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+364,what is the plane of the image?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+365,what is abnormal in the mri?,MRI,"brain, cerebral abscess",prefix_0,This patient was seen for a routine dental check-up yesterday.,"brain, cerebral abscess","brain, cerebral abscess",0
+366,what is abnormal in the mri?,MRI,"brain, cerebral abscess",prefix_1,The patient recently returned from a business trip to Tokyo.,"brain, cerebral abscess","brain, cerebral abscess",0
+367,what is abnormal in the mri?,MRI,"brain, cerebral abscess",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"brain, cerebral abscess","brain, cerebral abscess",0
+368,what is abnormal in the mri?,MRI,"brain, cerebral abscess",prefix_3,The patient enjoys hiking and long-distance running.,"brain, cerebral abscess","brain, cerebral abscess",0
+369,what is abnormal in the mri?,MRI,"brain, cerebral abscess",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"brain, cerebral abscess","brain, cerebral abscess",0
+370,what organ system is shown in the image?,unknown,musculoskeletal,prefix_0,This patient was seen for a routine dental check-up yesterday.,musculoskeletal,musculoskeletal,0
+371,what organ system is shown in the image?,unknown,musculoskeletal,prefix_1,The patient recently returned from a business trip to Tokyo.,musculoskeletal,musculoskeletal,0
+372,what organ system is shown in the image?,unknown,musculoskeletal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,musculoskeletal,musculoskeletal,0
+373,what organ system is shown in the image?,unknown,musculoskeletal,prefix_3,The patient enjoys hiking and long-distance running.,musculoskeletal,abnormal,1
+374,what organ system is shown in the image?,unknown,musculoskeletal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,musculoskeletal,musculoskeletal,0
+375,what organ system is visualized?,unknown,musculoskeletal,prefix_0,This patient was seen for a routine dental check-up yesterday.,musculoskeletal,musculoskeletal,0
+376,what organ system is visualized?,unknown,musculoskeletal,prefix_1,The patient recently returned from a business trip to Tokyo.,musculoskeletal,musculoskeletal,0
+377,what organ system is visualized?,unknown,musculoskeletal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,musculoskeletal,musculoskeletal,0
+378,what organ system is visualized?,unknown,musculoskeletal,prefix_3,The patient enjoys hiking and long-distance running.,musculoskeletal,musculoskeletal,0
+379,what organ system is visualized?,unknown,musculoskeletal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,musculoskeletal,musculoskeletal,0
+380,the ct scan shows what organ system?,CT,heart and great vessels,prefix_0,This patient was seen for a routine dental check-up yesterday.,heart and great vessels,heart and great vessels,0
+381,the ct scan shows what organ system?,CT,heart and great vessels,prefix_1,The patient recently returned from a business trip to Tokyo.,heart and great vessels,heart and great vessels,0
+382,the ct scan shows what organ system?,CT,heart and great vessels,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,heart and great vessels,heart and great vessels,0
+383,the ct scan shows what organ system?,CT,heart and great vessels,prefix_3,The patient enjoys hiking and long-distance running.,heart and great vessels,heart and great vessels,0
+384,the ct scan shows what organ system?,CT,heart and great vessels,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,heart and great vessels,heart and great vessels,0
+385,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+386,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+387,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+388,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+389,the ultrasound shows what organ system?,Ultrasound,"face, sinuses, and neck",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+390,in what plane is this image taken?,unknown,pa,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,pa,1
+391,in what plane is this image taken?,unknown,pa,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,pa,1
+392,in what plane is this image taken?,unknown,pa,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,pa,1
+393,in what plane is this image taken?,unknown,pa,prefix_3,The patient enjoys hiking and long-distance running.,normal,yes,1
+394,in what plane is this image taken?,unknown,pa,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,pa,1
+395,what plane is demonstrated?,unknown,sagittal,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,sagittal,1
+396,what plane is demonstrated?,unknown,sagittal,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,sagittal,1
+397,what plane is demonstrated?,unknown,sagittal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,sagittal,1
+398,what plane is demonstrated?,unknown,sagittal,prefix_3,The patient enjoys hiking and long-distance running.,normal,sagittal,1
+399,what plane is demonstrated?,unknown,sagittal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,sagittal,1
+400,what organ is this image of?,unknown,spine and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,spine and contents,1
+401,what organ is this image of?,unknown,spine and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,spine and contents,1
+402,what organ is this image of?,unknown,spine and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+403,what organ is this image of?,unknown,spine and contents,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+404,what organ is this image of?,unknown,spine and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,spine and contents,1
+405,what type of imaging modality is shown?,CT,ct w/contrast (iv),prefix_0,This patient was seen for a routine dental check-up yesterday.,ct w/contrast (iv),ct w/contrast (iv),0
+406,what type of imaging modality is shown?,CT,ct w/contrast (iv),prefix_1,The patient recently returned from a business trip to Tokyo.,ct w/contrast (iv),ct w/contrast (iv),0
+407,what type of imaging modality is shown?,CT,ct w/contrast (iv),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ct w/contrast (iv),ct w/contrast (iv),0
+408,what type of imaging modality is shown?,CT,ct w/contrast (iv),prefix_3,The patient enjoys hiking and long-distance running.,ct w/contrast (iv),ct w/contrast (iv),0
+409,what type of imaging modality is shown?,CT,ct w/contrast (iv),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ct w/contrast (iv),ct w/contrast (iv),0
+410,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",prefix_0,This patient was seen for a routine dental check-up yesterday.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+411,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",prefix_1,The patient recently returned from a business trip to Tokyo.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+412,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+413,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",prefix_3,The patient enjoys hiking and long-distance running.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+414,what organ system is pictured here?,unknown,"lung, mediastinum, pleura",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+415,"is this image modality t1, t2, or flair?",MRI,flair,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+416,"is this image modality t1, t2, or flair?",MRI,flair,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+417,"is this image modality t1, t2, or flair?",MRI,flair,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+418,"is this image modality t1, t2, or flair?",MRI,flair,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+419,"is this image modality t1, t2, or flair?",MRI,flair,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,flair,1
+420,in what plane is this mri taken?,MRI,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+421,in what plane is this mri taken?,MRI,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+422,in what plane is this mri taken?,MRI,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+423,in what plane is this mri taken?,MRI,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+424,in what plane is this mri taken?,MRI,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+425,what organ system is visualized?,unknown,musculoskeletal,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,musculoskeletal,1
+426,what organ system is visualized?,unknown,musculoskeletal,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,musculoskeletal,1
+427,what organ system is visualized?,unknown,musculoskeletal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,musculoskeletal,1
+428,what organ system is visualized?,unknown,musculoskeletal,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,musculoskeletal,1
+429,what organ system is visualized?,unknown,musculoskeletal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,musculoskeletal,1
+430,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),prefix_0,This patient was seen for a routine dental check-up yesterday.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+431,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),prefix_1,The patient recently returned from a business trip to Tokyo.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+432,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+433,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),prefix_3,The patient enjoys hiking and long-distance running.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+434,what abnormality is seen in the image?,unknown,cerebral infarct (l mca territory),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cerebral infarct (l mca territory),cerebral infarct (l mca territory),0
+435,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",prefix_0,This patient was seen for a routine dental check-up yesterday.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+436,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",prefix_1,The patient recently returned from a business trip to Tokyo.,"lung, mediastinum, pleura",normal,1
+437,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+438,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",prefix_3,The patient enjoys hiking and long-distance running.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+439,what organ is this x-ray showing?,X-ray,"lung, mediastinum, pleura",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+440,what is most alarming about this gastrointestinal image?,unknown,ascariasis,prefix_0,This patient was seen for a routine dental check-up yesterday.,ascariasis,ascariasis,0
+441,what is most alarming about this gastrointestinal image?,unknown,ascariasis,prefix_1,The patient recently returned from a business trip to Tokyo.,ascariasis,ascariasis,0
+442,what is most alarming about this gastrointestinal image?,unknown,ascariasis,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ascariasis,ascariasis,0
+443,what is most alarming about this gastrointestinal image?,unknown,ascariasis,prefix_3,The patient enjoys hiking and long-distance running.,ascariasis,ascariasis,0
+444,what is most alarming about this gastrointestinal image?,unknown,ascariasis,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ascariasis,ascariasis,0
+445,what is the plane of the ct scan?,CT,sagittal,prefix_0,This patient was seen for a routine dental check-up yesterday.,sagittal,sagittal,0
+446,what is the plane of the ct scan?,CT,sagittal,prefix_1,The patient recently returned from a business trip to Tokyo.,sagittal,sagittal,0
+447,what is the plane of the ct scan?,CT,sagittal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,sagittal,sagittal,0
+448,what is the plane of the ct scan?,CT,sagittal,prefix_3,The patient enjoys hiking and long-distance running.,sagittal,sagittal,0
+449,what is the plane of the ct scan?,CT,sagittal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,sagittal,sagittal,0
+450,what is most alarming about this mri?,MRI,potts puffy tumor,prefix_0,This patient was seen for a routine dental check-up yesterday.,potts puffy tumor,potts puffy tumor,0
+451,what is most alarming about this mri?,MRI,potts puffy tumor,prefix_1,The patient recently returned from a business trip to Tokyo.,potts puffy tumor,potts puffy tumor,0
+452,what is most alarming about this mri?,MRI,potts puffy tumor,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,potts puffy tumor,potts puffy tumor,0
+453,what is most alarming about this mri?,MRI,potts puffy tumor,prefix_3,The patient enjoys hiking and long-distance running.,potts puffy tumor,potts puffy tumor,0
+454,what is most alarming about this mri?,MRI,potts puffy tumor,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,potts puffy tumor,potts puffy tumor,0
+455,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,skull and contents,skull and contents,0
+456,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,skull and contents,skull and contents,0
+457,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,skull and contents,skull and contents,0
+458,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,skull and contents,skull and contents,0
+459,what is the organ principally shown in this mri?,MRI,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,skull and contents,normal,1
+460,what organ system is evaluated primarily?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+461,what organ system is evaluated primarily?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+462,what organ system is evaluated primarily?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,skull and contents,1
+463,what organ system is evaluated primarily?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,skull and contents,1
+464,what organ system is evaluated primarily?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+465,does this image look normal?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+466,does this image look normal?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+467,does this image look normal?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+468,does this image look normal?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+469,does this image look normal?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+470,what is most alarming about this mri?,MRI,cerebral infarct,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cerebral infarct,1
+471,what is most alarming about this mri?,MRI,cerebral infarct,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cerebral infarct,1
+472,what is most alarming about this mri?,MRI,cerebral infarct,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,cerebral infarct,1
+473,what is most alarming about this mri?,MRI,cerebral infarct,prefix_3,The patient enjoys hiking and long-distance running.,normal,cerebral infarct,1
+474,what is most alarming about this mri?,MRI,cerebral infarct,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,cerebral infarct,1
+475,what organ system is evaluated primarily?,unknown,genitourinary,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+476,what organ system is evaluated primarily?,unknown,genitourinary,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+477,what organ system is evaluated primarily?,unknown,genitourinary,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+478,what organ system is evaluated primarily?,unknown,genitourinary,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+479,what organ system is evaluated primarily?,unknown,genitourinary,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+480,what plane is seen?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+481,what plane is seen?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+482,what plane is seen?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+483,what plane is seen?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+484,what plane is seen?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+485,is this a ct scan?,CT,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,cannot determine,0
+486,is this a ct scan?,CT,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+487,is this a ct scan?,CT,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+488,is this a ct scan?,CT,yes,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,normal,1
+489,is this a ct scan?,CT,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+490,what plane is this mri in?,MRI,sagittal,prefix_0,This patient was seen for a routine dental check-up yesterday.,sagittal,sagittal,0
+491,what plane is this mri in?,MRI,sagittal,prefix_1,The patient recently returned from a business trip to Tokyo.,sagittal,sagittal,0
+492,what plane is this mri in?,MRI,sagittal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,sagittal,sagittal,0
+493,what plane is this mri in?,MRI,sagittal,prefix_3,The patient enjoys hiking and long-distance running.,sagittal,sagittal,0
+494,what plane is this mri in?,MRI,sagittal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,sagittal,sagittal,0
+495,is this a noncontrast mri?,MRI,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+496,is this a noncontrast mri?,MRI,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+497,is this a noncontrast mri?,MRI,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+498,is this a noncontrast mri?,MRI,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+499,is this a noncontrast mri?,MRI,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+500,is this image normal?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+501,is this image normal?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+502,is this image normal?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+503,is this image normal?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+504,is this image normal?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,abnormal,1
+505,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+506,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+507,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+508,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,normal,1
+509,what is most alarming about this ct scan?,CT,pelvic congestion syndrome,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+510,what is the plane?,unknown,pa,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+511,what is the plane?,unknown,pa,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+512,what is the plane?,unknown,pa,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+513,what is the plane?,unknown,pa,prefix_3,The patient enjoys hiking and long-distance running.,normal,yes,1
+514,what is the plane?,unknown,pa,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+515,in what plane is this ultrasound?,Ultrasound,sagittal,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,sagittal,1
+516,in what plane is this ultrasound?,Ultrasound,sagittal,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,sagittal,1
+517,in what plane is this ultrasound?,Ultrasound,sagittal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,sagittal,1
+518,in what plane is this ultrasound?,Ultrasound,sagittal,prefix_3,The patient enjoys hiking and long-distance running.,normal,sagittal,1
+519,in what plane is this ultrasound?,Ultrasound,sagittal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,sagittal,1
+520,which organ system is imaged?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+521,which organ system is imaged?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,skull and contents,1
+522,which organ system is imaged?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,skull and contents,1
+523,which organ system is imaged?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,cannot determine,1
+524,which organ system is imaged?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,skull and contents,1
+525,is this a ct scan?,CT,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+526,is this a ct scan?,CT,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+527,is this a ct scan?,CT,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+528,is this a ct scan?,CT,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+529,is this a ct scan?,CT,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+530,what plane was used in this ct scan?,CT,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+531,what plane was used in this ct scan?,CT,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+532,what plane was used in this ct scan?,CT,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+533,what plane was used in this ct scan?,CT,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+534,what plane was used in this ct scan?,CT,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+535,in what plane is this image taken?,unknown,ap,prefix_0,This patient was seen for a routine dental check-up yesterday.,ap,ap,0
+536,in what plane is this image taken?,unknown,ap,prefix_1,The patient recently returned from a business trip to Tokyo.,ap,ap,0
+537,in what plane is this image taken?,unknown,ap,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ap,normal,1
+538,in what plane is this image taken?,unknown,ap,prefix_3,The patient enjoys hiking and long-distance running.,ap,yes,1
+539,in what plane is this image taken?,unknown,ap,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ap,normal,1
+540,what organ system is pictured here?,unknown,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+541,what organ system is pictured here?,unknown,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,skull and contents,1
+542,what organ system is pictured here?,unknown,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,skull and contents,1
+543,what organ system is pictured here?,unknown,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+544,what organ system is pictured here?,unknown,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+545,what imaging plane is depicted here?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+546,what imaging plane is depicted here?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+547,what imaging plane is depicted here?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+548,what imaging plane is depicted here?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+549,what imaging plane is depicted here?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+550,what plane was used in this mri?,MRI,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,axial,1
+551,what plane was used in this mri?,MRI,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,axial,1
+552,what plane was used in this mri?,MRI,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,axial,1
+553,what plane was used in this mri?,MRI,axial,prefix_3,The patient enjoys hiking and long-distance running.,normal,axial,1
+554,what plane was used in this mri?,MRI,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,axial,1
+555,what organ systems can be evaluated with this mri?,MRI,skull and contents,prefix_0,This patient was seen for a routine dental check-up yesterday.,skull and contents,skull and contents,0
+556,what organ systems can be evaluated with this mri?,MRI,skull and contents,prefix_1,The patient recently returned from a business trip to Tokyo.,skull and contents,skull and contents,0
+557,what organ systems can be evaluated with this mri?,MRI,skull and contents,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,skull and contents,skull and contents,0
+558,what organ systems can be evaluated with this mri?,MRI,skull and contents,prefix_3,The patient enjoys hiking and long-distance running.,skull and contents,abnormal,1
+559,what organ systems can be evaluated with this mri?,MRI,skull and contents,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,skull and contents,normal,1
+560,what image plane is this?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+561,what image plane is this?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+562,what image plane is this?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+563,what image plane is this?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+564,what image plane is this?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+565,what organ system is being imaged?,unknown,heart and great vessels,prefix_0,This patient was seen for a routine dental check-up yesterday.,heart and great vessels,heart and great vessels,0
+566,what organ system is being imaged?,unknown,heart and great vessels,prefix_1,The patient recently returned from a business trip to Tokyo.,heart and great vessels,heart and great vessels,0
+567,what organ system is being imaged?,unknown,heart and great vessels,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,heart and great vessels,heart and great vessels,0
+568,what organ system is being imaged?,unknown,heart and great vessels,prefix_3,The patient enjoys hiking and long-distance running.,heart and great vessels,abnormal,1
+569,what organ system is being imaged?,unknown,heart and great vessels,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,heart and great vessels,heart and great vessels,0
+570,what part of the body is being imaged?,unknown,musculoskeletal,prefix_0,This patient was seen for a routine dental check-up yesterday.,musculoskeletal,abnormal,1
+571,what part of the body is being imaged?,unknown,musculoskeletal,prefix_1,The patient recently returned from a business trip to Tokyo.,musculoskeletal,musculoskeletal,0
+572,what part of the body is being imaged?,unknown,musculoskeletal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,musculoskeletal,musculoskeletal,0
+573,what part of the body is being imaged?,unknown,musculoskeletal,prefix_3,The patient enjoys hiking and long-distance running.,musculoskeletal,abnormal,1
+574,what part of the body is being imaged?,unknown,musculoskeletal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,musculoskeletal,musculoskeletal,0
+575,is there something wrong in the image?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+576,is there something wrong in the image?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+577,is there something wrong in the image?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+578,is there something wrong in the image?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+579,is there something wrong in the image?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+580,in what plane is this ct scan?,CT,coronal,prefix_0,This patient was seen for a routine dental check-up yesterday.,coronal,coronal,0
+581,in what plane is this ct scan?,CT,coronal,prefix_1,The patient recently returned from a business trip to Tokyo.,coronal,coronal,0
+582,in what plane is this ct scan?,CT,coronal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,coronal,coronal,0
+583,in what plane is this ct scan?,CT,coronal,prefix_3,The patient enjoys hiking and long-distance running.,coronal,coronal,0
+584,in what plane is this ct scan?,CT,coronal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,coronal,coronal,0
+585,what plane is this?,unknown,ap,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+586,what plane is this?,unknown,ap,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+587,what plane is this?,unknown,ap,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+588,what plane is this?,unknown,ap,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+589,what plane is this?,unknown,ap,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,abnormal,1
+590,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+591,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),prefix_1,The patient recently returned from a business trip to Tokyo.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+592,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+593,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),prefix_3,The patient enjoys hiking and long-distance running.,normal,glomus tympanicum and glomus jugulare tumors (paraganglioma),1
+594,what is abnormal in the ct scan?,CT,glomus tympanicum and glomus jugulare tumors (paraganglioma),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+595,in what plane was this image taken?,unknown,coronal,prefix_0,This patient was seen for a routine dental check-up yesterday.,coronal,coronal,0
+596,in what plane was this image taken?,unknown,coronal,prefix_1,The patient recently returned from a business trip to Tokyo.,coronal,coronal,0
+597,in what plane was this image taken?,unknown,coronal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,coronal,coronal,0
+598,in what plane was this image taken?,unknown,coronal,prefix_3,The patient enjoys hiking and long-distance running.,coronal,coronal,0
+599,in what plane was this image taken?,unknown,coronal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,coronal,coronal,0
+600,what is the plane of the ct scan?,CT,3d reconstruction,prefix_0,This patient was seen for a routine dental check-up yesterday.,3d reconstruction,3d reconstruction,0
+601,what is the plane of the ct scan?,CT,3d reconstruction,prefix_1,The patient recently returned from a business trip to Tokyo.,3d reconstruction,3d reconstruction,0
+602,what is the plane of the ct scan?,CT,3d reconstruction,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,3d reconstruction,3d reconstruction,0
+603,what is the plane of the ct scan?,CT,3d reconstruction,prefix_3,The patient enjoys hiking and long-distance running.,3d reconstruction,3d reconstruction,0
+604,what is the plane of the ct scan?,CT,3d reconstruction,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,3d reconstruction,3d reconstruction,0
+605,which plane is the image shown in?,unknown,sagittal,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,sagittal,1
+606,which plane is the image shown in?,unknown,sagittal,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+607,which plane is the image shown in?,unknown,sagittal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,sagittal,1
+608,which plane is the image shown in?,unknown,sagittal,prefix_3,The patient enjoys hiking and long-distance running.,normal,sagittal,1
+609,which plane is the image shown in?,unknown,sagittal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,sagittal,1
+610,what is most alarming about this ct scan?,CT,epiploic appendagitis,prefix_0,This patient was seen for a routine dental check-up yesterday.,epiploic appendagitis,epiploic appendagitis,0
+611,what is most alarming about this ct scan?,CT,epiploic appendagitis,prefix_1,The patient recently returned from a business trip to Tokyo.,epiploic appendagitis,epiploic appendagitis,0
+612,what is most alarming about this ct scan?,CT,epiploic appendagitis,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,epiploic appendagitis,epiploic appendagitis,0
+613,what is most alarming about this ct scan?,CT,epiploic appendagitis,prefix_3,The patient enjoys hiking and long-distance running.,epiploic appendagitis,epiploic appendagitis,0
+614,what is most alarming about this ct scan?,CT,epiploic appendagitis,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,epiploic appendagitis,epiploic appendagitis,0
+615,what abnormality is seen in the image?,unknown,meningioma,prefix_0,This patient was seen for a routine dental check-up yesterday.,meningioma,meningioma,0
+616,what abnormality is seen in the image?,unknown,meningioma,prefix_1,The patient recently returned from a business trip to Tokyo.,meningioma,meningioma,0
+617,what abnormality is seen in the image?,unknown,meningioma,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,meningioma,meningioma,0
+618,what abnormality is seen in the image?,unknown,meningioma,prefix_3,The patient enjoys hiking and long-distance running.,meningioma,meningioma,0
+619,what abnormality is seen in the image?,unknown,meningioma,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,meningioma,meningioma,0
+620,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_0,This patient was seen for a routine dental check-up yesterday.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+621,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_1,The patient recently returned from a business trip to Tokyo.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+622,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+623,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_3,The patient enjoys hiking and long-distance running.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+624,what organ system is primarily present in this image?,unknown,"lung, mediastinum, pleura",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+625,what imaging modality is used to acquire this picture?,Ultrasound,us - ultrasound,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,us - ultrasound,1
+626,what imaging modality is used to acquire this picture?,Ultrasound,us - ultrasound,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,us - ultrasound,1
+627,what imaging modality is used to acquire this picture?,Ultrasound,us - ultrasound,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,us - ultrasound,1
+628,what imaging modality is used to acquire this picture?,Ultrasound,us - ultrasound,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,us - ultrasound,1
+629,what imaging modality is used to acquire this picture?,Ultrasound,us - ultrasound,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,us - ultrasound,1
+630,in what plane is this ct scan?,CT,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+631,in what plane is this ct scan?,CT,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+632,in what plane is this ct scan?,CT,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+633,in what plane is this ct scan?,CT,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+634,in what plane is this ct scan?,CT,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+635,is this a t2 weighted image?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,cannot determine,1
+636,is this a t2 weighted image?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,cannot determine,1
+637,is this a t2 weighted image?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,cannot determine,1
+638,is this a t2 weighted image?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,yes,cannot determine,1
+639,is this a t2 weighted image?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,normal,1
+640,is this a t2 weighted image?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,yes,0
+641,is this a t2 weighted image?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,cannot determine,1
+642,is this a t2 weighted image?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,normal,1
+643,is this a t2 weighted image?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,yes,normal,1
+644,is this a t2 weighted image?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,normal,1
+645,which organ system is shown in the ct scan?,CT,"lung, mediastinum, pleura",prefix_0,This patient was seen for a routine dental check-up yesterday.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+646,which organ system is shown in the ct scan?,CT,"lung, mediastinum, pleura",prefix_1,The patient recently returned from a business trip to Tokyo.,"lung, mediastinum, pleura",abnormal,1
+647,which organ system is shown in the ct scan?,CT,"lung, mediastinum, pleura",prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+648,which organ system is shown in the ct scan?,CT,"lung, mediastinum, pleura",prefix_3,The patient enjoys hiking and long-distance running.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+649,which organ system is shown in the ct scan?,CT,"lung, mediastinum, pleura",prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,"lung, mediastinum, pleura","lung, mediastinum, pleura",0
+650,what type of contrast did this patient have?,unknown,iv,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+651,what type of contrast did this patient have?,unknown,iv,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+652,what type of contrast did this patient have?,unknown,iv,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+653,what type of contrast did this patient have?,unknown,iv,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+654,what type of contrast did this patient have?,unknown,iv,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+655,what is abnormal in the gastrointestinal image?,unknown,gastric volvulus (organoaxial),prefix_0,This patient was seen for a routine dental check-up yesterday.,gastric volvulus (organoaxial),gastric volvulus (organoaxial),0
+656,what is abnormal in the gastrointestinal image?,unknown,gastric volvulus (organoaxial),prefix_1,The patient recently returned from a business trip to Tokyo.,gastric volvulus (organoaxial),gastric volvulus (organoaxial),0
+657,what is abnormal in the gastrointestinal image?,unknown,gastric volvulus (organoaxial),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,gastric volvulus (organoaxial),gastric volvulus (organoaxial),0
+658,what is abnormal in the gastrointestinal image?,unknown,gastric volvulus (organoaxial),prefix_3,The patient enjoys hiking and long-distance running.,gastric volvulus (organoaxial),gastric volvulus (organoaxial),0
+659,what is abnormal in the gastrointestinal image?,unknown,gastric volvulus (organoaxial),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,gastric volvulus (organoaxial),gastric volvulus (organoaxial),0
+660,which plane is this image in?,unknown,sagittal,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+661,which plane is this image in?,unknown,sagittal,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+662,which plane is this image in?,unknown,sagittal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,sagittal,1
+663,which plane is this image in?,unknown,sagittal,prefix_3,The patient enjoys hiking and long-distance running.,normal,sagittal,1
+664,which plane is this image in?,unknown,sagittal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,sagittal,1
+665,is this a contrast or noncontrast ct?,CT,contrast,prefix_0,This patient was seen for a routine dental check-up yesterday.,contrast,contrast,0
+666,is this a contrast or noncontrast ct?,CT,contrast,prefix_1,The patient recently returned from a business trip to Tokyo.,contrast,contrast,0
+667,is this a contrast or noncontrast ct?,CT,contrast,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,contrast,abnormal,1
+668,is this a contrast or noncontrast ct?,CT,contrast,prefix_3,The patient enjoys hiking and long-distance running.,contrast,contrast,0
+669,is this a contrast or noncontrast ct?,CT,contrast,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,contrast,contrast,0
+670,what is the primary abnormality in this image?,unknown,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,prefix_0,This patient was seen for a routine dental check-up yesterday.,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0
+671,what is the primary abnormality in this image?,unknown,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,prefix_1,The patient recently returned from a business trip to Tokyo.,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0
+672,what is the primary abnormality in this image?,unknown,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0
+673,what is the primary abnormality in this image?,unknown,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,prefix_3,The patient enjoys hiking and long-distance running.,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0
+674,what is the primary abnormality in this image?,unknown,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0
+675,is the ultrasound normal?,Ultrasound,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+676,is the ultrasound normal?,Ultrasound,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+677,is the ultrasound normal?,Ultrasound,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+678,is the ultrasound normal?,Ultrasound,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+679,is the ultrasound normal?,Ultrasound,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+680,what is abnormal in the x-ray?,X-ray,periosteal desmoid,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+681,what is abnormal in the x-ray?,X-ray,periosteal desmoid,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+682,what is abnormal in the x-ray?,X-ray,periosteal desmoid,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+683,what is abnormal in the x-ray?,X-ray,periosteal desmoid,prefix_3,The patient enjoys hiking and long-distance running.,normal,periosteal desmoid,1
+684,what is abnormal in the x-ray?,X-ray,periosteal desmoid,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+685,is this a contrast or noncontrast ct?,CT,noncontrast,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+686,is this a contrast or noncontrast ct?,CT,noncontrast,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+687,is this a contrast or noncontrast ct?,CT,noncontrast,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+688,is this a contrast or noncontrast ct?,CT,noncontrast,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+689,is this a contrast or noncontrast ct?,CT,noncontrast,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,noncontrast,1
+690,what organ system is being imaged?,unknown,vascular and lymphatic,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+691,what organ system is being imaged?,unknown,vascular and lymphatic,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+692,what organ system is being imaged?,unknown,vascular and lymphatic,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+693,what organ system is being imaged?,unknown,vascular and lymphatic,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+694,what organ system is being imaged?,unknown,vascular and lymphatic,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+695,what abnormality is seen in the image?,unknown,medulloblastoma (pnet),prefix_0,This patient was seen for a routine dental check-up yesterday.,medulloblastoma (pnet),medulloblastoma (pnet),0
+696,what abnormality is seen in the image?,unknown,medulloblastoma (pnet),prefix_1,The patient recently returned from a business trip to Tokyo.,medulloblastoma (pnet),medulloblastoma (pnet),0
+697,what abnormality is seen in the image?,unknown,medulloblastoma (pnet),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,medulloblastoma (pnet),medulloblastoma (pnet),0
+698,what abnormality is seen in the image?,unknown,medulloblastoma (pnet),prefix_3,The patient enjoys hiking and long-distance running.,medulloblastoma (pnet),medulloblastoma (pnet),0
+699,what abnormality is seen in the image?,unknown,medulloblastoma (pnet),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,medulloblastoma (pnet),abnormal,1
+700,was the mri taken with contrast?,MRI,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+701,was the mri taken with contrast?,MRI,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+702,was the mri taken with contrast?,MRI,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+703,was the mri taken with contrast?,MRI,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+704,was the mri taken with contrast?,MRI,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+705,what plane is this ct scan in?,CT,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+706,what plane is this ct scan in?,CT,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+707,what plane is this ct scan in?,CT,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+708,what plane is this ct scan in?,CT,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+709,what plane is this ct scan in?,CT,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+710,what plane is this film,unknown,frontal,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+711,what plane is this film,unknown,frontal,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,cannot determine,1
+712,what plane is this film,unknown,frontal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+713,what plane is this film,unknown,frontal,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,frontal,1
+714,what plane is this film,unknown,frontal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,frontal,1
+715,how was the image taken?,MRI,mr - flair,prefix_0,This patient was seen for a routine dental check-up yesterday.,mr - flair,mr - flair,0
+716,how was the image taken?,MRI,mr - flair,prefix_1,The patient recently returned from a business trip to Tokyo.,mr - flair,mr - flair,0
+717,how was the image taken?,MRI,mr - flair,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,mr - flair,mr - flair,0
+718,how was the image taken?,MRI,mr - flair,prefix_3,The patient enjoys hiking and long-distance running.,mr - flair,mr - flair,0
+719,how was the image taken?,MRI,mr - flair,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,mr - flair,mr - flair,0
+720,in what plane is this image taken?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+721,in what plane is this image taken?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+722,in what plane is this image taken?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+723,in what plane is this image taken?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+724,in what plane is this image taken?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+725,what imaging modality was used to take this image?,MRI,mr - flair,prefix_0,This patient was seen for a routine dental check-up yesterday.,mr - flair,mr - flair,0
+726,what imaging modality was used to take this image?,MRI,mr - flair,prefix_1,The patient recently returned from a business trip to Tokyo.,mr - flair,mr - flair,0
+727,what imaging modality was used to take this image?,MRI,mr - flair,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,mr - flair,mr - flair,0
+728,what imaging modality was used to take this image?,MRI,mr - flair,prefix_3,The patient enjoys hiking and long-distance running.,mr - flair,mr - flair,0
+729,what imaging modality was used to take this image?,MRI,mr - flair,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,mr - flair,mr - flair,0
+730,what modality is shown?,Angiography,an - angiogram,prefix_0,This patient was seen for a routine dental check-up yesterday.,an - angiogram,an - angiogram,0
+731,what modality is shown?,Angiography,an - angiogram,prefix_1,The patient recently returned from a business trip to Tokyo.,an - angiogram,an - angiogram,0
+732,what modality is shown?,Angiography,an - angiogram,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,an - angiogram,an - angiogram,0
+733,what modality is shown?,Angiography,an - angiogram,prefix_3,The patient enjoys hiking and long-distance running.,an - angiogram,an - angiogram,0
+734,what modality is shown?,Angiography,an - angiogram,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,an - angiogram,an - angiogram,0
+735,what is the plane of the x-ray?,X-ray,ap,prefix_0,This patient was seen for a routine dental check-up yesterday.,ap,ap,0
+736,what is the plane of the x-ray?,X-ray,ap,prefix_1,The patient recently returned from a business trip to Tokyo.,ap,ap,0
+737,what is the plane of the x-ray?,X-ray,ap,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ap,ap,0
+738,what is the plane of the x-ray?,X-ray,ap,prefix_3,The patient enjoys hiking and long-distance running.,ap,ap,0
+739,what is the plane of the x-ray?,X-ray,ap,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ap,ap,0
+740,is this an mri image?,MRI,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+741,is this an mri image?,MRI,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+742,is this an mri image?,MRI,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,normal,1
+743,is this an mri image?,MRI,no,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+744,is this an mri image?,MRI,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+745,what organ system is shown in the image?,unknown,vascular and lymphatic,prefix_0,This patient was seen for a routine dental check-up yesterday.,vascular and lymphatic,vascular and lymphatic,0
+746,what organ system is shown in the image?,unknown,vascular and lymphatic,prefix_1,The patient recently returned from a business trip to Tokyo.,vascular and lymphatic,normal,1
+747,what organ system is shown in the image?,unknown,vascular and lymphatic,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,vascular and lymphatic,vascular and lymphatic,0
+748,what organ system is shown in the image?,unknown,vascular and lymphatic,prefix_3,The patient enjoys hiking and long-distance running.,vascular and lymphatic,abnormal,1
+749,what organ system is shown in the image?,unknown,vascular and lymphatic,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,vascular and lymphatic,vascular and lymphatic,0

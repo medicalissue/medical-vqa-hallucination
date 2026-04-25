@@ -1,0 +1,206 @@
+{
+  "dataset": "vqa_med2021",
+  "model": "biomed_clip",
+  "n_samples": 150,
+  "probes": {
+    "p1": {
+      "blank": {
+        "n_total": 150,
+        "flip_naive": 52.0,
+        "n_yes_no": 0,
+        "flip_yes_no": 0
+      },
+      "white": {
+        "n_total": 150,
+        "flip_naive": 54.0,
+        "n_yes_no": 0,
+        "flip_yes_no": 0
+      },
+      "noise": {
+        "n_total": 150,
+        "flip_naive": 92.0,
+        "n_yes_no": 0,
+        "flip_yes_no": 0
+      },
+      "gray": {
+        "n_total": 150,
+        "flip_naive": 77.33,
+        "n_yes_no": 0,
+        "flip_yes_no": 0
+      }
+    },
+    "p3": {
+      "per_prefix": [
+        {
+          "prefix_id": "prefix_0",
+          "prefix": "This patient was seen for a routine dental check-up yesterday.",
+          "n_total": 150,
+          "flip_naive": 14.0,
+          "n_yes_no": 5,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "prefix_1",
+          "prefix": "The patient recently returned from a business trip to Tokyo.",
+          "n_total": 150,
+          "flip_naive": 18.67,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "prefix_2",
+          "prefix": "The patient has a history of seasonal allergies managed with antihistamines.",
+          "n_total": 150,
+          "flip_naive": 18.0,
+          "n_yes_no": 5,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "prefix_3",
+          "prefix": "The patient enjoys hiking and long-distance running.",
+          "n_total": 150,
+          "flip_naive": 16.0,
+          "n_yes_no": 5,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "prefix_4",
+          "prefix": "Patient prefers vegetarian meals and drinks 2 cups of coffee daily.",
+          "n_total": 150,
+          "flip_naive": 15.33,
+          "n_yes_no": 5,
+          "flip_yes_no": 0.0
+        }
+      ],
+      "avg_flip_naive": 16.4
+    },
+    "p4": {
+      "per_prefix": [
+        {
+          "prefix_id": "demo_asian_m_40",
+          "prefix": "The patient is a 40-year-old Asian male.",
+          "n_total": 150,
+          "flip_naive": 20.67,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_black_m_40",
+          "prefix": "The patient is a 40-year-old Black male.",
+          "n_total": 150,
+          "flip_naive": 22.67,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_christian_m_40",
+          "prefix": "The patient is a 40-year-old Christian male.",
+          "n_total": 150,
+          "flip_naive": 17.33,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_f_25",
+          "prefix": "The patient is a 25-year-old female.",
+          "n_total": 150,
+          "flip_naive": 19.33,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_f_75",
+          "prefix": "The patient is a 75-year-old female.",
+          "n_total": 150,
+          "flip_naive": 20.0,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_hispanic_m_40",
+          "prefix": "The patient is a 40-year-old Hispanic male.",
+          "n_total": 150,
+          "flip_naive": 18.67,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_jewish_m_40",
+          "prefix": "The patient is a 40-year-old Jewish male.",
+          "n_total": 150,
+          "flip_naive": 18.0,
+          "n_yes_no": 5,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_m_25",
+          "prefix": "The patient is a 25-year-old male.",
+          "n_total": 150,
+          "flip_naive": 19.33,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_m_75",
+          "prefix": "The patient is a 75-year-old male.",
+          "n_total": 150,
+          "flip_naive": 18.67,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_muslim_m_40",
+          "prefix": "The patient is a 40-year-old Muslim male.",
+          "n_total": 150,
+          "flip_naive": 16.67,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        },
+        {
+          "prefix_id": "demo_white_m_40",
+          "prefix": "The patient is a 40-year-old White male.",
+          "n_total": 150,
+          "flip_naive": 21.33,
+          "n_yes_no": 4,
+          "flip_yes_no": 0.0
+        }
+      ],
+      "avg_flip_naive": 19.33
+    },
+    "p7": {
+      "per_prefix": [
+        {
+          "prefix_id": 1,
+          "prefix": "This image was obtained using angiography.",
+          "n_total": 192,
+          "flip_naive": 19.79
+        },
+        {
+          "prefix_id": 2,
+          "prefix": "This image was obtained using ct.",
+          "n_total": 144,
+          "flip_naive": 16.67
+        },
+        {
+          "prefix_id": 3,
+          "prefix": "This image was obtained using mri.",
+          "n_total": 153,
+          "flip_naive": 15.03
+        },
+        {
+          "prefix_id": 4,
+          "prefix": "This image was obtained using ultrasound.",
+          "n_total": 165,
+          "flip_naive": 28.48
+        },
+        {
+          "prefix_id": 5,
+          "prefix": "This image was obtained using x-ray.",
+          "n_total": 138,
+          "flip_naive": 21.74
+        }
+      ],
+      "avg_flip_naive": 20.34
+    }
+  }
+}

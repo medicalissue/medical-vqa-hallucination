@@ -1,0 +1,151 @@
+qid,question,answer,modality,pred_label,correct
+0,what is abnormal in the ct scan?,calcified bilateral hilar and subcarinal lymphadenopathy with calcified nodules centrally.,CT,calcified bilateral hilar and subcarinal lymphadenopathy with calcified nodules centrally.,1
+1,what is the primary abnormality in this image?,pyogenic discitis,unknown,pyogenic discitis,1
+2,what is the primary abnormality in this image?,renal cysts and pelvicaliectasis,unknown,renal cysts and pelvicaliectasis,1
+3,what is most alarming about this mri?,spontaneous osteonecrosis of the knee,MRI,spontaneous osteonecrosis of the knee,1
+4,what is most alarming about this angiogram?,traumatic carotid-cavernous fistula,Angiography,normal,0
+5,what abnormality is seen in the image?,tibial plateau fracture,unknown,tibial plateau fracture,1
+6,what is abnormal in the mri?,Diffuse thickening of the basal meninges with intense enhancement. Edema base of frontal lobes. Pan sinusitis,MRI,Diffuse thickening of the basal meninges with intense enhancement. Edema base of frontal lobes. Pan sinusitis,1
+7,what is the primary abnormality in this image?,schwannoma,unknown,schwannoma,1
+8,what abnormality is seen in the image?,cirrhosis of the liver,unknown,cirrhosis of the liver,1
+9,what is most alarming about this ct scan?,adrenal myelolipoma,CT,abnormal,0
+10,what is most alarming about this ct scan?,comminuted fracture of medial femoral condyle. small joint effusion.,CT,comminuted fracture of medial femoral condyle. small joint effusion.,1
+11,what abnormality is seen in the image?,osteomyelitis,unknown,osteomyelitis,1
+12,what is most alarming about this ultrasound?,hypertrophic pyloric stenosis,Ultrasound,hypertrophic pyloric stenosis,1
+13,what is the primary abnormality in this image?,uterine fibroid embolization,unknown,uterine fibroid embolization,1
+14,what is the primary abnormality in this image?,ectopic pregnancy,unknown,ectopic pregnancy,1
+15,what is abnormal in the x-ray?,ulcerative colitis,X-ray,ulcerative colitis,1
+16,what is most alarming about this ultrasound?,fibromatosis coli,Ultrasound,normal,0
+17,what abnormality is seen in the image?,double aortic arch,unknown,no,0
+18,what is the primary abnormality in this image?,anterior mediastinal mass,unknown,anterior mediastinal mass,1
+19,what abnormality is seen in the image?,right c6 radiculopathy and ankylosing spondylitis,unknown,right c6 radiculopathy and ankylosing spondylitis,1
+20,what is abnormal in the x-ray?,pneumomediastinum,X-ray,normal,0
+21,what is abnormal in the ct scan?,diverticulitis,CT,diverticulitis,1
+22,what is most alarming about this ct scan?,right popliteal vein thrombus,CT,right popliteal vein thrombus,1
+23,what is abnormal in the mri?,amyloidosis,MRI,normal,0
+24,what is most alarming about this ultrasound?,Gall bladder sludge suggestive of cirrhosis of the liver,Ultrasound,Gall bladder sludge suggestive of cirrhosis of the liver,1
+25,what is the primary abnormality in this image?,osteoid osteoma,unknown,osteoid osteoma,1
+26,what is the primary abnormality in this image?,transverse myelitis,unknown,transverse myelitis,1
+27,what abnormality is seen in the image?,inguinal hernia involving bladder,unknown,inguinal hernia involving bladder,1
+28,what is abnormal in the x-ray?,enchondroma,X-ray,enchondroma,1
+29,what is abnormal in the x-ray?,superior aspect of failed posterior cervical hardware,X-ray,superior aspect of failed posterior cervical hardware,1
+30,what is most alarming about this mri?,spinal cord abscess,MRI,normal,0
+31,what is the primary abnormality in this image?,pulmonary embolism,unknown,pulmonary embolism,1
+32,what is abnormal in the ct scan?,"Bilateral well-defined, smooth contoured, non-calcified paraspinal (posterior mediastinal) masses. Vertebral osseous trabeculae appears lace-like / coarsenedc suggestive of extramedullary hematopoiesis",CT,"Bilateral well-defined, smooth contoured, non-calcified paraspinal (posterior mediastinal) masses. Vertebral osseous trabeculae appears lace-like / coarsenedc suggestive of extramedullary hematopoiesis",1
+33,what is the primary abnormality in this image?,pneumoperitoneum,unknown,pneumoperitoneum,1
+34,what abnormality is seen in the image?,midgut malrotation,unknown,midgut malrotation,1
+35,what is most alarming about this ct scan?,renal mass disturbs the contour of left kidney. no venous thrombosis or adenopathy.,CT,renal mass disturbs the contour of left kidney. no venous thrombosis or adenopathy.,1
+36,what is most alarming about this mri?,Destructive lesion C7 with spinal cord compression,MRI,Destructive lesion C7 with spinal cord compression,1
+37,what is most alarming about this ct scan?,a striated nephrogram with bands of alternating high and low attenuation,CT,a striated nephrogram with bands of alternating high and low attenuation,1
+38,what abnormality is seen in the image?,chondrocalcinosis,unknown,normal,0
+39,what abnormality is seen in the image?,atrial septal defect,unknown,atrial septal defect,1
+40,what is the primary abnormality in this image?,hepatic hemangioma,unknown,hepatic hemangioma,1
+41,what is abnormal in the ct scan?,hiatal hernia,CT,hiatal hernia,1
+42,what abnormality is seen in the image?,increased interstitial markings in the right lower lobe of the lung.,unknown,normal,0
+43,what is most alarming about this ultrasound?,hypertrophic pyloric stenosis,Ultrasound,hypertrophic pyloric stenosis,1
+44,what is abnormal in the mri?,"intramedullary (intradural-intramedullary), spinal lesions",MRI,normal,0
+45,what is the primary abnormality in this image?,Bony inflitrative masses with bilateral calvarial and orbital involvement. Skull mass has both epidural and scalp extension. Orbital metastases invade superior and lateral extraconal spaces.,unknown,Bony inflitrative masses with bilateral calvarial and orbital involvement. Skull mass has both epidural and scalp extension. Orbital metastases invade superior and lateral extraconal spaces.,1
+46,what is seen in the x-ray?,stable lateral positioning of cervical hardware.,X-ray,stable lateral positioning of cervical hardware.,1
+47,what is abnormal in the ct scan?,a soft-tissue mass encompassing and severly narrowing the left main stem bronchus,CT,a soft-tissue mass encompassing and severly narrowing the left main stem bronchus,1
+48,what abnormality is seen in the image?,enlarged subarachnoid space,unknown,enlarged subarachnoid space,1
+49,what abnormality is seen in the image?,"diffusely enlarged, heterogeneous right testicle suggestive of seminoma",unknown,"diffusely enlarged, heterogeneous right testicle suggestive of seminoma",1
+50,what is abnormal in the ultrasound?,renal oncocytoma - mild hydronephrosis with a mass in the lower pole of the kidney,Ultrasound,renal oncocytoma - mild hydronephrosis with a mass in the lower pole of the kidney,1
+51,what is abnormal in the ct scan?,"Permeative, lytic lesion with wide zone of transition and aggressive periosteal reaction",CT,abnormal,0
+52,what is most alarming about this x-ray?,lucency surrounding distal tibial external fixator screw suggestive of osteomyelitis,X-ray,lucency surrounding distal tibial external fixator screw suggestive of osteomyelitis,1
+53,what is abnormal in the mri?,cord infarct with secondary atrophy,MRI,cord infarct with secondary atrophy,1
+54,what is abnormal in the ct scan?,pulmonary embolism,CT,pulmonary embolism,1
+55,what is most alarming about this ct scan?,aortic pseudoaneurysm,CT,normal,0
+56,what abnormality is seen in the image?,choledocholithiasis,unknown,choledocholithiasis,1
+57,what is most alarming about this mri?,a focal area of thickening of the junctional zone posteriorly compatible with focal adenomyosis.,MRI,a focal area of thickening of the junctional zone posteriorly compatible with focal adenomyosis.,1
+58,what abnormality is seen in the image?,"dural  fistula, avf",unknown,"dural  fistula, avf",1
+59,what is the primary abnormality in this image?,an anterior mediastinal mass suggestive of nodular sclerosing hodgkin’s lymphoma,unknown,an anterior mediastinal mass suggestive of nodular sclerosing hodgkin’s lymphoma,1
+60,what is most alarming about this x-ray?,occult stress fracture,X-ray,normal,0
+61,what is most alarming about this ct scan?,nephrolithiasis,CT,nephrolithiasis,1
+62,what is abnormal in the mri?,enlarged subarachnoid space,MRI,normal,0
+63,what abnormality is seen in the image?,stress fracture,unknown,abnormal,0
+64,what is the primary abnormality in this image?,pulmonary embolism,unknown,no,0
+65,what abnormality is seen in the image?,pulmonary embolism,unknown,pulmonary embolism,1
+66,what abnormality is seen in the image?,air within the soft tissues of the neck and the retropharyngeal space of the neck,unknown,air within the soft tissues of the neck and the retropharyngeal space of the neck,1
+67,what is abnormal in the ct scan?,wedge shaped areas of low attenuation in the right kidney,CT,wedge shaped areas of low attenuation in the right kidney,1
+68,what abnormality is seen in the image?,hepatic adenoma,unknown,hepatic adenoma,1
+69,what is most alarming about this ct scan?,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,CT,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,1
+70,what is most alarming about this ultrasound?,varicocele,Ultrasound,varicocele,1
+71,what is seen in the image?,"normal skull X-Ray, no visible pathology",X-ray,"normal skull X-Ray, no visible pathology",1
+72,what is seen in this image?,Normal Chest - Lateral,unknown,Normal Chest - Lateral,1
+73,what is the primary abnormality in this image?,acute appendicitis,unknown,acute appendicitis,1
+74,what is abnormal in the mri?,hepatic adenoma,MRI,hepatic adenoma,1
+75,what is the primary abnormality in this image?,partially cystic mass left temporal lobe. No bone remodeling.,unknown,partially cystic mass left temporal lobe. No bone remodeling.,1
+76,what is most alarming about this x-ray?,a well circumscribed calcification in the right upper quadrant at the level of L3,X-ray,a well circumscribed calcification in the right upper quadrant at the level of L3,1
+77,what is the primary abnormality in this image?,Large heterogeneously enhancing right hepatic mass with mass effect on left lobe consistent with hepatoblastoma,unknown,Large heterogeneously enhancing right hepatic mass with mass effect on left lobe consistent with hepatoblastoma,1
+78,what abnormality is seen in the image?,Diffuse thickening of meninges with enhancement,unknown,Diffuse thickening of meninges with enhancement,1
+79,what is the primary abnormality in this image?,tooth-like calcifications in the right hemipelvis,unknown,tooth-like calcifications in the right hemipelvis,1
+80,what is the primary abnormality in this image?,horseshoe kidney,unknown,abnormal,0
+81,what is abnormal in the ct scan?,Bilateral mediastinal adenopathy with right upper lobe airspace consolidation with a tree in-bud appearance.,CT,Bilateral mediastinal adenopathy with right upper lobe airspace consolidation with a tree in-bud appearance.,1
+82,what is most alarming about this ct scan?,Large heterogeneously enhancing right hepatic mass with mass effect on left lobe.,CT,Large heterogeneously enhancing right hepatic mass with mass effect on left lobe.,1
+83,what abnormality is seen in the image?,endometrioma,unknown,endometrioma,1
+84,what is most alarming about this ct scan?,Well-circumscribed heterogeneously attentuating mass in right kidney consistent with angiomyolipoma,CT,Well-circumscribed heterogeneously attentuating mass in right kidney consistent with angiomyolipoma,1
+85,what is most alarming about this mri?,paraspanal mass thoracic spine suggestive of chloroma,MRI,paraspanal mass thoracic spine suggestive of chloroma,1
+86,what is abnormal in the gastrointestinal image?,achalasia,unknown,achalasia,1
+87,what is abnormal in the ct scan?,Cartilage-covered exostosis along the external surface of the 4th MT bone consistent with osteochondroma,CT,Cartilage-covered exostosis along the external surface of the 4th MT bone consistent with osteochondroma,1
+88,what is most alarming about this x-ray?,several small osteosclerotic lesions with most in a periarticular pattern consistent with osteopoikilosis,X-ray,several small osteosclerotic lesions with most in a periarticular pattern consistent with osteopoikilosis,1
+89,what is abnormal in the ct scan?,Ascites and free pelvic fluid with mild stranding of the mesentery,CT,Ascites and free pelvic fluid with mild stranding of the mesentery,1
+90,what is the primary abnormality in this image?,rheumatoid arthritis,unknown,normal,0
+91,what abnormality is seen in the image?,omphalocele after placement of the defect into the silastic silo.,unknown,normal,0
+92,what abnormality is seen in the image?,"neurofibromatosis-1, nf1, nf-1",unknown,"neurofibromatosis-1, nf1, nf-1",1
+93,what is abnormal in the gastrointestinal image?,achalasia,unknown,normal,0
+94,what abnormality is seen in the image?,amyand's hernia,unknown,amyand's hernia,1
+95,what is most alarming about this mri?,avascular necrosis of the femoral head,MRI,avascular necrosis of the femoral head,1
+96,what is most alarming about this ct scan?,acute pyelonephritis,CT,acute pyelonephritis,1
+97,what is the primary abnormality in this image?,simple bone cyst,unknown,simple bone cyst,1
+98,what is the primary abnormality in this image?,"partially cystic intramedullary mass. left sided enlarged neural foramen, containing a nerve sheath tumor",unknown,"partially cystic intramedullary mass. left sided enlarged neural foramen, containing a nerve sheath tumor",1
+99,what abnormality is seen in the image?,multiple hereditary exostosis,unknown,normal,0
+100,what abnormality is seen in the image?,Right paraspinal rim enhancing fluid is demonstrated compatible with a paraspinal abscess.,unknown,Right paraspinal rim enhancing fluid is demonstrated compatible with a paraspinal abscess.,1
+101,what is the primary abnormality in this image?,osteochondroma,unknown,osteochondroma,1
+102,what abnormality is seen in the image?,Heterogeneous echotexture to the enlarged right testicle when compared to the left.,unknown,Heterogeneous echotexture to the enlarged right testicle when compared to the left.,1
+103,what abnormality is seen in the image?,Multiple well marginated bony masses arising from the posterior elements of the spine are suggestive of multiple osteochondromatosis,unknown,normal,0
+104,what is abnormal in the ct scan?,right aortic arch with aberrant left subclavian artery,CT,right aortic arch with aberrant left subclavian artery,1
+105,what abnormality is seen in the image?,an anterior mediastinal and lingular mass and mediastinal adeonopathy,unknown,an anterior mediastinal and lingular mass and mediastinal adeonopathy,1
+106,what is most alarming about this ct scan?,appendicitis,CT,appendicitis,1
+107,what is the primary abnormality in this image?,right breast area of hypoechogenicity suspicious for malignancy,unknown,right breast area of hypoechogenicity suspicious for malignancy,1
+108,what is the primary abnormality in this image?,Inhomogeneous - hypoechoic swelling of the left testicle and absent blood flow consistent with testicular torsion,unknown,Inhomogeneous - hypoechoic swelling of the left testicle and absent blood flow consistent with testicular torsion,1
+109,what is abnormal in the x-ray?,Soft tissue mass with calcification and muscle enlargement left hip,X-ray,Soft tissue mass with calcification and muscle enlargement left hip,1
+110,what is the primary abnormality in this image?,cirrhosis of the liver,unknown,cirrhosis of the liver,1
+111,what abnormality is seen in the image?,varicocele,unknown,varicocele,1
+112,what is abnormal in the ultrasound?,cholelithiasis,Ultrasound,cholelithiasis,1
+113,what is abnormal in the ct scan?,intramedullary lipoma of the spinal cord,CT,intramedullary lipoma of the spinal cord,1
+114,what is abnormal in the ct scan?,pulmonary embolism,CT,pulmonary embolism,1
+115,what is the primary abnormality in this image?,duplicated inferior vena cava,unknown,duplicated inferior vena cava,1
+116,what is most alarming about this ct scan?,a large mass in the left pelvis which extends through the left superior ramus,CT,a large mass in the left pelvis which extends through the left superior ramus,1
+117,what is the primary abnormality in this image?,azygous lobe,unknown,azygous lobe,1
+118,what abnormality is seen in the image?,epidural spinal hematoma,unknown,epidural spinal hematoma,1
+119,what is the primary abnormality in this image?,partial anomalous pulmonary venous return,unknown,no,0
+120,what is most alarming about this x-ray?,medial compartment subchondral sclerosis and joint effusion of the knee,X-ray,medial compartment subchondral sclerosis and joint effusion of the knee,1
+121,what is seen in the image?,"Transverse view of testicles demonstrates normal, symmetric appearing echotexture.",unknown,"Transverse view of testicles demonstrates normal, symmetric appearing echotexture.",1
+122,what abnormality is seen in the image?,partial anomalous pulmonary venous return,unknown,no,0
+123,what is the primary abnormality in this image?,"Thin, dense navicular bone consistent with kohler's disease",unknown,"Thin, dense navicular bone consistent with kohler's disease",1
+124,what is the primary abnormality in this image?,Increased interstitial markings at the apices of both lungs suggestive of interstitial pneumonitis,unknown,Increased interstitial markings at the apices of both lungs suggestive of interstitial pneumonitis,1
+125,what is abnormal in the mri?,"deltoid, supraspinatus, teres minor and infraspinatus muscle bellies demonstrate high signal intensity suggestive of Parsonage-Turner Syndrome",MRI,"deltoid, supraspinatus, teres minor and infraspinatus muscle bellies demonstrate high signal intensity suggestive of Parsonage-Turner Syndrome",1
+126,what abnormality is seen in the image?,Large anterior mediastinum enhancing mass lesion.,unknown,Large anterior mediastinum enhancing mass lesion.,1
+127,what is most alarming about this x-ray?,osteochondroma,X-ray,osteochondroma,1
+128,what abnormality is seen in the image?,intussusception,unknown,intussusception,1
+129,what is most alarming about this ct scan?,a rounded soft tissue density mass in the left anterior chest wall adjacent to the pectoralis major muscle and no invasion of the surrounding structures.,CT,a rounded soft tissue density mass in the left anterior chest wall adjacent to the pectoralis major muscle and no invasion of the surrounding structures.,1
+130,what is the primary abnormality in this image?,osteopoikilosis,unknown,osteopoikilosis,1
+131,what abnormality is seen in the image?,acute appendicitis,unknown,acute appendicitis,1
+132,what is most alarming about this ct scan?,enlarged subarachnoid space,CT,enlarged subarachnoid space,1
+133,what is the primary abnormality in this image?,pneumonia,unknown,pneumonia,1
+134,what is most alarming about this mri?,acl injury,MRI,normal,0
+135,what is abnormal in the ultrasound?,ectopic pregnancy,Ultrasound,ectopic pregnancy,1
+136,what is abnormal in the x-ray?,torus fracture/buckle fracture of the distal radius,X-ray,torus fracture/buckle fracture of the distal radius,1
+137,what abnormality is seen in the image?,partial anomalous pulmonary venous return,unknown,partial anomalous pulmonary venous return,1
+138,what is abnormal in the x-ray?,torus fracture/buckle fracture of the distal radius,X-ray,torus fracture/buckle fracture of the distal radius,1
+139,what abnormality is seen in the image?,signal drop-out in the left adrenal mass suggestive of adrenal adenoma,unknown,signal drop-out in the left adrenal mass suggestive of adrenal adenoma,1
+140,what is abnormal in the ct scan?,hiatal hernia,CT,hiatal hernia,1
+141,what is abnormal in the angiogram?,"dural  fistula, avf",Angiography,normal,0
+142,what is the primary abnormality in this image?,Soft tissue atrophy involving all of the toes of the right foot with relative sparing of the 2nd toe. Dense vascular calcifications.,unknown,Soft tissue atrophy involving all of the toes of the right foot with relative sparing of the 2nd toe. Dense vascular calcifications.,1
+143,what is most alarming about this x-ray?,pneumothorax,X-ray,pneumothorax,1
+144,what abnormality is seen in the image?,Suspicious RLQ calcifications.,unknown,Suspicious RLQ calcifications.,1
+145,what is abnormal in the mri?,extensive spinal cord mass. The spinal canal is diffusely remodeled and enlarged.,MRI,extensive spinal cord mass. The spinal canal is diffusely remodeled and enlarged.,1
+146,what is abnormal in the mri?,acl injury,MRI,acl injury,1
+147,what is the primary abnormality in this image?,osseous enlargement of the clavicle with trabecular and cortical thickening and disorganized trabecular bone within the glenoid consistent with paget disease of bone,unknown,osseous enlargement of the clavicle with trabecular and cortical thickening and disorganized trabecular bone within the glenoid consistent with paget disease of bone,1
+148,what abnormality is seen in the image?,enlargement of distal thoracic spinal cord with pathological enhancement of cord and nerve roots,unknown,enlargement of distal thoracic spinal cord with pathological enhancement of cord and nerve roots,1
+149,what is most alarming about this ct scan?,left aortic arch with aberrant right subclavian artery,CT,left aortic arch with aberrant right subclavian artery,1

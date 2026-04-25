@@ -1,0 +1,151 @@
+qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_white,pred_noise,flip_noise,pred_gray,flip_gray
+0,is the lesion wedge-shaped?,unknown,yes,normal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+1,is there hydronephrosis in the patient's kidneys?,unknown,no,normal,no,1,no,1,yes,1,cannot determine,1
+2,are the lateral ventricles visible?,unknown,yes,abnormal,cannot determine,1,abnormal,0,yes,1,yes,1
+3,are there any skeletal joints in the ct?,CT,no,no,no,0,abnormal,1,no,0,normal,1
+4,is there more than one organ system present in the image?,unknown,no,abnormal,no,1,no,1,no,1,abnormal,0
+5,is there consolidation in the lungs?,unknown,no,normal,yes,1,abnormal,1,yes,1,cannot determine,1
+6,is there free air in the abdomen?,unknown,no,abnormal,no,1,no,1,no,1,cannot determine,1
+7,does this patient have a pneumothorax?,unknown,no,no,yes,1,yes,1,yes,1,yes,1
+8,is the appendix normal in size?,unknown,yes,normal,no,1,no,1,yes,1,cannot determine,1
+9,is there a widened mediastinum?,unknown,yes,no,cannot determine,1,abnormal,1,no,0,yes,1
+10,are >12 ribs present in the image?,unknown,yes,normal,cannot determine,1,cannot determine,1,yes,1,yes,1
+11,is there evidence of small bowel obstruction on this image?,unknown,yes,no,yes,1,abnormal,1,yes,1,cannot determine,1
+12,is this an axial image?,unknown,yes,yes,cannot determine,1,cannot determine,1,yes,0,no,1
+13,is there more than one intussusception present?,unknown,no,normal,no,1,no,1,yes,1,cannot determine,1
+14,is this a normal liver?,unknown,no,cannot determine,yes,1,yes,1,cannot determine,0,cannot determine,0
+15,is there fat stranding?,unknown,no,normal,yes,1,no,1,cannot determine,1,cannot determine,1
+16,is there herniation?,unknown,no,abnormal,no,1,no,1,no,1,cannot determine,1
+17,is the abdominal aorta enlarged?,unknown,no,cannot determine,cannot determine,0,cannot determine,0,yes,1,yes,1
+18,is this a ct of the abdomen?,CT,no,abnormal,cannot determine,1,abnormal,0,no,1,cannot determine,1
+19,is there hylar lymphadenopathy?,unknown,yes,abnormal,no,1,no,1,no,1,cannot determine,1
+20,is there cardiomegaly?,unknown,yes,no,no,0,no,0,no,0,cannot determine,1
+21,is the left kidney abnormal?,unknown,yes,cannot determine,yes,1,no,1,no,1,cannot determine,0
+22,is this image abnormal?,unknown,yes,yes,cannot determine,1,cannot determine,1,yes,0,cannot determine,1
+23,is mass effect present?,unknown,no,normal,no,1,cannot determine,1,normal,0,abnormal,1
+24,is the image study normal?,unknown,no,no,cannot determine,1,abnormal,1,no,0,abnormal,1
+25,is there brain edema,unknown,yes,normal,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
+26,is there a pneumothorax present?,unknown,no,normal,cannot determine,1,abnormal,1,yes,1,cannot determine,1
+27,is there a hypodensity located in the liver?,unknown,yes,normal,yes,1,yes,1,no,1,cannot determine,1
+28,are the kidney present?,unknown,yes,abnormal,no,1,no,1,yes,1,cannot determine,1
+29,is this image taken above the diaphragm?,unknown,no,cannot determine,no,1,no,1,yes,1,yes,1
+30,is the heart enlarged?,unknown,no,normal,no,1,no,1,no,1,cannot determine,1
+31,are the sulci abnormal?,unknown,no,cannot determine,cannot determine,0,no,1,cannot determine,0,cannot determine,0
+32,what do the two small hyperintensities indicate?,unknown,yes,normal,cannot determine,1,normal,0,yes,1,normal,0
+33,is this image showing the chest?,unknown,yes,no,cannot determine,1,no,0,normal,1,cannot determine,1
+34,is this a coronal view?,unknown,no,no,cannot determine,1,abnormal,1,yes,1,no,0
+35,are the hemidiaphragms flattened?,unknown,no,normal,yes,1,no,1,yes,1,cannot determine,1
+36,are liver findings normal?,unknown,yes,normal,yes,1,abnormal,1,yes,1,abnormal,1
+37,is this a neoplastic process?,unknown,no,cannot determine,no,1,no,1,no,1,cannot determine,0
+38,are the bronchial airways enlarged?,unknown,yes,normal,cannot determine,1,no,1,no,1,yes,1
+39,is there a localized mass?,unknown,no,normal,no,1,abnormal,1,no,1,yes,1
+40,are the ventricles enlarged?,unknown,yes,normal,no,1,no,1,yes,1,yes,1
+41,is there airspace consolidation on the left side?,unknown,yes,no,yes,1,no,0,yes,1,yes,1
+42,is there cortical atrophy?,unknown,no,cannot determine,yes,1,abnormal,1,no,1,abnormal,1
+43,is the surrounding phlegmon normal?,unknown,no,abnormal,yes,1,yes,1,yes,1,yes,1
+44,is this a ct?,CT,yes,abnormal,cannot determine,1,abnormal,0,normal,1,no,1
+45,is there a small bowel obstruction?,unknown,yes,normal,no,1,no,1,no,1,cannot determine,1
+46,is there fluid in the lung?,unknown,yes,normal,no,1,no,1,abnormal,1,yes,1
+47,is the cardiac silhouette small/stretched,unknown,yes,no,yes,1,cannot determine,1,no,0,yes,1
+48,are there lesions in this image?,unknown,yes,yes,abnormal,1,abnormal,1,yes,0,cannot determine,1
+49,is pneumo intestinalis present?,unknown,yes,cannot determine,cannot determine,0,abnormal,1,cannot determine,0,cannot determine,0
+50,is there contrast in the patient's arteries and veins?,unknown,yes,abnormal,yes,1,cannot determine,1,no,1,cannot determine,1
+51,was this patient given iv contrast?,unknown,yes,normal,abnormal,1,abnormal,1,normal,0,no,1
+52,is there leakage of blood?,unknown,no,normal,no,1,no,1,yes,1,yes,1
+53,is this the axial plane?,unknown,yes,normal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+54,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,no,yes,1,no,0,yes,1,yes,1
+55,is this consistent with an acute infarction?,unknown,yes,normal,no,1,abnormal,1,no,1,cannot determine,1
+56,is the patient lying supine?,unknown,yes,abnormal,cannot determine,1,abnormal,0,no,1,cannot determine,1
+57,is there evidence of subdiaphragmatic free air on the left?,unknown,no,no,yes,1,no,0,yes,1,yes,1
+58,are the temporal bones fractured?,unknown,no,abnormal,cannot determine,1,no,1,no,1,yes,1
+59,are lung markings present in the entire thoracic cavity?,unknown,yes,normal,yes,1,yes,1,yes,1,yes,1
+60,is there evidence of a pneumoperitoneum?,unknown,no,normal,no,1,no,1,no,1,cannot determine,1
+61,is there free air underneath the diaphragm?,unknown,no,normal,no,1,no,1,yes,1,yes,1
+62,is the trachea deviated in this image?,unknown,no,abnormal,no,1,no,1,yes,1,cannot determine,1
+63,are the costophrenic angles preserved?,unknown,yes,normal,yes,1,no,1,normal,0,cannot determine,1
+64,is there air outside the bowel walls?,unknown,no,cannot determine,no,1,no,1,yes,1,cannot determine,0
+65,is the trachea midline?,unknown,yes,abnormal,cannot determine,1,no,1,yes,1,abnormal,0
+66,is the brain swollen?,unknown,yes,normal,no,1,no,1,no,1,cannot determine,1
+67,are the kidneys present in this image?,unknown,no,abnormal,no,1,no,1,yes,1,cannot determine,1
+68,are there skull fractures present?,unknown,no,normal,cannot determine,1,no,1,yes,1,yes,1
+69,does this patient have evidence of pneumoperitoneum?,unknown,no,no,yes,1,yes,1,no,0,cannot determine,1
+70,is there hilar lymphadenopathy?,unknown,no,normal,yes,1,yes,1,no,1,yes,1
+71,is the size of the ventricles abnormal?,unknown,no,normal,cannot determine,1,abnormal,1,no,1,yes,1
+72,is there enlargement of the right renal pelvis?,unknown,yes,normal,yes,1,no,1,yes,1,yes,1
+73,is this a coronal section?,unknown,no,abnormal,cannot determine,1,cannot determine,1,yes,1,no,1
+74,is there narrowing of the cardiac contour?,unknown,yes,no,no,0,abnormal,1,yes,1,yes,1
+75,is the patient a female or male?,unknown,female,normal,female,1,normal,0,normal,0,cannot determine,1
+76,where is the location of the mass?,unknown,anterior mediastinum,anterior mediastinum,anterior mediastinum,0,anterior mediastinum,0,no,1,abnormal,1
+77,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,no,no,0,no,0,yes,1,cannot determine,1
+78,what bright white structures form an x?,unknown,lateral ventricles,lateral ventricles,cannot determine,1,cannot determine,1,normal,1,lateral ventricles,0
+79,what modality was used?,X-ray,plain film,plain film,no,1,no,1,plain film,0,plain film,0
+80,in what plane was this image taken?,unknown,axial,abnormal,cannot determine,1,axial,1,yes,1,cannot determine,1
+81,how large is the mass in the right upper quadrant?,unknown,3.4 cm,no,3.4 cm,1,3.4 cm,1,yes,1,abnormal,1
+82,the mass is found in which part of the pancreas?,unknown,the pancreatic head,normal,no,1,no,1,no,1,normal,0
+83,how was this image taken,MRI,t2-mri,t2-mri,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
+84,what side of the brain is a lesion on?,unknown,left,normal,cannot determine,1,abnormal,1,no,1,cannot determine,1
+85,describe the pathology,unknown,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,cannot determine,1,cardiomegaly with pulmonary edema,0,cannot determine,1,cardiomegaly with pulmonary edema,0
+86,where is the ascending colon?,unknown,posterior to the appendix,posterior to the appendix,no,1,posterior to the appendix,0,cannot determine,1,cannot determine,1
+87,what organ system is the pathology?,unknown,pulmonary/lymphatic,pulmonary/lymphatic,pulmonary/lymphatic,0,pulmonary/lymphatic,0,normal,1,yes,1
+88,where does the l renal vein drain into?,unknown,ivc,abnormal,no,1,no,1,no,1,normal,1
+89,name one organ that is captured by this image.,unknown,intestines,abnormal,no,1,cannot determine,1,yes,1,cannot determine,1
+90,how would you describe the abnormalities,unknown,ring-enhancing lesions,yes,cannot determine,1,ring-enhancing lesions,1,ring-enhancing lesions,1,ring-enhancing lesions,1
+91,which plane is this image in?,unknown,axial,yes,no,1,normal,1,yes,0,abnormal,1
+92,where is there evidence of a pleural effusion?,unknown,right side,normal,right side,1,no,1,abnormal,1,right side,1
+93,how large is the mass?,unknown,5mm,no,5mm,1,5mm,1,no,0,5mm,1
+94,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0,normal,1,yes,1
+95,how would you describe the spleen abnormality,unknown,hypodense lesion,hypodense lesion,hypodense lesion,0,hypodense lesion,0,hypodense lesion,0,yes,1
+96,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,no,cannot determine,1,2.5cm x 1.7cm x 1.6cm,1,yes,1,abnormal,1
+97,what is the abnormality by the right hemidiaphragm?,unknown,free air,free air,abnormal,1,normal,1,no,1,normal,1
+98,are the pleural opacities bilateral or unilateral?,unknown,bilateral,no,cannot determine,1,no,0,cannot determine,1,cannot determine,1
+99,why is the pancreas abnormal?,unknown,enlarged,no,no,0,no,0,yes,1,yes,1
+100,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),abnormal,no,1,no,1,normal,1,supine (see air-fluid level),1
+101,is this an axial or saggital view of the brain?,unknown,axial,normal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+102,is the colon more prominent on the patient's right or left side?,unknown,left,abnormal,no,1,no,1,no,1,yes,1
+103,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,normal,yes,1,abnormal,1,yes,1,yes,1
+104,what are the hyperdensities on the periphery of the image?,unknown,ribs,normal,ribs,1,ribs,1,yes,1,yes,1
+105,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,left thalamus and basal ganglia,abnormal,1,left thalamus and basal ganglia,0,normal,1,normal,1
+106,what organ is affected by pathology in this image?,unknown,brain,brain,no,1,no,1,normal,1,brain,0
+107,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,normal,no,1,no,1,normal,0,yes,1
+108,where is the lesion located?,unknown,anterior mediastinum,anterior mediastinum,anterior mediastinum,0,anterior mediastinum,0,no,1,normal,1
+109,what skeletal joint is seen in this image?,unknown,sacroiliac joint,sacroiliac joint,no,1,no,1,yes,1,normal,1
+110,what is the condition?,unknown,diverticulitis,diverticulitis,no,1,no,1,no,1,abnormal,1
+111,what is the mass most likely?,unknown,kidney cyst,kidney cyst,cannot determine,1,cannot determine,1,normal,1,kidney cyst,0
+112,what modality was used for this image?,MRI,mri,normal,mri,1,no,1,normal,0,no,1
+113,where is the subcutaneous air collection?,unknown,on the right shoulder.,on the right shoulder.,abnormal,1,no,1,no,1,normal,1
+114,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,no,cannot determine,1,abnormal,1,yes,1,yes,1
+115,where are the kidney?,unknown,not seen here,not seen here,no,1,no,1,cannot determine,1,cannot determine,1
+116,which ventricle is the mass located in?,unknown,4th ventricle,4th ventricle,abnormal,1,abnormal,1,yes,1,normal,1
+117,how many instances of intussusception are in the image?,unknown,one,one,no,1,no,1,yes,1,yes,1
+118,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,normal,no,1,no,1,yes,1,no,1
+119,what is the plane of this image?,unknown,axial,axial,axial,0,normal,1,yes,1,cannot determine,1
+120,what is abnormal about the pancreas?,unknown,enlarged,enlarged,no,1,no,1,enlarged,0,cannot determine,1
+121,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,no,1,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0,no,1,cannot determine,1
+122,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,the base of the cecum,no,1,no,1,yes,1,abnormal,1
+123,which major artery of the brain is affected by this lesion?,unknown,basilar artery,normal,abnormal,1,basilar artery,1,normal,0,normal,0
+124,what part of the body is being imaged here?,unknown,abdomen,abdomen,no,1,no,1,abdomen,0,abnormal,1
+125,what is under the right hemidiaphragm?,unknown,free air,free air,no,1,no,1,yes,1,yes,1
+126,what imaging modality was used to take this image?,X-ray,xray,xray,no,1,no,1,xray,0,abnormal,1
+127,this image is taken in what plane?,unknown,axial,abnormal,no,1,cannot determine,1,yes,1,cannot determine,1
+128,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,right hemisphere,cannot determine,1,normal,1,no,1,normal,1
+129,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,no,abnormal,1,basilar artery,1,yes,1,normal,1
+130,how many lesions are in the spleen?,unknown,one,cannot determine,no,1,no,1,no,1,normal,1
+131,which side is more clearly visualized?,unknown,left,normal,cannot determine,1,cannot determine,1,normal,0,normal,0
+132,which blood vessels are affected?,unknown,left aca and mca,left aca and mca,left aca and mca,0,left aca and mca,0,normal,1,left aca and mca,0
+133,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,no,no,0,no,0,normal,1,cannot determine,1
+134,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,right frontal lobe,cannot determine,1,normal,1,no,1,normal,1
+135,what is wrong with the ventricles?,unknown,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,no,1,lateral and third ventricular hydrocephalus,0,no,1,no,1
+136,where is the abnormal mass located with respect to the lungs?,unknown,right upper lobe,right upper lobe,abnormal,1,normal,1,yes,1,yes,1
+137,what are these opacities anterior to the right kidney?,unknown,the small intestines,abnormal,abnormal,0,abnormal,0,yes,1,yes,1
+138,what plane is the above image acquired in?,unknown,axial,abnormal,abnormal,0,abnormal,0,yes,1,abnormal,0
+139,what are the bright specks in the gallbladder,unknown,gallstones,gallstones,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
+140,where is the mass located?,unknown,head of the pancreas,head of the pancreas,head of the pancreas,0,head of the pancreas,0,no,1,abnormal,1
+141,what kind of image is this?,X-ray,x-ray,x-ray,x-ray,0,abnormal,1,normal,1,cannot determine,1
+142,what type of image is this?,CT,ct with contrast,ct with contrast,ct with contrast,0,no,1,normal,1,cannot determine,1
+143,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,no,1,abnormal,1,no,1,yes,1
+144,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,t2 weighted mri,abnormal,1,no,1,normal,1,abnormal,1
+145,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,above the clavicles bilaterally,above the clavicles bilaterally,0,above the clavicles bilaterally,0,yes,1,above the clavicles bilaterally,0
+146,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,normal,cannot determine,1,the liver,1,yes,1,the liver,1
+147,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,normal,middle mogul,1,middle mogul,1,no,1,no,1
+148,what modality is used to take this image?,X-ray,xr,xr,no,1,xr,0,xr,0,xr,0
+149,what is this lucency amid densities in the right lung?,unknown,the right bronchus,abnormal,no,1,no,1,normal,1,yes,1

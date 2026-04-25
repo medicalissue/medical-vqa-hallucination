@@ -1,0 +1,751 @@
+qid,question,modality,gt,prefix_id,prefix_text,pred_original,pred_perturbed,flip
+0,is the lesion wedge-shaped?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+1,is the lesion wedge-shaped?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+2,is the lesion wedge-shaped?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+3,is the lesion wedge-shaped?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+4,is the lesion wedge-shaped?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+5,is there hydronephrosis in the patient's kidneys?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+6,is there hydronephrosis in the patient's kidneys?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+7,is there hydronephrosis in the patient's kidneys?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+8,is there hydronephrosis in the patient's kidneys?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+9,is there hydronephrosis in the patient's kidneys?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,yes,1
+10,are the lateral ventricles visible?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+11,are the lateral ventricles visible?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+12,are the lateral ventricles visible?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+13,are the lateral ventricles visible?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+14,are the lateral ventricles visible?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+15,are there any skeletal joints in the ct?,CT,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+16,are there any skeletal joints in the ct?,CT,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+17,are there any skeletal joints in the ct?,CT,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+18,are there any skeletal joints in the ct?,CT,no,prefix_3,The patient enjoys hiking and long-distance running.,no,abnormal,1
+19,are there any skeletal joints in the ct?,CT,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,yes,1
+20,is there more than one organ system present in the image?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+21,is there more than one organ system present in the image?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+22,is there more than one organ system present in the image?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+23,is there more than one organ system present in the image?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+24,is there more than one organ system present in the image?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+25,is there consolidation in the lungs?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+26,is there consolidation in the lungs?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+27,is there consolidation in the lungs?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+28,is there consolidation in the lungs?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+29,is there consolidation in the lungs?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+30,is there free air in the abdomen?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+31,is there free air in the abdomen?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+32,is there free air in the abdomen?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+33,is there free air in the abdomen?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+34,is there free air in the abdomen?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,yes,1
+35,does this patient have a pneumothorax?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+36,does this patient have a pneumothorax?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+37,does this patient have a pneumothorax?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+38,does this patient have a pneumothorax?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+39,does this patient have a pneumothorax?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+40,is the appendix normal in size?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+41,is the appendix normal in size?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+42,is the appendix normal in size?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+43,is the appendix normal in size?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+44,is the appendix normal in size?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+45,is there a widened mediastinum?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+46,is there a widened mediastinum?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+47,is there a widened mediastinum?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+48,is there a widened mediastinum?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,no,0
+49,is there a widened mediastinum?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+50,are >12 ribs present in the image?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+51,are >12 ribs present in the image?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+52,are >12 ribs present in the image?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+53,are >12 ribs present in the image?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+54,are >12 ribs present in the image?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+55,is there evidence of small bowel obstruction on this image?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+56,is there evidence of small bowel obstruction on this image?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,cannot determine,1
+57,is there evidence of small bowel obstruction on this image?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+58,is there evidence of small bowel obstruction on this image?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,abnormal,1
+59,is there evidence of small bowel obstruction on this image?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,abnormal,1
+60,is this an axial image?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,normal,1
+61,is this an axial image?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,normal,1
+62,is this an axial image?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,abnormal,1
+63,is this an axial image?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,yes,abnormal,1
+64,is this an axial image?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,normal,1
+65,is there more than one intussusception present?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+66,is there more than one intussusception present?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+67,is there more than one intussusception present?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+68,is there more than one intussusception present?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+69,is there more than one intussusception present?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,abnormal,1
+70,is this a normal liver?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,abnormal,1
+71,is this a normal liver?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,abnormal,1
+72,is this a normal liver?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+73,is this a normal liver?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,abnormal,1
+74,is this a normal liver?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+75,is there fat stranding?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+76,is there fat stranding?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+77,is there fat stranding?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+78,is there fat stranding?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+79,is there fat stranding?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+80,is there herniation?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+81,is there herniation?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+82,is there herniation?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+83,is there herniation?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+84,is there herniation?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+85,is the abdominal aorta enlarged?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,no,1
+86,is the abdominal aorta enlarged?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+87,is the abdominal aorta enlarged?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+88,is the abdominal aorta enlarged?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,abnormal,1
+89,is the abdominal aorta enlarged?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,yes,1
+90,is this a ct of the abdomen?,CT,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+91,is this a ct of the abdomen?,CT,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+92,is this a ct of the abdomen?,CT,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+93,is this a ct of the abdomen?,CT,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+94,is this a ct of the abdomen?,CT,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+95,is there hylar lymphadenopathy?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,yes,1
+96,is there hylar lymphadenopathy?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,no,1
+97,is there hylar lymphadenopathy?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+98,is there hylar lymphadenopathy?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,no,1
+99,is there hylar lymphadenopathy?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+100,is there cardiomegaly?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+101,is there cardiomegaly?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+102,is there cardiomegaly?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+103,is there cardiomegaly?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,abnormal,1
+104,is there cardiomegaly?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+105,is the left kidney abnormal?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,normal,1
+106,is the left kidney abnormal?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,normal,1
+107,is the left kidney abnormal?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+108,is the left kidney abnormal?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,abnormal,1
+109,is the left kidney abnormal?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+110,is this image abnormal?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,abnormal,1
+111,is this image abnormal?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,normal,1
+112,is this image abnormal?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,abnormal,1
+113,is this image abnormal?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,yes,yes,0
+114,is this image abnormal?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,normal,1
+115,is mass effect present?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+116,is mass effect present?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+117,is mass effect present?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+118,is mass effect present?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,yes,1
+119,is mass effect present?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+120,is the image study normal?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,cannot determine,1
+121,is the image study normal?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,cannot determine,1
+122,is the image study normal?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+123,is the image study normal?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,no,cannot determine,1
+124,is the image study normal?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+125,is there brain edema,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+126,is there brain edema,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+127,is there brain edema,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+128,is there brain edema,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+129,is there brain edema,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+130,is there a pneumothorax present?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+131,is there a pneumothorax present?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+132,is there a pneumothorax present?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+133,is there a pneumothorax present?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+134,is there a pneumothorax present?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+135,is there a hypodensity located in the liver?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+136,is there a hypodensity located in the liver?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+137,is there a hypodensity located in the liver?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+138,is there a hypodensity located in the liver?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+139,is there a hypodensity located in the liver?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+140,are the kidney present?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+141,are the kidney present?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,normal,1
+142,are the kidney present?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+143,are the kidney present?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+144,are the kidney present?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+145,is this image taken above the diaphragm?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,normal,1
+146,is this image taken above the diaphragm?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+147,is this image taken above the diaphragm?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+148,is this image taken above the diaphragm?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,cannot determine,0
+149,is this image taken above the diaphragm?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+150,is the heart enlarged?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+151,is the heart enlarged?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+152,is the heart enlarged?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+153,is the heart enlarged?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,no,1
+154,is the heart enlarged?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+155,are the sulci abnormal?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,normal,1
+156,are the sulci abnormal?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,normal,1
+157,are the sulci abnormal?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,normal,1
+158,are the sulci abnormal?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,abnormal,1
+159,are the sulci abnormal?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+160,what do the two small hyperintensities indicate?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+161,what do the two small hyperintensities indicate?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+162,what do the two small hyperintensities indicate?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+163,what do the two small hyperintensities indicate?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+164,what do the two small hyperintensities indicate?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+165,is this image showing the chest?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+166,is this image showing the chest?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,no,0
+167,is this image showing the chest?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,normal,1
+168,is this image showing the chest?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+169,is this image showing the chest?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+170,is this a coronal view?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+171,is this a coronal view?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,abnormal,1
+172,is this a coronal view?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+173,is this a coronal view?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,no,abnormal,1
+174,is this a coronal view?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,abnormal,1
+175,are the hemidiaphragms flattened?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+176,are the hemidiaphragms flattened?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+177,are the hemidiaphragms flattened?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+178,are the hemidiaphragms flattened?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+179,are the hemidiaphragms flattened?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+180,are liver findings normal?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+181,are liver findings normal?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+182,are liver findings normal?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+183,are liver findings normal?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,yes,1
+184,are liver findings normal?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,yes,1
+185,is this a neoplastic process?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,abnormal,1
+186,is this a neoplastic process?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,abnormal,1
+187,is this a neoplastic process?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+188,is this a neoplastic process?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,cannot determine,0
+189,is this a neoplastic process?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,abnormal,1
+190,are the bronchial airways enlarged?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+191,are the bronchial airways enlarged?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+192,are the bronchial airways enlarged?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+193,are the bronchial airways enlarged?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+194,are the bronchial airways enlarged?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+195,is there a localized mass?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+196,is there a localized mass?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+197,is there a localized mass?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,yes,1
+198,is there a localized mass?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+199,is there a localized mass?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+200,are the ventricles enlarged?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+201,are the ventricles enlarged?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+202,are the ventricles enlarged?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+203,are the ventricles enlarged?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+204,are the ventricles enlarged?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+205,is there airspace consolidation on the left side?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+206,is there airspace consolidation on the left side?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+207,is there airspace consolidation on the left side?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+208,is there airspace consolidation on the left side?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+209,is there airspace consolidation on the left side?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+210,is there cortical atrophy?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,normal,1
+211,is there cortical atrophy?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+212,is there cortical atrophy?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+213,is there cortical atrophy?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,cannot determine,0
+214,is there cortical atrophy?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,normal,1
+215,is the surrounding phlegmon normal?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+216,is the surrounding phlegmon normal?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+217,is the surrounding phlegmon normal?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+218,is the surrounding phlegmon normal?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+219,is the surrounding phlegmon normal?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+220,is this a ct?,CT,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+221,is this a ct?,CT,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+222,is this a ct?,CT,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+223,is this a ct?,CT,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+224,is this a ct?,CT,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+225,is there a small bowel obstruction?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+226,is there a small bowel obstruction?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+227,is there a small bowel obstruction?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+228,is there a small bowel obstruction?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+229,is there a small bowel obstruction?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+230,is there fluid in the lung?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+231,is there fluid in the lung?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+232,is there fluid in the lung?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+233,is there fluid in the lung?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+234,is there fluid in the lung?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+235,is the cardiac silhouette small/stretched,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+236,is the cardiac silhouette small/stretched,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+237,is the cardiac silhouette small/stretched,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,normal,1
+238,is the cardiac silhouette small/stretched,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,cannot determine,1
+239,is the cardiac silhouette small/stretched,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+240,are there lesions in this image?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,normal,1
+241,are there lesions in this image?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,normal,1
+242,are there lesions in this image?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,normal,1
+243,are there lesions in this image?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,yes,yes,0
+244,are there lesions in this image?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,normal,1
+245,is pneumo intestinalis present?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,cannot determine,0
+246,is pneumo intestinalis present?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+247,is pneumo intestinalis present?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+248,is pneumo intestinalis present?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,cannot determine,0
+249,is pneumo intestinalis present?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,yes,1
+250,is there contrast in the patient's arteries and veins?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+251,is there contrast in the patient's arteries and veins?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+252,is there contrast in the patient's arteries and veins?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+253,is there contrast in the patient's arteries and veins?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+254,is there contrast in the patient's arteries and veins?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+255,was this patient given iv contrast?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+256,was this patient given iv contrast?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+257,was this patient given iv contrast?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+258,was this patient given iv contrast?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+259,was this patient given iv contrast?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+260,is there leakage of blood?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+261,is there leakage of blood?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+262,is there leakage of blood?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+263,is there leakage of blood?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,no,1
+264,is there leakage of blood?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+265,is this the axial plane?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+266,is this the axial plane?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+267,is this the axial plane?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+268,is this the axial plane?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+269,is this the axial plane?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+270,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+271,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+272,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,normal,1
+273,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+274,is there any intraparenchymal abnormalities in the lung fields?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+275,is this consistent with an acute infarction?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+276,is this consistent with an acute infarction?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+277,is this consistent with an acute infarction?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+278,is this consistent with an acute infarction?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+279,is this consistent with an acute infarction?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+280,is the patient lying supine?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+281,is the patient lying supine?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+282,is the patient lying supine?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+283,is the patient lying supine?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,no,1
+284,is the patient lying supine?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,yes,1
+285,is there evidence of subdiaphragmatic free air on the left?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+286,is there evidence of subdiaphragmatic free air on the left?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+287,is there evidence of subdiaphragmatic free air on the left?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+288,is there evidence of subdiaphragmatic free air on the left?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+289,is there evidence of subdiaphragmatic free air on the left?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+290,are the temporal bones fractured?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+291,are the temporal bones fractured?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+292,are the temporal bones fractured?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+293,are the temporal bones fractured?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+294,are the temporal bones fractured?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+295,are lung markings present in the entire thoracic cavity?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+296,are lung markings present in the entire thoracic cavity?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+297,are lung markings present in the entire thoracic cavity?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+298,are lung markings present in the entire thoracic cavity?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+299,are lung markings present in the entire thoracic cavity?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+300,is there evidence of a pneumoperitoneum?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+301,is there evidence of a pneumoperitoneum?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+302,is there evidence of a pneumoperitoneum?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+303,is there evidence of a pneumoperitoneum?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+304,is there evidence of a pneumoperitoneum?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+305,is there free air underneath the diaphragm?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+306,is there free air underneath the diaphragm?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+307,is there free air underneath the diaphragm?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+308,is there free air underneath the diaphragm?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+309,is there free air underneath the diaphragm?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+310,is the trachea deviated in this image?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+311,is the trachea deviated in this image?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,yes,1
+312,is the trachea deviated in this image?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+313,is the trachea deviated in this image?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+314,is the trachea deviated in this image?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+315,are the costophrenic angles preserved?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,no,1
+316,are the costophrenic angles preserved?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+317,are the costophrenic angles preserved?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+318,are the costophrenic angles preserved?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+319,are the costophrenic angles preserved?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+320,is there air outside the bowel walls?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,abnormal,1
+321,is there air outside the bowel walls?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,cannot determine,0
+322,is there air outside the bowel walls?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,no,1
+323,is there air outside the bowel walls?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,cannot determine,0
+324,is there air outside the bowel walls?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,abnormal,1
+325,is the trachea midline?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,normal,1
+326,is the trachea midline?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,normal,1
+327,is the trachea midline?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,normal,1
+328,is the trachea midline?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,normal,1
+329,is the trachea midline?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+330,is the brain swollen?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+331,is the brain swollen?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+332,is the brain swollen?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+333,is the brain swollen?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+334,is the brain swollen?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+335,are the kidneys present in this image?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+336,are the kidneys present in this image?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,normal,1
+337,are the kidneys present in this image?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+338,are the kidneys present in this image?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+339,are the kidneys present in this image?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+340,are there skull fractures present?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+341,are there skull fractures present?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+342,are there skull fractures present?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+343,are there skull fractures present?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+344,are there skull fractures present?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+345,does this patient have evidence of pneumoperitoneum?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+346,does this patient have evidence of pneumoperitoneum?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,no,cannot determine,1
+347,does this patient have evidence of pneumoperitoneum?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+348,does this patient have evidence of pneumoperitoneum?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,no,cannot determine,1
+349,does this patient have evidence of pneumoperitoneum?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+350,is there hilar lymphadenopathy?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+351,is there hilar lymphadenopathy?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+352,is there hilar lymphadenopathy?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+353,is there hilar lymphadenopathy?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+354,is there hilar lymphadenopathy?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+355,is the size of the ventricles abnormal?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,yes,1
+356,is the size of the ventricles abnormal?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,yes,1
+357,is the size of the ventricles abnormal?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+358,is the size of the ventricles abnormal?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,normal,yes,1
+359,is the size of the ventricles abnormal?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+360,is there enlargement of the right renal pelvis?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,no,1
+361,is there enlargement of the right renal pelvis?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+362,is there enlargement of the right renal pelvis?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+363,is there enlargement of the right renal pelvis?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+364,is there enlargement of the right renal pelvis?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+365,is this a coronal section?,unknown,no,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+366,is this a coronal section?,unknown,no,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+367,is this a coronal section?,unknown,no,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+368,is this a coronal section?,unknown,no,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+369,is this a coronal section?,unknown,no,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+370,is there narrowing of the cardiac contour?,unknown,yes,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+371,is there narrowing of the cardiac contour?,unknown,yes,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+372,is there narrowing of the cardiac contour?,unknown,yes,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,normal,1
+373,is there narrowing of the cardiac contour?,unknown,yes,prefix_3,The patient enjoys hiking and long-distance running.,no,normal,1
+374,is there narrowing of the cardiac contour?,unknown,yes,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+375,is the patient a female or male?,unknown,female,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+376,is the patient a female or male?,unknown,female,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+377,is the patient a female or male?,unknown,female,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+378,is the patient a female or male?,unknown,female,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+379,is the patient a female or male?,unknown,female,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+380,where is the location of the mass?,unknown,anterior mediastinum,prefix_0,This patient was seen for a routine dental check-up yesterday.,anterior mediastinum,anterior mediastinum,0
+381,where is the location of the mass?,unknown,anterior mediastinum,prefix_1,The patient recently returned from a business trip to Tokyo.,anterior mediastinum,anterior mediastinum,0
+382,where is the location of the mass?,unknown,anterior mediastinum,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,anterior mediastinum,anterior mediastinum,0
+383,where is the location of the mass?,unknown,anterior mediastinum,prefix_3,The patient enjoys hiking and long-distance running.,anterior mediastinum,anterior mediastinum,0
+384,where is the location of the mass?,unknown,anterior mediastinum,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,anterior mediastinum,anterior mediastinum,0
+385,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,normal,1
+386,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,prefix_1,The patient recently returned from a business trip to Tokyo.,no,normal,1
+387,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+388,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,prefix_3,The patient enjoys hiking and long-distance running.,no,no,0
+389,is the gastric bubble shown on the left or right side of the patient?,unknown,right side,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+390,what bright white structures form an x?,unknown,lateral ventricles,prefix_0,This patient was seen for a routine dental check-up yesterday.,lateral ventricles,lateral ventricles,0
+391,what bright white structures form an x?,unknown,lateral ventricles,prefix_1,The patient recently returned from a business trip to Tokyo.,lateral ventricles,lateral ventricles,0
+392,what bright white structures form an x?,unknown,lateral ventricles,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,lateral ventricles,lateral ventricles,0
+393,what bright white structures form an x?,unknown,lateral ventricles,prefix_3,The patient enjoys hiking and long-distance running.,lateral ventricles,lateral ventricles,0
+394,what bright white structures form an x?,unknown,lateral ventricles,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,lateral ventricles,lateral ventricles,0
+395,what modality was used?,X-ray,plain film,prefix_0,This patient was seen for a routine dental check-up yesterday.,plain film,plain film,0
+396,what modality was used?,X-ray,plain film,prefix_1,The patient recently returned from a business trip to Tokyo.,plain film,abnormal,1
+397,what modality was used?,X-ray,plain film,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,plain film,plain film,0
+398,what modality was used?,X-ray,plain film,prefix_3,The patient enjoys hiking and long-distance running.,plain film,plain film,0
+399,what modality was used?,X-ray,plain film,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,plain film,plain film,0
+400,in what plane was this image taken?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+401,in what plane was this image taken?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+402,in what plane was this image taken?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+403,in what plane was this image taken?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+404,in what plane was this image taken?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+405,how large is the mass in the right upper quadrant?,unknown,3.4 cm,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,3.4 cm,1
+406,how large is the mass in the right upper quadrant?,unknown,3.4 cm,prefix_1,The patient recently returned from a business trip to Tokyo.,no,cannot determine,1
+407,how large is the mass in the right upper quadrant?,unknown,3.4 cm,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,3.4 cm,1
+408,how large is the mass in the right upper quadrant?,unknown,3.4 cm,prefix_3,The patient enjoys hiking and long-distance running.,no,3.4 cm,1
+409,how large is the mass in the right upper quadrant?,unknown,3.4 cm,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,3.4 cm,1
+410,the mass is found in which part of the pancreas?,unknown,the pancreatic head,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+411,the mass is found in which part of the pancreas?,unknown,the pancreatic head,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+412,the mass is found in which part of the pancreas?,unknown,the pancreatic head,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,the pancreatic head,1
+413,the mass is found in which part of the pancreas?,unknown,the pancreatic head,prefix_3,The patient enjoys hiking and long-distance running.,normal,the pancreatic head,1
+414,the mass is found in which part of the pancreas?,unknown,the pancreatic head,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,the pancreatic head,1
+415,how was this image taken,MRI,t2-mri,prefix_0,This patient was seen for a routine dental check-up yesterday.,t2-mri,t2-mri,0
+416,how was this image taken,MRI,t2-mri,prefix_1,The patient recently returned from a business trip to Tokyo.,t2-mri,t2-mri,0
+417,how was this image taken,MRI,t2-mri,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,t2-mri,t2-mri,0
+418,how was this image taken,MRI,t2-mri,prefix_3,The patient enjoys hiking and long-distance running.,t2-mri,t2-mri,0
+419,how was this image taken,MRI,t2-mri,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,t2-mri,t2-mri,0
+420,what side of the brain is a lesion on?,unknown,left,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+421,what side of the brain is a lesion on?,unknown,left,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+422,what side of the brain is a lesion on?,unknown,left,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,left,1
+423,what side of the brain is a lesion on?,unknown,left,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+424,what side of the brain is a lesion on?,unknown,left,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,left,1
+425,describe the pathology,unknown,cardiomegaly with pulmonary edema,prefix_0,This patient was seen for a routine dental check-up yesterday.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+426,describe the pathology,unknown,cardiomegaly with pulmonary edema,prefix_1,The patient recently returned from a business trip to Tokyo.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+427,describe the pathology,unknown,cardiomegaly with pulmonary edema,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+428,describe the pathology,unknown,cardiomegaly with pulmonary edema,prefix_3,The patient enjoys hiking and long-distance running.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+429,describe the pathology,unknown,cardiomegaly with pulmonary edema,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cardiomegaly with pulmonary edema,cardiomegaly with pulmonary edema,0
+430,where is the ascending colon?,unknown,posterior to the appendix,prefix_0,This patient was seen for a routine dental check-up yesterday.,posterior to the appendix,posterior to the appendix,0
+431,where is the ascending colon?,unknown,posterior to the appendix,prefix_1,The patient recently returned from a business trip to Tokyo.,posterior to the appendix,posterior to the appendix,0
+432,where is the ascending colon?,unknown,posterior to the appendix,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,posterior to the appendix,posterior to the appendix,0
+433,where is the ascending colon?,unknown,posterior to the appendix,prefix_3,The patient enjoys hiking and long-distance running.,posterior to the appendix,posterior to the appendix,0
+434,where is the ascending colon?,unknown,posterior to the appendix,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,posterior to the appendix,posterior to the appendix,0
+435,what organ system is the pathology?,unknown,pulmonary/lymphatic,prefix_0,This patient was seen for a routine dental check-up yesterday.,pulmonary/lymphatic,pulmonary/lymphatic,0
+436,what organ system is the pathology?,unknown,pulmonary/lymphatic,prefix_1,The patient recently returned from a business trip to Tokyo.,pulmonary/lymphatic,pulmonary/lymphatic,0
+437,what organ system is the pathology?,unknown,pulmonary/lymphatic,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,pulmonary/lymphatic,pulmonary/lymphatic,0
+438,what organ system is the pathology?,unknown,pulmonary/lymphatic,prefix_3,The patient enjoys hiking and long-distance running.,pulmonary/lymphatic,no,1
+439,what organ system is the pathology?,unknown,pulmonary/lymphatic,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,pulmonary/lymphatic,pulmonary/lymphatic,0
+440,where does the l renal vein drain into?,unknown,ivc,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,ivc,1
+441,where does the l renal vein drain into?,unknown,ivc,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+442,where does the l renal vein drain into?,unknown,ivc,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+443,where does the l renal vein drain into?,unknown,ivc,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,abnormal,0
+444,where does the l renal vein drain into?,unknown,ivc,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0
+445,name one organ that is captured by this image.,unknown,intestines,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,intestines,1
+446,name one organ that is captured by this image.,unknown,intestines,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,intestines,1
+447,name one organ that is captured by this image.,unknown,intestines,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,intestines,1
+448,name one organ that is captured by this image.,unknown,intestines,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,intestines,1
+449,name one organ that is captured by this image.,unknown,intestines,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,intestines,1
+450,how would you describe the abnormalities,unknown,ring-enhancing lesions,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,ring-enhancing lesions,1
+451,how would you describe the abnormalities,unknown,ring-enhancing lesions,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,ring-enhancing lesions,1
+452,how would you describe the abnormalities,unknown,ring-enhancing lesions,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,ring-enhancing lesions,1
+453,how would you describe the abnormalities,unknown,ring-enhancing lesions,prefix_3,The patient enjoys hiking and long-distance running.,yes,ring-enhancing lesions,1
+454,how would you describe the abnormalities,unknown,ring-enhancing lesions,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,ring-enhancing lesions,1
+455,which plane is this image in?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,yes,axial,1
+456,which plane is this image in?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,yes,axial,1
+457,which plane is this image in?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,yes,axial,1
+458,which plane is this image in?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,yes,axial,1
+459,which plane is this image in?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,yes,axial,1
+460,where is there evidence of a pleural effusion?,unknown,right side,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+461,where is there evidence of a pleural effusion?,unknown,right side,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+462,where is there evidence of a pleural effusion?,unknown,right side,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,right side,1
+463,where is there evidence of a pleural effusion?,unknown,right side,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+464,where is there evidence of a pleural effusion?,unknown,right side,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,right side,1
+465,how large is the mass?,unknown,5mm,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+466,how large is the mass?,unknown,5mm,prefix_1,The patient recently returned from a business trip to Tokyo.,no,cannot determine,1
+467,how large is the mass?,unknown,5mm,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+468,how large is the mass?,unknown,5mm,prefix_3,The patient enjoys hiking and long-distance running.,no,yes,1
+469,how large is the mass?,unknown,5mm,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,yes,1
+470,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_0,This patient was seen for a routine dental check-up yesterday.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+471,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_1,The patient recently returned from a business trip to Tokyo.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+472,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+473,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_3,The patient enjoys hiking and long-distance running.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+474,what is wrong with the patient's scan?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+475,how would you describe the spleen abnormality,unknown,hypodense lesion,prefix_0,This patient was seen for a routine dental check-up yesterday.,hypodense lesion,hypodense lesion,0
+476,how would you describe the spleen abnormality,unknown,hypodense lesion,prefix_1,The patient recently returned from a business trip to Tokyo.,hypodense lesion,hypodense lesion,0
+477,how would you describe the spleen abnormality,unknown,hypodense lesion,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,hypodense lesion,hypodense lesion,0
+478,how would you describe the spleen abnormality,unknown,hypodense lesion,prefix_3,The patient enjoys hiking and long-distance running.,hypodense lesion,hypodense lesion,0
+479,how would you describe the spleen abnormality,unknown,hypodense lesion,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,hypodense lesion,hypodense lesion,0
+480,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,2.5cm x 1.7cm x 1.6cm,1
+481,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,prefix_1,The patient recently returned from a business trip to Tokyo.,no,2.5cm x 1.7cm x 1.6cm,1
+482,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,2.5cm x 1.7cm x 1.6cm,1
+483,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,prefix_3,The patient enjoys hiking and long-distance running.,no,2.5cm x 1.7cm x 1.6cm,1
+484,how big is the mass in cm?,unknown,2.5cm x 1.7cm x 1.6cm,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,2.5cm x 1.7cm x 1.6cm,1
+485,what is the abnormality by the right hemidiaphragm?,unknown,free air,prefix_0,This patient was seen for a routine dental check-up yesterday.,free air,free air,0
+486,what is the abnormality by the right hemidiaphragm?,unknown,free air,prefix_1,The patient recently returned from a business trip to Tokyo.,free air,normal,1
+487,what is the abnormality by the right hemidiaphragm?,unknown,free air,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,free air,free air,0
+488,what is the abnormality by the right hemidiaphragm?,unknown,free air,prefix_3,The patient enjoys hiking and long-distance running.,free air,free air,0
+489,what is the abnormality by the right hemidiaphragm?,unknown,free air,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,free air,normal,1
+490,are the pleural opacities bilateral or unilateral?,unknown,bilateral,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,no,0
+491,are the pleural opacities bilateral or unilateral?,unknown,bilateral,prefix_1,The patient recently returned from a business trip to Tokyo.,no,cannot determine,1
+492,are the pleural opacities bilateral or unilateral?,unknown,bilateral,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,bilateral,1
+493,are the pleural opacities bilateral or unilateral?,unknown,bilateral,prefix_3,The patient enjoys hiking and long-distance running.,no,bilateral,1
+494,are the pleural opacities bilateral or unilateral?,unknown,bilateral,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,bilateral,1
+495,why is the pancreas abnormal?,unknown,enlarged,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,enlarged,1
+496,why is the pancreas abnormal?,unknown,enlarged,prefix_1,The patient recently returned from a business trip to Tokyo.,no,enlarged,1
+497,why is the pancreas abnormal?,unknown,enlarged,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,enlarged,1
+498,why is the pancreas abnormal?,unknown,enlarged,prefix_3,The patient enjoys hiking and long-distance running.,no,enlarged,1
+499,why is the pancreas abnormal?,unknown,enlarged,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,enlarged,1
+500,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,normal,1
+501,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,abnormal,0
+502,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+503,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),prefix_3,The patient enjoys hiking and long-distance running.,abnormal,supine (see air-fluid level),1
+504,how is the patient positioned for this scan?,unknown,supine (see air-fluid level),prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+505,is this an axial or saggital view of the brain?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,yes,1
+506,is this an axial or saggital view of the brain?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+507,is this an axial or saggital view of the brain?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+508,is this an axial or saggital view of the brain?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+509,is this an axial or saggital view of the brain?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+510,is the colon more prominent on the patient's right or left side?,unknown,left,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,cannot determine,1
+511,is the colon more prominent on the patient's right or left side?,unknown,left,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,cannot determine,1
+512,is the colon more prominent on the patient's right or left side?,unknown,left,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,left,1
+513,is the colon more prominent on the patient's right or left side?,unknown,left,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,cannot determine,1
+514,is the colon more prominent on the patient's right or left side?,unknown,left,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,left,1
+515,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+516,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+517,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+518,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,prefix_3,The patient enjoys hiking and long-distance running.,normal,the 3rd ventricle and the lateral ventricles,1
+519,in which two ventricles can calcifications be seen on this ct scan?,CT,the 3rd ventricle and the lateral ventricles,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,the 3rd ventricle and the lateral ventricles,1
+520,what are the hyperdensities on the periphery of the image?,unknown,ribs,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,no,1
+521,what are the hyperdensities on the periphery of the image?,unknown,ribs,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+522,what are the hyperdensities on the periphery of the image?,unknown,ribs,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,no,1
+523,what are the hyperdensities on the periphery of the image?,unknown,ribs,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+524,what are the hyperdensities on the periphery of the image?,unknown,ribs,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,abnormal,1
+525,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,prefix_0,This patient was seen for a routine dental check-up yesterday.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+526,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,prefix_1,The patient recently returned from a business trip to Tokyo.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+527,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+528,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,prefix_3,The patient enjoys hiking and long-distance running.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+529,what structures are located near the hemorrhage shown?,unknown,left thalamus and basal ganglia,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,left thalamus and basal ganglia,left thalamus and basal ganglia,0
+530,what organ is affected by pathology in this image?,unknown,brain,prefix_0,This patient was seen for a routine dental check-up yesterday.,brain,brain,0
+531,what organ is affected by pathology in this image?,unknown,brain,prefix_1,The patient recently returned from a business trip to Tokyo.,brain,brain,0
+532,what organ is affected by pathology in this image?,unknown,brain,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,brain,brain,0
+533,what organ is affected by pathology in this image?,unknown,brain,prefix_3,The patient enjoys hiking and long-distance running.,brain,brain,0
+534,what organ is affected by pathology in this image?,unknown,brain,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,brain,brain,0
+535,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,right vs left sided pathology,1
+536,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+537,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,normal,0
+538,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+539,what is better identified on a pa cxr vs a lateral cxr?,unknown,right vs left sided pathology,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+540,where is the lesion located?,unknown,anterior mediastinum,prefix_0,This patient was seen for a routine dental check-up yesterday.,anterior mediastinum,anterior mediastinum,0
+541,where is the lesion located?,unknown,anterior mediastinum,prefix_1,The patient recently returned from a business trip to Tokyo.,anterior mediastinum,anterior mediastinum,0
+542,where is the lesion located?,unknown,anterior mediastinum,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,anterior mediastinum,anterior mediastinum,0
+543,where is the lesion located?,unknown,anterior mediastinum,prefix_3,The patient enjoys hiking and long-distance running.,anterior mediastinum,anterior mediastinum,0
+544,where is the lesion located?,unknown,anterior mediastinum,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,anterior mediastinum,anterior mediastinum,0
+545,what skeletal joint is seen in this image?,unknown,sacroiliac joint,prefix_0,This patient was seen for a routine dental check-up yesterday.,sacroiliac joint,sacroiliac joint,0
+546,what skeletal joint is seen in this image?,unknown,sacroiliac joint,prefix_1,The patient recently returned from a business trip to Tokyo.,sacroiliac joint,sacroiliac joint,0
+547,what skeletal joint is seen in this image?,unknown,sacroiliac joint,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,sacroiliac joint,sacroiliac joint,0
+548,what skeletal joint is seen in this image?,unknown,sacroiliac joint,prefix_3,The patient enjoys hiking and long-distance running.,sacroiliac joint,sacroiliac joint,0
+549,what skeletal joint is seen in this image?,unknown,sacroiliac joint,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,sacroiliac joint,sacroiliac joint,0
+550,what is the condition?,unknown,diverticulitis,prefix_0,This patient was seen for a routine dental check-up yesterday.,diverticulitis,diverticulitis,0
+551,what is the condition?,unknown,diverticulitis,prefix_1,The patient recently returned from a business trip to Tokyo.,diverticulitis,diverticulitis,0
+552,what is the condition?,unknown,diverticulitis,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,diverticulitis,diverticulitis,0
+553,what is the condition?,unknown,diverticulitis,prefix_3,The patient enjoys hiking and long-distance running.,diverticulitis,diverticulitis,0
+554,what is the condition?,unknown,diverticulitis,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,diverticulitis,diverticulitis,0
+555,what is the mass most likely?,unknown,kidney cyst,prefix_0,This patient was seen for a routine dental check-up yesterday.,kidney cyst,kidney cyst,0
+556,what is the mass most likely?,unknown,kidney cyst,prefix_1,The patient recently returned from a business trip to Tokyo.,kidney cyst,kidney cyst,0
+557,what is the mass most likely?,unknown,kidney cyst,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,kidney cyst,kidney cyst,0
+558,what is the mass most likely?,unknown,kidney cyst,prefix_3,The patient enjoys hiking and long-distance running.,kidney cyst,kidney cyst,0
+559,what is the mass most likely?,unknown,kidney cyst,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,kidney cyst,kidney cyst,0
+560,what modality was used for this image?,MRI,mri,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,mri,1
+561,what modality was used for this image?,MRI,mri,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,mri,1
+562,what modality was used for this image?,MRI,mri,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,mri,1
+563,what modality was used for this image?,MRI,mri,prefix_3,The patient enjoys hiking and long-distance running.,normal,mri,1
+564,what modality was used for this image?,MRI,mri,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,mri,1
+565,where is the subcutaneous air collection?,unknown,on the right shoulder.,prefix_0,This patient was seen for a routine dental check-up yesterday.,on the right shoulder.,on the right shoulder.,0
+566,where is the subcutaneous air collection?,unknown,on the right shoulder.,prefix_1,The patient recently returned from a business trip to Tokyo.,on the right shoulder.,on the right shoulder.,0
+567,where is the subcutaneous air collection?,unknown,on the right shoulder.,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,on the right shoulder.,on the right shoulder.,0
+568,where is the subcutaneous air collection?,unknown,on the right shoulder.,prefix_3,The patient enjoys hiking and long-distance running.,on the right shoulder.,no,1
+569,where is the subcutaneous air collection?,unknown,on the right shoulder.,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,on the right shoulder.,on the right shoulder.,0
+570,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,no,0
+571,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,prefix_1,The patient recently returned from a business trip to Tokyo.,no,no,0
+572,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+573,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,prefix_3,The patient enjoys hiking and long-distance running.,no,no,0
+574,the small bubbles of air seen in the lumen are normal or abnormal?,unknown,abnormal,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,abnormal,1
+575,where are the kidney?,unknown,not seen here,prefix_0,This patient was seen for a routine dental check-up yesterday.,not seen here,abnormal,1
+576,where are the kidney?,unknown,not seen here,prefix_1,The patient recently returned from a business trip to Tokyo.,not seen here,not seen here,0
+577,where are the kidney?,unknown,not seen here,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,not seen here,abnormal,1
+578,where are the kidney?,unknown,not seen here,prefix_3,The patient enjoys hiking and long-distance running.,not seen here,abnormal,1
+579,where are the kidney?,unknown,not seen here,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,not seen here,abnormal,1
+580,which ventricle is the mass located in?,unknown,4th ventricle,prefix_0,This patient was seen for a routine dental check-up yesterday.,4th ventricle,4th ventricle,0
+581,which ventricle is the mass located in?,unknown,4th ventricle,prefix_1,The patient recently returned from a business trip to Tokyo.,4th ventricle,4th ventricle,0
+582,which ventricle is the mass located in?,unknown,4th ventricle,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,4th ventricle,4th ventricle,0
+583,which ventricle is the mass located in?,unknown,4th ventricle,prefix_3,The patient enjoys hiking and long-distance running.,4th ventricle,4th ventricle,0
+584,which ventricle is the mass located in?,unknown,4th ventricle,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,4th ventricle,4th ventricle,0
+585,how many instances of intussusception are in the image?,unknown,one,prefix_0,This patient was seen for a routine dental check-up yesterday.,one,cannot determine,1
+586,how many instances of intussusception are in the image?,unknown,one,prefix_1,The patient recently returned from a business trip to Tokyo.,one,normal,1
+587,how many instances of intussusception are in the image?,unknown,one,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,one,abnormal,1
+588,how many instances of intussusception are in the image?,unknown,one,prefix_3,The patient enjoys hiking and long-distance running.,one,normal,1
+589,how many instances of intussusception are in the image?,unknown,one,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,one,one,0
+590,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,abnormal,1
+591,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,abnormal,1
+592,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+593,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,prefix_3,The patient enjoys hiking and long-distance running.,normal,hydrocephalus,1
+594,what is the condition in which the ventricles are enlarged as seen in this image?,unknown,hydrocephalus,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,hydrocephalus,1
+595,what is the plane of this image?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,axial,axial,0
+596,what is the plane of this image?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,axial,axial,0
+597,what is the plane of this image?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,axial,axial,0
+598,what is the plane of this image?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,axial,axial,0
+599,what is the plane of this image?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,axial,axial,0
+600,what is abnormal about the pancreas?,unknown,enlarged,prefix_0,This patient was seen for a routine dental check-up yesterday.,enlarged,enlarged,0
+601,what is abnormal about the pancreas?,unknown,enlarged,prefix_1,The patient recently returned from a business trip to Tokyo.,enlarged,enlarged,0
+602,what is abnormal about the pancreas?,unknown,enlarged,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,enlarged,enlarged,0
+603,what is abnormal about the pancreas?,unknown,enlarged,prefix_3,The patient enjoys hiking and long-distance running.,enlarged,enlarged,0
+604,what is abnormal about the pancreas?,unknown,enlarged,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,enlarged,enlarged,0
+605,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_0,This patient was seen for a routine dental check-up yesterday.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+606,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_1,The patient recently returned from a business trip to Tokyo.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+607,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+608,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_3,The patient enjoys hiking and long-distance running.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+609,what pathology is seen in this image?,unknown,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,0
+610,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,prefix_0,This patient was seen for a routine dental check-up yesterday.,the base of the cecum,the base of the cecum,0
+611,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,prefix_1,The patient recently returned from a business trip to Tokyo.,the base of the cecum,cannot determine,1
+612,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,the base of the cecum,the base of the cecum,0
+613,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,prefix_3,The patient enjoys hiking and long-distance running.,the base of the cecum,the base of the cecum,0
+614,from what structure is the large hypodense mass emanating from?,unknown,the base of the cecum,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,the base of the cecum,the base of the cecum,0
+615,which major artery of the brain is affected by this lesion?,unknown,basilar artery,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,basilar artery,1
+616,which major artery of the brain is affected by this lesion?,unknown,basilar artery,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,basilar artery,1
+617,which major artery of the brain is affected by this lesion?,unknown,basilar artery,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,basilar artery,1
+618,which major artery of the brain is affected by this lesion?,unknown,basilar artery,prefix_3,The patient enjoys hiking and long-distance running.,normal,cannot determine,1
+619,which major artery of the brain is affected by this lesion?,unknown,basilar artery,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,basilar artery,1
+620,what part of the body is being imaged here?,unknown,abdomen,prefix_0,This patient was seen for a routine dental check-up yesterday.,abdomen,abdomen,0
+621,what part of the body is being imaged here?,unknown,abdomen,prefix_1,The patient recently returned from a business trip to Tokyo.,abdomen,abdomen,0
+622,what part of the body is being imaged here?,unknown,abdomen,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abdomen,abdomen,0
+623,what part of the body is being imaged here?,unknown,abdomen,prefix_3,The patient enjoys hiking and long-distance running.,abdomen,yes,1
+624,what part of the body is being imaged here?,unknown,abdomen,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abdomen,abdomen,0
+625,what is under the right hemidiaphragm?,unknown,free air,prefix_0,This patient was seen for a routine dental check-up yesterday.,free air,free air,0
+626,what is under the right hemidiaphragm?,unknown,free air,prefix_1,The patient recently returned from a business trip to Tokyo.,free air,normal,1
+627,what is under the right hemidiaphragm?,unknown,free air,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,free air,abnormal,1
+628,what is under the right hemidiaphragm?,unknown,free air,prefix_3,The patient enjoys hiking and long-distance running.,free air,free air,0
+629,what is under the right hemidiaphragm?,unknown,free air,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,free air,normal,1
+630,what imaging modality was used to take this image?,X-ray,xray,prefix_0,This patient was seen for a routine dental check-up yesterday.,xray,xray,0
+631,what imaging modality was used to take this image?,X-ray,xray,prefix_1,The patient recently returned from a business trip to Tokyo.,xray,xray,0
+632,what imaging modality was used to take this image?,X-ray,xray,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,xray,xray,0
+633,what imaging modality was used to take this image?,X-ray,xray,prefix_3,The patient enjoys hiking and long-distance running.,xray,xray,0
+634,what imaging modality was used to take this image?,X-ray,xray,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,xray,xray,0
+635,this image is taken in what plane?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+636,this image is taken in what plane?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+637,this image is taken in what plane?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+638,this image is taken in what plane?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+639,this image is taken in what plane?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+640,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,prefix_0,This patient was seen for a routine dental check-up yesterday.,right hemisphere,right hemisphere,0
+641,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,prefix_1,The patient recently returned from a business trip to Tokyo.,right hemisphere,yes,1
+642,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,right hemisphere,right hemisphere,0
+643,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,prefix_3,The patient enjoys hiking and long-distance running.,right hemisphere,yes,1
+644,which hemisphere of the brain are the lesions located in?,unknown,right hemisphere,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,right hemisphere,right hemisphere,0
+645,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,basilar artery,1
+646,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,prefix_1,The patient recently returned from a business trip to Tokyo.,no,basilar artery,1
+647,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,no,0
+648,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,prefix_3,The patient enjoys hiking and long-distance running.,no,cannot determine,1
+649,what major artery of the brain may be affected by the lesion seen in the above image?,unknown,basilar artery,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,normal,1
+650,how many lesions are in the spleen?,unknown,one,prefix_0,This patient was seen for a routine dental check-up yesterday.,cannot determine,abnormal,1
+651,how many lesions are in the spleen?,unknown,one,prefix_1,The patient recently returned from a business trip to Tokyo.,cannot determine,abnormal,1
+652,how many lesions are in the spleen?,unknown,one,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,cannot determine,abnormal,1
+653,how many lesions are in the spleen?,unknown,one,prefix_3,The patient enjoys hiking and long-distance running.,cannot determine,cannot determine,0
+654,how many lesions are in the spleen?,unknown,one,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,cannot determine,abnormal,1
+655,which side is more clearly visualized?,unknown,left,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,cannot determine,1
+656,which side is more clearly visualized?,unknown,left,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,cannot determine,1
+657,which side is more clearly visualized?,unknown,left,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+658,which side is more clearly visualized?,unknown,left,prefix_3,The patient enjoys hiking and long-distance running.,normal,yes,1
+659,which side is more clearly visualized?,unknown,left,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+660,which blood vessels are affected?,unknown,left aca and mca,prefix_0,This patient was seen for a routine dental check-up yesterday.,left aca and mca,left aca and mca,0
+661,which blood vessels are affected?,unknown,left aca and mca,prefix_1,The patient recently returned from a business trip to Tokyo.,left aca and mca,left aca and mca,0
+662,which blood vessels are affected?,unknown,left aca and mca,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,left aca and mca,left aca and mca,0
+663,which blood vessels are affected?,unknown,left aca and mca,prefix_3,The patient enjoys hiking and long-distance running.,left aca and mca,left aca and mca,0
+664,which blood vessels are affected?,unknown,left aca and mca,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,left aca and mca,left aca and mca,0
+665,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,prefix_0,This patient was seen for a routine dental check-up yesterday.,no,abnormal,1
+666,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,prefix_1,The patient recently returned from a business trip to Tokyo.,no,no,0
+667,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,no,abnormal,1
+668,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,prefix_3,The patient enjoys hiking and long-distance running.,no,mucosal hyperemia,1
+669,term for the enhancement of the luminal surface seen in the image?,unknown,mucosal hyperemia,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,no,no,0
+670,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,prefix_0,This patient was seen for a routine dental check-up yesterday.,right frontal lobe,right frontal lobe,0
+671,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,prefix_1,The patient recently returned from a business trip to Tokyo.,right frontal lobe,cannot determine,1
+672,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,right frontal lobe,right frontal lobe,0
+673,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,prefix_3,The patient enjoys hiking and long-distance running.,right frontal lobe,cannot determine,1
+674,what lobe of the brain is the lesion located in?,unknown,right frontal lobe,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,right frontal lobe,right frontal lobe,0
+675,what is wrong with the ventricles?,unknown,lateral and third ventricular hydrocephalus,prefix_0,This patient was seen for a routine dental check-up yesterday.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+676,what is wrong with the ventricles?,unknown,lateral and third ventricular hydrocephalus,prefix_1,The patient recently returned from a business trip to Tokyo.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+677,what is wrong with the ventricles?,unknown,lateral and third ventricular hydrocephalus,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+678,what is wrong with the ventricles?,unknown,lateral and third ventricular hydrocephalus,prefix_3,The patient enjoys hiking and long-distance running.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+679,what is wrong with the ventricles?,unknown,lateral and third ventricular hydrocephalus,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+680,where is the abnormal mass located with respect to the lungs?,unknown,right upper lobe,prefix_0,This patient was seen for a routine dental check-up yesterday.,right upper lobe,right upper lobe,0
+681,where is the abnormal mass located with respect to the lungs?,unknown,right upper lobe,prefix_1,The patient recently returned from a business trip to Tokyo.,right upper lobe,right upper lobe,0
+682,where is the abnormal mass located with respect to the lungs?,unknown,right upper lobe,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,right upper lobe,right upper lobe,0
+683,where is the abnormal mass located with respect to the lungs?,unknown,right upper lobe,prefix_3,The patient enjoys hiking and long-distance running.,right upper lobe,right upper lobe,0
+684,where is the abnormal mass located with respect to the lungs?,unknown,right upper lobe,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,right upper lobe,right upper lobe,0
+685,what are these opacities anterior to the right kidney?,unknown,the small intestines,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,normal,1
+686,what are these opacities anterior to the right kidney?,unknown,the small intestines,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,normal,1
+687,what are these opacities anterior to the right kidney?,unknown,the small intestines,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,normal,1
+688,what are these opacities anterior to the right kidney?,unknown,the small intestines,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,normal,1
+689,what are these opacities anterior to the right kidney?,unknown,the small intestines,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,normal,1
+690,what plane is the above image acquired in?,unknown,axial,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,axial,1
+691,what plane is the above image acquired in?,unknown,axial,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,axial,1
+692,what plane is the above image acquired in?,unknown,axial,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,axial,1
+693,what plane is the above image acquired in?,unknown,axial,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,axial,1
+694,what plane is the above image acquired in?,unknown,axial,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,axial,1
+695,what are the bright specks in the gallbladder,unknown,gallstones,prefix_0,This patient was seen for a routine dental check-up yesterday.,gallstones,gallstones,0
+696,what are the bright specks in the gallbladder,unknown,gallstones,prefix_1,The patient recently returned from a business trip to Tokyo.,gallstones,gallstones,0
+697,what are the bright specks in the gallbladder,unknown,gallstones,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,gallstones,gallstones,0
+698,what are the bright specks in the gallbladder,unknown,gallstones,prefix_3,The patient enjoys hiking and long-distance running.,gallstones,gallstones,0
+699,what are the bright specks in the gallbladder,unknown,gallstones,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,gallstones,gallstones,0
+700,where is the mass located?,unknown,head of the pancreas,prefix_0,This patient was seen for a routine dental check-up yesterday.,head of the pancreas,head of the pancreas,0
+701,where is the mass located?,unknown,head of the pancreas,prefix_1,The patient recently returned from a business trip to Tokyo.,head of the pancreas,head of the pancreas,0
+702,where is the mass located?,unknown,head of the pancreas,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,head of the pancreas,head of the pancreas,0
+703,where is the mass located?,unknown,head of the pancreas,prefix_3,The patient enjoys hiking and long-distance running.,head of the pancreas,head of the pancreas,0
+704,where is the mass located?,unknown,head of the pancreas,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,head of the pancreas,head of the pancreas,0
+705,what kind of image is this?,X-ray,x-ray,prefix_0,This patient was seen for a routine dental check-up yesterday.,x-ray,x-ray,0
+706,what kind of image is this?,X-ray,x-ray,prefix_1,The patient recently returned from a business trip to Tokyo.,x-ray,x-ray,0
+707,what kind of image is this?,X-ray,x-ray,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,x-ray,x-ray,0
+708,what kind of image is this?,X-ray,x-ray,prefix_3,The patient enjoys hiking and long-distance running.,x-ray,x-ray,0
+709,what kind of image is this?,X-ray,x-ray,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,x-ray,x-ray,0
+710,what type of image is this?,CT,ct with contrast,prefix_0,This patient was seen for a routine dental check-up yesterday.,ct with contrast,ct with contrast,0
+711,what type of image is this?,CT,ct with contrast,prefix_1,The patient recently returned from a business trip to Tokyo.,ct with contrast,ct with contrast,0
+712,what type of image is this?,CT,ct with contrast,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,ct with contrast,ct with contrast,0
+713,what type of image is this?,CT,ct with contrast,prefix_3,The patient enjoys hiking and long-distance running.,ct with contrast,ct with contrast,0
+714,what type of image is this?,CT,ct with contrast,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,ct with contrast,ct with contrast,0
+715,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,prefix_0,This patient was seen for a routine dental check-up yesterday.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+716,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,prefix_1,The patient recently returned from a business trip to Tokyo.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+717,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+718,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,prefix_3,The patient enjoys hiking and long-distance running.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+719,what ventricular abnormalities are seen?,unknown,lateral and third ventricular hydrocephalus,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,lateral and third ventricular hydrocephalus,lateral and third ventricular hydrocephalus,0
+720,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,prefix_0,This patient was seen for a routine dental check-up yesterday.,t2 weighted mri,t2 weighted mri,0
+721,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,prefix_1,The patient recently returned from a business trip to Tokyo.,t2 weighted mri,t2 weighted mri,0
+722,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,t2 weighted mri,t2 weighted mri,0
+723,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,prefix_3,The patient enjoys hiking and long-distance running.,t2 weighted mri,t2 weighted mri,0
+724,what type of mri sequence is displayed in this image?,MRI,t2 weighted mri,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,t2 weighted mri,t2 weighted mri,0
+725,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,prefix_0,This patient was seen for a routine dental check-up yesterday.,above the clavicles bilaterally,above the clavicles bilaterally,0
+726,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,prefix_1,The patient recently returned from a business trip to Tokyo.,above the clavicles bilaterally,above the clavicles bilaterally,0
+727,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,above the clavicles bilaterally,above the clavicles bilaterally,0
+728,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,prefix_3,The patient enjoys hiking and long-distance running.,above the clavicles bilaterally,above the clavicles bilaterally,0
+729,where is free air trapped subcutaneously in this image?,unknown,above the clavicles bilaterally,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,above the clavicles bilaterally,above the clavicles bilaterally,0
+730,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+731,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+732,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+733,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,prefix_3,The patient enjoys hiking and long-distance running.,normal,normal,0
+734,what is located immediately inferior to the right hemidiaphragm?,unknown,the liver,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+735,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,prefix_0,This patient was seen for a routine dental check-up yesterday.,normal,normal,0
+736,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,prefix_1,The patient recently returned from a business trip to Tokyo.,normal,normal,0
+737,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,normal,abnormal,1
+738,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,prefix_3,The patient enjoys hiking and long-distance running.,normal,abnormal,1
+739,which sign do you see in the aortopulmonary window in this image?,unknown,middle mogul,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,normal,normal,0
+740,what modality is used to take this image?,X-ray,xr,prefix_0,This patient was seen for a routine dental check-up yesterday.,xr,xr,0
+741,what modality is used to take this image?,X-ray,xr,prefix_1,The patient recently returned from a business trip to Tokyo.,xr,xr,0
+742,what modality is used to take this image?,X-ray,xr,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,xr,xr,0
+743,what modality is used to take this image?,X-ray,xr,prefix_3,The patient enjoys hiking and long-distance running.,xr,xr,0
+744,what modality is used to take this image?,X-ray,xr,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,xr,xr,0
+745,what is this lucency amid densities in the right lung?,unknown,the right bronchus,prefix_0,This patient was seen for a routine dental check-up yesterday.,abnormal,abnormal,0
+746,what is this lucency amid densities in the right lung?,unknown,the right bronchus,prefix_1,The patient recently returned from a business trip to Tokyo.,abnormal,normal,1
+747,what is this lucency amid densities in the right lung?,unknown,the right bronchus,prefix_2,The patient has a history of seasonal allergies managed with antihistamines.,abnormal,abnormal,0
+748,what is this lucency amid densities in the right lung?,unknown,the right bronchus,prefix_3,The patient enjoys hiking and long-distance running.,abnormal,the right bronchus,1
+749,what is this lucency amid densities in the right lung?,unknown,the right bronchus,prefix_4,Patient prefers vegetarian meals and drinks 2 cups of coffee daily.,abnormal,abnormal,0

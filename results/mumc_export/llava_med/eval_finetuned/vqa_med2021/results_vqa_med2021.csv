@@ -1,0 +1,79 @@
+qid,question,answer,modality,pred_label,correct
+0,what is abnormal in the ct scan?,calcified bilateral hilar and subcarinal lymphadenopathy with calcified nodules centrally.,CT,"The ct scan shows an abnormal mass in the right atrium, which",0
+1,what is the primary abnormality in this image?,pyogenic discitis,unknown,The primary abnormality in this image is the presence of a posterior dislocation,0
+2,what is the primary abnormality in this image?,renal cysts and pelvicaliectasis,unknown,The primary abnormality in this image is the presence of a left-s,0
+3,what is most alarming about this mri?,spontaneous osteonecrosis of the knee,MRI,"The most alarming aspect of this MRI is the presence of a large,",0
+4,what is most alarming about this angiogram?,traumatic carotid-cavernous fistula,Angiography,The most alarming aspect of this angiogram is the presence of a large,0
+5,what abnormality is seen in the image?,tibial plateau fracture,unknown,The image shows a fracture of the lateral femoral condyle.,0
+6,what is abnormal in the mri?,Diffuse thickening of the basal meninges with intense enhancement. Edema base of frontal lobes. Pan sinusitis,MRI,The MRI image shows an abnormal signal in the right cerebellar hem,0
+7,what is the primary abnormality in this image?,schwannoma,unknown,The primary abnormality in this image is the presence of a large cyst,0
+8,what abnormality is seen in the image?,cirrhosis of the liver,unknown,"The image shows a large abdominal mass, which is an abnormal growth",0
+9,what is most alarming about this ct scan?,adrenal myelolipoma,CT,The most alarming aspect of this ct scan is the presence of a large,0
+10,what is most alarming about this ct scan?,comminuted fracture of medial femoral condyle. small joint effusion.,CT,The most alarming aspect of this ct scan is the presence of a large,0
+11,what abnormality is seen in the image?,osteomyelitis,unknown,"The image shows a bony spur, which is an abnormal bony",0
+12,what is most alarming about this ultrasound?,hypertrophic pyloric stenosis,Ultrasound,The most alarming aspect of this ultrasound is the presence of a large,0
+13,what is the primary abnormality in this image?,uterine fibroid embolization,unknown,The primary abnormality in this image is the presence of a thrombus,0
+14,what is the primary abnormality in this image?,ectopic pregnancy,unknown,The primary abnormality in this image is the presence of a fetal membr,0
+15,what is abnormal in the x-ray?,ulcerative colitis,X-ray,The x-ray shows an abnormal shadow in the right lower quadrant of,0
+16,what is most alarming about this ultrasound?,fibromatosis coli,Ultrasound,The most alarming aspect of this ultrasound is the presence of a large,0
+17,what abnormality is seen in the image?,double aortic arch,unknown,The image shows a large bulla in the right upper lobe of the lung,0
+18,what is the primary abnormality in this image?,anterior mediastinal mass,unknown,The primary abnormality in this image is the presence of a large hiatal,0
+19,what abnormality is seen in the image?,right c6 radiculopathy and ankylosing spondylitis,unknown,The image shows a spinal abnormality called scoliosis. S,0
+20,what is abnormal in the x-ray?,enchondroma,X-ray,The x-ray shows an abnormal shadow in the right shoulder. This could,0
+21,what abnormality is seen in the image?,Right paraspinal rim enhancing fluid is demonstrated compatible with a paraspinal abscess.,unknown,The image shows a left-sided sacroiliac joint dislocation.,0
+22,what is most alarming about this ultrasound?,hypertrophic pyloric stenosis,Ultrasound,The most alarming aspect of this ultrasound is the presence of a large,0
+23,what is the primary abnormality in this image?,osteochondroma,unknown,The primary abnormality in this image is the presence of a bony sp,0
+24,what is the primary abnormality in this image?,pneumonia,unknown,The primary abnormality in this image is the presence of a right-s,0
+25,what is seen in the ct scan?,"Axial, contrast enhanced, image of the right lower quadrant demonstrates a normal, contrast filled appendix.",CT,"In the CT scan, there is a large amount of free fluid in the ab",0
+26,what abnormality is seen in the image?,Heterogeneous renal mass with non-enhancing regions suggestive of necrosis. It causes displacement of the nearby organs and compression of left renal vein suggestive of wilms tumor,unknown,The image shows a large hiatal hernia. A hiatal hernia occurs,0
+27,what is the primary abnormality in this image?,pneumomediastinum,unknown,The primary abnormality in this chest X-ray is the presence of a,0
+28,what is abnormal in the mri?,cervical spine demonstrates cord enhancement and expansion,MRI,The MRI image shows an abnormal signal in the right sacroiliac,0
+29,what is the primary abnormality in this image?,homogeneous density of thickened bowel wall with intestinal lumen surrounded by edematous mucosa suggestive of crohn's disease,unknown,The primary abnormality in this image is the presence of a gallstone in,0
+30,what is most alarming about this mri?,Destructive lesion C7 with spinal cord compression,MRI,The most alarming aspect of this MRI is the presence of a large posterior,0
+31,what is most alarming about this x-ray?,Fraying of metaphysis,X-ray,The most alarming aspect of this x-ray is the presence of bilateral,0
+32,what is abnormal in the x-ray?,hypoplastic cervical pedicle c3 on right,X-ray,The x-ray shows an abnormal curvature of the cervical spine,0
+33,what is most alarming about this mri?,mass in the right frontal lobe associated with edema,MRI,The most alarming aspect of this MRI is the presence of a large mass,0
+34,what is the primary abnormality in this image?,failure of posterior cervical hardware at C2 level,unknown,The primary abnormality in this image is the presence of a left-s,0
+35,what is the primary abnormality in this image?,idiopathic synovial osteochondromatosis,unknown,The primary abnormality in this image is the presence of a large oste,0
+36,what is the primary abnormality in this image?,partial anomalous pulmonary venous return,unknown,The primary abnormality in this image is the presence of a right-s,0
+37,what is abnormal in the ct scan?,a soft-tissue mass encompassing and severly narrowing the left main stem bronchus,CT,"The ct scan shows an abnormal mass in the right atrium, which",0
+38,what abnormality is seen in the image?,omphalocele after placement of the defect into the silastic silo.,unknown,The image shows a left-sided diaphragmatic hernia.,0
+39,what is the primary abnormality in this image?,lumbar herniated disc,unknown,The primary abnormality in this image is the presence of a large cyst,0
+40,what abnormality is seen in the image?,spontaneous osteonecrosis of the knee,unknown,The image shows a large abscess in the left knee. An absc,0
+41,what abnormality is seen in the image?,"neurofibromatosis-1, nf1, nf-1",unknown,"The image shows a large abdominal mass, which is an abnormal growth",0
+42,what is most alarming about this ct scan?,an isthmus of contiguous renal parenchyma confirming the findings of a horseshoe kidney.,CT,The most alarming aspect of this ct scan is the presence of a large,0
+43,what abnormality is seen in the image?,internal fixation device,unknown,"The image shows a left-sided pneumothorax, which is",0
+44,what is most alarming about this ultrasound?,hydronephrosis,Ultrasound,The most alarming aspect of this ultrasound is the presence of a large,0
+45,what is abnormal in the mri?,"spine, epidural abscess",MRI,The MRI image shows an abnormal signal in the right sacroiliac,0
+46,what is most alarming about this mri?,achilles tendon rupture,MRI,"The most alarming aspect of this MRI is the presence of a large,",0
+47,what abnormality is seen in the image?,myelolipoma,unknown,"The image shows a dilated common bile duct, which is an ab",0
+48,what abnormality is seen in the image?,Suspicious RLQ calcifications.,unknown,The image shows a large left-sided inguinal hernia.,0
+49,what is most alarming about this ct scan?,nephrolithiasis,CT,The most alarming aspect of this ct scan is the presence of a large,0
+50,what is abnormal in the x-ray?,a nodular opacity within the soft tissues between the third and fourth metatarsals and periosteal elevation at the base of the third metatarsal suggestive of osteomyelitis,X-ray,The x-ray shows an abnormal widening of the first metatars,0
+51,what is abnormal in the x-ray?,hilar adenopathy,X-ray,The chest x-ray shows an abnormal shadow in the right upper lobe,0
+52,what is most alarming about this ct scan?,"enlarged lymph nodes, both sides of neck",CT,The most alarming aspect of this ct scan is the presence of a large,0
+53,what abnormality is seen in the image?,diffusely increased bilateral lung nodularity and bilateral hilar fullness suggestive of pulmonary sarcoidosis,unknown,"The image shows a right-sided pneumothorax, which is",0
+54,what is the primary abnormality in this image?,supracondylar fracture,unknown,The primary abnormality in this image is the presence of a fracture in,0
+55,what abnormality is seen in the image?,"aneurysm, cerebral",unknown,The image shows a large aneurysm in the right middle cerebral,0
+56,what is abnormal in the mri?,enlarged subarachnoid space,MRI,The mri image shows abnormal signal intensity in the bilateral basal gang,0
+57,what is the primary abnormality in this image?,Blunt appearing conus medullaris Absent lower sacral segments No coccyx indicative of caudal regression syndrome,unknown,The primary abnormality in this image is the presence of a syrinx,0
+58,what abnormality is seen in the image?,Left supraclavicular adenopathy,unknown,"The image shows a left-sided thyroid mass, which is an ab",0
+59,what is abnormal in the ct scan?,intramedullary lipoma of the spinal cord,CT,The ct scan shows an abnormal mass in the right iliac fossa,0
+60,what abnormality is seen in the image?,hiatal hernia,unknown,"The image shows a left ureteral stone, which is an abnormal",0
+61,what is most alarming about this ct scan?,acute appendicitis,CT,The most alarming aspect of this ct scan is the presence of a large,0
+62,what is most alarming about this ct scan?,aortic pseudoaneurysm,CT,The most alarming aspect of this ct scan is the presence of a large,0
+63,what is abnormal in the mri?,aortic coarctation,MRI,The MRI image shows an abnormal finding in the left pulmonary ar,0
+64,what is most alarming about this ct scan?,The common bile duct is prominently dilated and there is intrahepatic biliary ductal dilatation,CT,The most alarming aspect of this ct scan is the presence of a large,0
+65,what is most alarming about this x-ray?,occult stress fracture,X-ray,The most alarming aspect of this x-ray is the presence of a fract,0
+66,what abnormality is seen in the image?,autosomal dominant polycystic kidney disease with multiple cysts in the liver,unknown,"The image shows a large hepatic abscess, which is an ab",0
+67,what is abnormal in the gastrointestinal image?,duodenal diverticulum,unknown,The gastrointestinal image shows an abnormal finding in the form of,0
+68,what abnormality is seen in the image?,pediatric pneumonia (round pneumonia),unknown,"The image shows a right-sided pneumothorax, which is",0
+69,what is the primary abnormality in this image?,Large central pelvic soft-tissue mass. Moderate ascities,unknown,The primary abnormality in this image is the presence of a large mass in,0
+70,what is abnormal in the x-ray?,hydropneumothorax,X-ray,The chest x-ray shows an abnormal opacity in the right lower lobe,0
+71,what is abnormal in the angiogram?,"aneurysm, cerebral",Angiography,The angiogram shows an abnormal filling defect in the right middle cerebr,0
+72,what abnormality is seen in the image?,Enhancing soft tissue mass lesions within the bilateral cervical lymph node chain.,unknown,The image shows a left-sided parotid gland abscess,0
+73,what is most alarming about this mri?,spinal cord abscess,MRI,The most alarming aspect of this MRI is the presence of a large mass,0
+74,what is most alarming about this ct scan?,a rounded soft tissue density mass in the left anterior chest wall adjacent to the pectoralis major muscle and no invasion of the surrounding structures.,CT,The most alarming aspect of this ct scan is the presence of a large,0
+75,what is abnormal in the ultrasound?,cholelithiasis,Ultrasound,The ultrasound shows an abnormal mass in the right adrenal g,0
+76,what is the primary abnormality in this image?,classic bosniak class iii complex renal cyst,unknown,"The primary abnormality in this image is the presence of a large, heter",0
+77,what is abnormal in the ct scan?,right c6 radiculopathy and ankylosing spondylitis,CT,The ct scan shows an abnormal fracture of the C2 verte,0
