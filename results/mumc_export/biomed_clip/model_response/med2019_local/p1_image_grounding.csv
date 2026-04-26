@@ -4,9 +4,9 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 2,which plane is the image taken?,unknown,axial,axial,cannot determine,1,normal,1,yes,1,cannot determine,1
 3,what is most alarming about this mri?,MRI,cerebellar hemangioblastoma,normal,cerebellar hemangioblastoma,1,cerebellar hemangioblastoma,1,normal,0,abnormal,1
 4,what is the organ principally shown in this mri?,MRI,skull and contents,normal,abnormal,1,abnormal,1,yes,1,no,1
-5,is this a noncontrast ct?,CT,no,cannot determine,cannot determine,0,cannot determine,0,yes,1,yes,1
+5,is this a noncontrast ct?,unknown,no,cannot determine,cannot determine,0,cannot determine,0,yes,1,yes,1
 6,in what plane is this x-ray taken?,X-ray,ap,abnormal,ap,1,cannot determine,1,yes,1,abnormal,0
-7,is this a noncontrast ct?,CT,yes,cannot determine,cannot determine,0,cannot determine,0,yes,1,yes,1
+7,is this a noncontrast ct?,unknown,yes,cannot determine,cannot determine,0,cannot determine,0,yes,1,yes,1
 8,the mri shows what organ system?,MRI,skull and contents,skull and contents,cannot determine,1,no,1,no,1,cannot determine,1
 9,is this a ct scan?,CT,no,normal,abnormal,1,abnormal,1,no,1,cannot determine,1
 10,in what plane is this x-ray taken?,X-ray,oblique,normal,abnormal,1,cannot determine,1,yes,1,abnormal,1
@@ -22,7 +22,7 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 20,what plane is this film,unknown,axial,abnormal,no,1,no,1,yes,1,cannot determine,1
 21,what organ system is imaged?,unknown,musculoskeletal,musculoskeletal,no,1,no,1,normal,1,normal,1
 22,which plane is the image taken?,unknown,lateral,cannot determine,cannot determine,0,normal,1,yes,1,lateral,1
-23,is this a noncontrast ct?,CT,no,normal,cannot determine,1,cannot determine,1,yes,1,yes,1
+23,is this a noncontrast ct?,unknown,no,normal,cannot determine,1,cannot determine,1,yes,1,yes,1
 24,which organ is captured by this ct scan?,CT,heart and great vessels,heart and great vessels,no,1,no,1,normal,1,heart and great vessels,0
 25,what organ system is visualized?,unknown,skull and contents#spine and contents,normal,skull and contents#spine and contents,1,skull and contents#spine and contents,1,normal,0,abnormal,1
 26,what is abnormal in the mri?,MRI,"abscess, pyogenic",normal,no,1,no,1,normal,0,"abscess, pyogenic",1
@@ -132,11 +132,11 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 130,what type of contrast did this patient have?,unknown,iv,abnormal,no,1,no,1,normal,1,normal,1
 131,what is abnormal in the gastrointestinal image?,unknown,gastric volvulus (organoaxial),gastric volvulus (organoaxial),no,1,no,1,yes,1,yes,1
 132,which plane is this image in?,unknown,sagittal,normal,no,1,normal,0,yes,1,abnormal,1
-133,is this a contrast or noncontrast ct?,CT,contrast,contrast,yes,1,abnormal,1,yes,1,yes,1
+133,is this a contrast or noncontrast ct?,unknown,contrast,contrast,yes,1,abnormal,1,yes,1,yes,1
 134,what is the primary abnormality in this image?,unknown,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,0,normal,1,normal,1
 135,is the ultrasound normal?,Ultrasound,no,normal,no,1,no,1,no,1,abnormal,1
 136,what is abnormal in the x-ray?,X-ray,periosteal desmoid,normal,cannot determine,1,no,1,yes,1,cannot determine,1
-137,is this a contrast or noncontrast ct?,CT,noncontrast,normal,yes,1,abnormal,1,yes,1,yes,1
+137,is this a contrast or noncontrast ct?,unknown,noncontrast,normal,yes,1,abnormal,1,yes,1,yes,1
 138,what organ system is being imaged?,unknown,vascular and lymphatic,normal,vascular and lymphatic,1,vascular and lymphatic,1,normal,0,normal,0
 139,what abnormality is seen in the image?,unknown,medulloblastoma (pnet),medulloblastoma (pnet),cannot determine,1,abnormal,1,yes,1,yes,1
 140,was the mri taken with contrast?,MRI,yes,abnormal,abnormal,0,abnormal,0,no,1,cannot determine,1
@@ -149,3 +149,353 @@ qid,question,modality,gt,pred_original,pred_blank,flip_blank,pred_white,flip_whi
 147,what is the plane of the x-ray?,X-ray,ap,ap,cannot determine,1,cannot determine,1,normal,1,cannot determine,1
 148,is this an mri image?,MRI,no,no,yes,1,yes,1,no,0,cannot determine,1
 149,what organ system is shown in the image?,unknown,vascular and lymphatic,vascular and lymphatic,vascular and lymphatic,0,vascular and lymphatic,0,yes,1,normal,1
+150,which image modality is this?,unknown,us - ultrasound,us - ultrasound,no,1,no,1,normal,1,normal,1
+151,what organ system is displayed in this x-ray?,X-ray,"lung, mediastinum, pleura","lung, mediastinum, pleura","lung, mediastinum, pleura",0,"lung, mediastinum, pleura",0,yes,1,cannot determine,1
+152,what organ system is evaluated primarily?,unknown,musculoskeletal,cannot determine,no,1,no,1,normal,1,abnormal,1
+153,was the ct scan taken with contrast?,CT,yes,normal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+154,what organ system is displayed in this ct scan?,CT,"lung, mediastinum, pleura","lung, mediastinum, pleura","lung, mediastinum, pleura",0,"lung, mediastinum, pleura",0,normal,1,normal,1
+155,what type of imaging modality is shown?,unknown,us - ultrasound,us - ultrasound,no,1,no,1,normal,1,abnormal,1
+156,what imaging modality was used to take this image?,unknown,ct noncontrast,ct noncontrast,no,1,no,1,normal,1,abnormal,1
+157,what is the mr weighting in this image?,unknown,t2,normal,t2,1,abnormal,1,normal,0,normal,0
+158,what part of the body is being imaged?,unknown,skull and contents,normal,no,1,no,1,no,1,abnormal,1
+159,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t2,no,yes,1,yes,1,yes,1,cannot determine,1
+160,is this an mri image?,MRI,yes,no,yes,1,yes,1,no,0,cannot determine,1
+161,which plane is the image taken?,unknown,lateral,lateral,cannot determine,1,normal,1,no,1,lateral,0
+162,what organ system is pictured here?,unknown,"lung, mediastinum, pleura#spine and contents","lung, mediastinum, pleura#spine and contents",no,1,no,1,yes,1,abnormal,1
+163,what abnormality is seen in the image?,unknown,mycotic aneurysm,mycotic aneurysm,cannot determine,1,abnormal,1,normal,1,yes,1
+164,is this a contrast or noncontrast ct?,unknown,contrast,contrast,yes,1,abnormal,1,yes,1,yes,1
+165,what abnormality is seen in the image?,unknown,nodular opacity on the left#metastastic melanoma,normal,nodular opacity on the left#metastastic melanoma,1,nodular opacity on the left#metastastic melanoma,1,yes,1,yes,1
+166,is there an abnormality in the mri?,MRI,yes,normal,abnormal,1,abnormal,1,yes,1,abnormal,1
+167,what was this image taken with?,unknown,xr - plain film,xr - plain film,cannot determine,1,cannot determine,1,cannot determine,1,cannot determine,1
+168,what plane is this?,unknown,coronal,coronal,no,1,coronal,0,no,1,cannot determine,1
+169,is this a ct scan?,CT,no,cannot determine,abnormal,1,abnormal,1,no,1,cannot determine,0
+170,what is the primary abnormality in this image?,unknown,hypertrophic pyloric stenosis,hypertrophic pyloric stenosis,hypertrophic pyloric stenosis,0,abnormal,1,normal,1,hypertrophic pyloric stenosis,0
+171,what organ is this image of?,unknown,skull and contents,normal,cannot determine,1,no,1,no,1,abnormal,1
+172,what organ system is imaged?,unknown,"face, sinuses, and neck",normal,no,1,no,1,normal,0,normal,0
+173,in which plane is the x-ray displayed?,X-ray,oblique,normal,cannot determine,1,oblique,1,normal,0,abnormal,1
+174,what kind of scan is this?,unknown,an - angiogram,an - angiogram,no,1,no,1,normal,1,an - angiogram,0
+175,which plane is the image shown in?,unknown,axial,axial,abnormal,1,normal,1,yes,1,normal,1
+176,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,ct with gi and iv contrast,no,1,no,1,normal,1,abnormal,1
+177,what plane is the image acquired in?,unknown,transverse,transverse,transverse,0,cannot determine,1,yes,1,yes,1
+178,what is the plane of the image?,unknown,axial,axial,no,1,normal,1,no,1,cannot determine,1
+179,in what plane is this mri?,MRI,sagittal,abnormal,sagittal,1,sagittal,1,no,1,abnormal,0
+180,what imaging method was used?,unknown,us-d - doppler ultrasound,us-d - doppler ultrasound,us-d - doppler ultrasound,0,no,1,normal,1,abnormal,1
+181,what plane was used in this ct scan?,CT,axial,normal,abnormal,1,no,1,normal,0,abnormal,1
+182,was the ct scan taken with contrast?,CT,yes,cannot determine,cannot determine,0,cannot determine,0,no,1,cannot determine,0
+183,what organ system is imaged?,unknown,skull and contents,normal,no,1,no,1,normal,0,normal,0
+184,what organ system is shown in the image?,unknown,"face, sinuses, and neck",abnormal,no,1,no,1,yes,1,normal,1
+185,what abnormality is seen in the image?,unknown,heterogeneous cecal mass (with pericolic inflammation and asymmetric wall thickening),heterogeneous cecal mass (with pericolic inflammation and asymmetric wall thickening),heterogeneous cecal mass (with pericolic inflammation and asymmetric wall thickening),0,heterogeneous cecal mass (with pericolic inflammation and asymmetric wall thickening),0,yes,1,yes,1
+186,what is abnormal in the ct scan?,CT,ossification of stylohyoid ligament,ossification of stylohyoid ligament,no,1,ossification of stylohyoid ligament,0,yes,1,ossification of stylohyoid ligament,0
+187,is this a noncontrast mri?,MRI,yes,normal,no,1,yes,1,normal,0,cannot determine,1
+188,what kind of scan is this?,unknown,an - angiogram,an - angiogram,no,1,no,1,normal,1,an - angiogram,0
+189,what plane is this?,unknown,coronal,coronal,no,1,coronal,0,no,1,cannot determine,1
+190,with what modality is this image taken?,unknown,xr - plain film,xr - plain film,no,1,no,1,normal,1,abnormal,1
+191,in what plane is this ct scan?,CT,axial,axial,abnormal,1,abnormal,1,normal,1,abnormal,1
+192,was the ct scan taken with contrast?,CT,yes,cannot determine,cannot determine,0,cannot determine,0,no,1,cannot determine,0
+193,what is most alarming about this ct scan?,CT,appendicitis,appendicitis,appendicitis,0,normal,1,normal,1,yes,1
+194,in what plane is this ct scan?,CT,axial,axial,abnormal,1,abnormal,1,no,1,abnormal,1
+195,what is most alarming about this ct scan?,CT,osteochondritis dissecans of the tarsal navicular,osteochondritis dissecans of the tarsal navicular,abnormal,1,osteochondritis dissecans of the tarsal navicular,0,normal,1,yes,1
+196,what is one organ system seen in this image?,unknown,spine and contents,abnormal,no,1,no,1,yes,1,normal,1
+197,what is abnormal in the mri?,MRI,"arachnoid cyst, sella","arachnoid cyst, sella","arachnoid cyst, sella",0,no,1,normal,1,yes,1
+198,what imaging plane is depicted here?,unknown,axial,axial,no,1,no,1,normal,1,abnormal,1
+199,what is the primary abnormality in this image?,unknown,"unilateral megaloencephaly, hemimegalencephaly","unilateral megaloencephaly, hemimegalencephaly","unilateral megaloencephaly, hemimegalencephaly",0,abnormal,1,normal,1,"unilateral megaloencephaly, hemimegalencephaly",0
+200,which plane is the image shown in?,unknown,lateral,lateral,abnormal,1,normal,1,normal,1,lateral,0
+201,what is the plane?,unknown,axial,axial,cannot determine,1,axial,0,yes,1,abnormal,1
+202,what organ is this x-ray showing?,X-ray,spine and contents,spine and contents,cannot determine,1,abnormal,1,no,1,cannot determine,1
+203,is this image normal?,unknown,yes,cannot determine,cannot determine,0,cannot determine,0,no,1,cannot determine,0
+204,what image plane is this?,unknown,lateral,lateral,no,1,lateral,0,no,1,lateral,0
+205,what organ system is being imaged?,unknown,breast,breast,no,1,normal,1,normal,1,normal,1
+206,what organ system is primarily present in this image?,unknown,skull and contents,yes,no,1,no,1,yes,0,abnormal,1
+207,what organ systems can be evaluated with this mri?,MRI,skull and contents,skull and contents,no,1,no,1,normal,1,abnormal,1
+208,what is most alarming about this mri?,MRI,fat embolism with cerebral infarction,normal,fat embolism with cerebral infarction,1,no,1,normal,0,abnormal,1
+209,what is the primary abnormality in this image?,unknown,acl graft impingement,acl graft impingement,acl graft impingement,0,abnormal,1,normal,1,normal,1
+210,which organ system is shown in the ct scan?,CT,"face, sinuses, and neck","face, sinuses, and neck",no,1,no,1,yes,1,normal,1
+211,what plane is this ct scan in?,CT,axial,abnormal,abnormal,0,cannot determine,1,no,1,yes,1
+212,what part of the body is being imaged here?,unknown,gastrointestinal#genitourinary#spine and contents#musculoskeletal,normal,gastrointestinal#genitourinary#spine and contents#musculoskeletal,1,gastrointestinal#genitourinary#spine and contents#musculoskeletal,1,no,1,abnormal,1
+213,what organ system is visualized?,unknown,musculoskeletal,musculoskeletal,no,1,abnormal,1,normal,1,abnormal,1
+214,what organ system is pictured here?,unknown,gastrointestinal,abnormal,no,1,no,1,yes,1,abnormal,0
+215,in which plane is the x-ray displayed?,X-ray,pa,pa,pa,0,cannot determine,1,normal,1,abnormal,1
+216,which plane is this image taken?,unknown,sagittal,sagittal,no,1,normal,1,yes,1,sagittal,0
+217,which plane is this mri taken in?,MRI,sagittal,sagittal,abnormal,1,cannot determine,1,yes,1,cannot determine,1
+218,what is most alarming about this ct scan?,CT,dermoid cyst,dermoid cyst,dermoid cyst,0,dermoid cyst,0,normal,1,dermoid cyst,0
+219,what organ systems can be evaluated with this ct scan?,CT,"lung, mediastinum, pleura",normal,no,1,"lung, mediastinum, pleura",1,normal,0,abnormal,1
+220,is this a noncontrast mri?,MRI,no,no,no,0,yes,1,normal,1,cannot determine,1
+221,what is the primary abnormality in this image?,unknown,air in the abdomen,air in the abdomen,cannot determine,1,abnormal,1,normal,1,air in the abdomen,0
+222,what type of image modality is seen?,unknown,mammograph,mammograph,no,1,no,1,normal,1,yes,1
+223,what organ system is evaluated primarily?,unknown,skull and contents,normal,no,1,no,1,normal,0,abnormal,1
+224,what is abnormal in the ct scan?,CT,"osteoma, head and neck","osteoma, head and neck",no,1,no,1,yes,1,yes,1
+225,what type of image modality is this?,unknown,us - ultrasound,us - ultrasound,no,1,no,1,normal,1,abnormal,1
+226,what plane is demonstrated?,unknown,lateral,abnormal,cannot determine,1,lateral,1,yes,1,cannot determine,1
+227,is this a noncontrast mri?,MRI,yes,abnormal,no,1,yes,1,normal,1,cannot determine,1
+228,which plane is this mri taken in?,MRI,sagittal,sagittal,abnormal,1,cannot determine,1,yes,1,cannot determine,1
+229,what abnormality is seen in the image?,unknown,fibrous dysplasia,abnormal,cannot determine,1,abnormal,0,yes,1,yes,1
+230,what organ system is pictured here?,unknown,"heart and great vessels#lung, mediastinum, pleura",normal,no,1,"heart and great vessels#lung, mediastinum, pleura",1,yes,1,abnormal,1
+231,which organ is captured by this ultrasound?,Ultrasound,genitourinary,normal,cannot determine,1,abnormal,1,yes,1,yes,1
+232,in which plane is the ct scan displayed?,CT,axial,axial,abnormal,1,axial,0,axial,0,abnormal,1
+233,was the ct scan taken with contrast?,CT,yes,abnormal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+234,what imaging plane is depicted here?,unknown,coronal,coronal,coronal,0,no,1,normal,1,abnormal,1
+235,what organ system is primarily present in this image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,abnormal,1
+236,is this a noncontrast mri?,MRI,yes,no,no,0,yes,1,normal,1,cannot determine,1
+237,what abnormality is seen in the image?,unknown,schizencephaly,schizencephaly,cannot determine,1,abnormal,1,yes,1,schizencephaly,0
+238,what imaging modality is used to acquire this picture?,unknown,us - ultrasound,abnormal,us - ultrasound,1,no,1,yes,1,abnormal,0
+239,what is abnormal in the mri?,MRI,diffuse infiltration of bone marrow of skull,diffuse infiltration of bone marrow of skull,no,1,no,1,diffuse infiltration of bone marrow of skull,0,yes,1
+240,what part of the body is being imaged here?,unknown,skull and contents,abnormal,no,1,no,1,no,1,abnormal,0
+241,what is most alarming about this angiogram?,Angiography,pulmonary embolus,pulmonary embolus,pulmonary embolus,0,pulmonary embolus,0,normal,1,yes,1
+242,what plane was used in this x-ray?,X-ray,frontal,frontal,abnormal,1,cannot determine,1,no,1,cannot determine,1
+243,in what plane is this ct scan?,CT,axial,normal,abnormal,1,abnormal,1,normal,0,abnormal,1
+244,in what plane is this x-ray?,X-ray,pa,pa,pa,0,cannot determine,1,no,1,abnormal,1
+245,is this a t2 weighted image?,unknown,no,normal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+246,what image plane is this?,unknown,axial,axial,axial,0,axial,0,no,1,cannot determine,1
+247,what imaging modality was used to take this image?,unknown,mr - t2 weighted,mr - t2 weighted,no,1,no,1,normal,1,abnormal,1
+248,in what plane is this image taken?,unknown,axial,abnormal,no,1,no,1,yes,1,cannot determine,1
+249,is this a noncontrast ct?,unknown,no,normal,cannot determine,1,cannot determine,1,yes,1,yes,1
+250,is there something wrong in the image?,unknown,no,normal,yes,1,yes,1,yes,1,cannot determine,1
+251,what is abnormal in the ultrasound?,Ultrasound,endometrial polyp,endometrial polyp,endometrial polyp,0,endometrial polyp,0,yes,1,yes,1
+252,in what plane is this mri?,MRI,sagittal,sagittal,sagittal,0,sagittal,0,no,1,abnormal,1
+253,which organ is captured by this mri?,MRI,skull and contents,skull and contents,no,1,no,1,normal,1,abnormal,1
+254,"is this image modality t1, t2, or flair?",unknown,t2,abnormal,cannot determine,1,cannot determine,1,yes,1,abnormal,0
+255,what plane was used in this ct scan?,CT,axial,normal,abnormal,1,no,1,normal,0,abnormal,1
+256,what organ system is evaluated primarily?,unknown,gastrointestinal,gastrointestinal,no,1,no,1,normal,1,abnormal,1
+257,what organ system is primarily present in this image?,unknown,"face, sinuses, and neck",yes,no,1,no,1,yes,0,"face, sinuses, and neck",1
+258,is this a noncontrast ct?,unknown,yes,no,cannot determine,1,cannot determine,1,yes,1,yes,1
+259,in what plane is this image taken?,unknown,sagittal,sagittal,no,1,no,1,yes,1,cannot determine,1
+260,what part of the body does this x-ray show?,X-ray,spine and contents,spine and contents,cannot determine,1,normal,1,no,1,no,1
+261,what imaging modality was used to take this image?,unknown,ct noncontrast,ct noncontrast,no,1,no,1,normal,1,abnormal,1
+262,what organ is this mri showing?,MRI,skull and contents,skull and contents,no,1,abnormal,1,no,1,skull and contents,0
+263,what is the plane of this mri?,MRI,sagittal,sagittal,abnormal,1,sagittal,0,normal,1,cannot determine,1
+264,what part of the body is being imaged?,unknown,skull and contents,skull and contents,no,1,no,1,no,1,abnormal,1
+265,which plane is this image in?,unknown,axial,axial,no,1,normal,1,normal,1,abnormal,1
+266,what is abnormal in the mri?,MRI,post-traumatic syringomyelia,post-traumatic syringomyelia,no,1,no,1,normal,1,post-traumatic syringomyelia,0
+267,what plane was used in this ct scan?,CT,axial,axial,abnormal,1,no,1,normal,1,abnormal,1
+268,what abnormality is seen in the image?,unknown,cavernous hemangioma,abnormal,cavernous hemangioma,1,abnormal,0,yes,1,yes,1
+269,is this a ct scan?,CT,yes,abnormal,abnormal,0,abnormal,0,no,1,cannot determine,1
+270,what type of image modality is this?,unknown,xr - plain film,xr - plain film,no,1,no,1,normal,1,abnormal,1
+271,what is most alarming about this ct scan?,CT,craniosynostosis of the metopic suture,craniosynostosis of the metopic suture,craniosynostosis of the metopic suture,0,craniosynostosis of the metopic suture,0,normal,1,craniosynostosis of the metopic suture,0
+272,what type of image modality is seen?,unknown,an - angiogram,an - angiogram,no,1,no,1,normal,1,yes,1
+273,what is abnormal in the ct scan?,CT,complex nasoethmoid and orbit fractures with pneumoorbita and pneumocephalus,complex nasoethmoid and orbit fractures with pneumoorbita and pneumocephalus,no,1,no,1,yes,1,yes,1
+274,what part of the body is being imaged?,unknown,breast,breast,no,1,breast,0,yes,1,abnormal,1
+275,in what plane is this mri taken?,MRI,axial,axial,axial,0,cannot determine,1,yes,1,cannot determine,1
+276,is this a contrast or noncontrast mri?,MRI,contrast,no,no,0,no,0,normal,1,cannot determine,1
+277,was gi contrast given to the patient?,unknown,no,cannot determine,abnormal,1,abnormal,1,normal,1,cannot determine,0
+278,what imaging modality was used to take this image?,unknown,ct with gi and iv contrast,ct with gi and iv contrast,no,1,no,1,normal,1,abnormal,1
+279,what is most alarming about this ct scan?,CT,mature cystic teratoma,mature cystic teratoma,mature cystic teratoma,0,mature cystic teratoma,0,normal,1,yes,1
+280,is this an mri image?,MRI,no,normal,yes,1,yes,1,no,1,cannot determine,1
+281,what plane is this mri in?,MRI,coronal,coronal,coronal,0,cannot determine,1,no,1,coronal,0
+282,what is abnormal in the mri?,MRI,"astrocytoma, grading and subtypes",normal,no,1,no,1,normal,0,yes,1
+283,what is abnormal in the ct scan?,CT,lemierre syndrome,normal,no,1,no,1,yes,1,yes,1
+284,"is this a t1 weighted, t2 weighted, or flair image?",unknown,flair,flair,yes,1,yes,1,no,1,cannot determine,1
+285,what is the organ system in this image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,normal,1
+286,what organ system is pictured here?,unknown,gastrointestinal,gastrointestinal,no,1,no,1,yes,1,abnormal,1
+287,what is the primary abnormality in this image?,unknown,pseudomyxoma peritonei,pseudomyxoma peritonei,cannot determine,1,pseudomyxoma peritonei,0,normal,1,normal,1
+288,which plane is this mri taken in?,MRI,axial,normal,axial,1,cannot determine,1,yes,1,cannot determine,1
+289,what organ system is primarily present in this image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,abnormal,1
+290,which organ system is shown in the ct scan?,CT,"lung, mediastinum, pleura","lung, mediastinum, pleura","lung, mediastinum, pleura",0,"lung, mediastinum, pleura",0,yes,1,normal,1
+291,what imaging modality is used to acquire this picture?,unknown,xr - plain film,xr - plain film,no,1,no,1,yes,1,abnormal,1
+292,in what plane is this ct scan taken?,CT,axial,axial,abnormal,1,abnormal,1,normal,1,abnormal,1
+293,in what plane is this image taken?,unknown,axial,abnormal,no,1,no,1,yes,1,cannot determine,1
+294,what abnormality is seen in the image?,unknown,inguinal hernia involving bladder,inguinal hernia involving bladder,inguinal hernia involving bladder,0,inguinal hernia involving bladder,0,normal,1,inguinal hernia involving bladder,0
+295,was the mri taken with contrast?,MRI,no,normal,abnormal,1,abnormal,1,no,1,cannot determine,1
+296,what abnormality is seen in the image?,unknown,spontaneous osteonecrosis of the knee,spontaneous osteonecrosis of the knee,spontaneous osteonecrosis of the knee,0,abnormal,1,normal,1,yes,1
+297,what part of the body is being imaged?,unknown,spine and contents,normal,no,1,no,1,no,1,abnormal,1
+298,is this a normal ultrasound?,Ultrasound,yes,normal,yes,1,cannot determine,1,yes,1,cannot determine,1
+299,what part of the body is being imaged?,unknown,musculoskeletal,normal,no,1,musculoskeletal,1,no,1,abnormal,1
+300,in what plane is this ct scan captured?,CT,axial,axial,abnormal,1,abnormal,1,normal,1,abnormal,1
+301,what is most alarming about this ct scan?,CT,primary sclerosing cholangitis,primary sclerosing cholangitis,primary sclerosing cholangitis,0,primary sclerosing cholangitis,0,primary sclerosing cholangitis,0,yes,1
+302,what organ system is shown in this mri?,MRI,skull and contents,skull and contents,no,1,no,1,normal,1,abnormal,1
+303,what organ is this image of?,unknown,skull and contents,skull and contents,cannot determine,1,no,1,no,1,abnormal,1
+304,is this a t2 weighted image?,unknown,no,abnormal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+305,what is the plane of this mri?,MRI,coronal,coronal,coronal,0,coronal,0,coronal,0,cannot determine,1
+306,what part of the body is being imaged?,unknown,gastrointestinal,gastrointestinal,gastrointestinal,0,no,1,gastrointestinal,0,abnormal,1
+307,is the ct scan normal?,CT,no,no,cannot determine,1,abnormal,1,no,0,cannot determine,1
+308,is this a noncontrast mri?,MRI,yes,cannot determine,no,1,yes,1,no,1,cannot determine,0
+309,was the ct scan taken with contrast?,CT,no,cannot determine,cannot determine,0,cannot determine,0,no,1,cannot determine,0
+310,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,mr - t1w w/gadolinium,no,1,no,1,normal,1,abnormal,1
+311,what organ system is imaged?,unknown,"face, sinuses, and neck","face, sinuses, and neck",no,1,no,1,normal,1,normal,1
+312,which plane is this image taken?,unknown,sagittal,sagittal,no,1,normal,1,yes,1,sagittal,0
+313,what is the primary abnormality in this image?,unknown,vertebral artery dissection,vertebral artery dissection,vertebral artery dissection,0,abnormal,1,normal,1,vertebral artery dissection,0
+314,what organ system is displayed in this ct scan?,CT,spine and contents,spine and contents,spine and contents,0,abnormal,1,normal,1,normal,1
+315,what modality was used to take this image?,unknown,ugi - upper gi,ugi - upper gi,no,1,no,1,normal,1,abnormal,1
+316,what is the primary abnormality in this image?,unknown,meningioma,meningioma,meningioma,0,meningioma,0,normal,1,normal,1
+317,which organ system is shown in the ct scan?,CT,genitourinary,abnormal,no,1,genitourinary,1,yes,1,normal,1
+318,is this a normal ct scan?,CT,no,abnormal,yes,1,yes,1,yes,1,yes,1
+319,what is most alarming about this ct scan?,CT,left aortic arch with aberrant right subclavian artery,left aortic arch with aberrant right subclavian artery,left aortic arch with aberrant right subclavian artery,0,left aortic arch with aberrant right subclavian artery,0,normal,1,yes,1
+320,what type of image modality is seen?,unknown,xr - plain film,xr - plain film,no,1,no,1,xr - plain film,0,yes,1
+321,what is the primary abnormality in this image?,unknown,esoghageal spasm#diverticulum,esoghageal spasm#diverticulum,esoghageal spasm#diverticulum,0,esoghageal spasm#diverticulum,0,normal,1,normal,1
+322,what abnormality is seen in the image?,unknown,microcystic (serous) adenoma of the pancreas,microcystic (serous) adenoma of the pancreas,microcystic (serous) adenoma of the pancreas,0,microcystic (serous) adenoma of the pancreas,0,yes,1,yes,1
+323,what is the organ system in this image?,unknown,"heart and great vessels#lung, mediastinum, pleura#spine and contents","heart and great vessels#lung, mediastinum, pleura#spine and contents","heart and great vessels#lung, mediastinum, pleura#spine and contents",0,"heart and great vessels#lung, mediastinum, pleura#spine and contents",0,yes,1,"heart and great vessels#lung, mediastinum, pleura#spine and contents",0
+324,which organ system is shown in the mri?,MRI,skull and contents,skull and contents,no,1,no,1,no,1,abnormal,1
+325,"is this a t1 weighted, t2 weighted, or flair image?",unknown,t2,t2,yes,1,yes,1,no,1,cannot determine,1
+326,what organ system is primarily present in this image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,abnormal,1
+327,what imaging modality was used to take this image?,unknown,mr - t1w w/gadolinium,mr - t1w w/gadolinium,no,1,no,1,normal,1,abnormal,1
+328,what abnormality is seen in the image?,unknown,gliosarcoma,abnormal,cannot determine,1,abnormal,0,yes,1,yes,1
+329,what is abnormal in the ct scan?,CT,pancreatic adenocarcinoma,pancreatic adenocarcinoma,pancreatic adenocarcinoma,0,pancreatic adenocarcinoma,0,yes,1,yes,1
+330,what plane was used in this mri?,MRI,axial,normal,abnormal,1,axial,1,axial,1,cannot determine,1
+331,what is abnormal in the mri?,MRI,low grade diffuse astrocytoma,low grade diffuse astrocytoma,no,1,no,1,normal,1,yes,1
+332,was gi contrast given to the patient?,unknown,no,cannot determine,abnormal,1,abnormal,1,normal,1,cannot determine,0
+333,in what plane is this image oriented?,unknown,coronal,coronal,no,1,normal,1,yes,1,cannot determine,1
+334,what imaging modality was used to take this image?,unknown,ct noncontrast,ct noncontrast,no,1,no,1,normal,1,abnormal,1
+335,what part of the body does this mri show?,MRI,skull and contents,skull and contents,no,1,abnormal,1,normal,1,abnormal,1
+336,in which plane is the mri displayed?,MRI,sagittal,sagittal,sagittal,0,sagittal,0,no,1,abnormal,1
+337,was iv contrast given to the patient?,unknown,yes,abnormal,abnormal,0,abnormal,0,no,1,cannot determine,1
+338,what abnormality is seen in the image?,unknown,spontaneous pneumomediastinum,normal,spontaneous pneumomediastinum,1,spontaneous pneumomediastinum,1,normal,0,yes,1
+339,what is most alarming about this ct scan?,CT,vertebral artery dissection with cerebellar infarction,vertebral artery dissection with cerebellar infarction,vertebral artery dissection with cerebellar infarction,0,vertebral artery dissection with cerebellar infarction,0,normal,1,vertebral artery dissection with cerebellar infarction,0
+340,in which plane is the mri displayed?,MRI,axial,axial,no,1,cannot determine,1,axial,0,abnormal,1
+341,what organ system is evaluated primarily?,unknown,skull and contents,abnormal,no,1,no,1,normal,1,abnormal,0
+342,what is most alarming about this ct scan?,CT,bladder cancer,bladder cancer,bladder cancer,0,bladder cancer,0,normal,1,yes,1
+343,in what plane is this mammograph?,unknown,mammo - mlo,abnormal,no,1,no,1,yes,1,cannot determine,1
+344,was iv contrast given to the patient?,unknown,yes,cannot determine,abnormal,1,abnormal,1,no,1,cannot determine,0
+345,does this image look normal?,unknown,yes,cannot determine,cannot determine,0,cannot determine,0,cannot determine,0,cannot determine,0
+346,what is the primary abnormality in this image?,unknown,mycotic aneurysm,mycotic aneurysm,cannot determine,1,abnormal,1,normal,1,normal,1
+347,what imaging modality is used?,unknown,an - angiogram,abnormal,no,1,no,1,normal,1,abnormal,0
+348,in what plane is this image taken?,unknown,axial,abnormal,no,1,no,1,yes,1,cannot determine,1
+349,what organ system is primarily present in this image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,abnormal,1
+350,what organ system is shown in the image?,unknown,"face, sinuses, and neck",abnormal,no,1,no,1,yes,1,normal,1
+351,what is abnormal in the ct scan?,CT,traumatic aortic injury,traumatic aortic injury,no,1,no,1,yes,1,yes,1
+352,what plane is seen?,unknown,lateral,lateral,no,1,lateral,0,yes,1,cannot determine,1
+353,what plane is this?,unknown,lateral,lateral,no,1,lateral,0,no,1,cannot determine,1
+354,what organ system is imaged?,unknown,skull and contents,normal,no,1,no,1,normal,0,normal,0
+355,in what plane is this ultrasound taken?,Ultrasound,transverse,transverse,transverse,0,abnormal,1,yes,1,yes,1
+356,what organ system is primarily present in this image?,unknown,gastrointestinal,gastrointestinal,no,1,no,1,yes,1,abnormal,1
+357,which organ system is imaged?,unknown,gastrointestinal,gastrointestinal,gastrointestinal,0,normal,1,normal,1,normal,1
+358,is this a noncontrast ct?,unknown,no,abnormal,cannot determine,1,cannot determine,1,yes,1,yes,1
+359,is this a ct scan?,CT,yes,cannot determine,abnormal,1,abnormal,1,no,1,cannot determine,0
+360,what organ system is imaged?,unknown,skull and contents,abnormal,no,1,no,1,normal,1,normal,1
+361,what plane is the image acquired in?,unknown,axial,axial,cannot determine,1,cannot determine,1,yes,1,yes,1
+362,what organ system is primarily present in this image?,unknown,skull and contents,abnormal,no,1,no,1,yes,1,abnormal,0
+363,what is most alarming about this ct scan?,CT,right aortic arch,normal,abnormal,1,normal,0,normal,0,yes,1
+364,what is the plane?,unknown,3d reconstruction,abnormal,cannot determine,1,normal,1,yes,1,abnormal,0
+365,which organ system is shown in the mri?,MRI,skull and contents,skull and contents,no,1,no,1,no,1,abnormal,1
+366,what is most alarming about this ct scan?,CT,sarcoidosis,normal,abnormal,1,sarcoidosis,1,normal,0,yes,1
+367,what organ system is being imaged?,unknown,"lung, mediastinum, pleura","lung, mediastinum, pleura",no,1,normal,1,normal,1,normal,1
+368,what is the primary abnormality in this image?,unknown,enchondroma,enchondroma,enchondroma,0,enchondroma,0,normal,1,enchondroma,0
+369,was the ct scan taken with contrast?,CT,yes,cannot determine,cannot determine,0,cannot determine,0,no,1,cannot determine,0
+370,what type of imaging modality is seen in this image?,unknown,sbft - small bowel,sbft - small bowel,no,1,no,1,normal,1,abnormal,1
+371,is this a contrast or noncontrast ct?,unknown,contrast,contrast,yes,1,abnormal,1,yes,1,yes,1
+372,what organ systems can be evaluated with this x-ray?,X-ray,musculoskeletal,normal,no,1,no,1,normal,0,abnormal,1
+373,was the ct scan taken with contrast?,CT,no,normal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+374,what type of imaging modality is shown?,unknown,ct w/contrast (iv),ct w/contrast (iv),no,1,no,1,normal,1,abnormal,1
+375,what is the plane?,unknown,transverse,transverse,cannot determine,1,transverse,0,yes,1,abnormal,1
+376,what is abnormal in the ct scan?,CT,sialolithiasis resulting in sialoadenitis,sialolithiasis resulting in sialoadenitis,no,1,no,1,yes,1,sialolithiasis resulting in sialoadenitis,0
+377,which organ is captured by this mri?,MRI,skull and contents,skull and contents,no,1,no,1,normal,1,abnormal,1
+378,what is abnormal in the ct scan?,CT,acute appendicitis,acute appendicitis,no,1,no,1,yes,1,yes,1
+379,what type of imaging is this?,unknown,xr - plain film,xr - plain film,no,1,no,1,normal,1,xr - plain film,0
+380,is this a t2 weighted image?,unknown,no,no,cannot determine,1,cannot determine,1,no,0,cannot determine,1
+381,what type of imaging modality is used to acquire the image?,unknown,ugi - upper gi,ugi - upper gi,no,1,no,1,yes,1,normal,1
+382,what type of imaging modality is shown?,unknown,xr - plain film,xr - plain film,no,1,no,1,normal,1,abnormal,1
+383,in what plane was this image taken?,unknown,axial,axial,cannot determine,1,axial,0,yes,1,cannot determine,1
+384,what type of imaging modality is shown?,unknown,xr - plain film,xr - plain film,no,1,no,1,xr - plain film,0,abnormal,1
+385,what is the organ system in this image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,normal,1
+386,in what plane is this image taken?,unknown,axial,axial,no,1,no,1,yes,1,cannot determine,1
+387,what is the primary abnormality in this image?,unknown,pancreatic ductal adenocarcinoma,pancreatic ductal adenocarcinoma,pancreatic ductal adenocarcinoma,0,pancreatic ductal adenocarcinoma,0,normal,1,normal,1
+388,what organ system is shown in the image?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,normal,1
+389,what is abnormal in the mri?,MRI,apical hypertrophic cardiomyopathy,apical hypertrophic cardiomyopathy,no,1,apical hypertrophic cardiomyopathy,0,normal,1,yes,1
+390,what plane was used in this ct scan?,CT,3d reconstruction,3d reconstruction,abnormal,1,no,1,normal,1,abnormal,1
+391,in what plane is this image taken?,unknown,axial,axial,no,1,no,1,yes,1,cannot determine,1
+392,what organ is this mri showing?,MRI,skull and contents,skull and contents,no,1,abnormal,1,no,1,skull and contents,0
+393,what is most alarming about this ultrasound?,Ultrasound,aml (angiomyolipoma),abnormal,cannot determine,1,normal,1,normal,1,abnormal,0
+394,what is most alarming about this ct scan?,CT,bronchopleural fistula,bronchopleural fistula,abnormal,1,normal,1,normal,1,yes,1
+395,what is most alarming about this ct scan?,CT,subdural empyema secondary to sinusitis in an adolescent,subdural empyema secondary to sinusitis in an adolescent,abnormal,1,normal,1,normal,1,subdural empyema secondary to sinusitis in an adolescent,0
+396,what organ system is shown in the image?,unknown,gastrointestinal,gastrointestinal,no,1,no,1,yes,1,normal,1
+397,what is the primary abnormality in this image?,unknown,irregular bone edema,irregular bone edema,cannot determine,1,irregular bone edema,0,normal,1,normal,1
+398,what is most alarming about this ct scan?,CT,anomalous left coronary artery (arising form the pulmonary artery alcapa),anomalous left coronary artery (arising form the pulmonary artery alcapa),anomalous left coronary artery (arising form the pulmonary artery alcapa),0,anomalous left coronary artery (arising form the pulmonary artery alcapa),0,normal,1,anomalous left coronary artery (arising form the pulmonary artery alcapa),0
+399,what imaging modality was used to take this image?,unknown,mr - t2 weighted,mr - t2 weighted,no,1,no,1,normal,1,abnormal,1
+400,what is most alarming about this mri?,MRI,orbital sarcoidosis,normal,orbital sarcoidosis,1,no,1,normal,0,abnormal,1
+401,in what plane is this image oriented?,unknown,oblique,abnormal,no,1,normal,1,yes,1,cannot determine,1
+402,what is abnormal in the gastrointestinal image?,unknown,superior mesenteric artery syndrome,normal,no,1,superior mesenteric artery syndrome,1,yes,1,yes,1
+403,what is the plane of this x-ray?,X-ray,lateral,lateral,cannot determine,1,cannot determine,1,normal,1,cannot determine,1
+404,what type of imaging modality is seen in this image?,unknown,xr - plain film,xr - plain film,no,1,no,1,normal,1,abnormal,1
+405,what organ system is displayed in this ct scan?,CT,skull and contents,skull and contents,no,1,abnormal,1,normal,1,normal,1
+406,which organ system is shown in the mri?,MRI,spine and contents,spine and contents,spine and contents,0,no,1,no,1,abnormal,1
+407,what plane is this?,unknown,3d reconstruction,3d reconstruction,no,1,3d reconstruction,0,no,1,cannot determine,1
+408,was gi contrast given to the patient?,unknown,no,normal,abnormal,1,abnormal,1,normal,0,cannot determine,1
+409,was the ct scan taken with contrast?,CT,no,cannot determine,cannot determine,0,cannot determine,0,no,1,cannot determine,0
+410,what is the plane of the x-ray?,X-ray,pa,pa,pa,0,cannot determine,1,normal,1,cannot determine,1
+411,which organ system is imaged?,unknown,gastrointestinal,gastrointestinal,gastrointestinal,0,normal,1,yes,1,normal,1
+412,what is the primary abnormality in this image?,unknown,hodgkin's lymphoma,hodgkin's lymphoma,cannot determine,1,abnormal,1,normal,1,normal,1
+413,how was this image taken?,unknown,xr - plain film,xr - plain film,no,1,abnormal,1,cannot determine,1,xr - plain film,0
+414,what is abnormal in the ct scan?,CT,(angioinvasive aspergillosis with) septic cerebral emboli,no,no,0,no,0,yes,1,yes,1
+415,is 	this a t1 weighted image?,unknown,yes,no,cannot determine,1,cannot determine,1,yes,1,no,0
+416,what is the mr weighting in this image?,unknown,t1,t1,abnormal,1,abnormal,1,normal,1,normal,1
+417,what part of the body is being imaged here?,unknown,skull and contents,normal,no,1,no,1,no,1,abnormal,1
+418,what imaging modality was used to take this image?,unknown,ct (with gi and iv contrast),ct (with gi and iv contrast),no,1,no,1,normal,1,ct (with gi and iv contrast),0
+419,is 	this a t1 weighted image?,unknown,yes,no,cannot determine,1,cannot determine,1,yes,1,no,0
+420,what organ is this image of?,unknown,skull and contents,normal,cannot determine,1,no,1,no,1,abnormal,1
+421,in what plane is this angiogram taken?,Angiography,axial,normal,axial,1,axial,1,yes,1,yes,1
+422,what is the primary abnormality in this image?,unknown,posterior sternoclavicular dislocation,posterior sternoclavicular dislocation,cannot determine,1,abnormal,1,normal,1,normal,1
+423,is this an mri image?,MRI,yes,normal,yes,1,yes,1,no,1,cannot determine,1
+424,what plane is the image acquired in?,unknown,transverse,transverse,transverse,0,cannot determine,1,yes,1,yes,1
+425,what is abnormal in the mri?,MRI,lipoma arborescens,normal,lipoma arborescens,1,no,1,normal,0,yes,1
+426,which organ is captured by this mri?,MRI,"face, sinuses, and neck",normal,no,1,no,1,normal,0,abnormal,1
+427,what organ is this image of?,unknown,skull and contents,yes,cannot determine,1,no,1,no,1,abnormal,1
+428,what modality is shown?,unknown,cta - ct angiography,cta - ct angiography,no,1,no,1,normal,1,abnormal,1
+429,what organ system is being imaged?,unknown,skull and contents,normal,no,1,normal,0,normal,0,normal,0
+430,what organ system is evaluated primarily?,unknown,musculoskeletal,normal,no,1,no,1,normal,0,abnormal,1
+431,what abnormality is seen in the image?,unknown,medulloblastoma,medulloblastoma,cannot determine,1,abnormal,1,yes,1,yes,1
+432,what is abnormal in the x-ray?,X-ray,rheumatoid arthritis,rheumatoid arthritis,rheumatoid arthritis,0,no,1,yes,1,cannot determine,1
+433,what organ system is evaluated primarily?,unknown,"lung, mediastinum, pleura","lung, mediastinum, pleura",no,1,"lung, mediastinum, pleura",0,"lung, mediastinum, pleura",0,abnormal,1
+434,what plane is the image acquired in?,unknown,axial,axial,cannot determine,1,cannot determine,1,yes,1,yes,1
+435,what is the primary abnormality in this image?,unknown,multiple osteochondromatosis,multiple osteochondromatosis,cannot determine,1,abnormal,1,normal,1,normal,1
+436,what organ system is shown in the image?,unknown,"lung, mediastinum, pleura","lung, mediastinum, pleura",no,1,no,1,yes,1,normal,1
+437,what type of imaging does this represent?,unknown,cta - ct angiography,abnormal,no,1,no,1,normal,1,abnormal,0
+438,what type of contrast did this patient have?,unknown,gi and iv,gi and iv,no,1,no,1,normal,1,gi and iv,0
+439,what organ system is displayed in this mri?,MRI,skull and contents,skull and contents,no,1,no,1,normal,1,abnormal,1
+440,what is the primary abnormality in this image?,unknown,glioblastoma multiforme,glioblastoma multiforme,glioblastoma multiforme,0,abnormal,1,normal,1,normal,1
+441,is this a contrast or noncontrast ct?,unknown,contrast,contrast,yes,1,abnormal,1,yes,1,yes,1
+442,in what plane was this image taken?,unknown,axial,abnormal,cannot determine,1,axial,1,yes,1,cannot determine,1
+443,what organ system is imaged?,unknown,"face, sinuses, and neck#skull and contents",normal,no,1,no,1,normal,0,normal,0
+444,what abnormality is seen in the image?,unknown,medullary nephrocalcinosis,medullary nephrocalcinosis,medullary nephrocalcinosis,0,abnormal,1,yes,1,yes,1
+445,in what plane was this image taken?,unknown,axial,normal,cannot determine,1,axial,1,yes,1,cannot determine,1
+446,what is the primary abnormality in this image?,unknown,chondrosarcoma,normal,chondrosarcoma,1,chondrosarcoma,1,normal,0,normal,0
+447,what organ system is evaluated primarily?,unknown,genitourinary,genitourinary,no,1,no,1,normal,1,abnormal,1
+448,what modality is shown?,unknown,mr - adc map (app diff coeff),mr - adc map (app diff coeff),no,1,mr - adc map (app diff coeff),0,normal,1,abnormal,1
+449,what organ system is primarily present in this image?,unknown,musculoskeletal,musculoskeletal,no,1,no,1,yes,1,abnormal,1
+450,what organ system is being imaged?,unknown,"lung, mediastinum, pleura#spine and contents",normal,no,1,normal,0,normal,0,normal,0
+451,what plane was used?,unknown,axial,axial,cannot determine,1,no,1,normal,1,yes,1
+452,which plane is this image in?,unknown,axial,axial,no,1,normal,1,normal,1,abnormal,1
+453,what imaging plane is depicted here?,unknown,axial,axial,no,1,no,1,normal,1,abnormal,1
+454,is this a contrast or noncontrast ct?,unknown,noncontrast,abnormal,yes,1,abnormal,0,yes,1,yes,1
+455,what organ system is visualized?,unknown,skull and contents,abnormal,no,1,abnormal,0,normal,1,abnormal,0
+456,what plane is seen?,unknown,axial,axial,no,1,axial,0,no,1,cannot determine,1
+457,what plane was used?,unknown,axial,axial,cannot determine,1,no,1,normal,1,yes,1
+458,what organ system is pictured here?,unknown,skull and contents,skull and contents,no,1,no,1,yes,1,abnormal,1
+459,what abnormality is seen in the image?,unknown,(staging burkitt) lymphoma,(staging burkitt) lymphoma,cannot determine,1,abnormal,1,yes,1,yes,1
+460,what type of imaging modality is shown?,unknown,ct w/contrast (iv),ct w/contrast (iv),no,1,no,1,normal,1,abnormal,1
+461,what part of the body is being imaged?,unknown,skull and contents,normal,no,1,no,1,no,1,abnormal,1
+462,was the ct scan taken with contrast?,CT,yes,abnormal,cannot determine,1,cannot determine,1,no,1,cannot determine,1
+463,which plane is this image in?,unknown,axial,abnormal,no,1,normal,1,yes,1,abnormal,0
+464,is this a ct scan?,CT,yes,normal,abnormal,1,abnormal,1,no,1,cannot determine,1
+465,what is most alarming about this nuclear medicine image?,Nuclear,parathyroid adenoma,normal,parathyroid adenoma,1,normal,0,normal,0,yes,1
+466,what organ system is visualized?,unknown,heart and great vessels,heart and great vessels,no,1,heart and great vessels,0,normal,1,abnormal,1
+467,what is most alarming about this x-ray?,X-ray,osteochondritis dissecans of the knee,osteochondritis dissecans of the knee,cannot determine,1,osteochondritis dissecans of the knee,0,normal,1,normal,1
+468,which organ system is imaged?,unknown,skull and contents,normal,no,1,normal,0,yes,1,normal,0
+469,what organ system is shown in this x-ray?,X-ray,"gastrointestinal#lung, mediastinum, pleura","gastrointestinal#lung, mediastinum, pleura","gastrointestinal#lung, mediastinum, pleura",0,"gastrointestinal#lung, mediastinum, pleura",0,yes,1,cannot determine,1
+470,what is most alarming about this mri?,MRI,ependymoma,ependymoma,ependymoma,0,ependymoma,0,normal,1,abnormal,1
+471,what is the plane of the ct scan?,CT,axial,axial,abnormal,1,axial,0,axial,0,abnormal,1
+472,what is most alarming about this ct scan?,CT,liver hemangioma,liver hemangioma,liver hemangioma,0,liver hemangioma,0,liver hemangioma,0,liver hemangioma,0
+473,what organ is this image showing?,unknown,breast,breast,cannot determine,1,breast,0,no,1,abnormal,1
+474,what type of contrast did this patient have?,unknown,iv,abnormal,no,1,no,1,normal,1,normal,1
+475,what is abnormal in the ct scan?,CT,dermoid tumor (inclusion cyst) of cns,normal,dermoid tumor (inclusion cyst) of cns,1,no,1,yes,1,yes,1
+476,what is most alarming about this mri?,MRI,right transverse sinus stenosis,right transverse sinus stenosis,no,1,right transverse sinus stenosis,0,normal,1,abnormal,1
+477,in what plane is this mri?,MRI,axial,normal,axial,1,axial,1,no,1,abnormal,1
+478,is this a contrast or noncontrast ct?,unknown,contrast,abnormal,yes,1,abnormal,0,yes,1,yes,1
+479,which organ system is imaged?,unknown,skull and contents,skull and contents,no,1,normal,1,yes,1,normal,1
+480,was gi contrast given to the patient?,unknown,no,cannot determine,abnormal,1,abnormal,1,no,1,cannot determine,0
+481,what is most alarming about this ct scan?,CT,lymphangitic carcinomatosis,lymphangitic carcinomatosis,lymphangitic carcinomatosis,0,normal,1,normal,1,yes,1
+482,what is the primary abnormality in this image?,unknown,adenomyosis,adenomyosis,cannot determine,1,abnormal,1,normal,1,normal,1
+483,which organ is captured by this ct scan?,CT,gastrointestinal,gastrointestinal,no,1,no,1,normal,1,abnormal,1
+484,what plane was used in this ct scan?,CT,axial,axial,abnormal,1,no,1,normal,1,abnormal,1
+485,in what plane is this ct scan?,CT,axial,normal,abnormal,1,abnormal,1,no,1,abnormal,1
+486,which plane is the image taken?,unknown,axial,axial,cannot determine,1,normal,1,yes,1,cannot determine,1
+487,what is most alarming about this gastrointestinal image?,unknown,paraesophageal hernia,paraesophageal hernia,no,1,normal,1,normal,1,cannot determine,1
+488,what is most alarming about this mri?,MRI,persistent trigeminal artery,persistent trigeminal artery,no,1,persistent trigeminal artery,0,normal,1,abnormal,1
+489,what is the primary abnormality in this image?,unknown,calcified uterine leiomyoma,calcified uterine leiomyoma,calcified uterine leiomyoma,0,calcified uterine leiomyoma,0,normal,1,normal,1
+490,what plane is the image acquired in?,unknown,coronal,normal,coronal,1,cannot determine,1,yes,1,coronal,1
+491,which plane is this x-ray taken in?,X-ray,mammo - cc,mammo - cc,mammo - cc,0,cannot determine,1,yes,1,abnormal,1
+492,what organ system is evaluated primarily?,unknown,skull and contents,skull and contents,no,1,no,1,normal,1,abnormal,1
+493,which plane is the image shown in?,unknown,ap,normal,abnormal,1,normal,0,normal,0,normal,0
+494,was gi contrast given to the patient?,unknown,no,cannot determine,abnormal,1,abnormal,1,normal,1,cannot determine,0
+495,in what plane was this image taken?,unknown,axial,cannot determine,cannot determine,0,axial,1,normal,1,cannot determine,0
+496,what is most alarming about this mri?,MRI,calcification and large areas of abnormal white mattter,calcification and large areas of abnormal white mattter,no,1,calcification and large areas of abnormal white mattter,0,normal,1,calcification and large areas of abnormal white mattter,0
+497,what is abnormal in the ct scan?,CT,"sialolithiasis, obstructing sialolith","sialolithiasis, obstructing sialolith",no,1,no,1,yes,1,"sialolithiasis, obstructing sialolith",0
+498,what is the plane of this ct scan?,CT,axial,axial,abnormal,1,axial,0,normal,1,abnormal,1
+499,what is abnormal in the mri?,MRI,vertebral metastases,vertebral metastases,vertebral metastases,0,vertebral metastases,0,normal,1,yes,1

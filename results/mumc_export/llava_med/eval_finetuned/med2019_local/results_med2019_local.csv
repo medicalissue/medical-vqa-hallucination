@@ -1,79 +1,501 @@
 qid,question,answer,modality,pred_label,correct
-0,what abnormality is seen in the image?,epidural empyema,unknown,"The image shows a subdural hematoma, which is a collection of",0
-1,what is abnormal in the ultrasound?,colo-colic intussusception,Ultrasound,The ultrasound shows an abnormal mass in the right breast.,0
-2,which plane is the image taken?,axial,unknown,The image is taken in the coronal plane.,0
-3,what is most alarming about this mri?,cerebellar hemangioblastoma,MRI,The most alarming aspect of this MRI is the presence of a large mass,0
-4,what is the organ principally shown in this mri?,skull and contents,MRI,The organ principally shown in this MRI is the pituitary gland,0
-5,is this a noncontrast ct?,no,CT,"Yes, the image is a noncontrast computed tomography (CT) scan",0
-6,in what plane is this x-ray taken?,ap,X-ray,This chest x-ray is taken in the anteroposterior (AP,0
-7,is this a noncontrast ct?,yes,CT,"Yes, the image is a noncontrast computed tomography (CT) scan",0
-8,the mri shows what organ system?,skull and contents,MRI,"The MRI image shows the pelvic region, which includes the reproduct",0
-9,is this a ct scan?,no,CT,"Yes, the image is a computed tomography (CT) scan.",0
-10,in what plane is this x-ray taken?,oblique,X-ray,This x-ray is taken in the coronal plane.,0
-11,what organ system is pictured here?,skull and contents,unknown,The image is a computed tomography (CT) scan of the brain.,0
-12,what imaging modality was used to take this image?,mr - t1w w/gadolinium,unknown,"The image was taken using magnetic resonance imaging (MRI), which is",0
-13,in what plane is this image oriented?,pa,unknown,This image is oriented in the coronal plane.,0
-14,what is abnormal in the mri?,l5-s1 extruded disk fragment,MRI,The mri image shows an abnormal signal in the right sacroiliac,0
-15,what part of the body is being imaged here?,vascular and lymphatic,unknown,"The image is an ultrasound of the abdomen, specifically focusing on",0
-16,what organ system is primarily present in this image?,"lung, mediastinum, pleura",unknown,"The primary organ system present in this image is the respiratory system, specifically",0
-17,is this an mri image?,no,MRI,"Yes, the image is a coronal MRI of the head.",0
-18,what organ is this image of?,skull and contents,unknown,"The image is of the brain, specifically focusing on the left temporal lobe.",0
-19,what imaging modality was used to take this image?,ct with iv contrast,unknown,A computed tomography (CT) scan was used to take this image.,0
-20,what image plane is this?,axial,unknown,This is an axial image plane.,1
-21,is this image normal?,no,unknown,"Yes, the image is described as a normal X-ray of the foot.",0
-22,was the ct scan taken with contrast?,no,CT,"No, the ct scan was taken without contrast.",0
-23,in what plane is this image taken?,axial,unknown,This image is taken in the coronal plane.,0
-24,is this a contrast or noncontrast ct?,contrast,CT,This is a noncontrast computed tomography (CT) image.,0
-25,how was this image taken?,xr - plain film,unknown,This image was taken using a cone-beam computed tomography (CBCT,0
-26,which organ is captured by this mri?,skull and contents,MRI,"The MRI image captures the brain, specifically focusing on the cerebellum",0
-27,what plane was used in this ct scan?,axial,CT,The ct scan was taken in the coronal plane.,0
-28,what imaging modality was used to take this image?,mr - t1w w/gadolinium,unknown,"The image was taken using magnetic resonance imaging (MRI), which is",0
-29,what abnormality is seen in the image?,inguinal hernia involving bladder,unknown,"The image shows a large left-sided pelvic mass, which is",0
-30,what is most alarming about this ultrasound?,medullary nephrocalcinosis,Ultrasound,The most alarming aspect of this ultrasound is the presence of a large,0
-31,what imaging modality is used to acquire this picture?,xr - plain film,unknown,The image is acquired using a computed tomography (CT) scan.,0
-32,in what plane was this image taken?,axial,unknown,The image was taken in the coronal plane.,0
-33,what is abnormal in the ct scan?,"osteoma, head and neck",CT,The ct scan shows an abnormal mass in the right maxillary sin,0
-34,was iv contrast given to the patient?,yes,unknown,"Yes, the patient received intravenous (iv) contrast.",0
-35,what organ system is shown in the image?,"lung, mediastinum, pleura",unknown,"The image shows the thoracic region, which is part of the resp",0
-36,what plane is this?,3d reconstruction,unknown,This is a sagittal plane image. The sagittal plane is a,0
-37,what is the plane of the image?,axial,unknown,The image is a coronal plane CT scan.,0
-38,what is the organ principally shown in this mri?,skull and contents,MRI,The organ principally shown in this MRI is the brain.,0
-39,what abnormality is seen in the image?,medullary nephrocalcinosis,unknown,"The image shows a left renal cyst, which is an abnormal fluid",0
-40,what organ system is being imaged?,skull and contents,unknown,The organ system being imaged is the brain.,0
-41,what organ system is evaluated primarily?,skull and contents,unknown,The primary organ system evaluated in the chest X-ray is the respiratory,0
-42,what is the primary abnormality in this image?,vertebral artery dissection,unknown,The primary abnormality in this image is the presence of a thrombus,0
-43,what type of contrast did this patient have?,gi and iv,unknown,The patient had a CT scan with intravenous (IV) contrast.,0
-44,what abnormality is seen in the image?,nodular opacity on the left#metastastic melanoma,unknown,"The image shows a right-sided pleural effusion, which is an",0
-45,in what plane is this mammograph?,mammo - mlo,unknown,This mammograph is in the coronal plane.,0
-46,what plane was used in this x-ray?,frontal,X-ray,The x-ray was taken in the coronal plane.,0
-47,what is the plane of this mri?,coronal,MRI,The plane of this MRI is the sagittal plane.,0
-48,in what plane is this image taken?,axial,unknown,This image is taken in the coronal plane.,0
-49,in what plane is this mri captured?,axial,MRI,This mri is captured in the coronal plane.,0
-50,in what plane is this image taken?,axial,unknown,This image is taken in the coronal plane.,0
-51,in what plane is this ct scan taken?,axial,CT,The ct scan is taken in the coronal plane.,0
-52,was gi contrast given to the patient?,no,unknown,"Yes, the patient received intravenous (IV) contrast.",0
-53,which organ system is imaged?,gastrointestinal,unknown,The organ system imaged in the chest X-ray is the respiratory,0
-54,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with contrast.",0
-55,what is the primary abnormality in this image?,"unilateral megaloencephaly, hemimegalencephaly",unknown,The primary abnormality in this image is the presence of a large posterior foss,0
-56,how was this image taken?,us - ultrasound,unknown,This image was taken using a transrectal ultrasound (TRUS),0
-57,what plane was used in this ct scan?,3d reconstruction,CT,The ct scan was performed in the sagittal plane.,0
-58,in what plane is this x-ray?,pa,X-ray,This is a lateral chest x-ray.,0
-59,what organ system is being imaged?,heart and great vessels,unknown,"The organ system being imaged is the thoracic region, which includes",0
-60,in what plane is this ct scan captured?,axial,CT,The ct scan is captured in the coronal plane.,0
-61,what is the plane of this x-ray?,lateral,X-ray,The plane of this x-ray is the coronal plane.,0
-62,what is the plane?,axial,unknown,The plane in the image is the coronal plane. This plane divides the,0
-63,what is abnormal in the mri?,low grade diffuse astrocytoma,MRI,The MRI image shows an abnormal signal in the left frontal lobe,0
-64,which plane is this image in?,longitudinal,unknown,"This image is in the transverse plane, which is a horizontal plane that div",0
-65,what plane is the image acquired in?,axial,unknown,The image is acquired in the coronal plane.,0
-66,in what plane is this mri taken?,axial,MRI,This MRI is taken in the coronal plane.,0
-67,what plane is the image acquired in?,transverse,unknown,"The image is acquired in the transverse plane, which is a horizontal plane that",1
-68,which image modality is this?,us - ultrasound,unknown,This is an ultrasound image.,0
-69,what type of imaging modality is used to acquire the image?,ugi - upper gi,unknown,"The image is acquired using a chest X-ray, which is a common imag",0
-70,what is most alarming about this ct scan?,anomalous left coronary artery (arising form the pulmonary artery alcapa),CT,The most alarming aspect of this ct scan is the presence of a large,0
-71,which organ system is shown in the ct scan?,"lung, mediastinum, pleura",CT,"The ct scan shows the thoracic region, which includes the chest",0
-72,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with contrast.",0
-73,in which plane is the x-ray displayed?,ap,X-ray,The x-ray is displayed in the coronal plane.,0
-74,which organ system is shown in the ct scan?,"lung, mediastinum, pleura",CT,"The ct scan shows the thoracic region, which includes the chest",0
-75,what image plane is this?,axial,unknown,This is a coronal image plane.,0
-76,is this a ct scan?,yes,CT,"Yes, the image is a computed tomography (CT) scan.",0
-77,what organ system is being imaged?,"lung, mediastinum, pleura",unknown,"The organ system being imaged is the thoracic region, which includes",0
+0,what abnormality is seen in the image?,epidural empyema,unknown,The image shows a subdural he,0
+1,what is abnormal in the ultrasound?,colo-colic intussusception,Ultrasound,The ultrasound shows an abnormal,0
+2,which plane is the image taken?,axial,unknown,The image is taken in the coronal,0
+3,what is most alarming about this mri?,cerebellar hemangioblastoma,MRI,The most alarming aspect of this M,0
+4,what is the organ principally shown in this mri?,skull and contents,MRI,The organ principally shown in this M,0
+5,is this a noncontrast ct?,no,unknown,"Yes, the image is a noncontr",0
+6,in what plane is this x-ray taken?,ap,X-ray,This chest x-ray is taken in,0
+7,is this a noncontrast ct?,yes,unknown,"Yes, the image is a noncontr",0
+8,the mri shows what organ system?,skull and contents,MRI,The MRI image shows the pelv,0
+9,is this a ct scan?,no,CT,"Yes, the image is a computed tom",0
+10,in what plane is this x-ray taken?,oblique,X-ray,This x-ray is taken in the,0
+11,what organ system is pictured here?,skull and contents,unknown,The image is a computed tomography (,0
+12,what imaging modality was used to take this image?,mr - t1w w/gadolinium,unknown,The image was taken using magnetic resonance,0
+13,in what plane is this image oriented?,pa,unknown,This image is oriented in the cor,0
+14,what is abnormal in the mri?,l5-s1 extruded disk fragment,MRI,The mri image shows an abnormal,0
+15,what part of the body is being imaged here?,vascular and lymphatic,unknown,The image is an ultrasound of,0
+16,what organ system is primarily present in this image?,"lung, mediastinum, pleura",unknown,The primary organ system present in this image,0
+17,is this an mri image?,no,MRI,"Yes, the image is a coronal",0
+18,what organ is this image of?,skull and contents,unknown,"The image is of the brain, specifically",0
+19,what imaging modality was used to take this image?,ct with iv contrast,unknown,A computed tomography (CT) scan,0
+20,what plane is this film,axial,unknown,This film is in the coronal plane,0
+21,what organ system is imaged?,musculoskeletal,unknown,The organ system imaged in the M,0
+22,which plane is the image taken?,lateral,unknown,The image is taken in the coronal,0
+23,is this a noncontrast ct?,no,unknown,"Yes, the image is a noncontr",0
+24,which organ is captured by this ct scan?,heart and great vessels,CT,The ct scan captures the heart,0
+25,what organ system is visualized?,skull and contents#spine and contents,unknown,The organ system visualized in the image,0
+26,what is abnormal in the mri?,"abscess, pyogenic",MRI,The MRI image shows abnormal signal,0
+27,what is the primary abnormality in this image?,(iatrogenic) pneumoperitoneum,unknown,The primary abnormality in this image,0
+28,what image plane is this?,axial,unknown,This is an axial image plane.,1
+29,is this a t1 weighted image?,no,unknown,"Yes, the image is a T1",0
+30,in which plane is the x-ray displayed?,ap,X-ray,The x-ray is displayed in the,0
+31,what plane was used?,axial,unknown,The image was taken in the coronal,0
+32,what is abnormal in the ct scan?,chondroblastic osteosarcoma,CT,The ct scan shows an abnormal,0
+33,is this a ct scan?,yes,CT,"Yes, the image is a computed tom",0
+34,what abnormality is seen in the image?,right transverse sinus stenosis,unknown,The image shows a persistent primitive hypog,0
+35,what is abnormal in the gastrointestinal image?,crohn's disease,unknown,The gastrointestinal image shows,0
+36,what is most alarming about this ultrasound?,medullary nephrocalcinosis,Ultrasound,The most alarming aspect of this ul,0
+37,is this a noncontrast mri?,no,MRI,"Yes, the image is a noncontr",0
+38,what is most alarming about this x-ray?,(seronegative) spondylarthropathies,X-ray,The most alarming aspect of this x,0
+39,is this a contrast or noncontrast mri?,noncontrast (mri),MRI,This is a noncontrast MRI,0
+40,what is abnormal in the mri?,bucket handle tear of meniscus,MRI,The MRI image shows an abnormal,0
+41,what imaging method was used?,xr - plain film,unknown,A computed tomography (CT) scan,0
+42,in what plane was this image taken?,axial,unknown,The image was taken in the coronal,0
+43,what is abnormal in the ct scan?,early cerebral infarction,CT,The ct scan shows abnormalities,0
+44,what is the organ principally shown in this mri?,skull and contents,MRI,The organ principally shown in this M,0
+45,what imaging plane is depicted here?,axial,unknown,"The image is a coronal plane,",0
+46,what is the primary abnormality in this image?,"glioblastoma multiforme (gbm, astrocytoma grade 4/iv)",unknown,The primary abnormality in this image,0
+47,what is the plane of the image?,axial,unknown,The image is a coronal plane CT,0
+48,what organ system is pictured here?,musculoskeletal,unknown,The organ system pictured here is the,0
+49,what organ system is being imaged?,skull and contents,unknown,The organ system being imaged is the,0
+50,"is this a t1 weighted, t2 weighted, or flair image?",t1,unknown,The image is a T2-weight,0
+51,what modality is shown?,xr - plain film,unknown,The image is a chest X-ray,0
+52,what organ system is visualized?,skull and contents,unknown,The organ system visualized in the image,0
+53,what type of imaging modality is shown?,ugi - upper gi,unknown,The image is a computed tomography (,0
+54,in what plane is this ct scan?,axial,CT,This ct scan is in the cor,0
+55,what is the plane?,axial,unknown,The plane in the image is the cor,0
+56,what imaging modality was used to take this image?,ct with iv contrast,unknown,A chest computed tomography (CT),0
+57,what is the primary abnormality in this image?,crohn's disease,unknown,The primary abnormality in this image,0
+58,what imaging modality was used to take this image?,ct with gi and iv contrast,unknown,A computed tomography (CT) scan,0
+59,what organ system is primarily present in this image?,"lung, mediastinum, pleura#spine and contents",unknown,The primary organ system present in this image,0
+60,what is most alarming about this mri?,cephalocele,MRI,The most alarming aspect of this M,0
+61,in what plane is this mri captured?,axial,MRI,This mri is captured in the cor,0
+62,how was this image taken?,us - ultrasound,unknown,This image was taken using a transrect,0
+63,what part of the body does this ct scan show?,heart and great vessels,CT,The ct scan shows the chest area,0
+64,was the mri taken with contrast?,no,MRI,"Yes, the MRI was taken with",0
+65,what is most alarming about this ultrasound?,"incompetent cervix, ""hourglass membranes.""",Ultrasound,The most alarming aspect of this ul,0
+66,what abnormality is seen in the image?,nontraumatic subarachnoid hemorrhage,unknown,The image shows a left frontal sub,0
+67,which image modality is this?,mr - flair,unknown,This is an MRI (Magnetic,0
+68,what is the primary abnormality in this image?,percutaneous nephrostomy,unknown,The primary abnormality in this image,0
+69,which plane is this image in?,longitudinal,unknown,This image is in the transverse plane,0
+70,what part of the body is being imaged here?,skull and contents,unknown,The image is an MRI of the,0
+71,what is the plane of the image?,coronal,unknown,The image is in the coronal plane,1
+72,what is the plane of the image?,axial,unknown,The image is in the coronal plane,0
+73,what is abnormal in the mri?,"brain, cerebral abscess",MRI,The MRI image shows an abnormal,0
+74,what organ system is shown in the image?,musculoskeletal,unknown,The image shows the musculoske,0
+75,what organ system is visualized?,musculoskeletal,unknown,The image visualizes the musculos,0
+76,the ct scan shows what organ system?,heart and great vessels,CT,The ct scan shows the thor,0
+77,the ultrasound shows what organ system?,"face, sinuses, and neck",Ultrasound,The ultrasound image shows the thy,0
+78,in what plane is this image taken?,pa,unknown,This image is taken in the coronal,0
+79,what plane is demonstrated?,sagittal,unknown,The image demonstrates a sagittal,1
+80,what organ is this image of?,spine and contents,unknown,The image is of the spinal cord,0
+81,what type of imaging modality is shown?,ct w/contrast (iv),unknown,The image is a computed tomography (,0
+82,what organ system is pictured here?,"lung, mediastinum, pleura",unknown,The organ system pictured here is the,0
+83,"is this image modality t1, t2, or flair?",flair,unknown,The image is a T1-weight,0
+84,in what plane is this mri taken?,axial,MRI,The mri is taken in the cor,0
+85,what organ system is visualized?,musculoskeletal,unknown,The image visualizes the pelvic,0
+86,what abnormality is seen in the image?,cerebral infarct (l mca territory),unknown,The image shows a persistent trigem,0
+87,what organ is this x-ray showing?,"lung, mediastinum, pleura",X-ray,This chest x-ray is showing the,0
+88,what is most alarming about this gastrointestinal image?,ascariasis,unknown,The most alarming aspect of this g,0
+89,what is the plane of the ct scan?,sagittal,CT,The plane of the ct scan is,0
+90,what is most alarming about this mri?,potts puffy tumor,MRI,The most alarming aspect of this M,0
+91,what is the organ principally shown in this mri?,skull and contents,MRI,The organ principally shown in this M,0
+92,what organ system is evaluated primarily?,skull and contents,unknown,The chest X-ray primarily evaluates,0
+93,does this image look normal?,yes,unknown,It's difficult to determine if the,0
+94,what is most alarming about this mri?,cerebral infarct,MRI,The most alarming aspect of this M,0
+95,what organ system is evaluated primarily?,genitourinary,unknown,The primary organ system evaluated in the image,0
+96,what plane is seen?,axial,unknown,"The image is a coronal plane,",0
+97,is this a ct scan?,yes,CT,"Yes, the image is a computed tom",0
+98,what plane is this mri in?,sagittal,MRI,This MRI is in the sagitt,0
+99,is this a noncontrast mri?,yes,MRI,"Yes, the image is a noncontr",0
+100,is this image normal?,no,unknown,"Yes, the image is described as a",0
+101,what is most alarming about this ct scan?,pelvic congestion syndrome,CT,The most alarming aspect of this CT,0
+102,what is the plane?,pa,unknown,The plane in the image is the cor,0
+103,in what plane is this ultrasound?,sagittal,Ultrasound,This ultrasound is in the trans,0
+104,which organ system is imaged?,skull and contents,unknown,The image is an angiogram of,0
+105,is this a ct scan?,yes,CT,"Yes, the image is a computed tom",0
+106,what plane was used in this ct scan?,axial,CT,The ct scan was taken in the,0
+107,in what plane is this image taken?,ap,unknown,This image is taken in the coronal,0
+108,what organ system is pictured here?,skull and contents,unknown,The organ system pictured here is the,0
+109,what imaging plane is depicted here?,axial,unknown,"The image is a coronal plane,",0
+110,what plane was used in this mri?,axial,MRI,The mri was taken in the cor,0
+111,what organ systems can be evaluated with this mri?,skull and contents,MRI,The MRI image can be used to,0
+112,what image plane is this?,axial,unknown,This is a coronal image plane.,0
+113,what organ system is being imaged?,heart and great vessels,unknown,The organ system being imaged is the,0
+114,what part of the body is being imaged?,musculoskeletal,unknown,The image is an MRI of the,0
+115,is there something wrong in the image?,yes,unknown,"Yes, there appears to be a mass",0
+116,in what plane is this ct scan?,coronal,CT,This ct scan is in the cor,0
+117,what plane is this?,ap,unknown,This is a lateral plane image.,0
+118,what is abnormal in the ct scan?,glomus tympanicum and glomus jugulare tumors (paraganglioma),CT,The ct scan shows an abnormal,0
+119,in what plane was this image taken?,coronal,unknown,The image was taken in the coronal,1
+120,what is the plane of the ct scan?,3d reconstruction,CT,The plane of the ct scan is,0
+121,which plane is the image shown in?,sagittal,unknown,The image is shown in the sagitt,0
+122,what is most alarming about this ct scan?,epiploic appendagitis,CT,The most alarming aspect of this c,0
+123,what abnormality is seen in the image?,meningioma,unknown,The image shows a large cerebellar,0
+124,what organ system is primarily present in this image?,"lung, mediastinum, pleura",unknown,The primary organ system present in this image,0
+125,what imaging modality is used to acquire this picture?,us - ultrasound,unknown,The image is acquired using ultrasound,0
+126,in what plane is this ct scan?,axial,CT,This ct scan is in the cor,0
+127,is this a t2 weighted image?,no,unknown,"Yes, the image is a T2",0
+128,is this a t2 weighted image?,no,unknown,"Yes, the image is a T2",0
+129,which organ system is shown in the ct scan?,"lung, mediastinum, pleura",CT,The ct scan shows the thor,0
+130,what type of contrast did this patient have?,iv,unknown,The patient had a gadolinium,0
+131,what is abnormal in the gastrointestinal image?,gastric volvulus (organoaxial),unknown,The gastrointestinal image shows,0
+132,which plane is this image in?,sagittal,unknown,This image is in the sagittal,1
+133,is this a contrast or noncontrast ct?,contrast,unknown,This is a noncontrast computed tom,0
+134,what is the primary abnormality in this image?,anaplastic oligodendroglioma#multi-cystic complex mass#neoplasm,unknown,The primary abnormality in this image,0
+135,is the ultrasound normal?,no,Ultrasound,"Yes, the ultrasound appears to",0
+136,what is abnormal in the x-ray?,periosteal desmoid,X-ray,The x-ray shows an abnormal,0
+137,is this a contrast or noncontrast ct?,noncontrast,unknown,This is a noncontrast computed tom,1
+138,what organ system is being imaged?,vascular and lymphatic,unknown,The organ system being imaged is the,0
+139,what abnormality is seen in the image?,medulloblastoma (pnet),unknown,The image shows a Chiari I mal,0
+140,was the mri taken with contrast?,yes,MRI,"Yes, the MRI was taken with",0
+141,what plane is this ct scan in?,axial,CT,This ct scan is in the cor,0
+142,what plane is this film,frontal,unknown,This film is in the coronal plane,0
+143,how was the image taken?,mr - flair,unknown,The image was taken using magnetic resonance,0
+144,in what plane is this image taken?,axial,unknown,This image is taken in the coronal,0
+145,what imaging modality was used to take this image?,mr - flair,unknown,The image was taken using magnetic resonance,0
+146,what modality is shown?,an - angiogram,unknown,The image is a computed tomography ang,0
+147,what is the plane of the x-ray?,ap,X-ray,The plane of the x-ray is,0
+148,is this an mri image?,no,MRI,"Yes, the image is an MRI",0
+149,what organ system is shown in the image?,vascular and lymphatic,unknown,The image shows the musculoske,0
+150,which image modality is this?,us - ultrasound,unknown,This is an ultrasound image.,0
+151,what organ system is displayed in this x-ray?,"lung, mediastinum, pleura",X-ray,The organ system displayed in this chest x,0
+152,what organ system is evaluated primarily?,musculoskeletal,unknown,The primary organ system evaluated in the M,0
+153,was the ct scan taken with contrast?,yes,CT,"Yes, the ct scan was taken",0
+154,what organ system is displayed in this ct scan?,"lung, mediastinum, pleura",CT,The ct scan displays the thor,0
+155,what type of imaging modality is shown?,us - ultrasound,unknown,The image is a B-mode ul,0
+156,what imaging modality was used to take this image?,ct noncontrast,unknown,A computed tomography (CT) scan,0
+157,what is the mr weighting in this image?,t2,unknown,The mr weighting in this image,0
+158,what part of the body is being imaged?,skull and contents,unknown,The image is an MRI of the,0
+159,"is this a t1 weighted, t2 weighted, or flair image?",t2,unknown,The image is a T2-weight,0
+160,is this an mri image?,yes,MRI,"Yes, the image is an MRI",0
+161,which plane is the image taken?,lateral,unknown,The image is taken in the coronal,0
+162,what organ system is pictured here?,"lung, mediastinum, pleura#spine and contents",unknown,The organ system pictured here is the,0
+163,what abnormality is seen in the image?,mycotic aneurysm,unknown,The image shows a left-sided,0
+164,is this a contrast or noncontrast ct?,contrast,unknown,This is a noncontrast computed tom,0
+165,what abnormality is seen in the image?,nodular opacity on the left#metastastic melanoma,unknown,The image shows a right-sided,0
+166,is there an abnormality in the mri?,yes,MRI,The mri image appears to be normal,0
+167,what was this image taken with?,xr - plain film,unknown,This image was taken with a portable chest,0
+168,what plane is this?,coronal,unknown,This is a coronal plane MRI,1
+169,is this a ct scan?,no,CT,"No, this is an MRI (",0
+170,what is the primary abnormality in this image?,hypertrophic pyloric stenosis,unknown,The primary abnormality in this image,0
+171,what organ is this image of?,skull and contents,unknown,"The image is of the brain, specifically",0
+172,what organ system is imaged?,"face, sinuses, and neck",unknown,The organ system imaged in this computed,0
+173,in which plane is the x-ray displayed?,oblique,X-ray,The x-ray is displayed in the,0
+174,what kind of scan is this?,an - angiogram,unknown,This is a computed tomography (CT,0
+175,which plane is the image shown in?,axial,unknown,The image is shown in the coronal,0
+176,what imaging modality was used to take this image?,ct with gi and iv contrast,unknown,A computed tomography (CT) scan,0
+177,what plane is the image acquired in?,transverse,unknown,The image is acquired in the transverse,1
+178,what is the plane of the image?,axial,unknown,"The image is a coronal plane,",0
+179,in what plane is this mri?,sagittal,MRI,This mri is in the coronal,0
+180,what imaging method was used?,us-d - doppler ultrasound,unknown,The imaging method used in this case,0
+181,what plane was used in this ct scan?,axial,CT,The ct scan was taken in the,0
+182,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with",0
+183,what organ system is imaged?,skull and contents,unknown,The organ system imaged in this M,0
+184,what organ system is shown in the image?,"face, sinuses, and neck",unknown,"The image shows the brain, which is",0
+185,what abnormality is seen in the image?,heterogeneous cecal mass (with pericolic inflammation and asymmetric wall thickening),unknown,The image shows a large abdominal,0
+186,what is abnormal in the ct scan?,ossification of stylohyoid ligament,CT,The ct scan shows an abnormal,0
+187,is this a noncontrast mri?,yes,MRI,"Yes, the image is a noncontr",0
+188,what kind of scan is this?,an - angiogram,unknown,This is a computed tomography (CT,0
+189,what plane is this?,coronal,unknown,This is a sagittal plane M,0
+190,with what modality is this image taken?,xr - plain film,unknown,The image is taken using a computed tom,0
+191,in what plane is this ct scan?,axial,CT,This ct scan is in the cor,0
+192,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with",0
+193,what is most alarming about this ct scan?,appendicitis,CT,The most alarming aspect of this c,0
+194,in what plane is this ct scan?,axial,CT,This ct scan is in the cor,0
+195,what is most alarming about this ct scan?,osteochondritis dissecans of the tarsal navicular,CT,The most alarming aspect of this c,0
+196,what is one organ system seen in this image?,spine and contents,unknown,The image shows the cervical spine,0
+197,what is abnormal in the mri?,"arachnoid cyst, sella",MRI,The MRI image shows an abnormal,0
+198,what imaging plane is depicted here?,axial,unknown,"The image is a coronal plane,",0
+199,what is the primary abnormality in this image?,"unilateral megaloencephaly, hemimegalencephaly",unknown,The primary abnormality in this image,0
+200,which plane is the image shown in?,lateral,unknown,The image is shown in the coronal,0
+201,what is the plane?,axial,unknown,The plane in the image is the cor,0
+202,what organ is this x-ray showing?,spine and contents,X-ray,This x-ray is showing the c,0
+203,is this image normal?,yes,unknown,"Yes, the image is described as normal",0
+204,what image plane is this?,lateral,unknown,This is a lateral image plane.,1
+205,what organ system is being imaged?,breast,unknown,The organ system being imaged is the,0
+206,what organ system is primarily present in this image?,skull and contents,unknown,The primary organ system present in this image,0
+207,what organ systems can be evaluated with this mri?,skull and contents,MRI,The MRI image can be used to,0
+208,what is most alarming about this mri?,fat embolism with cerebral infarction,MRI,The most alarming aspect of this M,0
+209,what is the primary abnormality in this image?,acl graft impingement,unknown,The primary abnormality in this image,0
+210,which organ system is shown in the ct scan?,"face, sinuses, and neck",CT,The ct scan shows the thor,0
+211,what plane is this ct scan in?,axial,CT,This ct scan is in the cor,0
+212,what part of the body is being imaged here?,gastrointestinal#genitourinary#spine and contents#musculoskeletal,unknown,The image is a plain abdominal,0
+213,what organ system is visualized?,musculoskeletal,unknown,The image visualizes the musculos,0
+214,what organ system is pictured here?,gastrointestinal,unknown,The image is an ultrasound of,0
+215,in which plane is the x-ray displayed?,pa,X-ray,The x-ray is displayed in the,0
+216,which plane is this image taken?,sagittal,unknown,This image is taken in the sagitt,0
+217,which plane is this mri taken in?,sagittal,MRI,This MRI is taken in the sag,0
+218,what is most alarming about this ct scan?,dermoid cyst,CT,The most alarming aspect of this c,0
+219,what organ systems can be evaluated with this ct scan?,"lung, mediastinum, pleura",CT,The CT scan of the chest can evaluate,0
+220,is this a noncontrast mri?,no,MRI,"Yes, the image is a noncontr",0
+221,what is the primary abnormality in this image?,air in the abdomen,unknown,The primary abnormality in this image,0
+222,what type of image modality is seen?,mammograph,unknown,The image modality seen is a mamm,0
+223,what organ system is evaluated primarily?,skull and contents,unknown,The organ system evaluated primarily in the M,0
+224,what is abnormal in the ct scan?,"osteoma, head and neck",CT,The ct scan shows an abnormal,0
+225,what type of image modality is this?,us - ultrasound,unknown,This is an ultrasound image mod,0
+226,what plane is demonstrated?,lateral,unknown,The image demonstrates a sagittal,0
+227,is this a noncontrast mri?,yes,MRI,"Yes, the image is a noncontr",0
+228,which plane is this mri taken in?,sagittal,MRI,This MRI is taken in the sag,0
+229,what abnormality is seen in the image?,fibrous dysplasia,unknown,The image shows a left frontal men,0
+230,what organ system is pictured here?,"heart and great vessels#lung, mediastinum, pleura",unknown,The organ system pictured here is the,0
+231,which organ is captured by this ultrasound?,genitourinary,Ultrasound,The ultrasound image captures the,0
+232,in which plane is the ct scan displayed?,axial,CT,The ct scan is displayed in the,0
+233,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with",0
+234,what imaging plane is depicted here?,coronal,unknown,"The image is a coronal plane,",1
+235,what organ system is primarily present in this image?,skull and contents,unknown,The primary organ system present in this image,0
+236,is this a noncontrast mri?,yes,MRI,"Yes, the image is a noncontr",0
+237,what abnormality is seen in the image?,schizencephaly,unknown,The image shows a left frontal sub,0
+238,what imaging modality is used to acquire this picture?,us - ultrasound,unknown,The image is acquired using ultrasound,0
+239,what is abnormal in the mri?,diffuse infiltration of bone marrow of skull,MRI,The MRI image shows abnormal signal,0
+240,what part of the body is being imaged here?,skull and contents,unknown,The image is an MRI of the,0
+241,what is most alarming about this angiogram?,pulmonary embolus,Angiography,The most alarming aspect of this ang,0
+242,what plane was used in this x-ray?,frontal,X-ray,The x-ray was taken in the,0
+243,in what plane is this ct scan?,axial,CT,This ct scan is in the cor,0
+244,in what plane is this x-ray?,pa,X-ray,This is a lateral chest x-,0
+245,is this a t2 weighted image?,no,unknown,"Yes, the image is a T2",0
+246,what image plane is this?,axial,unknown,This is a coronal image plane.,0
+247,what imaging modality was used to take this image?,mr - t2 weighted,unknown,The image was taken using magnetic resonance,0
+248,in what plane is this image taken?,axial,unknown,This image is taken in the coronal,0
+249,is this a noncontrast ct?,no,unknown,"Yes, the image is a noncontr",0
+250,is there something wrong in the image?,no,unknown,"Yes, there appears to be a fract",0
+251,what is abnormal in the ultrasound?,endometrial polyp,Ultrasound,The ultrasound shows an abnormal,0
+252,in what plane is this mri?,sagittal,MRI,This is a sagittal plane M,1
+253,which organ is captured by this mri?,skull and contents,MRI,The MRI image captures the brain,0
+254,"is this image modality t1, t2, or flair?",t2,unknown,The image is a T2-weight,0
+255,what plane was used in this ct scan?,axial,CT,The coronal plane was used in this,0
+256,what organ system is evaluated primarily?,gastrointestinal,unknown,The primary organ system evaluated in the image,0
+257,what organ system is primarily present in this image?,"face, sinuses, and neck",unknown,The image primarily shows the eye and orbit,0
+258,is this a noncontrast ct?,yes,unknown,"Yes, the image is a noncontr",0
+259,in what plane is this image taken?,sagittal,unknown,This image is taken in the coronal,0
+260,what part of the body does this x-ray show?,spine and contents,X-ray,The x-ray shows the cerv,0
+261,what imaging modality was used to take this image?,ct noncontrast,unknown,The image was taken using computed tomography,0
+262,what organ is this mri showing?,skull and contents,MRI,The mri image is showing the brain,0
+263,what is the plane of this mri?,sagittal,MRI,The plane of this MRI is the,0
+264,what part of the body is being imaged?,skull and contents,unknown,The image is an MRI of the,0
+265,which plane is this image in?,axial,unknown,This image is in the coronal plane,0
+266,what is abnormal in the mri?,post-traumatic syringomyelia,MRI,The MRI image shows an abnormal,0
+267,what plane was used in this ct scan?,axial,CT,The ct scan was taken in the,0
+268,what abnormality is seen in the image?,cavernous hemangioma,unknown,The image shows a large left cerebell,0
+269,is this a ct scan?,yes,CT,"Yes, the image is a computed tom",0
+270,what type of image modality is this?,xr - plain film,unknown,"This is a plain radiograph, which",0
+271,what is most alarming about this ct scan?,craniosynostosis of the metopic suture,CT,The most alarming aspect of this c,0
+272,what type of image modality is seen?,an - angiogram,unknown,The image modality seen is a digital,0
+273,what is abnormal in the ct scan?,complex nasoethmoid and orbit fractures with pneumoorbita and pneumocephalus,CT,The ct scan shows an abnormal,0
+274,what part of the body is being imaged?,breast,unknown,The image is an MRI of the,0
+275,in what plane is this mri taken?,axial,MRI,This MRI is taken in the cor,0
+276,is this a contrast or noncontrast mri?,contrast,MRI,This is a noncontrast MRI,0
+277,was gi contrast given to the patient?,no,unknown,"Yes, the patient received 10",0
+278,what imaging modality was used to take this image?,ct with gi and iv contrast,unknown,A computed tomography (CT) scan,0
+279,what is most alarming about this ct scan?,mature cystic teratoma,CT,The most alarming aspect of this c,0
+280,is this an mri image?,no,MRI,"Yes, the image is an MRI",0
+281,what plane is this mri in?,coronal,MRI,This mri is in the coronal,1
+282,what is abnormal in the mri?,"astrocytoma, grading and subtypes",MRI,The MRI image shows an abnormal,0
+283,what is abnormal in the ct scan?,lemierre syndrome,CT,The ct scan shows an abnormal,0
+284,"is this a t1 weighted, t2 weighted, or flair image?",flair,unknown,The image is a T2-weight,0
+285,what is the organ system in this image?,skull and contents,unknown,The organ system in this image is the,0
+286,what organ system is pictured here?,gastrointestinal,unknown,The image is a computed tomography (,0
+287,what is the primary abnormality in this image?,pseudomyxoma peritonei,unknown,The primary abnormality in this image,0
+288,which plane is this mri taken in?,axial,MRI,This MRI is taken in the cor,0
+289,what organ system is primarily present in this image?,skull and contents,unknown,The primary organ system present in this image,0
+290,which organ system is shown in the ct scan?,"lung, mediastinum, pleura",CT,The ct scan shows the thor,0
+291,what imaging modality is used to acquire this picture?,xr - plain film,unknown,The image is acquired using a computed tom,0
+292,in what plane is this ct scan taken?,axial,CT,The ct scan is taken in the,0
+293,in what plane is this image taken?,axial,unknown,This image is taken in the coronal,0
+294,what abnormality is seen in the image?,inguinal hernia involving bladder,unknown,The image shows a large left-s,0
+295,was the mri taken with contrast?,no,MRI,"Yes, the MRI was taken with",0
+296,what abnormality is seen in the image?,spontaneous osteonecrosis of the knee,unknown,The image shows a large osteoch,0
+297,what part of the body is being imaged?,spine and contents,unknown,The image is an MRI of the,0
+298,is this a normal ultrasound?,yes,Ultrasound,It appears that the ultrasound is,0
+299,what part of the body is being imaged?,musculoskeletal,unknown,The image is a computed tomography (,0
+300,in what plane is this ct scan captured?,axial,CT,The ct scan is captured in the,0
+301,what is most alarming about this ct scan?,primary sclerosing cholangitis,CT,The most alarming aspect of this c,0
+302,what organ system is shown in this mri?,skull and contents,MRI,"The MRI image shows the brain,",0
+303,what organ is this image of?,skull and contents,unknown,"The image is of the brain, specifically",0
+304,is this a t2 weighted image?,no,unknown,"Yes, the image is a T2",0
+305,what is the plane of this mri?,coronal,MRI,The plane of this MRI is the,0
+306,what part of the body is being imaged?,gastrointestinal,unknown,The image is an axial CT scan,0
+307,is the ct scan normal?,no,CT,"Yes, the ct scan appears to",0
+308,is this a noncontrast mri?,yes,MRI,"Yes, the image is a noncontr",0
+309,was the ct scan taken with contrast?,no,CT,"Yes, the ct scan was taken",0
+310,what imaging modality was used to take this image?,mr - t1w w/gadolinium,unknown,The image was taken using magnetic resonance,0
+311,what organ system is imaged?,"face, sinuses, and neck",unknown,The organ system imaged in this computed,0
+312,which plane is this image taken?,sagittal,unknown,This image is taken in the sagitt,0
+313,what is the primary abnormality in this image?,vertebral artery dissection,unknown,The primary abnormality in this image,0
+314,what organ system is displayed in this ct scan?,spine and contents,CT,"The ct scan displays the spine,",0
+315,what modality was used to take this image?,ugi - upper gi,unknown,The image was taken using a fluor,0
+316,what is the primary abnormality in this image?,meningioma,unknown,The primary abnormality in this image,0
+317,which organ system is shown in the ct scan?,genitourinary,CT,The ct scan shows the abdom,0
+318,is this a normal ct scan?,no,CT,It appears that the ct scan is,0
+319,what is most alarming about this ct scan?,left aortic arch with aberrant right subclavian artery,CT,The most alarming aspect of this c,0
+320,what type of image modality is seen?,xr - plain film,unknown,The image modality seen is a plain,0
+321,what is the primary abnormality in this image?,esoghageal spasm#diverticulum,unknown,The primary abnormality in this image,0
+322,what abnormality is seen in the image?,microcystic (serous) adenoma of the pancreas,unknown,The image shows a large abdominal,0
+323,what is the organ system in this image?,"heart and great vessels#lung, mediastinum, pleura#spine and contents",unknown,The organ system in this image is the,0
+324,which organ system is shown in the mri?,skull and contents,MRI,"The MRI image shows the brain,",0
+325,"is this a t1 weighted, t2 weighted, or flair image?",t2,unknown,The image is a T2-weight,0
+326,what organ system is primarily present in this image?,skull and contents,unknown,The primary organ system present in this image,0
+327,what imaging modality was used to take this image?,mr - t1w w/gadolinium,unknown,The image was taken using magnetic resonance,0
+328,what abnormality is seen in the image?,gliosarcoma,unknown,The image shows a left frontal l,0
+329,what is abnormal in the ct scan?,pancreatic adenocarcinoma,CT,The ct scan shows an abnormal,0
+330,what plane was used in this mri?,axial,MRI,The coronal plane was used in this,0
+331,what is abnormal in the mri?,low grade diffuse astrocytoma,MRI,The MRI image shows an abnormal,0
+332,was gi contrast given to the patient?,no,unknown,"Yes, the patient received intravenous",0
+333,in what plane is this image oriented?,coronal,unknown,This image is oriented in the cor,0
+334,what imaging modality was used to take this image?,ct noncontrast,unknown,The image was taken using computed tomography,0
+335,what part of the body does this mri show?,skull and contents,MRI,The mri image shows a part of,0
+336,in which plane is the mri displayed?,sagittal,MRI,The MRI is displayed in the sag,0
+337,was iv contrast given to the patient?,yes,unknown,"Yes, the patient received intravenous",0
+338,what abnormality is seen in the image?,spontaneous pneumomediastinum,unknown,The image shows a right-sided,0
+339,what is most alarming about this ct scan?,vertebral artery dissection with cerebellar infarction,CT,The most alarming aspect of this c,0
+340,in which plane is the mri displayed?,axial,MRI,The mri is displayed in the cor,0
+341,what organ system is evaluated primarily?,skull and contents,unknown,The organ system evaluated primarily in the M,0
+342,what is most alarming about this ct scan?,bladder cancer,CT,The most alarming aspect of this c,0
+343,in what plane is this mammograph?,mammo - mlo,unknown,This mammograph is in the coronal,0
+344,was iv contrast given to the patient?,yes,unknown,"Yes, the patient received intravenous",0
+345,does this image look normal?,yes,unknown,It's difficult to determine if the,0
+346,what is the primary abnormality in this image?,mycotic aneurysm,unknown,The primary abnormality in this image,0
+347,what imaging modality is used?,an - angiogram,unknown,The imaging modality used in this,0
+348,in what plane is this image taken?,axial,unknown,This image is taken in the coronal,0
+349,what organ system is primarily present in this image?,skull and contents,unknown,The primary organ system present in this image,0
+350,what organ system is shown in the image?,"face, sinuses, and neck",unknown,The image shows the parotid g,0
+351,what is abnormal in the ct scan?,traumatic aortic injury,CT,The ct scan shows an abnormal,0
+352,what plane is seen?,lateral,unknown,"The image is a lateral plane,",1
+353,what plane is this?,lateral,unknown,This is a sagittal plane image,0
+354,what organ system is imaged?,skull and contents,unknown,The organ system imaged in this M,0
+355,in what plane is this ultrasound taken?,transverse,Ultrasound,The ultrasound is taken in the,0
+356,what organ system is primarily present in this image?,gastrointestinal,unknown,The primary organ system present in this image,0
+357,which organ system is imaged?,gastrointestinal,unknown,The organ system imaged in the image,0
+358,is this a noncontrast ct?,no,unknown,"Yes, the image is a noncontr",0
+359,is this a ct scan?,yes,CT,"Yes, the image is a computed tom",0
+360,what organ system is imaged?,skull and contents,unknown,The organ system imaged in this M,0
+361,what plane is the image acquired in?,axial,unknown,The image is acquired in the coronal,0
+362,what organ system is primarily present in this image?,skull and contents,unknown,The primary organ system present in this image,0
+363,what is most alarming about this ct scan?,right aortic arch,CT,The most alarming aspect of this c,0
+364,what is the plane?,3d reconstruction,unknown,The plane in the image is the sag,0
+365,which organ system is shown in the mri?,skull and contents,MRI,"The MRI image shows the brain,",0
+366,what is most alarming about this ct scan?,sarcoidosis,CT,The most alarming aspect of this c,0
+367,what organ system is being imaged?,"lung, mediastinum, pleura",unknown,The organ system being imaged is the,0
+368,what is the primary abnormality in this image?,enchondroma,unknown,The primary abnormality in this image,0
+369,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with",0
+370,what type of imaging modality is seen in this image?,sbft - small bowel,unknown,The image is a sagittal computed,0
+371,is this a contrast or noncontrast ct?,contrast,unknown,This is a noncontrast computed tom,0
+372,what organ systems can be evaluated with this x-ray?,musculoskeletal,X-ray,The x-ray of the right hand,0
+373,was the ct scan taken with contrast?,no,CT,"No, the ct scan was taken",0
+374,what type of imaging modality is shown?,ct w/contrast (iv),unknown,The image is a computed tomography (,0
+375,what is the plane?,transverse,unknown,The plane in the image is the trans,0
+376,what is abnormal in the ct scan?,sialolithiasis resulting in sialoadenitis,CT,The ct scan shows an abnormal,0
+377,which organ is captured by this mri?,skull and contents,MRI,The MRI image captures the brain,0
+378,what is abnormal in the ct scan?,acute appendicitis,CT,The ct scan shows an abnormal,0
+379,what type of imaging is this?,xr - plain film,unknown,This is a chest X-ray image,0
+380,is this a t2 weighted image?,no,unknown,"Yes, the image is a T2",0
+381,what type of imaging modality is used to acquire the image?,ugi - upper gi,unknown,The image is acquired using a chest X,0
+382,what type of imaging modality is shown?,xr - plain film,unknown,"The image is a plain radiograph,",0
+383,in what plane was this image taken?,axial,unknown,The image was taken in the coronal,0
+384,what type of imaging modality is shown?,xr - plain film,unknown,The image is a chest X-ray,0
+385,what is the organ system in this image?,skull and contents,unknown,The organ system in this image is the,0
+386,in what plane is this image taken?,axial,unknown,This image is taken in the coronal,0
+387,what is the primary abnormality in this image?,pancreatic ductal adenocarcinoma,unknown,The primary abnormality in this image,0
+388,what organ system is shown in the image?,skull and contents,unknown,"The image shows the brain, which is",0
+389,what is abnormal in the mri?,apical hypertrophic cardiomyopathy,MRI,The MRI image shows an abnormal,0
+390,what plane was used in this ct scan?,3d reconstruction,CT,The ct scan was performed in the,0
+391,in what plane is this image taken?,axial,unknown,This image is taken in the coronal,0
+392,what organ is this mri showing?,skull and contents,MRI,The mri image is showing the brain,0
+393,what is most alarming about this ultrasound?,aml (angiomyolipoma),Ultrasound,The most alarming aspect of this ul,0
+394,what is most alarming about this ct scan?,bronchopleural fistula,CT,The most alarming aspect of this c,0
+395,what is most alarming about this ct scan?,subdural empyema secondary to sinusitis in an adolescent,CT,The most alarming aspect of this c,0
+396,what organ system is shown in the image?,gastrointestinal,unknown,"The image shows the abdomen,",0
+397,what is the primary abnormality in this image?,irregular bone edema,unknown,The primary abnormality in this image,0
+398,what is most alarming about this ct scan?,anomalous left coronary artery (arising form the pulmonary artery alcapa),CT,The most alarming aspect of this c,0
+399,what imaging modality was used to take this image?,mr - t2 weighted,unknown,The image was taken using magnetic resonance,0
+400,what is most alarming about this mri?,orbital sarcoidosis,MRI,The most alarming aspect of this M,0
+401,in what plane is this image oriented?,oblique,unknown,The image is oriented in the cor,0
+402,what is abnormal in the gastrointestinal image?,superior mesenteric artery syndrome,unknown,The gastrointestinal image shows,0
+403,what is the plane of this x-ray?,lateral,X-ray,The plane of this x-ray is,0
+404,what type of imaging modality is seen in this image?,xr - plain film,unknown,The image is a chest X-ray,0
+405,what organ system is displayed in this ct scan?,skull and contents,CT,"The ct scan displays the brain,",0
+406,which organ system is shown in the mri?,spine and contents,MRI,The MRI image shows the lumbar,0
+407,what plane is this?,3d reconstruction,unknown,This is a sagittal plane image,0
+408,was gi contrast given to the patient?,no,unknown,"Yes, the patient received intravenous",0
+409,was the ct scan taken with contrast?,no,CT,"No, the ct scan was taken",0
+410,what is the plane of the x-ray?,pa,X-ray,The plane of the x-ray is,0
+411,which organ system is imaged?,gastrointestinal,unknown,The organ system imaged in the chest,0
+412,what is the primary abnormality in this image?,hodgkin's lymphoma,unknown,The primary abnormality in this image,0
+413,how was this image taken?,xr - plain film,unknown,This image was taken using a cone-,0
+414,what is abnormal in the ct scan?,(angioinvasive aspergillosis with) septic cerebral emboli,CT,The ct scan shows abnormalities,0
+415,is 	this a t1 weighted image?,yes,unknown,"Yes, the image is a T1",0
+416,what is the mr weighting in this image?,t1,unknown,The mr weighting in this image,0
+417,what part of the body is being imaged here?,skull and contents,unknown,The image is an MRI of the,0
+418,what imaging modality was used to take this image?,ct (with gi and iv contrast),unknown,A computed tomography (CT) scan,0
+419,is 	this a t1 weighted image?,yes,unknown,"Yes, the image is a T1",0
+420,what organ is this image of?,skull and contents,unknown,"The image is of the brain, specifically",0
+421,in what plane is this angiogram taken?,axial,Angiography,The angiogram is taken in the,0
+422,what is the primary abnormality in this image?,posterior sternoclavicular dislocation,unknown,The primary abnormality in this image,0
+423,is this an mri image?,yes,MRI,"Yes, the image is an MRI",0
+424,what plane is the image acquired in?,transverse,unknown,The image is acquired in the transverse,1
+425,what is abnormal in the mri?,lipoma arborescens,MRI,The MRI image shows an abnormal,0
+426,which organ is captured by this mri?,"face, sinuses, and neck",MRI,The MRI image captures the or,0
+427,what organ is this image of?,skull and contents,unknown,"The image is of the brain, specifically",0
+428,what modality is shown?,cta - ct angiography,unknown,The image is a computed tomography (,0
+429,what organ system is being imaged?,skull and contents,unknown,The organ system being imaged is the,0
+430,what organ system is evaluated primarily?,musculoskeletal,unknown,The primary organ system evaluated in the image,0
+431,what abnormality is seen in the image?,medulloblastoma,unknown,The image shows a Chiari I mal,0
+432,what is abnormal in the x-ray?,rheumatoid arthritis,X-ray,The x-ray shows an abnormal,0
+433,what organ system is evaluated primarily?,"lung, mediastinum, pleura",unknown,The primary organ system evaluated in the chest,0
+434,what plane is the image acquired in?,axial,unknown,The image is acquired in the coronal,0
+435,what is the primary abnormality in this image?,multiple osteochondromatosis,unknown,The primary abnormality in this image,0
+436,what organ system is shown in the image?,"lung, mediastinum, pleura",unknown,The image shows the thoracic,0
+437,what type of imaging does this represent?,cta - ct angiography,unknown,This is a computed tomography (CT,0
+438,what type of contrast did this patient have?,gi and iv,unknown,The patient had a CT scan with intr,0
+439,what organ system is displayed in this mri?,skull and contents,MRI,"The MRI image displays the brain,",0
+440,what is the primary abnormality in this image?,glioblastoma multiforme,unknown,The primary abnormality in this image,0
+441,is this a contrast or noncontrast ct?,contrast,unknown,This is a noncontrast computed tom,0
+442,in what plane was this image taken?,axial,unknown,The image was taken in the coronal,0
+443,what organ system is imaged?,"face, sinuses, and neck#skull and contents",unknown,The organ system imaged in this M,0
+444,what abnormality is seen in the image?,medullary nephrocalcinosis,unknown,The image shows a left renal c,0
+445,in what plane was this image taken?,axial,unknown,The image was taken in the coronal,0
+446,what is the primary abnormality in this image?,chondrosarcoma,unknown,The primary abnormality in this image,0
+447,what organ system is evaluated primarily?,genitourinary,unknown,The primary organ system evaluated in the image,0
+448,what modality is shown?,mr - adc map (app diff coeff),unknown,The image is a diffusion-weighted,0
+449,what organ system is primarily present in this image?,musculoskeletal,unknown,The primary organ system present in this image,0
+450,what organ system is being imaged?,"lung, mediastinum, pleura#spine and contents",unknown,The organ system being imaged in this,0
+451,what plane was used?,axial,unknown,The image was taken in the coronal,0
+452,which plane is this image in?,axial,unknown,This image is in the coronal plane,0
+453,what imaging plane is depicted here?,axial,unknown,"The image is a coronal plane,",0
+454,is this a contrast or noncontrast ct?,noncontrast,unknown,This is a noncontrast computed tom,1
+455,what organ system is visualized?,skull and contents,unknown,The organ system visualized in the image,0
+456,what plane is seen?,axial,unknown,"The image is a coronal plane,",0
+457,what plane was used?,axial,unknown,The image was obtained using a coronal,0
+458,what organ system is pictured here?,skull and contents,unknown,The organ system pictured here is the,0
+459,what abnormality is seen in the image?,(staging burkitt) lymphoma,unknown,The image shows a large abdominal,0
+460,what type of imaging modality is shown?,ct w/contrast (iv),unknown,The image is a computed tomography (,0
+461,what part of the body is being imaged?,skull and contents,unknown,The image is an MRI of the,0
+462,was the ct scan taken with contrast?,yes,CT,"Yes, the CT scan was taken with",0
+463,which plane is this image in?,axial,unknown,This image is in the coronal plane,0
+464,is this a ct scan?,yes,CT,"Yes, the image is a computed tom",0
+465,what is most alarming about this nuclear medicine image?,parathyroid adenoma,Nuclear,The most alarming aspect of this nuclear,0
+466,what organ system is visualized?,heart and great vessels,unknown,The image is a computed tomography (,0
+467,what is most alarming about this x-ray?,osteochondritis dissecans of the knee,X-ray,The most alarming aspect of this x,0
+468,which organ system is imaged?,skull and contents,unknown,The organ system imaged in this M,0
+469,what organ system is shown in this x-ray?,"gastrointestinal#lung, mediastinum, pleura",X-ray,"The x-ray shows the chest,",0
+470,what is most alarming about this mri?,ependymoma,MRI,The most alarming aspect of this M,0
+471,what is the plane of the ct scan?,axial,CT,The plane of the ct scan is,0
+472,what is most alarming about this ct scan?,liver hemangioma,CT,The most alarming aspect of this c,0
+473,what organ is this image showing?,breast,unknown,The image is showing the left breast.,1
+474,what type of contrast did this patient have?,iv,unknown,The patient had a CT scan with intr,0
+475,what is abnormal in the ct scan?,dermoid tumor (inclusion cyst) of cns,CT,The ct scan shows abnormalities,0
+476,what is most alarming about this mri?,right transverse sinus stenosis,MRI,The most alarming aspect of this M,0
+477,in what plane is this mri?,axial,MRI,This MRI is in the coronal,0
+478,is this a contrast or noncontrast ct?,contrast,unknown,This is a noncontrast computed tom,0
+479,which organ system is imaged?,skull and contents,unknown,The organ system imaged in this M,0
+480,was gi contrast given to the patient?,no,unknown,"Yes, the patient received intravenous",0
+481,what is most alarming about this ct scan?,lymphangitic carcinomatosis,CT,The most alarming aspect of this c,0
+482,what is the primary abnormality in this image?,adenomyosis,unknown,The primary abnormality in this image,0
+483,which organ is captured by this ct scan?,gastrointestinal,CT,The ct scan captures the ab,0
+484,what plane was used in this ct scan?,axial,CT,The ct scan was taken in the,0
+485,in what plane is this ct scan?,axial,CT,This ct scan is in the cor,0
+486,which plane is the image taken?,axial,unknown,The image is taken in the coronal,0
+487,what is most alarming about this gastrointestinal image?,paraesophageal hernia,unknown,The most alarming aspect of this g,0
+488,what is most alarming about this mri?,persistent trigeminal artery,MRI,The most alarming aspect of this M,0
+489,what is the primary abnormality in this image?,calcified uterine leiomyoma,unknown,The primary abnormality in this image,0
+490,what plane is the image acquired in?,coronal,unknown,The image is acquired in the transverse,0
+491,which plane is this x-ray taken in?,mammo - cc,X-ray,This x-ray is taken in the,0
+492,what organ system is evaluated primarily?,skull and contents,unknown,The organ system evaluated primarily in the M,0
+493,which plane is the image shown in?,ap,unknown,The image is shown in the coronal,0
+494,was gi contrast given to the patient?,no,unknown,"Yes, the patient received intravenous",0
+495,in what plane was this image taken?,axial,unknown,The image was taken in the coronal,0
+496,what is most alarming about this mri?,calcification and large areas of abnormal white mattter,MRI,The most alarming aspect of this M,0
+497,what is abnormal in the ct scan?,"sialolithiasis, obstructing sialolith",CT,The ct scan shows an abnormal,0
+498,what is the plane of this ct scan?,axial,CT,The plane of this ct scan is,0
+499,what is abnormal in the mri?,vertebral metastases,MRI,The MRI image shows an abnormal,0

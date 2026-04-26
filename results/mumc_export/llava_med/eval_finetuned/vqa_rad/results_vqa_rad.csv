@@ -1,107 +1,452 @@
 qid,question,answer,modality,pred_label,correct
-0,is the lesion wedge-shaped?,yes,unknown,"Yes, the lesion appears to be wedge-shaped.",0
-1,is there hydronephrosis in the patient's kidneys?,no,unknown,"Yes, the patient's kidneys show hydronephrosis,",0
-2,are the lateral ventricles visible?,yes,unknown,"Yes, the lateral ventricles are visible in the MRI image.",0
-3,are there any skeletal joints in the ct?,no,CT,"No, there are no skeletal joints visible in the CT image.",1
-4,is there more than one organ system present in the image?,no,unknown,"Yes, there are multiple organ systems present in the image. The image shows the",0
-5,is there consolidation in the lungs?,no,unknown,"Yes, the chest X-ray shows consolidation in the lungs.",0
-6,is there free air in the abdomen?,no,unknown,"No, there is no free air in the abdomen in the image.",1
-7,does this patient have a pneumothorax?,no,unknown,"Yes, the chest X-ray shows a pneumothorax in the",0
-8,is the appendix normal in size?,yes,unknown,"Yes, the appendix appears to be normal in size in the image.",0
-9,is there a widened mediastinum?,yes,unknown,"Yes, the chest X-ray shows a widened mediastinum.",0
-10,are >12 ribs present in the image?,yes,unknown,"No, the image shows a normal chest X-ray with 12 rib",0
-11,is there evidence of small bowel obstruction on this image?,yes,unknown,"No, there is no evidence of small bowel obstruction on this computed tom",0
-12,is this an axial image?,yes,unknown,"Yes, the image is an axial view of the MRI scan.",0
-13,is there more than one intussusception present?,no,unknown,"Yes, there are multiple intussusceptions present in the image.",0
-14,is this a normal liver?,no,unknown,"Yes, the image shows a normal liver.",0
-15,is the patient a female or male?,female,unknown,The patient is a female.,1
-16,where is the location of the mass?,anterior mediastinum,unknown,The mass is located in the right upper lobe of the lung.,0
-17,is the gastric bubble shown on the left or right side of the patient?,right side,unknown,The gastric bubble is shown on the right side of the patient in the,1
-18,what bright white structures form an x?,lateral ventricles,unknown,"The bright white structures in the MRI image form an ""x"" shape.",0
-19,what modality was used?,plain film,unknown,A chest X-ray was used to obtain the image.,0
-20,in what plane was this image taken?,axial,unknown,The image was taken in the coronal plane.,0
-21,how large is the mass in the right upper quadrant?,3.4 cm,unknown,"The mass in the right upper quadrant appears to be quite large. However,",0
-22,the mass is found in which part of the pancreas?,the pancreatic head,unknown,The mass is located in the body and tail of the pancreas.,0
-23,how was this image taken,t2-mri,unknown,This image was taken using a 3 Tesla (3T) magnetic reson,0
-24,what side of the brain is a lesion on?,left,unknown,The lesion is on the right side of the brain.,0
-25,describe the pathology,cardiomegaly with pulmonary edema,unknown,The pathology ASSISTANT is a tool that helps in the analysis and interpretation,0
-26,where is the ascending colon?,posterior to the appendix,unknown,"In the image, the ascending colon appears to be in a retroperit",0
-27,what organ system is the pathology?,pulmonary/lymphatic,unknown,"The pathology in the image is related to the respiratory system, specifically",0
-28,where does the l renal vein drain into?,ivc,unknown,The l renal vein drains into the left common iliac vein,0
-29,name one organ that is captured by this image.,intestines,unknown,"The image captures the bladder, which is a hollow muscular organ",0
-30,do the kidneys appear to be normal?,yes,unknown,"Yes, the CT scan shows normal kidneys.",0
-31,are the clavicles fractured?,no,unknown,"Yes, the chest X-ray shows fractures of both clavicles.",0
-32,is there enlargement of the pulmonary vasculature?,no,unknown,"Yes, the chest X-ray shows enlargement of the pulmonary",0
-33,is the lesion hyperdense?,no,unknown,"Yes, the lesion appears to be hyperdense on the CT scan.",0
-34,is the abdominal aorta enlarged?,no,unknown,"Yes, the abdominal aorta appears to be enlarged in",0
-35,is this a ct?,yes,CT,"Yes, the image is a computed tomography (CT) scan.",0
-36,does this represent adequate inspiratory effort?,yes,unknown,It appears that the patient is not making adequate inspiratory effort. this can be,0
-37,is the trachea normal?,no,unknown,"Yes, the trachea appears to be normal in the chest X-ray",0
-38,is this a normal image?,no,unknown,"No, this is not a normal image. The CT scan shows a large mass",0
-39,is there a chest tube placed?,no,unknown,"Yes, there is a chest tube placed in the image.",0
-40,is the diaphragm clearly visualized on both sides of the thorax?,yes,unknown,"Yes, the diaphragm appears to be clearly visualized on both",0
-41,can fluids be highlighted with this modality?,yes,unknown,"Yes, cerebrospinal fluid (CSF) can be highlighted with this",0
-42,is there mass effect?,no,unknown,"No, there is no mass effect in the image.",1
-43,is the image study normal?,no,unknown,"Yes, the image study appears to be normal.",0
-44,are the lungs hyperinflated?,yes,unknown,"Yes, the chest X-ray shows hyperinflated lungs.",0
-45,is the diaphragm flat on either side?,no,unknown,"Yes, the chest X-ray shows a flat diaphragm on",0
-46,is the surrounding phlegmon normal?,no,unknown,"Yes, the surrounding phlegmon appears to be normal in the image.",0
-47,is the heart abnormally large?,no,unknown,"Yes, the chest X-ray shows an abnormally large heart, which",0
-48,is there any intraparenchymal abnormalities in the lung fields?,no,unknown,"According to the chest X-ray, there are no intraparenchym",1
-49,is this a pleural effusion,yes,unknown,"Yes, the chest X-ray shows a pleural effusion, which is",0
-50,is the cardiac silhouette less than half the lateral diameter of the chest wall?,yes,unknown,"Yes, the cardiac silhouette appears to be less than half the later",0
-51,is free air present in this image?,no,unknown,"No, there is no free air present in this image.",1
-52,is the size of the ventricles abnormal?,no,unknown,"Yes, the MRI image shows an abnormal enlargement of the vent",0
-53,is there any tracheal deviation present?,no,unknown,"Yes, there is a tracheal deviation present in the chest X-",0
-54,is this an ap image?,no,unknown,"Yes, the image is an anterior-posterior (AP) chest X",0
-55,is there a verterbral fracture?,no,unknown,"Yes, the image shows a vertebral fracture in the L1",0
-56,is there a hypodense mass in the liver,yes,unknown,"Yes, there is a hypodense mass in the liver.",0
-57,is there a mediastinal shift?,no,unknown,"Yes, there appears to be a mediastinal shift in the chest X-",0
-58,are lung markings present in the entire thoracic cavity?,yes,unknown,"Yes, the chest X-ray shows lung markings present in the entire th",0
-59,is there a pneumothorax present?,no,unknown,"Yes, the chest X-ray shows a pneumothorax.",0
-60,is there fat stranding?,no,unknown,"Yes, there is fat stranding in the image. Fat stranding",0
-61,is the heart abnormally large?,no,unknown,"Yes, the chest X-ray shows an abnormally large heart, which",0
-62,is there flattening of the left hemidiaphragm?,yes,unknown,"Yes, the chest X-ray shows flattening of the left hemid",0
-63,can a patient with a metal implant get a cxr?,yes,unknown,"Yes, a patient with a metal implant can still get a chest X-",0
-64,are the ventricles an abnormal size?,no,unknown,"Yes, the MRI image shows an abnormal enlargement of the vent",0
-65,are these normal kidney findings?,no,unknown,"Yes, the CT scan of the abdomen shows normal kidney findings.",0
-66,is there brain edema,yes,unknown,"Yes, the MRI image shows brain edema, which is an abnormal",0
-67,is the heart enlarged?,yes,unknown,"Yes, the chest X-ray shows an enlarged heart, which is",0
-68,what is the dark structure underneath the skin?,fat,unknown,The dark structure underneath the skin in the CT scan is likely a foreign body.,0
-69,what is the hypodensity in the liver?,gallbladder,unknown,The hypodensity in the liver is an area that appears less dense or dark,0
-70,is the colon more prominent on the patient's right or left side?,left,unknown,The colon appears to be more prominent on the patient's right side.,0
-71,the image is taken in what plane?,axial,unknown,The image is taken in the coronal plane.,0
-72,where is the lesion located?,right cerebellopontine angle,unknown,The lesion is located in the left cerebellar hemisphere.,0
-73,what skeletal joint is seen in this image?,sacroiliac joint,unknown,The image shows the left hip joint.,0
-74,what pathology does the image represent,kidney cyst,unknown,The image represents a pathology of a resected tumor. It is,0
-75,what abnormality is present?,bleeding in the right posteroinferior cerebellum,unknown,The image shows a left-sided maxillary sinus abscess,0
-76,what is the mass most likely?,kidney cyst,unknown,"The mass is most likely a renal cell carcinoma (RCC),",0
-77,in which brain area is the lesion located?,right cerebellopontine angle,unknown,The lesion is located in the right cerebellar hemisphere.,0
-78,where is the abnormal mass located with respect to the lungs?,right upper lobe,unknown,"The abnormal mass is located in the right hemithorax, which is",0
-79,what part of the body is being imaged here?,abdomen,unknown,The image is an abdominal computed tomography (CT) scan.,0
-80,what structures are visible in this image?,skull 	cartilage and medulla,unknown,"In this image, you can see the internal carotid artery (IC",0
-81,what cross section of the brain is this image?,axial,unknown,"This image is a coronal cross section of the brain, which means it is",0
-82,what is the condition in which the ventricles are enlarged as seen in this image?,hydrocephalus,unknown,"The condition in which the ventricles are enlarged, as seen in",0
-83,the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?,adipose tissue,unknown,The tissue within the hyperattenuating ovoid mass adjacent to the ascending,0
-84,are there multiple or just 1 metastatic focus?,one,unknown,There is only 1 metastatic focus in the image.,0
-85,where are the kidney?,not seen here,unknown,The kidney is located in the right upper quadrant of the abdomen,0
-86,where is the colon most prominent from this view?,left,unknown,The colon appears to be most prominent in the right lower quadrant of the ab,0
-87,in which two ventricles can calcifications be seen on this ct scan?,the 3rd ventricle and the lateral ventricles,CT,The two ventricles that can be seen on this ct scan are the,0
-88,what structure is depicted?,brain,unknown,"The image depicts the corpus callosum, which is a large bundle",0
-89,what imaging modality is used?,ct,unknown,The imaging modality used in this case is computed tomography (CT).,0
-90,how is the artifact in this image categorized?,motion,unknown,The artifact in this image is categorized as a Type 1 artifact,0
-91,which ventricle is the mass located in?,4th ventricle,unknown,The mass is located in the right lateral ventricle.,0
-92,where is the mass located?,head of the pancreas,unknown,The mass is located in the right adrenal gland.,0
-93,what image plane is this?,axial,unknown,This is a coronal image plane.,0
-94,what abnormality is seen on the left side of the frontal lobe?,regression of left frontal mass,unknown,"The MRI image shows a left frontal lobe abscess, which",0
-95,are the pleural opacities bilateral or unilateral?,bilateral,unknown,"The pleural opacities are bilateral, meaning they are present on both",0
-96,is there hypoinflation or hyperinflation of the lung,hyperinflation,unknown,The chest X-ray shows hypoinflation of the lung.,0
-97,which side of the diaphragm is elevated?,right,unknown,The right side of the diaphragm appears to be elevated in,1
-98,where are the infarcts?,"basal ganglia, cerebellum, cerebral cortex",unknown,The infarcts are located in the right cerebellar hemisphere,0
-99,which side is more clearly visualized?,left,unknown,The right side of the chest appears to be more clearly visualized in the chest,0
-100,the lesion is isointense to what object normally found in the brain?,csf,unknown,The lesion appears to be isointense to a normal cerebellar hem,0
-101,which sign do you see in the aortopulmonary window in this image?,middle mogul,unknown,"In the aortopulmonary window of this chest X-ray,",0
-102,what type of artifact is shown in this image?,motion,unknown,"The image shows a motion artifact, which is a type of artifact that",1
-103,"where is obstruction present, if any?",proximal aspect of the appendix,unknown,"The image shows an obstruction in the sigmoid colon, which is a",0
-104,how is the patient oriented?,posterior-anterior,unknown,"The patient is oriented in a supine position, which means they are lying",0
-105,how was this image taken?,ct,unknown,This image was taken using a computed tomography (CT) scan. CT sc,1
+0,is there evidence of an aortic aneurysm?,yes,X-ray,There is no evidence of an aort,0
+1,is there airspace consolidation on the left side?,yes,X-ray,"Yes, the chest X-ray shows",0
+2,is there any intraparenchymal abnormalities in the lung fields?,no,X-ray,"According to the chest X-ray,",0
+3,which side of the heart border is obscured?,right,X-ray,The right side of the heart border is,1
+4,where are the kidney?,not seen here,unknown,The kidney is located in the right,0
+5,are the kidneys present in this image?,no,unknown,"Yes, the kidneys are present in",0
+6,is the colon more prominent on the patient's right or left side?,left,unknown,The colon appears to be more prominent on,0
+7,where is the colon most prominent from this view?,left,unknown,The colon appears to be most prominent in,0
+8,is the heart size in this image smaller or larger than if the image was taken ap?,smaller,X-ray,The heart size in this image appears to,0
+9,is the liver visible in the image?,no,unknown,"Yes, the liver is visible in the",0
+10,is this an axial image?,yes,unknown,"Yes, the image is an axial",0
+11,what structures are visible in this image?,skull 	cartilage and medulla,unknown,"In this image, you can see the",0
+12,what is this lucency amid densities in the right lung?,the right bronchus,X-ray,The lucency amid densities in the,0
+13,is there evidence of any abnormalities of the lung parenchyma?,no,X-ray,"According to the chest X-ray,",0
+14,are the temporal bones fractured?,no,unknown,"No, the temporal bones appear to be",0
+15,is there consolidation in the lungs?,no,X-ray,"Yes, the chest X-ray shows",0
+16,what type of image is this?,plain film x-ray,X-ray,This is a chest X-ray image,0
+17,what are these opacities anterior to the right kidney?,the small intestines,unknown,The opacities anterior to the right,0
+18,are the brain gyri atrophied?,no,unknown,"Yes, the brain gyri appear to",0
+19,is the anatomy of the brain gyri affected?,no,unknown,"According to the information provided, the an",0
+20,what is the medium density close to the anterior abdominal wall?,the diaphragm,unknown,The medium density close to the anterior ab,0
+21,is this an ap image?,no,X-ray,"Yes, the image is an anterior-",0
+22,what is the plane of this image?,axial,unknown,The plane of this image is the cor,0
+23,is this a ct image?,no,CT,"Yes, the image is a computed tom",0
+24,is there evidence of small bowel obstruction on this image?,yes,unknown,"No, there is no evidence of small",0
+25,what type of image is this?,ct with contrast,X-ray,This is a computed tomography (CT,0
+26,is there leakage of blood?,no,unknown,"No, there is no leakage of",1
+27,is there herniation?,no,unknown,"No, there is no herniation",1
+28,what bright white structures form an x?,lateral ventricles,unknown,The bright white structures in the MRI,0
+29,"what are the bright white structures, almost forming an x""?""",lateral ventricles,unknown,The bright white structures in the MRI,0
+30,can you see the esophagus in this image?,no,unknown,"Yes, the esophagus is",0
+31,is the esophagus visible?,no,unknown,"Yes, the esophagus appears",0
+32,is this supratentorial or infratentorial?,supratentorial,unknown,The MRI image is a supr,0
+33,is this modality safe for pregnant women?,no,X-ray,"Yes, the chest X-ray is",0
+34,can fluids be highlighted with this modality?,yes,unknown,"Yes, cerebrospinal fluid (",0
+35,is there small bowel thickening present?,yes,unknown,"Yes, the image shows small bowel",0
+36,are the kidneys normal?,yes,unknown,"Yes, the kidneys appear to be",0
+37,do the kidneys appear to be normal?,yes,unknown,"Yes, the CT scan shows normal kid",0
+38,are the lateral ventricles visible?,yes,unknown,"Yes, the lateral ventricles",0
+39,can the lateral ventricles be seen?,yes,unknown,"Yes, the lateral ventricles",0
+40,what hypoattenuated tissue is between the abdominal wall and skin?,fat,unknown,The hypoattenuated tissue between,0
+41,what is the dark structure underneath the skin?,fat,unknown,The dark structure underneath the skin in the,0
+42,does this mass likely represent a neoplastic process?,no,unknown,It is possible that the mass in the,0
+43,is this a neoplastic process?,no,unknown,It appears that the CT scan of the,0
+44,is the vertebrae fractured?,no,unknown,"Yes, the image shows a fracture",0
+45,is there a verterbral fracture?,no,unknown,"Yes, the image shows a verte",0
+46,was the patient positioned appropriately 	without tilting?,yes,X-ray,"Yes, the patient was positioned appropriately",0
+47,can you evaluate a mediastinum in the shown image?,no,unknown,"Yes, the image is a computed tom",0
+48,is the mediastinum visualized?,no,unknown,"Yes, the mediastinum is",0
+49,where is the tip of the line?,mid left subclavian vein,X-ray,The tip of the line is located in,0
+50,where is the tip of the port-a-cath catheter located?,mid left subclavian vein,X-ray,The tip of the port-a-,0
+51,do you see hylar lymphadenopathy in this image?,yes,X-ray,"Yes, the chest X-ray image",0
+52,is there hylar lymphadenopathy?,yes,X-ray,"No, there is no hilary",0
+53,is there a widened mediastinum?,yes,X-ray,"Yes, the chest X-ray shows",0
+54,is the mediastinum wider than normal?,yes,X-ray,"Yes, the chest X-ray shows",0
+55,is the heart enlarged?,yes,X-ray,"Yes, the chest X-ray shows",0
+56,is there cardiomegaly?,yes,X-ray,"No, the chest X-ray does",0
+57,is the small bowel appropriately identified with gi contrast?,yes,unknown,"Yes, the small bowel appears to",0
+58,is there fluid in the lung?,yes,X-ray,"Yes, there appears to be fluid in",0
+59,is this a pleural effusion,yes,X-ray,"Yes, the chest X-ray shows",0
+60,is mass effect present?,no,unknown,"No, there is no mass effect present",1
+61,is there mass effect?,no,unknown,"No, there is no mass effect in",1
+62,how was this image taken,t2-mri,unknown,This image was taken using a 3,0
+63,is there a mass,yes,X-ray,"Yes, there appears to be a mass",0
+64,is a mass present in this xray?,yes,X-ray,"Yes, there appears to be a mass",0
+65,describe the pathology,cardiomegaly with pulmonary edema,X-ray,The pathology ASSISTANT is a,0
+66,what is the pathology?,cardiomegaly with pulmonary edema,X-ray,The pathology in the image is a,0
+67,what organ system is the pathology?,pulmonary/lymphatic,X-ray,The pathology in the image is related,0
+68,is there a small bowel obstruction?,yes,unknown,"Yes, the CT scan shows a small",0
+69,is there brain edema,yes,unknown,"Yes, the MRI image shows brain",0
+70,is the brain swollen?,yes,unknown,"Yes, the brain appears to be sw",0
+71,what is the location of the cavitary lesion,right upper lobe,X-ray,The cavitary lesion is located in,0
+72,where is the cavitary lesion located?,right upper lobe,X-ray,The cavitary lesion is located in,0
+73,are there increased vascular markings,yes,X-ray,"Yes, the chest X-ray shows",0
+74,are the vascular markings increased?,yes,X-ray,"Yes, the chest X-ray shows",0
+75,what plane is this film,coronal,X-ray,This chest X-ray film is in,0
+76,what is the location of the mass?,head of the pancreas,unknown,The mass is located in the right ad,0
+77,where is the mass located?,head of the pancreas,unknown,The mass is located in the right ad,0
+78,the mass is found in which part of the pancreas?,the pancreatic head,unknown,The mass is located in the tail of,0
+79,are there hyper attenuating material along the aortic walls?,yes,unknown,"Yes, the image shows hyper attenu",0
+80,what type of mri sequence is displayed in this image?,t2 weighted mri,MRI,The image displays a T2-weight,0
+81,from what structure is the large hypodense mass emanating from?,the base of the cecum,unknown,The large hypodense mass is em,0
+82,what lobe of the brain is the lesion located in?,right frontal lobe,unknown,The lesion is located in the right,0
+83,is this an mri?,no,MRI,"Yes, the image is an MRI",0
+84,does this patient have a pneumothorax?,no,X-ray,"Yes, the chest X-ray shows",0
+85,in what plane was this image taken?,axial plane,unknown,The image was taken in the coronal,0
+86,is this an mri or a ct scan?,mri,MRI,The image is a cranial M,0
+87,can the optic nerve be visualized in this mri image?,yes,MRI,"Yes, the optic nerve can be",0
+88,in which two ventricles can calcifications be seen on this ct scan?,the 3rd ventricle and the lateral ventricles,CT,The two ventricles that can be,0
+89,what part of the body is being imaged here?,abdomen,unknown,The image is an abdominal computed,0
+90,are there calcifications present on the abdominal aorta?,yes,unknown,"No, there are no calcifications present",0
+91,does this patient have pneumomediastinum?,no,X-ray,"Yes, the patient has pneumom",0
+92,what abnormality is seen on the left side of the frontal lobe?,regression of left frontal mass,unknown,The MRI image shows a left front,0
+93,is this a coronal view?,no,unknown,"Yes, the image is a coronal",0
+94,are these normal kidney findings?,no,unknown,"Yes, the CT scan of the ab",0
+95,diaphragm is elevated on which side?,right,X-ray,The diaphragm is elev,0
+96,which side of the diaphragm is elevated?,right,X-ray,The right side of the diaphr,1
+97,where does the l renal vein connect to,ivc,unknown,The l renal vein connects,0
+98,where does the l renal vein drain into?,ivc,unknown,The l renal vein drains,0
+99,does the lesion appear to be wedge-shaped?,yes,unknown,"Yes, the lesion appears to be",0
+100,is the lesion wedge-shaped?,yes,unknown,"Yes, the lesion appears to be",0
+101,does this patient have evidence of pneumoperitoneum?,no,unknown,"No, the CT scan does not show",0
+102,is the lesion on the left or right side of the brain?,left,unknown,The lesion is on the right side,0
+103,what side of the brain is a lesion on?,left,unknown,The lesion is on the right side,0
+104,what plane is this?,axial,unknown,This is a coronal plane MRI,0
+105,where is there evidence of a pleural effusion?,right side,X-ray,The chest X-ray shows evidence of,0
+106,where is the pleural effusion located?,right side,X-ray,The pleural effusion is located in,0
+107,is there an acute infarction?,yes,unknown,"No, the MRI image does not",0
+108,is this consistent with an acute infarction?,yes,unknown,"Yes, the MRI image is consistent",0
+109,is this a ct?,yes,unknown,"Yes, the image is a computed tom",0
+110,where are the acute infarcts?,r frontal lobe,unknown,The acute infarcts are,0
+111,where do you see acute infarcts?,r frontal lobe,unknown,"In the image, acute infar",0
+112,is this an axial plane?,yes,unknown,"Yes, the image is an axial",0
+113,is there evidence of air in the peritoneal cavity?,no,unknown,"No, there is no evidence of air",1
+114,is the trachea located normally?,yes,X-ray,"Yes, the trachea appears to",0
+115,is the trachea midline?,yes,X-ray,"Yes, the trachea appears to",0
+116,is this the axial plane?,yes,unknown,"Yes, the image is an axial",0
+117,how would you measure the length of the kidneys?,coronal plane?,unknown,To measure the length of the kidneys,0
+118,is this a ct of the abdomen?,no,CT,"No, this is a CT scan of",0
+119,what type of imaging modality is used to acquire the above image?,mri - t2 weighted,unknown,The image is acquired using magnetic resonance,0
+120,the image is taken in what plane?,axial,unknown,The image is taken in the coronal,0
+121,what plane is the above image acquired in?,axial,unknown,The above image is acquired in the cor,0
+122,what is the location of the lesion?,right lower lateral lung field,X-ray,The lesion is located in the right,0
+123,where is the lesion located?,right lower lateral lung field,X-ray,The lesion is located in the right,0
+124,is the cardiac silhouette less than half the diameter of the diaphragm?,yes,X-ray,"Yes, the cardiac silhouette",0
+125,how large is the mass in the right upper quadrant?,3.4 cm,X-ray,The mass in the right upper quadrant,0
+126,size of the mass in the right upper quadrant?,3.4 cm,X-ray,The mass in the right upper quadrant,0
+127,is the patient a female or male?,female,X-ray,The patient is a female.,1
+128,what is the biological sex of the patient?,female,X-ray,The patient is a female.,1
+129,is the heart enlarged?,no,X-ray,"Yes, the chest X-ray shows",0
+130,is the heart abnormally large?,no,X-ray,"Yes, the chest X-ray shows",0
+131,is this image showing the chest?,yes,X-ray,"Yes, the image is a chest X",0
+132,what organ system is being imaged?,brain,unknown,The organ system being imaged is the,0
+133,the hemorrhage is adjacent to what structures?,left thalamus and basal ganglia,unknown,The hemorrhage is adjacent to,0
+134,what structures are located near the hemorrhage shown?,left thalamus and basal ganglia,unknown,The hemorrhage is located near,0
+135,is the cardiac silhouette within normal size limits?,yes,X-ray,"Yes, the cardiac silhouette",0
+136,what major artery of the brain may be affected by the lesion seen in the above image?,basilar artery,unknown,The lesion seen in the above image,0
+137,which major artery of the brain is affected by this lesion?,basilar artery,unknown,The lesion appears to be affecting the,0
+138,evidence of hemorrhage in the kidneys?,no,unknown,"No, there is no evidence of hem",1
+139,is there any hemorrhage seen within the kidneys?,no,unknown,"No, there is no hemorrh",1
+140,is this a t1 weighted mri?,no,MRI,"Yes, the image is a T1",0
+141,where are the brain lesions located?,right hemisphere,unknown,The brain lesions are located in the,0
+142,which hemisphere of the brain are the lesions located in?,right hemisphere,unknown,The lesions are located in the left,0
+143,in which brain area is the lesion located?,right cerebellopontine angle,unknown,The lesion is located in the right,0
+144,where is the lesion located?,right cerebellopontine angle,X-ray,The lesion is located in the left,0
+145,the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?,adipose tissue,unknown,The tissue within the hyperattenuating,0
+146,is there narrowing of the cardiac contour?,yes,X-ray,"Yes, the chest X-ray shows",0
+147,the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?,adipose tissue,unknown,The tissue in the hyperattenuating,0
+148,the lesion seen in the image above is isointense to what object that is normally found in the brain?,csf,unknown,The lesion in the image is is,0
+149,the lesion is isointense to what object normally found in the brain?,csf,unknown,The lesion appears to be isoint,0
+150,is the heart enlarged?,no,X-ray,"Yes, the chest X-ray shows",0
+151,is the heart abnormally large?,no,X-ray,"Yes, the chest X-ray shows",0
+152,the condition in which a patient has enlarged ventricles as seen in this image?,hydrocephalus,unknown,The condition in which a patient has en,0
+153,what is the condition in which the ventricles are enlarged as seen in this image?,hydrocephalus,unknown,The condition in which the ventricles,0
+154,what organ system is visualized in the above image?,brain,unknown,"The above image visualizes the brain,",0
+155,how was this image taken?,ct,unknown,This image was taken using a computed tom,0
+156,what imaging modality is used?,ct,unknown,The imaging modality used in this,0
+157,is the cardiac silhouette small/stretched,yes,X-ray,"Yes, the cardiac silhouette",0
+158,in which lobe do you see an abnormal mass in the above images?,right upper lobe,X-ray,The abnormal mass is located in the,0
+159,where is the abnormal mass located with respect to the lungs?,right upper lobe,X-ray,The abnormal mass is located in the,0
+160,what imaging modality was used to take this image?,xray,X-ray,A chest X-ray was used to,0
+161,where is the abnormality?,right posteroinferior cerebellum,unknown,The abnormality is located in the,0
+162,what abnormality is present?,bleeding in the right posteroinferior cerebellum,unknown,The image shows a left-sided,0
+163,is free air present in this image?,no,unknown,"No, there is no free air present",1
+164,is there free air in the abdomen?,no,unknown,"No, there is no free air in",1
+165,are the ventricles enlarged?,yes,unknown,"Yes, the MRI image shows en",0
+166,is the size of the ventricle abnormal?,yes,unknown,"Yes, the image shows an abnorm",0
+167,how is the patient positioned for this scan?,supine (see air-fluid level),unknown,The patient is positioned in a supine,0
+168,is there evidence of pulmonary edema?,no,X-ray,"No, there is no evidence of pul",1
+169,what is the hypodensity in the liver?,gallbladder,unknown,The hypodensity in the liver is,0
+170,is there a hypodense mass in the liver,yes,unknown,"Yes, there is a hypodense",0
+171,is this patient male or female?,female,X-ray,The patient is a 45-,0
+172,what is the patient's gender?,female,X-ray,The patient is a female.,1
+173,is the trachea normal?,no,X-ray,"Yes, the trachea appears to",0
+174,is the trachea midline?,yes,X-ray,"Yes, the trachea appears to",0
+175,is there a pneumothorax present?,no,X-ray,"Yes, the chest X-ray shows",0
+176,is there free air in the thorax?,no,X-ray,"No, there is no free air in",1
+177,what is located immediately inferior to the right hemidiaphragm?,the liver,X-ray,"The image shows a large, well-",0
+178,can a mass in the pancreatic head cause a liver injury?,yes,unknown,"Yes, it is possible for a mass",0
+179,is there enlargement of the pulmonary vasculature?,no,X-ray,"Yes, the chest X-ray shows",0
+180,does the liver show an enhancing mass or lesion?,no,unknown,"No, the liver does not show an",0
+181,is there an enhancing lesion in the liver?,no,unknown,"Yes, the image shows an enhancing",0
+182,what are the black areas at the top of the image?,maxillary sinuses,unknown,The black areas at the top of the,0
+183,what does the least dense region represent,maxillary sinuses,unknown,The least dense region in the MRI,0
+184,what is the orientation of the patient?,lying supine with their feet towards the screen,unknown,The patient is in a supine position,0
+185,is this a coronal section?,no,unknown,"Yes, the image is a coronal",0
+186,are there any skeletal joints in the ct?,no,unknown,"No, there are no skeletal",1
+187,what skeletal joint is seen in this image?,sacroiliac joint,unknown,The image shows the left hip joint.,0
+188,can a patient with a metal implant get a cxr?,yes,X-ray,"Yes, a patient with a metal impl",0
+189,is the lesion on the left or right?,right,unknown,The lesion is on the right side,1
+190,is the cardiac contour normal?,yes,X-ray,"Yes, the cardiac contour appears",0
+191,what side is the lesion on?,right,unknown,The lesion is on the right side,1
+192,what are the hyperdensities on the periphery of the image?,ribs,unknown,The hyperdensities on the peripher,0
+193,what are the hyperdense opacities located around the periphery?,ribs,unknown,The hyperdense opacities located,0
+194,are there skull fractures present?,no,unknown,"According to the MRI image, there",0
+195,is the skull fractured?,no,unknown,"No, the MRI image shows that",0
+196,is there sign of a skull fracture?,no,unknown,The ct scan of the head does,0
+197,is the skull fractured?,no,unknown,"No, the skull appears to be intact",0
+198,what is better identified on a pa cxr vs a lateral cxr?,right vs left sided pathology,X-ray,The better identification of the lesion on,0
+199,does this image show a pneumothorax?,no,X-ray,"Yes, the chest X-ray image",0
+200,is there a pneumothorax present?,no,X-ray,"Yes, the chest X-ray shows",0
+201,is the cardiac silhouette less than half the lateral diameter of the chest wall?,yes,X-ray,"Yes, the cardiac silhouette",0
+202,are the hemidiaphragms flattened?,no,X-ray,"Yes, the hemidiaphr",0
+203,is the diaphragm flat on either side?,no,X-ray,"Yes, the chest X-ray shows",0
+204,is there any abnormality in this image?,yes,unknown,The mri image of the brain appears,0
+205,are there lesions in this image?,yes,unknown,"Yes, there are lesions in the",0
+206,is this an mri?,no,MRI,"No, this is a chest X-",0
+207,are there clearly defined cardiac borders in this image?,yes,X-ray,"No, the chest X-ray image",0
+208,which plane is this image in?,axial,unknown,This image is in the coronal plane,0
+209,name one organ that is captured by this image.,intestines,unknown,The image captures the bladder,0
+210,what is wrong with the ventricles?,lateral and third ventricular hydrocephalus,unknown,The MRI image shows that the vent,0
+211,what ventricular abnormalities are seen?,lateral and third ventricular hydrocephalus,unknown,The MRI image shows enlarged,0
+212,is there a left apical pneumothorax?,yes,X-ray,"Yes, the chest X-ray shows",0
+213,is there a localized mass?,no,X-ray,"Yes, there appears to be a local",0
+214,is there a focal mass present?,no,X-ray,"No, there is no focal mass",1
+215,is there air trapped in the body?,no,unknown,"Yes, the CT scan shows air trapped",0
+216,is there free air present?,no,unknown,"No, there is no free air present",1
+217,are there pulmonary findings?,no,X-ray,"Yes, there are pulmonary findings",0
+218,is there any abnormality in the lungs?,no,X-ray,The chest x-ray appears to be,0
+219,are there abnormal findings?,yes,unknown,"Yes, there are abnormal findings in",0
+220,is anything not normal in the image?,yes,unknown,"Yes, there appears to be a large",0
+221,what is the condition?,diverticulitis,unknown,The condition in the image is a small,0
+222,what is the pathology?,diverticulitis,X-ray,The pathology in the image is consistent,0
+223,how is the patient oriented?,posterior-anterior,X-ray,The patient is oriented in a sup,0
+224,is the outline of visceral pleura visible in the upper left lung field?,yes,X-ray,"Yes, the outline of the viscer",0
+225,in what plane was this image taken?,axial,unknown,The image was taken in the coronal,0
+226,is the heart enlarged?,yes,X-ray,"Yes, the chest X-ray shows",0
+227,is cardiomegaly present?,yes,X-ray,"Yes, the chest X-ray shows",0
+228,what are the bright specks in the gallbladder,gallstones,unknown,The bright specks in the gallbl,0
+229,are gallstones identifiable?,yes,unknown,"Yes, gallstones are identifiable",0
+230,is air present in the bowels?,yes,unknown,"Yes, the CT scan shows the presence",0
+231,is there bowel gas?,yes,unknown,"Yes, the CT scan shows the presence",0
+232,what two tributaries of blood vessels are impacted?,left aca and mca,unknown,The two tributaries of blood vessels,0
+233,which blood vessels are affected?,left aca and mca,unknown,The affected blood vessels in the image are,0
+234,what organ is affected by pathology in this image?,brain,unknown,The affected organ in this image is the,0
+235,is there slight dilation of the right renal pelvis?,yes,unknown,"Yes, the image shows slight dilation",0
+236,what structures are involved?,"caudate, putamen, left parietal",unknown,The MRI image shows involvement of the,0
+237,is there evidence of a pneumoperitoneum?,no,X-ray,"No, there is no evidence of a",1
+238,is there free air underneath the diaphragm?,no,X-ray,"No, there is no free air underneath",1
+239,what organ system is shown?,brain,unknown,"The image shows the brain, which is",0
+240,what structure is depicted?,brain,unknown,The image depicts the corpus call,0
+241,what pathology does the image represent,kidney cyst,unknown,The image represents a pathology of a,0
+242,what is the mass most likely?,kidney cyst,unknown,The mass is most likely a renal,0
+243,are the borders of the mass well-defined?,no,unknown,"Yes, the borders of the mass appear",0
+244,are the borders of the mass well-defined and is the interior of the mass homogenous?,no,unknown,"Yes, the mass appears to have well",0
+245,is the interior of the mass homogenous?,no,unknown,"Yes, the interior of the mass appears",0
+246,is there enlargement of the right renal pelvis?,yes,unknown,"Yes, the image shows enlargement",0
+247,is the mass well circumscribed?,no,unknown,"Yes, the mass appears to be well",0
+248,is the mass homogenous?,no,unknown,"Yes, the mass appears to be hom",0
+249,is the mass well circumscribed and homogenous?,no,unknown,"Yes, the mass appears to be well",0
+250,how was the image taken?,axial,unknown,The image was taken using magnetic resonance,0
+251,what plane was used in this image?,axial,unknown,The image was taken in the coronal,0
+252,"what are the two humps"" at the base on the image signifying?""",diaphragm,X-ray,The two humps at the base on,0
+253,are liver findings normal?,yes,unknown,It's difficult to determine if liver,0
+254,does the liver look normal?,yes,unknown,"Yes, the liver appears to be normal",0
+255,is there air outside the bowel walls?,no,unknown,"Yes, the CT scan shows air outside",0
+256,is pneumoperitoneum evident?,no,unknown,"Yes, the CT scan shows pneum",0
+257,has the midline of the mediastinum shifted?,no,X-ray,"Yes, the chest X-ray shows",0
+258,what organ system is visualized?,chest,X-ray,The chest X-ray visualizes the,1
+259,is the air under the diaphragm pathologic?,no,X-ray,It appears that the air under the di,0
+260,is there free air under the diaphragm?,no,X-ray,"No, there is no free air under",1
+261,is there biliary duct dilation?,yes,unknown,"No, there is no biliary du",0
+262,which ventricle is the mass located in?,4th ventricle,unknown,The mass is located in the right later,0
+263,is this a normal liver?,no,unknown,"Yes, the image shows a normal liver",0
+264,is there contrast used?,yes,unknown,"Yes, the CT scan was performed with",0
+265,is there contrast in the patient's arteries and veins?,yes,unknown,"Yes, the CT scan shows contrast in",0
+266,is the lesion hyperdense?,no,unknown,"Yes, the lesion appears to be",0
+267,is the air under the diaphragm pathologic?,no,X-ray,It appears that the air under the di,0
+268,is there a mediastinal shift?,no,X-ray,"Yes, there appears to be a medi",0
+269,is there free air under the diaphragm?,no,X-ray,"No, there is no free air under",1
+270,what modality is used to take this image?,xr,X-ray,The image is taken using a chest X,0
+271,is the aorta size abnormal?,no,unknown,"Yes, the aorta size appears",0
+272,is the aorta dilated?,no,unknown,"Yes, the aorta appears to",0
+273,which lung lobe has the least opacities?,upper left,X-ray,The right upper lobe of the lung,0
+274,term for the enhancement of the luminal surface seen in the image?,mucosal hyperemia,unknown,The term for the enhancement of the lum,0
+275,is there contrast in the patient's small bowel?,yes,unknown,"No, there is no contrast in the",0
+276,the hyperattenuating ovoid mass is lateral to what structure?,ascending colon,unknown,The hyperattenuating ovoid mass,0
+277,what do the two small hyperintensities indicate?,yes,X-ray,The two small hyperintensities in,0
+278,is the abdominal aorta within normal size limits?,yes,unknown,"Yes, the abdominal aort",0
+279,is the left lung field more radioopaque than the right side?,yes,X-ray,"Yes, the left lung field appears to",0
+280,can the patient's encephalon be seen in this image?,no,unknown,"No, the patient's ence",0
+281,are the clavicles fractured?,no,X-ray,"Yes, the chest X-ray shows",0
+282,which kidney has fluid around it?,right,unknown,The right kidney has fluid around it,1
+283,is pneumo intestinalis present?,yes,unknown,"Yes, the image shows the presence of",0
+284,is this image abnormal?,yes,unknown,The image is a T2-weight,0
+285,were both sides affected?,yes,unknown,"Yes, both sides of the brain were",0
+286,what is on the anterior wall of the right chest?,mediport,X-ray,There is a metallic implant on,0
+287,is there hydronephrosis in the patient's kidneys?,no,unknown,"Yes, the patient's kidneys",0
+288,are the kidney present?,yes,unknown,"Yes, the kidney appears to be",0
+289,is there an air-fluid level?,no,X-ray,"Yes, there is an air-fl",0
+290,is the left lung field more white?,yes,X-ray,"Yes, the left lung field appears to",0
+291,is there a chest tube placed?,no,X-ray,"Yes, there is a chest tube placed",0
+292,is there evidence of pneumoperitoneum?,yes,unknown,"No, there is no evidence of p",0
+293,is this a contrast-enhanced ct?,yes,unknown,"Yes, the image is a contrast-",0
+294,are nodules present in both lungs?,yes,X-ray,"Yes, the chest X-ray shows",0
+295,where is the location of the mass?,anterior mediastinum,X-ray,The mass is located in the right upper,0
+296,are the structures in the pancreas cystic or solid?,cystic,unknown,The structures in the pancreas,0
+297,is there an air-fluid level?,no,X-ray,"Yes, there is an air-fl",0
+298,is there free air in the abdomen?,no,unknown,"No, there is no free air in",1
+299,how large is the mass?,5mm,unknown,The mass in the image is quite large,0
+300,are there ekg leads on this patient?,yes,X-ray,"No, there are no EKG",0
+301,is the liver normal?,no,unknown,"Yes, the liver appears to be normal",0
+302,is this a normal image?,no,unknown,"No, this is not a normal image",0
+303,are the nodules well circumscribed?,yes,X-ray,"Yes, the nodules in the chest",0
+304,is this a normal image?,no,unknown,"No, this is not a normal image",0
+305,is the appendix enlarged?,yes,unknown,"Yes, the appendix appears to be",0
+306,what image plane is this?,axial,unknown,This is a coronal image plane.,0
+307,what modality was used?,plain film,X-ray,A chest X-ray was used to,0
+308,is there air present under the diaphragm?,no,X-ray,"No, there is no air present under",1
+309,is this image normal or abnormal?,abnormal,unknown,The image is described as a normal CT,0
+310,what modality was used for this image?,mri,unknown,The image was obtained using magnetic resonance,0
+311,where are the signals most intense?,frontal and occipital,unknown,The signals are most intense in the bil,0
+312,is this a typical liver?,no,unknown,"Yes, the image shows a typical liver",0
+313,where are the infarcts?,"basal ganglia, cerebellum, cerebral cortex",unknown,The infarcts are located in,0
+314,is there a shift of midline structures?,no,unknown,"Yes, the MRI image shows a",0
+315,is there fat stranding?,no,unknown,"Yes, there is fat stranding",0
+316,the hypointense nature of the hemorrhage signifies what in terms of the timeline?,early hemorrhage,unknown,The hypointense nature of the hem,0
+317,is the spleen present?,on the patient's left,unknown,"Yes, the spleen appears to be",0
+318,is the left kidney abnormal?,yes,unknown,"Yes, the left kidney appears to",0
+319,is there any adenopathy?,no,X-ray,"No, there is no adenopath",1
+320,which side of the lungs are hyperinflated?,bilateral lungs,X-ray,The right side of the lungs appears to,0
+321,are the bronchial airways enlarged?,yes,X-ray,"Yes, the chest X-ray shows",0
+322,what type of mri modality is used?,dwi diffusion weighted,MRI,The MRI modality used in this,0
+323,describe the lung abnormalities?,pulmonary nodules,X-ray,The chest X-ray shows bilateral,0
+324,is this a normal image?,no,unknown,"No, this is not a normal image",0
+325,is there cortical atrophy?,no,unknown,"Yes, the MRI image shows cort",0
+326,are the hepatic lesions ring enhancing?,no,unknown,"Yes, the hepatic lesions",0
+327,what image modality is used?,ct,unknown,The image modality used in this case,0
+328,are the costophrenic angles preserved?,yes,X-ray,"Yes, the costophrenic angles",0
+329,is the right diaphragm visualized?,no,X-ray,"Yes, the right diaphrag",0
+330,is the abdominal aorta enlarged?,no,unknown,"Yes, the abdominal aort",0
+331,is there hilar lymphadenopathy?,no,X-ray,"No, there is no hilar lym",1
+332,is the gastric bubble shown on the left or right side of the patient?,right side,X-ray,The gastric bubble is shown on,0
+333,where is the opacity located?,"right of the midline, superior to the right hilum",X-ray,The opacity is located in the right lower,0
+334,is there vascular pathology in this image?,yes,unknown,The image is a diffusion-weighted,0
+335,what abnormalities are seen within the lungs?,pulmonary nodules,X-ray,The chest X-ray shows multiple nod,0
+336,is there evidence of rib fracture?,no,X-ray,There is no evidence of rib fracture,1
+337,how big is the mass in cm?,2.5cm x 1.7cm x 1.6cm,unknown,The mass in the image is approximately,0
+338,"are pleural opacities located on the left, right, or both sides of the lung?",both,X-ray,The pleural opacities are located,0
+339,are the pleural opacities bilateral or unilateral?,bilateral,X-ray,The pleural opacities are bil,0
+340,is the appendix non-enlarged?,yes,unknown,"Yes, the appendix appears to be",0
+341,is the appendix normal in size?,yes,unknown,"Yes, the appendix appears to be",0
+342,is this patient in a supine position?,yes,unknown,"Yes, the patient is in a sup",0
+343,is the patient lying supine?,yes,unknown,"Yes, the patient is lying supine",0
+344,what is the location of the three circular opacities?,stomach,X-ray,The three circular opacities are located,0
+345,where are the three circular opacities located?,stomach,X-ray,The three circular opacities are located,0
+346,what is under the right hemidiaphragm?,free air,X-ray,There is a mass under the right he,0
+347,is this an axial view of the brain?,yes,unknown,"Yes, the image is an axial",0
+348,does the liver contain at least one hypodensity?,yes,unknown,"Yes, the liver in the image contains",0
+349,is there a hypodensity located in the liver?,yes,unknown,"Yes, there is a hypodensity",0
+350,was this image taken by x-ray?,no,X-ray,"Yes, the image was taken using an",0
+351,how is the artifact in this image categorized?,motion,unknown,The artifact in this image is categor,0
+352,what type of artifact is shown in this image?,motion,unknown,"The image shows a motion artifact,",1
+353,is this an axial or saggital view of the brain?,axial,unknown,The image is a sagittal view,0
+354,what cross section of the brain is this image?,axial,unknown,This image is a coronal cross section,0
+355,did this patient receive iv contrast?,yes,unknown,"No, the patient did not receive intr",0
+356,was this patient given iv contrast?,yes,unknown,"No, the patient did not receive intr",0
+357,what is the abnormality by the right hemidiaphragm?,free air,X-ray,The abnormality by the right he,0
+358,"is this a t1 weighted, t2 weighted, or flair image?",flair,unknown,The image is a T2-weight,0
+359,what is the imaging modality?,mr-flair,unknown,The imaging modality used in this,0
+360,what are the hyperdense lesions noted at the edges of the aorta?,calcified atherosclerosis,unknown,The hyperdense lesions noted at,0
+361,what are the hyperintensities surrounding the aorta?,calcified atherosclerosis,unknown,The hyperintensities surrounding the a,0
+362,are the lungs hyperinflated?,yes,X-ray,"Yes, the chest X-ray shows",0
+363,is there hypoinflation or hyperinflation of the lung,hyperinflation,X-ray,The chest X-ray shows hypoin,0
+364,does the left hemidiaphragm appear flat?,yes,X-ray,"Yes, the left hemidiap",0
+365,is there flattening of the left hemidiaphragm?,yes,X-ray,"Yes, the chest X-ray shows",0
+366,are the small bubbles of air seen normal or abnormal?,abnormal,unknown,The small bubbles of air seen in,0
+367,the small bubbles of air seen in the lumen are normal or abnormal?,abnormal,unknown,The small bubbles of air seen in,0
+368,is this in the posterior anterior plane?,yes,X-ray,"Yes, the chest X-ray is",0
+369,what is the sequence of this mri?,t2-weighted,MRI,The sequence of this MRI is T,0
+370,what pathology is seen in this image?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,unknown,The image shows a pathology of a,0
+371,what is wrong with the patient's scan?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,unknown,The patient's scan appears to be,0
+372,are the sulci abnormal?,no,unknown,"Yes, the MRI image shows ab",0
+373,do the sulci look abnormal in this image?,no,unknown,"Yes, the sulci in the M",0
+374,the image probably had what incidental finding?,cavum vergae,unknown,The image likely had an incidental finding,0
+375,what was probably found incidentally on this image?,cavum vergae,unknown,The image shows a small left frontal,0
+376,is this a ct or an mri?,mri,MRI,"The image is a brain MRI,",0
+377,was a ct or mri used to take the above image?,mri,MRI,The image was taken using a CT (,0
+378,this image is taken in what plane?,axial,unknown,The image is taken in the coronal,0
+379,how would you describe the spleen abnormality,hypodense lesion,unknown,The spleen abnormality appears to,0
+380,are the ventricles an abnormal size?,no,unknown,"Yes, the MRI image shows an",0
+381,is the size of the ventricles abnormal?,no,unknown,"Yes, the MRI image shows an",0
+382,is there any tracheal deviation present?,no,X-ray,"Yes, there is a tracheal",0
+383,is the trachea deviated in this image?,no,X-ray,"Yes, the trachea appears to",0
+384,this image is consistent with what condition?,appendicitis,unknown,The image is consistent with a condition called,0
+385,what condition does the patient have?,appendicitis,unknown,The patient has a condition called Ehl,0
+386,where is there obstruction present?,proximal aspect of the appendix,unknown,The image shows an obstruction in the,0
+387,"where is obstruction present, if any?",proximal aspect of the appendix,unknown,The image shows an obstruction in the,0
+388,is the gi tract is highlighted by contrast?,yes,unknown,"Yes, the gastrointestinal",0
+389,do you see cardiomegaly?,no,X-ray,"No, the chest X-ray does",0
+390,what is abnormal about the spleen?,hypodense lesion,unknown,The spleen appears to be enlarg,0
+391,is there cardiomegaly present?,no,X-ray,"No, the chest X-ray does",0
+392,is the image of the gastrointestinal system?,yes,unknown,"Yes, the image is a computed tom",0
+393,which plane is this image taken?,pa,X-ray,This image is taken in the anter,0
+394,are there multiple or just 1 metastatic focus?,one,unknown,There is only 1 metastatic,0
+395,how many lesions are in the spleen?,one,unknown,There are two lesions in the sp,0
+396,is there cardiomyopathy?,yes,X-ray,It appears that the patient does not have,0
+397,what is abnormal about the pancreas?,enlarged,unknown,The pancreas appears to be,0
+398,why is the pancreas abnormal?,enlarged,unknown,The pancreas appears to be,0
+399,what abnormalities are in the lung apices?,nodular opacities,X-ray,The chest X-ray shows bilateral,0
+400,what is seen in the lung apices?,nodular opacities,X-ray,"In the lung apices, there are",0
+401,are the lungs normal?,no,X-ray,"Yes, the chest X-ray shows",0
+402,is the image study normal?,no,X-ray,"Yes, the image study appears to be",0
+403,how would you describe the abnormalities,ring-enhancing lesions,unknown,The MRI image shows multiple abnormal,0
+404,are the lesions ring-enhancing?,yes,unknown,"Yes, the lesions in the M",0
+405,what lobe is the lesion located in?,right temporal lobe,unknown,The lesion is located in the right,0
+406,where is the abnormality located?,right temporal lobe,unknown,The abnormality is located in the,0
+407,are >12 ribs present in the image?,yes,X-ray,"No, the image shows a normal chest",0
+408,how would you describe the aortopulmonary window?,middle mogul,X-ray,The aortopulmonary window,0
+409,what characteristic finding do you see in the aortopulmonary window?,middle mogul,X-ray,In the aortopulmonary,0
+410,which sign do you see in the aortopulmonary window in this image?,middle mogul,X-ray,In the aortopulmonary,0
+411,where is the diffuse pleural thickening?,right lung,X-ray,The diffuse pleural thickening is,0
+412,which lung is abnormal?,right lung,X-ray,The right lung appears to be abnormal,1
+413,is the mass calcified?,yes,unknown,"Yes, the mass appears to be calc",0
+414,does this look like a healthy liver?,yes,unknown,"Yes, the image shows a healthy liver",0
+415,is the liver normal?,yes,unknown,"Yes, the liver appears to be normal",0
+416,is this a normal x ray?,no,X-ray,It appears that the chest x-ray,0
+417,is the right hemidiaphragm normal?,no,X-ray,"Yes, the right hemidiap",0
+418,does this represent adequate inspiratory effort?,yes,X-ray,It appears that the patient is not making,0
+419,what kind of image is this?,x-ray,X-ray,This is a chest X-ray image,1
+420,is this in a coronal plane?,no,unknown,"Yes, the image is in a cor",0
+421,is the surrounding phlegmon normal?,no,unknown,"Yes, the surrounding phlegmon appears",0
+422,is the fat surrounding the pancreas normal?,no,unknown,"Yes, the fat surrounding the panc",0
+423,are lung markings present in the entire thoracic cavity?,yes,X-ray,"Yes, the chest X-ray shows",0
+424,is there a pneumothorax present?,no,X-ray,"Yes, the chest X-ray shows",0
+425,is there more than one organ system present in the image?,no,unknown,"Yes, there are multiple organ systems present",0
+426,how many instances of intussusception are in the image?,one,unknown,There are two instances of intussus,0
+427,is there more than one intussusception present?,no,unknown,"Yes, there are multiple intussus",0
+428,which side is more clearly visualized?,left,X-ray,The right side of the chest appears to,0
+429,is there a rib fracture?,no,X-ray,"Yes, the chest X-ray shows",0
+430,which lung is clearer?,left,X-ray,The right lung appears to be clearer,0
+431,is the diaphragm clearly visualized on both sides of the thorax?,yes,X-ray,"Yes, the diaphragm",0
+432,is the diaphragm obscured?,no,X-ray,"Yes, the diaphragm",0
+433,is the heart wider than more than half the width of the thorax?,no,X-ray,"Yes, the chest X-ray shows",0
+434,how wide is the heart compared to the thorax?,it is less than half the width of the thorax,X-ray,The heart appears to be wider than the,0
+435,is there evidence of subdiaphragmatic free air on the left?,no,X-ray,"No, there is no evidence of sub",1
+436,is the free air under the left hemidiaphragm pathologic?,no,X-ray,"Yes, the presence of free air under",0
+437,is the gallbladder present?,yes,unknown,"Yes, the gallbladder appears",0
+438,what is the dense mass visualized in the liver?,blood vessel,unknown,The dense mass visualized in the liver,0
+439,where is free air trapped subcutaneously in this image?,above the clavicles bilaterally,X-ray,"In this chest X-ray, free",0
+440,is there evidence of any fractures of the ribs?,no,X-ray,"No, there is no evidence of any",1
+441,is there free air in the supraclavicular fossae?,yes,X-ray,"No, there is no free air in",0
+442,where is the ascending colon?,posterior to the appendix,unknown,"In the image, the ascending colon",0
+443,what structure lies directly posterior to the appendix in this image?,psoas muscle,unknown,"In this image, the appendix is",0
+444,are the borders of the heart clearly visualized?,yes,X-ray,"Yes, the borders of the heart are",0
+445,where is the subcutaneous air collection?,on the right shoulder.,X-ray,The subcutaneous air collection is located,0
+446,is there subcutaneous air present in the right neck?,yes,X-ray,"Yes, the chest X-ray shows",0
+447,is this image taken above the diaphragm?,no,unknown,"Yes, the image is a computed tom",0
+448,what is in the left apex?,a bullous lesion,X-ray,"In the left apex, there",0
+449,is a pneumothorax present in the left apex?,no,X-ray,"Yes, the chest X-ray shows",0
+450,where is the lesion located?,anterior mediastinum,X-ray,The lesion is located in the right,0

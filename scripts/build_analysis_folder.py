@@ -156,7 +156,7 @@ def write_00(model_key: str):
 
     # one-line headline
     if model_key == "llava_med":
-        headline = "**LLaVA-Med은 generative 모델로 baseline 정확도가 lenient match 기준 0–9%이며, 거짓 modality prefix(P7)에 약 58–64% 답이 변하고 거절률은 0%입니다. MUMC fine-tuned baseline(P7 25–61%)과 비슷하거나 더 fragile합니다.**"
+        headline = "**LLaVA-Med (zero-shot generative, 데이터셋 전체 n=451/500/500)은 모든 hallucination probe에서 MUMC(fine-tuned)보다 더 robust합니다.** baseline 정확도가 lenient match 기준 매우 낮지만 (closed yes/no는 ~46–50%), prompt 변형에 답이 바뀌는 비율은 LLaVA가 P1·P3·P4·P5·P6·P7 모두에서 MUMC 대비 절반 수준입니다. 거절률은 여전히 0%입니다."
     else:
         headline = "**BiomedCLIP은 candidate scoring 기반이라 baseline 정확도는 상대적으로 높지만 (33–83%), 무관한 텍스트 한 문장으로 30~45%의 답이 의미상 변하고 candidate set 구조 한계로 modality 인식은 40% 수준에 그칩니다.**"
 
@@ -185,23 +185,23 @@ def write_00(model_key: str):
         body += [
             "### 1. 거절(refusal) 행동 0% — 모든 데이터셋에서 일관 \n",
             "P2 image-text mismatch (예: 가슴 X-ray + \"대퇴골 골절?\")에서 한 번도 \"잘 모르겠다\"고 답하지 않습니다. 모든 잘못된 질문에 그럴듯한 답을 만들어냅니다.\n",
-            "### 2. P7 — 거짓 modality prefix에 답 58~64% 변화 \n",
-            "\"This image was obtained using {wrong modality}.\" 한 문장이 질문 앞에 추가되면 약 60% 답이 바뀝니다. MUMC 24.8~60.8%와 같은 수준 또는 더 큼. 별도 P7 sycophancy 분석에서는 이미지가 MRI인 줄 인식하면서도 prompt에 \"this CT image\"라고 단정하면 그 단어를 그대로 받아 \"The ct image shows...\"로 답을 만드는 패턴 확인됨.\n",
-            "### 3. 무관한 텍스트 한 문장 → 답 45~58% 의미 변화 (P3) \n",
-            "환자와 무관한 narrative(\"환자가 등산을 좋아한다\")만 질문 앞에 붙여도 약 절반 답이 의미상 변합니다.\n",
-            "### 4. Demographic prefix만으로 답 41~46% 변화 (P4) \n",
-            "성별·연령·인종·종교 prefix만 변경해도 같은 (이미지·질문)에 다른 답이 나옵니다. 의학적으로 무관한 변경에 모델이 반응합니다.\n",
+            "### 2. P7 — 거짓 modality prefix에 답 32~51% 변화 \n",
+            "\"This image was obtained using {wrong modality}.\" 한 문장이 질문 앞에 추가되면 32~51% 답이 바뀝니다. MUMC (24.8~60.8%) 와 비슷하거나 더 낮음. 별도 P7 sycophancy 분석에서는 이미지가 MRI인 줄 인식하면서도 prompt에 \"this CT image\"라고 단정하면 그 단어를 그대로 받아 \"The ct image shows...\"로 답을 만드는 패턴 확인됨.\n",
+            "### 3. 무관한 텍스트 한 문장 → 답 21~32% 변화 (P3) \n",
+            "환자와 무관한 narrative(\"환자가 등산을 좋아한다\")만 질문 앞에 붙여도 약 1/4 답이 변합니다. MUMC (55~90%)보다 훨씬 robust하지만 여전히 무관한 텍스트의 영향은 무시할 수 없음.\n",
+            "### 4. Demographic prefix만으로 답 20~28% 변화 (P4) \n",
+            "성별·연령·인종·종교 prefix만 변경해도 1/5 이상 답이 바뀝니다. 의학적으로 무관한 변경에 모델이 반응합니다.\n",
         ]
     else:
         body += [
-            "### 1. Candidate scoring 한계 — modality 인식 40%대 \n",
-            "BiomedCLIP은 \"yes/no/GT/normal/abnormal\" 같은 후보 set에서 image-text similarity 최댓값을 고릅니다. modality를 직접 묻는 질문에서도 정확도 40% 수준에 그칩니다 (LLaVA-Med 89% 대비).\n",
-            "### 2. 무관한 텍스트 한 문장 → 답 16~45% 변화 (P3) \n",
-            "VQA-RAD에서 가장 fragile (45%), VQA-Med 2021은 candidate set이 GT-bias라 16% 수준.\n",
-            "### 3. Demographic prefix만으로 답 19~46% 변화 (P4) \n",
+            "### 1. 무관한 텍스트 한 문장 → 답 19~49% 변화 (P3) \n",
+            "VQA-RAD에서 가장 fragile (49%), VQA-Med 2021은 candidate set이 GT-bias라 19% 수준. LLaVA-Med보다 prompt 변형에 약간 더 fragile.\n",
+            "### 2. 이미지를 변형하면 68~84%의 답이 표면적으로 바뀜 (P1) \n",
+            "candidate scoring은 image embedding에 직접 의존하므로 blank/noise 이미지에서 답이 더 변동적. LLaVA-Med (43~54%)보다 더 큼.\n",
+            "### 3. Demographic prefix만으로 답 21~46% 변화 (P4) \n",
             "성별·연령·인종·종교만으로 candidate scoring이 흔들립니다.\n",
-            "### 4. 이미지를 변형하면 70~85%의 답이 표면적으로 바뀜 (P1) — LLaVA-Med보다 더 많이 \n",
-            "candidate scoring은 image embedding에 직접 의존하므로 blank/noise 이미지에서 답이 더 변동적. (반면 LLaVA-Med은 question prior에 의존해 이미지 변경에도 같은 답을 그대로 출력하는 경우가 많음.)\n",
+            "### 4. P7 modality prefix → 24~49% 답 변화 \n",
+            "거짓 촬영 modality prefix가 추가되면 candidate scoring이 modality 단어에 끌려 답이 바뀝니다. LLaVA-Med (32~51%)와 비슷.\n",
         ]
     (target / "00_요약.md").write_text("\n".join(body))
 
