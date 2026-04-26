@@ -67,9 +67,9 @@ def process(probe: str, model: str, ds: str, csv_filename: str):
                 stats["yn_flips"] += int(ya != yb)
 
     ds_short = DS_SHORT[ds]
-    for base in [REPO / "results/mumc_export" / model,
-                 TARGET / MODEL_FOLDER[model]]:
-        out = base / "model_response" / ds_short / csv_filename
+    for base, sub in [(REPO / "results/mumc_export" / model, "model_response"),
+                       (TARGET / MODEL_FOLDER[model], "hallucination_probes")]:
+        out = base / sub / ds_short / csv_filename
         out.parent.mkdir(parents=True, exist_ok=True)
         with open(out, "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=["qid","question","modality","gt",
@@ -96,9 +96,9 @@ def process(probe: str, model: str, ds: str, csv_filename: str):
 def update_summary(probe, model, ds, summary):
     if summary is None: return
     ds_short = summary["ds_short"]
-    for base in [REPO / "results/mumc_export" / model,
-                 TARGET / MODEL_FOLDER[model]]:
-        sp = base / "model_response" / ds_short / "hallucination_summary.json"
+    for base, sub in [(REPO / "results/mumc_export" / model, "model_response"),
+                       (TARGET / MODEL_FOLDER[model], "hallucination_probes")]:
+        sp = base / sub / ds_short / "hallucination_summary.json"
         if not sp.exists(): continue
         d = json.load(open(sp))
         d["probes"][probe] = {

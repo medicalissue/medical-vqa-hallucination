@@ -44,13 +44,21 @@ DS_NOTE = {
 
 
 def load_summary(model_key: str, ds_short: str):
-    p = REPO / "results/mumc_export" / model_key / "model_response" / ds_short / "hallucination_summary.json"
+    """Read from analysis_<model>/hallucination_probes/ (already renamed)."""
+    folder = MODELS[model_key]["folder"]
+    p = TARGET_BASE / folder / "hallucination_probes" / ds_short / "hallucination_summary.json"
+    if not p.exists():
+        # fallback to mumc_export (still uses model_response naming)
+        p = REPO / "results/mumc_export" / model_key / "model_response" / ds_short / "hallucination_summary.json"
     if not p.exists(): return None
     return json.load(open(p))
 
 
 def baseline_acc(model_key: str, ds_short: str):
-    p = REPO / "results/mumc_export" / model_key / "eval_finetuned" / ds_short / f"results_{ds_short}.csv"
+    folder = MODELS[model_key]["folder"]
+    p = TARGET_BASE / folder / "vqa_accuracy" / ds_short / f"results_{ds_short}.csv"
+    if not p.exists():
+        p = REPO / "results/mumc_export" / model_key / "eval_finetuned" / ds_short / f"results_{ds_short}.csv"
     rows = list(csv.DictReader(open(p)))
     if not rows: return 0, 0
     correct = sum(int(r["correct"]) for r in rows)
@@ -98,12 +106,27 @@ def write_index(model_key: str):
 | `04_데이터셋_비교.md` | 크로스 테이블 + 패턴 해석 |
 | `05_사례_분석.md` | 실제 flip 사례 예시 |
 | `06_종합_해석.md` | 취약점 순위 · 한계 · 향후 과제 |
+| `vqa_accuracy/` | VQA 정확도 (한 sample = 한 row, 변형 없음) |
+| `hallucination_probes/` | 할루시네이션 프로브 (sample × 변형 row, P1·P3·P4·P5·P6·P7) |
 
 ## 원본 데이터 위치
 
-- 할루시네이션 CSV: `model_response/{{dataset}}/p{{N}}_*.csv`
-- 할루시네이션 요약 JSON: `model_response/{{dataset}}/hallucination_summary.json`
-- VQA 결과 CSV: `eval_finetuned/{{dataset}}/results_{{dataset}}.csv`
+본 폴더에는 두 종류의 데이터가 있습니다:
+
+### `vqa_accuracy/` — VQA 정확도 측정
+\"모델이 GT와 일치하는 답을 내는가\"
+
+- `vqa_accuracy/{{dataset}}/results_{{dataset}}.csv`
+- 컬럼: `qid, question, answer, modality, pred_label, correct`
+- 한 sample = 한 row (변형 없음)
+
+### `hallucination_probes/` — 할루시네이션 측정
+\"모델 답이 prompt 변형에 흔들리는가\"
+
+- `hallucination_probes/{{dataset}}/p{{N}}_*.csv` (P1·P3·P4·P5·P6·P7)
+- 컬럼: `qid, question, modality, gt, prefix_id, prefix_text, pred_original, pred_perturbed, flip`
+- 한 sample = 여러 row (prefix별)
+- 요약 JSON: `hallucination_probes/{{dataset}}/hallucination_summary.json`
 """
     (target / "INDEX.md").write_text(md)
 
